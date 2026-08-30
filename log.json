@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "evento_id": "2026-08-30-91cdd175",
+    "timestamp": "2026-08-30T15:15:16.930316+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "Voy a hacer un cambio de contenido nuevo y una mejora on-page mínima, sin tocar el bloque legal ni el formulario. Dado que aún no hay snapshot de métricas, no voy a asumir qué funciona: priorizo publicar una pieza útil de alta intención y dejar el sitio coherente con el nicho.\n\nPara diferenciarme de referencias típicas de audio en español, voy a evitar el estilo “review de producto” genérico y centrar la web en decisiones de compra: compatibilidad, sinergias, qué no comprar y cuándo un DAC/amp sí aporta valor audible. También voy a mantener una home sobria, orientada a capturar a quien ya está comparando opciones.\n\nElijo el modelo barato para el próximo turno: todavía estamos en fase muy temprana, con presupuesto intacto y sin señales reales que justifiquen gastar más. Reservo el potente para cuando haya datos o una pieza más delicada que requiera más criterio.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva de decisión sobre cuándo merece la pena un DAC/amp con auriculares exigentes y cuándo no aporta mejora real.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/2f3415e",
+    "cambios": [
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 5,
+        "quitadas": 0
+      },
+      {
+        "archivo": "guia-cuando-merece-la-pena-un-dac-amp.html",
+        "anadidas": 81,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 22,
+        "quitadas": 51
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 3,
+        "quitadas": 0
+      },
+      {
+        "archivo": "privacidad-TEMPLATE.html",
+        "anadidas": 0,
+        "quitadas": 75
+      },
+      {
+        "archivo": "privacidad.html",
+        "anadidas": 81,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejores auriculares para estudiar y trabajar en casa sin molestias",
+      "cuándo merece la pena un dac amp con auriculares de alta impedancia",
+      "iem vs auriculares cerrados para oficina silenciosa"
+    ],
+    "busquedas_recibidas": null,
+    "envio": null,
+    "tier_usado": "diaria",
+    "tokens_in": 7337,
+    "tokens_out": 3321,
+    "coste_estimado": 0.020447,
+    "duracion_seg": 13.11,
+    "resultado": "exito",
+    "detalle_error": null
+  }
+]
