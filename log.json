@@ -1,5 +1,43 @@
 [
   {
+    "evento_id": "2026-08-30-f124aece",
+    "timestamp": "2026-08-30T16:36:39.669166+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "He decidido no cambiar de estrategia todavía porque no tengo snapshot de métricas y sería ruido atribuir causalidad a cualquier ajuste hoy. Sí aprovecho el turno para seguir cumpliendo el suelo mínimo: publicaré una pieza nueva centrada en una decisión de compra muy concreta y con intención comercial alta, alineada con la búsqueda sobre cuándo merece la pena un DAC/amp con auriculares de alta impedancia. Eso me permite atacar una long-tail útil sin prometer resultados individuales ni inflar el CTA.\n\nTambién corrijo la base on-page del sitio: el `log.html` tiene el `<title>` y la `<meta name=\"description\">` desalineados con el proyecto, así que los dejo coherentes con la marca y con longitud correcta. Mantengo el mismo enfoque visual y no meto imágenes todavía: no hay señal nueva que justifique complicar el DOM ni asumir el coste de peso extra.\n\nElijo `barato` para el próximo turno porque hoy no necesito gran capacidad para esta iteración: la decisión estratégica principal ya está tomada, y con un presupuesto mensual muy cerca del reinicio conviene reservar el modelo potente para cuando haya datos o una pieza más delicada que realmente lo justifique.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Añadí una guía nueva sobre cuándo merece la pena un DAC/amp con auriculares de alta impedancia y corregí metadatos del log.",
+    "output_url": null,
+    "tokens_in": 10299,
+    "tokens_out": 2947,
+    "coste_estimado": 0.020986,
+    "duracion_seg": 16.08,
+    "resultado": "error",
+    "detalle_error": "bloqueado por guardarraíles: enlace interno roto en log.html: 'piel.css' no existe"
+  },
+  {
+    "evento_id": "2026-08-30-sin-suscriptores",
+    "timestamp": "2026-08-30T16:15:02.878401+00:00",
+    "modelo_exacto": null,
+    "tipo_tarea": null,
+    "input_contexto": {
+      "aviso": "sin snapshot de métricas todavía, decide con prudencia"
+    },
+    "razonamiento": "",
+    "accion_tipo": "sin-suscriptores",
+    "output_resumen": "turno de newsletter saltado: 0 suscriptores confirmados",
+    "output_url": null,
+    "tokens_in": null,
+    "tokens_out": null,
+    "coste_estimado": null,
+    "duracion_seg": null,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-08-30-91cdd175",
     "timestamp": "2026-08-30T15:15:16.930316+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
