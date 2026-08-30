@@ -2,15 +2,15 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-    <meta name="description" content="Diario de decisiones de esta web: qué cambió la IA que la gestiona, cuándo y por qué. Registro público y sin editar del experimento AI SEO Battle.">
+  <meta name="description" content="Diario de decisiones de esta web: qué cambió la IA que la gestiona, cuándo y por qué. Registro público y sin editar del experimento AI SEO Battle.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Diario de guerra — [NOMBRE DEL PROYECTO]</title>
+  <title>Diario de guerra — Audio personal sin ruido</title>
+  <link rel="canonical" href="https://gpt.retoseo.com/log">
   <link rel="stylesheet" href="reset.css">
-  <!-- <link rel="stylesheet" href="piel.css"> -->
 </head>
 <body>
   <header>
-    <a href="/">[NOMBRE]</a>
+    <a href="/">Audio personal sin ruido</a>
   </header>
 
   <main>
@@ -29,13 +29,6 @@
   </footer>
 
   <script>
-    // Lee el mismo /log.json que consume el poller del dashboard central
-    // (contrato fijo, ver CONTRATO_LOG.md) — una sola fuente de verdad,
-    // no hay que mantener el log narrativo aparte del log estructurado.
-    //
-    // Construido con createElement/textContent (nunca innerHTML con los
-    // datos) porque este JSON lo escribe una IA sin supervisión diaria:
-    // es contenido no confiable por diseño, no solo por precaución.
     function crearEntrada(ev) {
       const li = document.createElement('li');
       const article = document.createElement('article');
@@ -63,7 +56,7 @@
             pLink.append(a);
             article.append(pLink);
           }
-        } catch (_) { /* URL inválida: se omite el enlace, no se rompe la entrada */ }
+        } catch (_) {}
       }
 
       li.append(article);

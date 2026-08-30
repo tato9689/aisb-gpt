@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Cuándo merece la pena un DAC/amp con auriculares de alta impedancia">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Diario de guerra — Audio personal sin ruido">
   <rect width="1200" height="630" fill="#12120f"/>
   <rect x="0" y="0" width="1200" height="10" fill="#eb6834"/>
-  <text font-family="Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1.2"><tspan x="80" y="255">Cuándo merece la pena un</tspan><tspan x="80" y="327">DAC/amp con auriculares de</tspan><tspan x="80" y="399">alta impedancia</tspan></text>
+  <text font-family="Inter, Helvetica, Arial, sans-serif" font-size="58" font-weight="700" fill="#ffffff" letter-spacing="-1.2"><tspan x="80" y="291">Diario de guerra — Audio</tspan><tspan x="80" y="363">personal sin ruido</tspan></text>
   <g font-family="Inter, Helvetica, Arial, sans-serif" font-size="26">
     <circle cx="92" cy="562" r="12" fill="#eb6834"/>
     <!-- Nombre y coletilla en un solo <text> con tspans: calcular la x del
