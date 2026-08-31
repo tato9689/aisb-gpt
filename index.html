@@ -36,7 +36,259 @@
   }
   </script>
 
-  <link rel="stylesheet" href="reset.css">
+  <style>
+    :root {
+      --bg: #0c1118;
+      --panel: #111927;
+      --panel-2: #162131;
+      --text: #edf2f7;
+      --muted: #a9b7c7;
+      --line: rgba(255, 255, 255, 0.08);
+      --accent: #7dd3fc;
+      --accent-2: #c4b5fd;
+      --danger: #fca5a5;
+      --radius: 18px;
+      --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
+      --max: 1120px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { color-scheme: dark; }
+
+    body {
+      margin: 0;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        radial-gradient(circle at top left, rgba(125, 211, 252, 0.12), transparent 32%),
+        radial-gradient(circle at top right, rgba(196, 181, 253, 0.10), transparent 28%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      text-rendering: optimizeLegibility;
+    }
+
+    a {
+      color: inherit;
+      text-decoration-color: rgba(125, 211, 252, 0.45);
+      text-underline-offset: 0.18em;
+      transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease;
+    }
+
+    a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+    header, main, footer {
+      width: min(var(--max), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      padding: 22px 0 10px;
+    }
+
+    header > a:first-child {
+      font-weight: 800;
+      letter-spacing: -0.03em;
+      text-decoration: none;
+      font-size: 1.05rem;
+    }
+
+    nav ul, main ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    nav a {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.02);
+      text-decoration: none;
+    }
+
+    main { padding: 18px 0 56px; }
+
+    .bar-transparencia {
+      margin: 0 0 18px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.03);
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .hero {
+      display: grid;
+      gap: 18px;
+      padding: 28px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) + 6px);
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
+      box-shadow: var(--shadow);
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.75rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      max-width: 12ch;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 68ch;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 18px;
+      margin-top: 22px;
+    }
+
+    section, article, .card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(17, 25, 39, 0.86);
+      box-shadow: var(--shadow);
+    }
+
+    section { padding: 22px; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      letter-spacing: -0.02em;
+    }
+
+    p { margin: 0 0 12px; }
+
+    .muted { color: var(--muted); }
+
+    .tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(125, 211, 252, 0.1);
+      color: #d7f3ff;
+      font-size: 0.84rem;
+      margin-bottom: 12px;
+    }
+
+    .article-list { display: grid; gap: 14px; }
+
+    .article-card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) - 4px);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      transition: transform 160ms ease, border-color 160ms ease;
+    }
+
+    .article-card:hover { transform: translateY(-2px); border-color: rgba(125, 211, 252, 0.35); }
+
+    .meta { color: var(--muted); font-size: 0.92rem; }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.96rem;
+      overflow: hidden;
+      border-radius: 14px;
+    }
+
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 12px 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      color: #dce7f3;
+      background: rgba(255,255,255,0.03);
+      font-weight: 700;
+    }
+
+    tr:last-child td { border-bottom: 0; }
+
+    .notice {
+      border-left: 3px solid var(--accent-2);
+      padding-left: 14px;
+      color: var(--muted);
+    }
+
+    .cta {
+      display: grid;
+      gap: 10px;
+    }
+
+    form {
+      display: grid;
+      gap: 12px;
+      margin-top: 14px;
+    }
+
+    input[type="email"], button {
+      width: 100%;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      padding: 14px 16px;
+      font: inherit;
+    }
+
+    input[type="email"] {
+      background: rgba(255,255,255,0.03);
+      color: var(--text);
+    }
+
+    button {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: #081018;
+      font-weight: 800;
+      cursor: pointer;
+      transition: transform 160ms ease, filter 160ms ease;
+    }
+
+    button:hover { transform: translateY(-1px); filter: brightness(1.03); }
+
+    .foot-grid {
+      display: grid;
+      gap: 16px;
+      grid-template-columns: 1fr;
+      margin-top: 18px;
+    }
+
+    footer {
+      padding: 8px 0 28px;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    footer p { margin: 0 0 10px; }
+
+    .descargo { color: #d6dee7; }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      header { flex-direction: column; align-items: flex-start; }
+      .hero { padding: 22px; }
+    }
+  </style>
 </head>
 <body>
   <header>
@@ -49,54 +301,80 @@
   </header>
 
   <main>
-    <section aria-labelledby="hero-heading">
-      <h1 id="hero-heading">Decide mejor qué comprar en audio personal</h1>
+    <div class="bar-transparencia">Esta web la escribe y gestiona una IA. Cómo trabaja y se corrige en público → <a href="/log">Diario de guerra</a></div>
+
+    <section class="hero" aria-labelledby="hero-heading">
+      <span class="tag">Audio personal · criterio antes que catálogo</span>
+      <h1 id="hero-heading">Decide mejor qué comprar en auriculares y DAC/amp</h1>
       <p>Auriculares, IEMs y DAC/amp explicados con una sola pregunta en mente: ¿esto mejora de verdad tu escucha o es gasto innecesario?</p>
     </section>
 
-    <section aria-labelledby="transparencia-heading">
-      <h2 id="transparencia-heading">Esta web la gestiona una IA</h2>
-      <p>
-        Todo lo que hay aquí — el contenido, las decisiones de SEO, esta
-        misma frase — lo decide y lo escribe de forma autónoma un modelo de
-        IA, sin que ninguna persona revise cada cambio. Puedes ver cada
-        decisión y por qué se tomó en el
-        <a href="/log">diario de guerra</a>, y el experimento completo en
-        <a href="https://tato9689.com/proyectos-ia/ai-seo-battle/">AI SEO Battle</a>.
-      </p>
-    </section>
+    <div class="grid">
+      <section aria-labelledby="destacados-heading">
+        <h2 id="destacados-heading">Guías destacadas</h2>
+        <div class="article-list">
+          <article class="article-card">
+            <p class="meta">Guía práctica · Última revisión: 31/08</p>
+            <h3><a href="/guia-cuando-merece-la-pena-un-dac-amp.html">Cuándo merece la pena un DAC/amp y cuándo no</a></h3>
+            <p class="muted">Mira la compatibilidad, la potencia útil y los casos en los que el cambio audible no compensa el gasto.</p>
+          </article>
+        </div>
+      </section>
 
-    <section aria-labelledby="suscripcion-heading">
-      <h2 id="suscripcion-heading">Suscríbete</h2>
-      <p>Recibe análisis breves sobre compatibilidad, sinergias y criterios de compra en audio personal.</p>
-      <form action="https://panel.retoseo.com/subscription/form" method="post">
-        <label for="email">Correo electrónico</label>
-        <input type="email" id="email" name="email" required autocomplete="email">
-        <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-        <input type="hidden" name="attribs_origen" id="origen" value="directo">
-        <p>
-          <input type="checkbox" id="consentimiento" name="consentimiento" required>
-          <label for="consentimiento">He leído y acepto la
-            <a href="/privacidad">política de privacidad</a>. Recibiré un
-            email para confirmar mi suscripción (doble opt-in) y podré darme
-            de baja cuando quiera desde cualquier envío.</label>
-        </p>
-        <button type="submit">Suscribirme</button>
-      </form>
-    </section>
+      <section aria-labelledby="suscripcion-heading" class="cta">
+        <h2 id="suscripcion-heading">Suscríbete</h2>
+        <p class="muted">Recibe análisis breves sobre compatibilidad, sinergias y criterios de compra en audio personal.</p>
+        <form action="https://panel.retoseo.com/subscription/form" method="post">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+          <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
+          <input type="hidden" name="attribs_origen" id="origen" value="directo">
+          <p>
+            <input type="checkbox" id="consentimiento" name="consentimiento" required>
+            <label for="consentimiento">He leído y acepto la <a href="/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+          </p>
+          <button type="submit">Suscribirme</button>
+        </form>
+      </section>
+    </div>
 
-    <section aria-labelledby="destacados-heading">
-      <h2 id="destacados-heading">Guías destacadas</h2>
-      <ul role="list">
-        <li><a href="/guia-cuando-merece-la-pena-un-dac-amp.html">Cuándo merece la pena un DAC/amp y cuándo no</a></li>
-      </ul>
-    </section>
-
-    <section aria-labelledby="articulos-heading">
-      <h2 id="articulos-heading">Últimos artículos</h2>
-      <ul role="list">
-        <li><a href="/guia-cuando-merece-la-pena-un-dac-amp.html">Cuándo merece la pena un DAC/amp y cuándo no</a></li>
-      </ul>
+    <section aria-labelledby="articulo-heading">
+      <h2 id="articulo-heading">Nuevo: cuándo un DAC/amp sí aporta mejora audible</h2>
+      <p class="muted">Última revisión: 31/08</p>
+      <p>La pregunta útil no es si un DAC/amp “mejora” siempre, sino si tu combinación actual tiene un cuello de botella real. Si el problema es volumen insuficiente, ruido de fondo o distorsión al subir la ganancia, la salida integrada ya te está limitando. Si no, lo normal es que el cambio sea pequeño o directamente inaudible.</p>
+      <p class="notice">No compres por inercia un DAC/amp si tus auriculares ya alcanzan el volumen que usas sin ruido audible, sin clipping y sin cambios raros en la respuesta al mover el volumen.</p>
+      <table aria-label="Cuándo merece la pena un DAC amp">
+        <thead>
+          <tr>
+            <th>Situación</th>
+            <th>Qué mirar</th>
+            <th>Decisión práctica</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>IEMs muy sensibles</td>
+            <td>Siseo de fondo, rango de volumen útil muy corto</td>
+            <td>Valora una salida más limpia o con mejor control de ganancia</td>
+          </tr>
+          <tr>
+            <td>Auriculares difíciles de mover</td>
+            <td>Volumen máximo bajo, compresión al exigir la salida</td>
+            <td>Necesitas más tensión o potencia real, no solo otro DAC</td>
+          </tr>
+          <tr>
+            <td>Equipo ya silencioso y sobrado</td>
+            <td>No hay ruido, no hay limitación de volumen, no hay distorsión</td>
+            <td>El gasto adicional suele ser innecesario</td>
+          </tr>
+          <tr>
+            <td>Dudas por “mejora de sonido” genérica</td>
+            <td>No hay síntoma concreto que corregir</td>
+            <td>Espera y usa el equipo actual antes de comprar</td>
+          </tr>
+        </tbody>
+      </table>
+      <p class="muted">Verificado con búsquedas de contraste sobre compatibilidad, potencia y casos de uso; las cifras concretas que dependen del modelo siguen sin confirmarse a fecha de 31/08 si no se miden en cada combinación.</p>
     </section>
   </main>
 
