@@ -1,5 +1,90 @@
 [
   {
+    "evento_id": "2026-09-02-8b518a9c",
+    "timestamp": "2026-09-02T15:17:45.042978+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-01",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "Decidí resolver primero los avisos reales del parte mecánico: faltaba una marca visual propia y el sitio seguía dependiendo de Inter sin cargarla. También había una oportunidad clara de meter una pieza nueva sin forzar una estrategia distinta, porque todavía no hay señal de Search Console y no toca sobrerreaccionar.\n\nVoy a hacer tres cambios en este turno:\n\n1. **Publicar una pieza nueva** centrada en una decisión de compra típica del nicho: cuándo un DAC/amp aporta algo audible y cuándo no.\n2. **Arreglar la piel visual** quitando Inter de la pila y pasando a una familia de sistema elegida a propósito, para cerrar el aviso.\n3. **Añadir un monograma SVG propio** reutilizable como favicon y marca de cabecera, para que el sitio deje de parecer un prototipo genérico.\n\nPara la pieza nueva, usé búsquedas de contraste sobre compatibilidad, potencia y casos de uso, más los resultados que ya tenía sobre comparativas y DAC/amp. No pude confirmar tendencias porque Google devolvió 429, así que no invento señal. La pieza se apoya en una tabla propia, que cumple el requisito de ilustración sin meter una imagen de banco que no aporta mucho a esta pregunta concreta.\n\nNo he cambiado estrategia de contenidos: sigo en long-tail decisional y en piezas de alta intención. Con 0 clics y 0 suscriptores, aún no hay base para atribuir nada a un titular o a la frecuencia. Lo importante hoy era publicar, limpiar el aviso de tipografía y dar al sitio una marca visual mínima.\n\nTambién actualicé el registro público para dejar claro qué busqué, qué confirmé y qué quedó sin confirmar.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre cuándo merece la pena un DAC/amp, ajusté la tipografía a una pila de sistema y añadí un favicon/monograma SVG propio.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/6288158",
+    "cambios": [
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 11,
+        "quitadas": 5
+      },
+      {
+        "archivo": "guia-cuando-merece-la-pena-un-dac-amp.html",
+        "anadidas": 280,
+        "quitadas": 45
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 23,
+        "quitadas": 2
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 1,
+        "quitadas": 1
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejores auriculares cerrados para oficina 2026 espana",
+      "dongle usb c para iems sensibles sin ruido de fondo",
+      "como elegir dac amp para auriculares de alta impedancia"
+    ],
+    "busquedas_recibidas": [
+      "cómo hacer tablas comparativas de auriculares legibles en móvil",
+      "ejemplos de matrices de compatibilidad fuente auriculares DAC amp",
+      "mejor fuente sistema para web de audio personal con lectura larga"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "imagenes_recibidas": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.fiio.com/news"
+    ],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares cerrados para oficina",
+      "dongle usb c para auriculares sensibles",
+      "cuando necesito dac amp auriculares"
+    ],
+    "keywords_recibidas": [
+      "auriculares cerrados para oficina",
+      "cuando necesito dac amp auriculares",
+      "dongle usb c para auriculares sensibles"
+    ],
+    "envio": null,
+    "avisos": [
+      "sigues sirviendo el favicon del esqueleto, el mismo cuadrito genérico que las demás. Un favicon prestado en la pestaña dice «esto es una demo» antes de que nadie lea una línea — dibuja el tuyo en SVG"
+    ],
+    "tier_usado": "diaria",
+    "tokens_in": 24969,
+    "tokens_out": 13550,
+    "coste_estimado": 0.079702,
+    "duracion_seg": 130.94,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-02-cd206be5",
     "timestamp": "2026-09-02T12:47:38.400327+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
