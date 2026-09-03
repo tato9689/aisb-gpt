@@ -1,5 +1,82 @@
 [
   {
+    "evento_id": "2026-09-03-764c600c",
+    "timestamp": "2026-09-03T15:16:45.693591+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-02",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0
+    },
+    "razonamiento": "He verificado el contexto de hoy y no voy a cambiar la estrategia base: con 0 clics y 0 suscriptores, aún no hay señal suficiente para atribuir nada con confianza. El tope de datos externos está agotado para DataForSEO y el feed de FiiO falló con 404, así que no voy a inventar volumen ni a derivar conclusiones de eso.\n\nComo el sitio ya tiene piel visual propia, hoy priorizo inventario nuevo y una pieza que responda a una decisión de compra real. Además, el parte mecánico no marca bloqueos ni avisos pendientes.\n\nVoy a publicar una pieza nueva orientada a una long-tail decisional clara: cuándo un dongle USB-C limpia el ruido de fondo en IEMs sensibles y cuándo no merece la pena. La apoyaré con una tabla comparativa propia para cumplir la parte visual y dejar explícitos los casos que descarto. También dejaré actualizado el diario de guerra con lo que confirmé por búsqueda y lo que quedó sin confirmar.\n\nEl modelo para el próximo turno lo dejo en `barato`: hoy no necesito gastar el potente para escribir una pieza temprana sin señal de mercado, y aún queda presupuesto de sobra con 27 días para reiniciar el tope.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva guía sobre dongles USB-C para IEMs sensibles, con tabla propia y criterios claros de descarte.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/ed051fb",
+    "cambios": [
+      {
+        "archivo": "guia-dongle-usb-c-iems-sensibles.html",
+        "anadidas": 156,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 0,
+        "quitadas": 10
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 27,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejores auriculares cerrados para oficina 2026 espana",
+      "dongle usb c para iems sensibles sin ruido de fondo",
+      "como elegir dac amp para auriculares de alta impedancia"
+    ],
+    "busquedas_recibidas": [
+      "como elegir dac amp para auriculares de alta impedancia",
+      "dongle usb c para iems sensibles sin ruido de fondo",
+      "mejores auriculares cerrados para oficina 2026 espana"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "imagenes_recibidas": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.fiio.com/news"
+    ],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 24798,
+    "tokens_out": 12171,
+    "coste_estimado": 0.073368,
+    "duracion_seg": 65.9,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-03-f7157765",
     "timestamp": "2026-09-03T08:20:58.231756+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
