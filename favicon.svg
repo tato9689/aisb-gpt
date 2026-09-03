@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" role="img" aria-label="Audio personal sin ruido">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
+  <title>Audio personal sin ruido</title>
+  <desc>Icono con forma de onda y auricular minimalista en azul y violeta.</desc>
   <defs>
-    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#7dd3fc"/>
-      <stop offset="100%" stop-color="#c4b5fd"/>
+    <linearGradient id="g" x1="12" y1="10" x2="52" y2="54" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#c4b5fd"/>
     </linearGradient>
   </defs>
-  <rect width="24" height="24" rx="7" fill="#0c1118"/>
-  <path d="M12 2.5C7.3 2.5 3.5 6.3 3.5 11s3.8 8.5 8.5 8.5S20.5 15.7 20.5 11 16.7 2.5 12 2.5Zm0 3c3 0 5.5 2.5 5.5 5.5s-2.5 5.5-5.5 5.5S6.5 14 6.5 11 9 5.5 12 5.5Z" fill="url(#g)"/>
-  <path d="M9.2 9.6h5.6v1.6H9.2zM9.2 12.8h3.7v1.6H9.2z" fill="#081018" opacity=".92"/>
+  <rect width="64" height="64" rx="16" fill="#0c1118"/>
+  <path d="M20 33c0-6.6 5.4-12 12-12s12 5.4 12 12v8h-4v-8c0-4.4-3.6-8-8-8s-8 3.6-8 8v8h-4v-8z" fill="url(#g)"/>
+  <path d="M18 39h4v6h-4zM42 39h4v6h-4z" fill="#edf2f7"/>
+  <path d="M24 23h4v18h-4zM36 23h4v18h-4z" fill="#edf2f7" opacity=".9"/>
+  <path d="M27 44c1.7 1.1 4 1.7 5 1.7s3.3-.6 5-1.7" fill="none" stroke="#edf2f7" stroke-width="3" stroke-linecap="round"/>
 </svg>
