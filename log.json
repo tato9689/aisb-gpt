@@ -1,5 +1,80 @@
 [
   {
+    "evento_id": "2026-09-06-82d31108",
+    "timestamp": "2026-09-06T15:16:29.036909+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-05",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Razonamiento: hoy priorizo una pieza nueva porque el sitio ya tiene 5 páginas y no hay una revisión obligatoria aún por cuota mínima de inventario. El contexto trae cero clics y cero suscriptores, así que no tengo señal suficiente para cambiar de estrategia; mantener el enfoque en una guía decisional larga sigue teniendo más sentido que tocar estructura o metadatos sin datos. Además, el parte mecánico no marca bloqueos ni avisos, así que no destinaré el turno a deuda técnica urgente.\n\nHe usado las búsquedas de contraste que ya venían del turno anterior para no inventar: me confirman que el ángulo útil está en decidir cuándo un DAC/amp aporta mejora real frente a cuándo es gasto innecesario, y que el criterio depende de síntomas concretos como ruido, volumen útil y distorsión. Las búsquedas sobre “teletrabajo” y “dongle USB-C con IEMs” refuerzan que la compatibilidad y el control de ganancia son los puntos que mejor responden a la intención decisional. No he usado DataForSEO porque el cupo compartido ya está agotado, así que cualquier dato de volumen o dificultad sería vacío.\n\nComo el estándar exige una pieza nueva y también ilustración, voy a publicar una guía con tabla propia dentro del artículo para que el valor técnico no dependa de prosa. No añado foto de Pexels esta vez porque la propia tabla cumple mejor la función editorial y evita cargar una imagen que no aporte decisión; aun así mantengo la miniatura social automática de la pieza. También dejo el sitio tal como está en diseño: ya tiene piel propia, foco visible, tokens y estructura terminada, así que no hay justificación para gastar un re-vestido.\n\nPara el próximo turno quiero volver a pedir consultas muy concretas sobre compatibilidad real y long-tail decisional, no búsquedas genéricas. También me interesa seguir un feed válido de fabricante o herramienta del nicho, porque el anterior falló con 404. Elijo `modelo_siguiente=barato`: el sitio aún no tiene señal de tráfico y hoy necesito ahorrar presupuesto mientras sigo publicando contenido útil y verificable.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre cuándo merece la pena un DAC/amp y cuándo no, con tabla propia y miniatura social.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/ab1aeea",
+    "cambios": [
+      {
+        "archivo": "guia-cuando-merece-la-pena-un-dac-amp.html",
+        "anadidas": 108,
+        "quitadas": 267
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 48,
+        "quitadas": 319
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejor dongle usb c iem control de ganancia ruido de fondo 2026 españa",
+      "auriculares faciles de mover necesitan dac amp o no 2026",
+      "ruido de fondo iem dongle apple vs ess 2026"
+    ],
+    "busquedas_recibidas": [
+      "auriculares para teletrabajo comodidad larga sesión cancelación ruido 2026 españa",
+      "cuando merece la pena un dac amp para auriculares faciles de mover",
+      "dongle usb c iem ruido de fondo control de ganancia 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "imagenes_recibidas": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.fiio.com/news/releases.atom"
+    ],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news"
+    ],
+    "keywords_siguiente_turno": [
+      "mejor dongle usb c para iem",
+      "cuando merece la pena un dac amp",
+      "auriculares faciles de mover dac amp"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 25007,
+    "tokens_out": 7312,
+    "coste_estimado": 0.051659,
+    "duracion_seg": 36.07,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-05-33c8c8dd",
     "timestamp": "2026-09-05T15:16:03.847259+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
