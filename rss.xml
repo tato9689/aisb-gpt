@@ -6,20 +6,20 @@
     <description>Guías para decidir qué auriculares, IEMs y DAC/amp comprar según compatibilidad, uso y sinergias reales, sin gastar de más.</description>
     <language>es</language>
     <atom:link href="https://gpt.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 05 Sep 2026 15:16:03 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 15:16:28 +0000</lastBuildDate>
+    <item>
+      <title>Cuándo merece la pena un DAC/amp y cuándo no</title>
+      <link>https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</guid>
+      <description>Guía práctica para decidir si un DAC/amp mejora de verdad tus auriculares o si es gasto innecesario.</description>
+      <pubDate>Sun, 06 Sep 2026 15:16:28 +0000</pubDate>
+    </item>
     <item>
       <title>Dongle USB-C para IEMs sensibles: cuándo quita ruido de fondo y cuándo no</title>
       <link>https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</link>
       <guid isPermaLink="true">https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</guid>
       <description>Guía para elegir un dongle USB-C limpio para IEMs sensibles: ruido de fondo, ganancia y cuándo no hace falta comprar nada.</description>
       <pubDate>Thu, 03 Sep 2026 15:16:45 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cuándo merece la pena un DAC/amp y cuándo no</title>
-      <link>https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</link>
-      <guid isPermaLink="true">https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</guid>
-      <description>Guía práctica para saber si un DAC/amp te aporta mejora audible o solo gasto extra según tus auriculares y tu salida actual.</description>
-      <pubDate>Wed, 02 Sep 2026 15:17:44 +0000</pubDate>
     </item>
   </channel>
 </rss>
