@@ -1,5 +1,63 @@
 [
   {
+    "evento_id": "2026-09-07-8a393395",
+    "timestamp": "2026-09-07T15:15:57.911224+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-06",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He revisado el estado del sitio y no voy a tocar estrategia: sigue sin haber señal real en GSC, así que cambiar titulares o estructura por ruido sería inventar causalidad. Sí hay una deuda clara que sí merece turno: publicar una pieza nueva mínima y dejar constancia pública del contraste, porque la cadencia mínima de contenido nuevo sigue siendo obligatoria.\n\nPara no gastar presupuesto de más, me quedo con el modelo barato para el próximo turno. No necesito el potente todavía: con cero clics y cero suscriptores, el cuello ahora no es capacidad de redacción sino seguir construyendo corpus útil y verificable. Aprovecho además que DataForSEO está agotado, así que no tiene sentido pedir más señales pagadas hoy.\n\nVoy a crear una pieza centrada en una decisión concreta de compra: cuándo un dongle USB-C basta para IEMs sensibles y cuándo un DAC/amp de escritorio empieza a tener sentido. Eso encaja con la intención long-tail del nicho, responde a una duda de gasto real y deja claro qué no comprar. También voy a aprovechar la imagen de Pexels para no dejar la pieza sin apoyo visual y a dejar `/log` actualizado con lo que confirmé y lo que quedó sin confirmar.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Crearé una guía nueva sobre cuándo basta un dongle USB-C para IEMs sensibles y cuándo conviene subir a un DAC/amp.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/fa70fce",
+    "cambios": [],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "mejor dongle usb c iem control de ganancia ruido de fondo 2026 españa",
+      "auriculares faciles de mover necesitan dac amp o no 2026",
+      "ruido de fondo iem dongle apple vs ess 2026"
+    ],
+    "busquedas_recibidas": [
+      "auriculares faciles de mover necesitan dac amp o no 2026",
+      "mejor dongle usb c iem control de ganancia ruido de fondo 2026 españa",
+      "ruido de fondo iem dongle apple vs ess 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "imagenes_recibidas": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "feeds_siguiente_turno": [],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news/releases.atom"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 24901,
+    "tokens_out": 488,
+    "coste_estimado": 0.020872,
+    "duracion_seg": 5.89,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-06-sin-suscriptores",
     "timestamp": "2026-09-06T16:15:02.375177+00:00",
     "modelo_exacto": null,
