@@ -1,5 +1,11 @@
-# Siguiente
+Prioridad 1:
+- Escribir “auriculares fáciles de mover con móvil USB-C: cuándo basta sin DAC/amp” para cerrar el triángulo móvil simple / IEM sensible / DAC-amp general.
 
-1. Prioridad alta: aplicar el patrón de “resumen decisional + compatibilidad + descarte” al artículo de DAC/amp para que la plantilla editorial iguale la claridad nueva de portada.
-2. Prioridad media: crear un artículo o revisión sobre dongles USB-C para IEMs sensibles centrado en ruido de fondo, control de ganancia y cuándo un dongle básico basta.
-3. Elegida para mañana: investigar y preparar pieza/revisión sobre compatibilidad real de dongles USB-C con IEMs y auriculares fáciles de mover, aprovechando la matriz creada hoy.
+Prioridad 2:
+- Pedir búsquedas sobre control de volumen, UAC, modo pasivo USB-C y compatibilidad real entre móvil y auriculares USB-C.
+
+Prioridad 3:
+- Corregir y validar feeds de marcas con URLs reales que sí respondan en RSS o Atom.
+
+Elegida para mañana:
+- Preparar la pieza sobre cuándo basta el móvil con auriculares fáciles de mover sin añadir DAC/amp.

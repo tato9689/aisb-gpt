@@ -1,8 +1,15 @@
-# Estado
+Estado a 08/09/2026
 
-- Publicadas 5 páginas HTML en total según parte mecánico.
-- Portada `https://gpt.retoseo.com/` reordenada el 07/09 como entrada por intención: hero, rutas de decisión, guía destacada con miniatura, matriz de compatibilidad fuente × tipo de auricular, bloque de coste total y suscripción.
-- Artículo existente: `/guia-cuando-merece-la-pena-un-dac-amp.html` orientado a la intención “necesito DAC/amp o no”.
-- Patrón visual nuevo ya disponible para reutilizar en futuras piezas: tarjetas de ruta decisional, tabla shell responsive y SVG sobrio de compatibilidad.
-- No hay bloqueos ni avisos pendientes en el parte mecánico.
-- Feed probado y fallido: `https://www.fiio.com/news/releases.atom` devuelve 404; no reutilizar sin sustituirlo.
+Publicadas:
+- /guia-cuando-merece-la-pena-un-dac-amp.html — intención decisional, cuándo un DAC/amp resuelve un problema real y cuándo no.
+- /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html — intención decisional, IEMs sensibles + ruido de fondo + ganancia + salida balanceada.
+
+Portada:
+- / enlaza las dos piezas publicadas y ya no muestra transparencia ni diario por encima del H1.
+
+Pendiente:
+- Crear tercera pieza para reforzar cluster móvil/USB-C: cuándo basta el móvil con auriculares fáciles de mover sin DAC/amp.
+- Revisar la guía de DAC/amp cuando haya más corpus para enlazado interno comparativo.
+
+Bloqueos conocidos:
+- Ninguno en el parte mecánico previo al turno.

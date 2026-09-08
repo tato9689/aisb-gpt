@@ -122,24 +122,6 @@
       flex: 0 0 auto;
     }
 
-    .header-link {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-      padding: 10px 14px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      background: rgba(255, 255, 255, 0.02);
-      text-decoration: none;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .header-link:hover {
-      color: var(--text);
-      border-color: var(--line-strong);
-    }
-
     main { padding: 18px 0 56px; }
 
     .hero {
@@ -405,10 +387,6 @@
 
     tr:last-child td { border-bottom: 0; }
 
-    .state-yes { color: var(--ok); font-weight: 700; }
-    .state-maybe { color: var(--warn); font-weight: 700; }
-    .state-no { color: var(--danger); font-weight: 700; }
-
     .notice {
       border-left: 3px solid var(--accent-2);
       padding-left: 14px;
@@ -460,7 +438,6 @@
     .legend .ok { background: rgba(134, 239, 172, 0.18); }
     .legend .maybe { background: rgba(253, 230, 138, 0.18); }
     .legend .no { background: rgba(252, 165, 165, 0.18); }
-    .legend .acc { background: rgba(125, 211, 252, 0.14); }
 
     .cost-grid {
       display: grid;
@@ -582,11 +559,6 @@
         padding: 18px;
       }
 
-      .header-link {
-        width: 100%;
-        justify-content: center;
-      }
-
       .diagram-card svg,
       table {
         min-width: 520px;
@@ -609,7 +581,6 @@
       </svg>
       <span>Audio personal sin ruido</span>
     </a>
-    <a class="header-link" href="/log">Ver diario de guerra</a>
   </header>
 
   <main>
@@ -664,11 +635,11 @@
             <p>Si el problema es volumen, ruido o falta de control, empieza aquí. Si no puedes nombrar el problema, quizá no necesitas otro aparato.</p>
           </a>
 
-          <article class="decision-card" aria-labelledby="decision-movil">
-            <span class="decision-kicker">Móvil y portátil</span>
-            <h3 id="decision-movil">¿Te vale tu salida actual?</h3>
-            <p>La diferencia entre “funciona” y “funciona bien” suele estar en ganancia, ruido de fondo y margen real con IEMs sensibles o auriculares más exigentes.</p>
-          </article>
+          <a class="decision-card" href="/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html">
+            <span class="decision-kicker">Dongles USB-C</span>
+            <h3>¿Más potencia empeora con IEMs sensibles?</h3>
+            <p>Ruido de fondo, ganancia alta, salida balanceada y control de volumen: aquí se decide si conviene un dongle simple o uno más ambicioso.</p>
+          </a>
 
           <article class="decision-card" aria-labelledby="decision-coste">
             <span class="decision-kicker">Cadena completa</span>
@@ -683,8 +654,24 @@
           <h2 id="destacados-heading">Guías destacadas</h2>
           <div class="article-list">
             <article class="article-card">
+              <a class="article-thumb" href="/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html">
+                <img src="/og/miniatura/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.jpg" alt="Dongle USB-C conectado junto a un escritorio de escucha" width="640" height="336">
+              </a>
+              <div class="article-copy">
+                <p class="meta">Guía práctica · Última revisión: 08/09</p>
+                <h3><a href="/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html">Dongle USB-C potente o ruidoso: qué pasa con IEMs sensibles</a></h3>
+                <p class="muted">No siempre necesitas más salida. A veces necesitas menos ganancia, menos ruido y un control de volumen más fino.</p>
+                <div class="inline-tags" aria-label="Puntos clave de la guía">
+                  <span>IEMs sensibles</span>
+                  <span>Ruido de fondo</span>
+                  <span>Apple dongle como referencia</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="article-card">
               <a class="article-thumb" href="/guia-cuando-merece-la-pena-un-dac-amp.html">
-                <img src="/og/miniatura/guia-cuando-merece-la-pena-un-dac-amp.jpg" alt="Tarjeta social con el título de la guía sobre cuándo merece la pena un DAC/amp" width="640" height="336">
+                <img src="/og/miniatura/guia-cuando-merece-la-pena-un-dac-amp.jpg" alt="Tarjeta social con el título de la guía sobre cuándo merece la pena un DAC/amp" width="640" height="336" loading="lazy">
               </a>
               <div class="article-copy">
                 <p class="meta">Guía práctica · Última revisión: 31/08</p>
@@ -839,7 +826,7 @@
           </table>
         </div>
 
-        <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: fabricantes y guías coinciden en que la necesidad real de DAC/amp depende del problema concreto, la sensibilidad, la impedancia y la salida disponible; no de una regla universal por precio o gama.</p>
+        <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: fabricantes, tiendas y debates recientes coinciden en que la necesidad real de DAC/amp depende del problema concreto, la sensibilidad, la impedancia y la salida disponible; no de una regla universal por precio o gama.</p>
       </section>
 
       <section aria-labelledby="coste-heading">
@@ -874,49 +861,6 @@
             </ul>
           </div>
         </div>
-      </section>
-
-      <section aria-labelledby="articulo-heading">
-        <h2 id="articulo-heading">Cuándo un DAC/amp sí aporta mejora audible y cuándo no</h2>
-        <p class="muted">Última revisión: 01/09</p>
-        <p>La respuesta corta es simple: un DAC/amp merece la pena cuando corrige un problema concreto de tu salida actual. Si tus auriculares ya alcanzan el volumen que usas, sin ruido de fondo ni distorsión al subir, el cambio suele ser pequeño o directamente inaudible.</p>
-        <p class="notice">No compres por inercia un DAC/amp solo porque “debería sonar mejor”. Si no puedes nombrar el problema que quieres arreglar, probablemente no necesitas otro aparato.</p>
-
-        <div class="table-shell">
-          <table aria-label="Cuándo merece la pena un DAC amp">
-            <thead>
-              <tr>
-                <th>Situación</th>
-                <th>Qué mirar</th>
-                <th>Decisión práctica</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>IEMs muy sensibles</td>
-                <td>Siseo de fondo, volumen útil demasiado corto o salto brusco entre niveles</td>
-                <td>Valora una salida más limpia o con mejor control de ganancia</td>
-              </tr>
-              <tr>
-                <td>Auriculares difíciles de mover</td>
-                <td>Volumen máximo bajo, pérdida de control o distorsión al exigir la salida</td>
-                <td>Necesitas más tensión o potencia real, no solo otro DAC</td>
-              </tr>
-              <tr>
-                <td>Equipo ya silencioso y sobrado</td>
-                <td>No hay ruido, no hay limitación de volumen, no hay distorsión evidente</td>
-                <td>El gasto adicional suele ser innecesario</td>
-              </tr>
-              <tr>
-                <td>Duda genérica por “mejora de sonido”</td>
-                <td>No hay síntoma concreto que corregir</td>
-                <td>Espera y usa el equipo actual antes de comprar</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <p class="muted">Verificado con búsquedas de contraste sobre compatibilidad, potencia y casos de uso. No hay un dato universal para todos los modelos: las cifras concretas dependen de cada combinación y quedan sin confirmar a fecha de 07/09 si no se miden por separado.</p>
       </section>
     </div>
   </main>

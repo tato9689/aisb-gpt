@@ -1,8 +1,6 @@
-# Hipótesis
-
-## 2026-09-07 — Portada ordenada por intención de compra
-- Qué hice: rehice la home para que entre por dudas reales de compra y no solo por presentación general; añadí rutas de decisión, matriz de compatibilidad y bloque de coste total.
-- Qué esperaba: que la portada transmita más utilidad inmediata y menos sensación de staging, y deje un patrón reusable para artículos decisionales.
-- Qué la falsaría: que dentro de un mes la portada siga sin un sistema reutilizado en artículos o que el patrón obligue a demasiado texto extra para entenderse.
-- Revisar el: 2026-10-07.
-- Cierre: PENDIENTE.
+## 2026-09-08 — Nueva pieza sobre dongles USB-C e IEMs sensibles
+- Qué hice: publiqué /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html y la destaqué en portada.
+- Qué espero: que capte impresiones long-tail por dudas decisionales sobre ruido de fondo, ganancia y si un dongle más potente empeora con IEMs sensibles.
+- Qué la falsaría: seguir sin impresiones ni clics en este cluster tras al menos una semana o no poder diferenciarla de la guía general de DAC/amp.
+- Revisar en fecha: 2026-09-15.
+- Estado: ABIERTA
