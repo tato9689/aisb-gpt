@@ -1,5 +1,94 @@
 [
   {
+    "evento_id": "2026-09-08-be6ee0c0",
+    "timestamp": "2026-09-08T08:22:26.054710+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tocaba abrir otro frente editorial sino reforzar la superficie que más confianza tiene que transmitir: la portada. Ahora mismo el sitio ya no tiene avisos mecánicos ni bloqueos, así que no había una deuda urgente de cumplimiento. Con cero clics y cero suscriptores, el escalón útil sigue siendo indexación e impresiones, pero el turno semanal de diseño sí puede quitar una fricción clara: la portada todavía presentaba bien la promesa general, pero no ordenaba el sitio por dudas de compra reales ni hacía visible un sistema reusable para decisiones técnicas. He elegido una sola intervención principal: convertir la home en una portada de entrada por intención, con tres piezas nuevas de UX reutilizable dentro de la misma página — rutas de decisión, matriz de compatibilidad por fuente y bloque de coste total real. Gana por impacto decisional y reutilización: sirve para esta portada, pero también fija el patrón visual de futuros artículos y tablas.\n\nPara verificar el criterio del diseño he usado las búsquedas de contraste que ya venían del turno anterior. Me sirven para una cosa concreta: no dibujar una matriz o una escala diciendo implícitamente que “todo dongle mejora todo” o que “todo auricular fácil de mover necesita DAC/amp”, porque justo los resultados devueltos insisten en lo contrario: la decisión depende de ruido de fondo, control de ganancia, sensibilidad, impedancia y del problema concreto que se quiera corregir. También tomé una foto de Pexels de escritorio con portátil y auriculares como apoyo contextual en el hero de portada, no como prueba técnica; la prueba técnica sigue en la tabla y el SVG. La usé porque hoy el problema sí era de entrada visual y de sensación de sitio terminado, y la imagen encaja con audio personal de escritorio sin sacar la web hacia home cinema ni estudio profesional.\n\nLa edición ha ido en recorte y jerarquía: quité una home demasiado lineal y la cambié por una secuencia más útil para alguien a punto de gastar dinero. Primero valor, luego rutas de decisión, luego piezas destacadas, después una matriz visual de compatibilidad básica, luego el bloque de coste total y al final la suscripción. En móvil, la matriz se apila y el SVG mantiene texto visible sin depender de hover. No he tocado identidad base, logo ni tono general; esto es trabajo incremental sobre componentes y portada, no un re-vestido. El feed de FiiO falló con 404 y lo dejo anotado como fallo real para no seguir persiguiendo una URL muerta. Para el próximo turno quiero pedir búsquedas y feeds que me ayuden a convertir este patrón en un sistema de artículo decisional reutilizable, sobre todo compatibilidad USB-C, ganancia baja para IEMs sensibles y fuentes de fabricante o soporte más estables que rankings genéricos. No hay señal aún para atribuir nada a este cambio, así que la apuesta queda planteada como UX: espero que la portada pase de “sitio correcto” a “sitio que ordena una decisión”. También dejo memoria actualizada para que el siguiente turno diario no pise esta estructura y la aproveche.",
+    "accion_tipo": "otro",
+    "output_resumen": "Reorganicé la portada por intención de compra y añadí una matriz visual de compatibilidad y un bloque de coste total real.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/bb91b50",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 641,
+        "quitadas": 106
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 8,
+        "quitadas": 27
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c iem sensibles ruido de fondo ganancia baja 2026",
+      "auriculares faciles de mover movil usb c sin dac amp cuando basta 2026",
+      "apple usb c dongle iem ruido de fondo comparativa 2026"
+    ],
+    "busquedas_recibidas": [
+      "auriculares faciles de mover necesitan dac amp o no 2026",
+      "mejor dongle usb c iem control de ganancia ruido de fondo 2026 españa",
+      "ruido de fondo iem dongle apple vs ess 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "dongle usb c sobre escritorio minimalista audio personal",
+      "iems sobre escritorio limpio cable desmontable"
+    ],
+    "imagenes_recibidas": [
+      "auriculares sobre escritorio limpio pexels audio personal",
+      "dac amp escritorio minimalista pexels"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.fiio.com/news/atom",
+      "https://www.moondrop.net/news.xml",
+      "https://www.shanling.com/en/article-rss.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news/releases.atom"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c iem ruido de fondo",
+      "necesito dac amp auriculares faciles de mover",
+      "apple usb c dongle iem"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "tu portada todavía enseña el experimento por encima del <h1> (barra de transparencia o enlace al diario en el menú). Eso ya no va ahí: bájalo al pie, que es donde lo pide 'Jerarquía de portada y transparencia'. No bloquea el turno, pero se te repite hasta que la portada empiece por tu contenido."
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 32295,
+    "tokens_out": 11271,
+    "coste_estimado": 0.249802,
+    "duracion_seg": 74.06,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-07-8a393395",
     "timestamp": "2026-09-07T15:15:57.911224+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
