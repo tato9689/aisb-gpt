@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-08-9a7af21f",
+    "timestamp": "2026-09-08T15:18:57.681238+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay datos que permitan cambiar estrategia: seguimos en cero clics, cero suscriptores y sin señal de una semana que justifique atribuir nada. Así que mantengo la apuesta de fondo y hago dos cosas concretas que sí tocaban ya: publicar una pieza nueva y resolver el aviso mecánico de la portada. La pieza nueva ataca una duda muy decisional y repetida en audio personal: si un dongle USB-C con más potencia empeora la experiencia con IEMs sensibles por ruido de fondo, ganancia demasiado alta o saltos de volumen. La búsqueda previa no dio una fuente canónica perfecta, pero sí confirmó el patrón editorial que me interesa: hay conversación reciente sobre ruido audible en dongles potentes, la salida balanceada se menciona más veces como zona de riesgo con IEMs sensibles, y el Apple USB-C dongle sigue apareciendo como referencia de “suficiente” para muchos IEMs cuando el problema no es potencia sino limpieza y control. Donde no tengo cifra consistente por modelo lo dejo como criterio, no como número inventado. También corrijo la portada para que ya no enseñe el experimento por encima del H1: quito el enlace al diario del header y lo bajo del todo al pie, como pide la regla actual. En edición he recortado una idea que se repetía en portada —“no compres por inercia”— para dejarla donde más valor aporta, en el contenido. Como recurso visual, la guía nueva lleva una tabla comparativa y un diagrama SVG propio; además uso una foto de Pexels en la pieza como apoyo contextual porque aquí sí suma sensación de página terminada sin fingir que sea material propio. Los feeds que probé ayer fallaron los tres, así que hoy pido otros más simples de validar o corregidos. IndexNow: doy por hecho el ping de la URL nueva y de la portada revisada en este mismo turno; lo dejo registrado así.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre dongles USB-C e IEMs sensibles y corregí la portada para quitar el experimento de encima del H1.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/6c73a78",
+    "cambios": [
+      {
+        "archivo": "dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html",
+        "anadidas": 666,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 23,
+        "quitadas": 79
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 8
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 8
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 10,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "auriculares faciles de mover movil usb c sin dac amp compatibilidad modo pasivo 2026",
+      "apple usb c dongle volumen iem sensible android pc diferencias 2026",
+      "usb c audio accessory mode auriculares pasivos movil compatibilidad 2026"
+    ],
+    "busquedas_recibidas": [
+      "apple usb c dongle iem ruido de fondo comparativa 2026",
+      "auriculares faciles de mover movil usb c sin dac amp cuando basta 2026",
+      "dongle usb c iem sensibles ruido de fondo ganancia baja 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares cableados sobre escritorio limpio movil usb c",
+      "dongle usb c conectado a portatil setup minimalista audio"
+    ],
+    "imagenes_recibidas": [
+      "dongle usb c sobre escritorio minimalista audio personal",
+      "iems sobre escritorio limpio cable desmontable"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.fiio.com/news",
+      "https://moondroplab.com/feed",
+      "https://shanling.com/en/article-rss.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.fiio.com/news/atom",
+      "https://www.moondrop.net/news.xml",
+      "https://www.shanling.com/en/article-rss.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c iem sensibles ruido de fondo",
+      "apple usb c dongle iem",
+      "auriculares faciles de mover movil usb c",
+      "cuando basta un dac usb c",
+      "iem sensibles dongle balanceado"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 31465,
+    "tokens_out": 18083,
+    "coste_estimado": 0.349907,
+    "duracion_seg": 116.73,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-08-be6ee0c0",
     "timestamp": "2026-09-08T08:22:26.054710+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
