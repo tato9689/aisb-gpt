@@ -41,13 +41,18 @@
       --bg: #0c1118;
       --panel: #111927;
       --panel-2: #162131;
+      --panel-3: #0f1723;
       --text: #edf2f7;
       --muted: #a9b7c7;
       --line: rgba(255, 255, 255, 0.08);
+      --line-strong: rgba(125, 211, 252, 0.24);
       --accent: #7dd3fc;
       --accent-2: #c4b5fd;
+      --ok: #86efac;
+      --warn: #fde68a;
       --danger: #fca5a5;
       --radius: 18px;
+      --radius-sm: 14px;
       --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
       --max: 1120px;
       --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -73,10 +78,20 @@
       color: inherit;
       text-decoration-color: rgba(125, 211, 252, 0.45);
       text-underline-offset: 0.18em;
-      transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease;
+      transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
     }
 
-    a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+    a:hover {
+      color: var(--accent);
+      text-decoration-color: var(--accent);
+    }
+
+    a:focus-visible,
+    button:focus-visible,
+    input:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 3px;
+    }
 
     header, main, footer {
       width: min(var(--max), calc(100% - 32px));
@@ -107,13 +122,7 @@
       flex: 0 0 auto;
     }
 
-    nav ul, main ul {
-      list-style: none;
-      padding: 0;
-      margin: 0;
-    }
-
-    nav a {
+    .header-link {
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -122,12 +131,20 @@
       border-radius: 999px;
       background: rgba(255, 255, 255, 0.02);
       text-decoration: none;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .header-link:hover {
+      color: var(--text);
+      border-color: var(--line-strong);
     }
 
     main { padding: 18px 0 56px; }
 
     .hero {
       display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
       gap: 18px;
       padding: 28px;
       border: 1px solid var(--line);
@@ -136,12 +153,30 @@
       box-shadow: var(--shadow);
     }
 
+    .hero-copy {
+      display: grid;
+      gap: 14px;
+      align-content: start;
+    }
+
+    .tag {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 10px;
+      border-radius: 999px;
+      background: rgba(125, 211, 252, 0.1);
+      color: #d7f3ff;
+      font-size: 0.84rem;
+    }
+
     .hero h1 {
       margin: 0;
       font-size: clamp(2rem, 4vw, 3.75rem);
-      line-height: 1.05;
+      line-height: 1.04;
       letter-spacing: -0.04em;
-      max-width: 12ch;
+      max-width: 11ch;
     }
 
     .hero p {
@@ -151,9 +186,57 @@
       font-size: 1.05rem;
     }
 
-    .grid {
+    .hero-points {
+      list-style: none;
+      padding: 0;
+      margin: 4px 0 0;
       display: grid;
-      grid-template-columns: 1.2fr 0.8fr;
+      gap: 10px;
+    }
+
+    .hero-points li {
+      display: flex;
+      gap: 10px;
+      color: var(--muted);
+    }
+
+    .hero-points strong {
+      color: var(--text);
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .hero-media {
+      display: grid;
+      gap: 10px;
+      align-content: start;
+    }
+
+    .hero-visual {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      overflow: hidden;
+      background: var(--panel-3);
+    }
+
+    .hero-visual img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 640 / 336;
+      object-fit: cover;
+    }
+
+    .hero-visual figcaption {
+      padding: 12px 14px 14px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      border-top: 1px solid var(--line);
+    }
+
+    .section-stack {
+      display: grid;
       gap: 18px;
       margin-top: 22px;
     }
@@ -167,48 +250,144 @@
 
     section { padding: 22px; }
 
-    h2 {
-      margin: 0 0 12px;
-      font-size: 1.35rem;
+    h2, h3 {
+      margin: 0;
       letter-spacing: -0.02em;
     }
+
+    h2 {
+      font-size: 1.35rem;
+      margin-bottom: 12px;
+    }
+
+    h3 { font-size: 1.08rem; }
 
     p { margin: 0 0 12px; }
 
     .muted { color: var(--muted); }
 
-    .tag {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: rgba(125, 211, 252, 0.1);
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+    }
+
+    .decision-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+    }
+
+    .decision-card {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      text-decoration: none;
+    }
+
+    .decision-card:hover {
+      transform: translateY(-2px);
+      border-color: var(--line-strong);
+      color: inherit;
+    }
+
+    .decision-kicker {
+      font-size: 0.8rem;
       color: #d7f3ff;
-      font-size: 0.84rem;
-      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .decision-card p {
+      color: var(--muted);
+      margin: 0;
+      font-size: 0.95rem;
     }
 
     .article-list { display: grid; gap: 14px; }
 
     .article-card {
-      padding: 18px;
+      display: grid;
+      grid-template-columns: 176px minmax(0, 1fr);
+      gap: 16px;
+      padding: 16px;
       border: 1px solid var(--line);
       border-radius: calc(var(--radius) - 4px);
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
       transition: transform 160ms ease, border-color 160ms ease;
+      align-items: start;
     }
 
-    .article-card:hover { transform: translateY(-2px); border-color: rgba(125, 211, 252, 0.35); }
+    .article-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(125, 211, 252, 0.35);
+    }
 
-    .meta { color: var(--muted); font-size: 0.92rem; }
+    .article-thumb {
+      display: block;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--panel-3);
+    }
+
+    .article-thumb img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 640 / 336;
+      object-fit: cover;
+    }
+
+    .article-copy {
+      display: grid;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .article-copy h3 a {
+      text-decoration-thickness: 0.08em;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin: 0;
+    }
+
+    .inline-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+    }
+
+    .inline-tags span {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #d8e4f2;
+      font-size: 0.82rem;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .table-shell {
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      overflow: auto;
+      background: rgba(255,255,255,0.015);
+    }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.96rem;
-      overflow: hidden;
-      border-radius: 14px;
+      font-size: 0.95rem;
+      min-width: 620px;
     }
 
     th, td {
@@ -226,11 +405,90 @@
 
     tr:last-child td { border-bottom: 0; }
 
+    .state-yes { color: var(--ok); font-weight: 700; }
+    .state-maybe { color: var(--warn); font-weight: 700; }
+    .state-no { color: var(--danger); font-weight: 700; }
+
     .notice {
       border-left: 3px solid var(--accent-2);
       padding-left: 14px;
       color: var(--muted);
     }
+
+    .diagram-shell {
+      display: grid;
+      gap: 10px;
+    }
+
+    .diagram-card {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+      overflow: auto;
+    }
+
+    .diagram-card svg {
+      width: 100%;
+      height: auto;
+      display: block;
+      min-width: 640px;
+    }
+
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px 16px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .legend span {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .legend i {
+      width: 14px;
+      height: 14px;
+      border-radius: 4px;
+      display: inline-block;
+      border: 1px solid rgba(255,255,255,0.12);
+    }
+
+    .legend .ok { background: rgba(134, 239, 172, 0.18); }
+    .legend .maybe { background: rgba(253, 230, 138, 0.18); }
+    .legend .no { background: rgba(252, 165, 165, 0.18); }
+    .legend .acc { background: rgba(125, 211, 252, 0.14); }
+
+    .cost-grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 14px;
+    }
+
+    .cost-card {
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
+    }
+
+    .cost-card strong {
+      display: block;
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+
+    .cost-card ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+    }
+
+    .cost-card li + li { margin-top: 8px; }
 
     .cta {
       display: grid;
@@ -264,13 +522,15 @@
       transition: transform 160ms ease, filter 160ms ease;
     }
 
-    button:hover { transform: translateY(-1px); filter: brightness(1.03); }
+    button:hover {
+      transform: translateY(-1px);
+      filter: brightness(1.03);
+    }
 
-    .foot-grid {
-      display: grid;
-      gap: 16px;
-      grid-template-columns: 1fr;
-      margin-top: 18px;
+    .small-note {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin-top: 8px;
     }
 
     footer {
@@ -283,10 +543,54 @@
 
     .descargo { color: #d6dee7; }
 
+    @media (max-width: 960px) {
+      .hero,
+      .grid-2,
+      .decision-grid,
+      .cost-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .article-card {
+        grid-template-columns: 1fr;
+      }
+    }
+
     @media (max-width: 860px) {
-      .grid { grid-template-columns: 1fr; }
-      header { flex-direction: column; align-items: flex-start; }
-      .hero { padding: 22px; }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .hero {
+        padding: 22px;
+      }
+
+      .diagram-card svg,
+      table {
+        min-width: 560px;
+      }
+    }
+
+    @media (max-width: 560px) {
+      body { line-height: 1.58; }
+
+      .hero h1 { max-width: 9ch; }
+
+      .hero,
+      section {
+        padding: 18px;
+      }
+
+      .header-link {
+        width: 100%;
+        justify-content: center;
+      }
+
+      .diagram-card svg,
+      table {
+        min-width: 520px;
+      }
     }
   </style>
 </head>
@@ -305,85 +609,316 @@
       </svg>
       <span>Audio personal sin ruido</span>
     </a>
+    <a class="header-link" href="/log">Ver diario de guerra</a>
   </header>
 
   <main>
-
     <section class="hero" aria-labelledby="hero-heading">
-      <span class="tag">Audio personal · criterio antes que catálogo</span>
-      <h1 id="hero-heading">Decide mejor qué comprar en auriculares y DAC/amp</h1>
-      <p>Auriculares, IEMs y DAC/amp explicados con una sola pregunta en mente: ¿esto mejora de verdad tu escucha o es gasto innecesario?</p>
+      <div class="hero-copy">
+        <span class="tag">Audio personal · criterio antes que catálogo</span>
+        <h1 id="hero-heading">Decide mejor qué comprar en auriculares y DAC/amp</h1>
+        <p>Auriculares, IEMs y DAC/amp explicados con una sola pregunta en mente: ¿esto mejora de verdad tu escucha o es gasto innecesario?</p>
+
+        <ul class="hero-points">
+          <li>
+            <div>
+              <strong>Compatibilidad real</strong>
+              <span>Móvil, portátil, consola, jack, USB-C, ganancia y ruido de fondo antes que fichas bonitas.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>Qué no comprar</strong>
+              <span>Si una cadena añade gasto sin resolver un problema concreto, aquí se dice.</span>
+            </div>
+          </li>
+          <li>
+            <div>
+              <strong>Coste total</strong>
+              <span>No solo el auricular: también adaptadores, dongle, DAC/amp y límites de uso reales.</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="hero-media">
+        <figure class="hero-visual">
+          <img src="https://images.pexels.com/photos/1336855/pexels-photo-1336855.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Portátil y auriculares con cable sobre un escritorio de madera" width="640" height="336">
+          <figcaption>
+            Una cadena de escucha doméstica sencilla suele resolver más dudas que una ficha con veinte cifras.
+            <div class="small-note">Foto de <a href="https://www.pexels.com/es-es/@donatellotrisolino">Donatello Trisolino</a> en <a href="https://www.pexels.com/es-es/foto/auriculares-con-cable-negros-conectados-a-macbook-pro-sobre-superficie-de-madera-marron-1336855/">Pexels</a></div>
+          </figcaption>
+        </figure>
+      </div>
     </section>
 
-    <div class="grid">
-      <section aria-labelledby="destacados-heading">
-        <h2 id="destacados-heading">Guías destacadas</h2>
-        <div class="article-list">
-          <article class="article-card">
-            <p class="meta">Guía práctica · Última revisión: 31/08</p>
-            <h3><a href="/guia-cuando-merece-la-pena-un-dac-amp.html">Cuándo merece la pena un DAC/amp y cuándo no</a></h3>
-            <p class="muted">Mira la compatibilidad, la potencia útil y los casos en los que el cambio audible no compensa el gasto.</p>
+    <div class="section-stack">
+      <section aria-labelledby="rutas-heading">
+        <h2 id="rutas-heading">Empieza por tu duda real</h2>
+        <p class="muted">La compra suele atascarse en una de estas cuatro preguntas. Entra por la que más se parezca a tu caso, no por la marca del momento.</p>
+
+        <div class="decision-grid">
+          <a class="decision-card" href="/guia-cuando-merece-la-pena-un-dac-amp.html">
+            <span class="decision-kicker">Fuente</span>
+            <h3>¿Necesitas DAC/amp o no?</h3>
+            <p>Si el problema es volumen, ruido o falta de control, empieza aquí. Si no puedes nombrar el problema, quizá no necesitas otro aparato.</p>
+          </a>
+
+          <article class="decision-card" aria-labelledby="decision-movil">
+            <span class="decision-kicker">Móvil y portátil</span>
+            <h3 id="decision-movil">¿Te vale tu salida actual?</h3>
+            <p>La diferencia entre “funciona” y “funciona bien” suele estar en ganancia, ruido de fondo y margen real con IEMs sensibles o auriculares más exigentes.</p>
+          </article>
+
+          <article class="decision-card" aria-labelledby="decision-coste">
+            <span class="decision-kicker">Cadena completa</span>
+            <h3 id="decision-coste">¿Qué gasto extra arrastra esta compra?</h3>
+            <p>Un auricular barato puede salir peor si luego exige adaptador, dongle o escritorio fijo. El coste total manda más que el precio suelto.</p>
           </article>
         </div>
       </section>
 
-      <section aria-labelledby="suscripcion-heading" class="cta">
-        <h2 id="suscripcion-heading">Suscríbete</h2>
-        <p class="muted">Recibe análisis breves sobre compatibilidad, sinergias y criterios de compra en audio personal.</p>
-        <form action="https://panel.retoseo.com/subscription/form" method="post">
-          <label for="email">Correo electrónico</label>
-          <input type="email" id="email" name="email" required autocomplete="email">
-          <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-          <input type="hidden" name="attribs_origen" id="origen" value="directo">
-          <p>
-            <input type="checkbox" id="consentimiento" name="consentimiento" required>
-            <label for="consentimiento">He leído y acepto la <a href="/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
-          </p>
-          <button type="submit">Suscribirme</button>
-        </form>
+      <div class="grid-2">
+        <section aria-labelledby="destacados-heading">
+          <h2 id="destacados-heading">Guías destacadas</h2>
+          <div class="article-list">
+            <article class="article-card">
+              <a class="article-thumb" href="/guia-cuando-merece-la-pena-un-dac-amp.html">
+                <img src="/og/miniatura/guia-cuando-merece-la-pena-un-dac-amp.jpg" alt="Tarjeta social con el título de la guía sobre cuándo merece la pena un DAC/amp" width="640" height="336">
+              </a>
+              <div class="article-copy">
+                <p class="meta">Guía práctica · Última revisión: 31/08</p>
+                <h3><a href="/guia-cuando-merece-la-pena-un-dac-amp.html">Cuándo merece la pena un DAC/amp y cuándo no</a></h3>
+                <p class="muted">Mira compatibilidad, potencia útil, ruido de fondo y los casos en los que el cambio audible no compensa el gasto.</p>
+                <div class="inline-tags" aria-label="Puntos clave de la guía">
+                  <span>No compres por inercia</span>
+                  <span>IEMs sensibles</span>
+                  <span>Auriculares difíciles</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <section aria-labelledby="suscripcion-heading" class="cta">
+          <h2 id="suscripcion-heading">Suscríbete</h2>
+          <p class="muted">Recibe análisis breves sobre compatibilidad, sinergias y criterios de compra en audio personal.</p>
+          <form action="https://panel.retoseo.com/subscription/form" method="post">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required autocomplete="email">
+            <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
+            <input type="hidden" name="attribs_origen" id="origen" value="directo">
+            <p>
+              <input type="checkbox" id="consentimiento" name="consentimiento" required>
+              <label for="consentimiento">He leído y acepto la <a href="/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+            </p>
+            <button type="submit">Suscribirme</button>
+          </form>
+        </section>
+      </div>
+
+      <section aria-labelledby="compatibilidad-heading">
+        <h2 id="compatibilidad-heading">Compatibilidad rápida por tipo de fuente</h2>
+        <p class="muted">Esto no sustituye una medición por modelo, pero sí evita el error más común: asumir que “suena” y “está bien resuelto” significan lo mismo.</p>
+
+        <div class="diagram-shell">
+          <div class="diagram-card">
+            <svg viewBox="0 0 760 260" role="img" aria-labelledby="compatibilidad-svg-title compatibilidad-svg-desc">
+              <title id="compatibilidad-svg-title">Matriz de compatibilidad básica entre fuente y tipo de auricular</title>
+              <desc id="compatibilidad-svg-desc">Cuatro columnas de tipo de fuente y cuatro filas de casos de uso: IEM sensible, IEM con más demanda, auricular fácil de mover y auricular exigente. Cada celda marca si suele bastar, si va justa o si no es recomendable.</desc>
+
+              <rect x="0" y="0" width="760" height="260" rx="16" fill="#101826"></rect>
+
+              <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#edf2f7">
+                <text x="180" y="38">Móvil con dongle básico</text>
+                <text x="324" y="38">Portátil correcto</text>
+                <text x="474" y="38">Dongle con ganancia</text>
+                <text x="624" y="38">DAC/amp de escritorio</text>
+
+                <text x="20" y="82">IEM sensible</text>
+                <text x="20" y="128">IEM con más demanda</text>
+                <text x="20" y="174">Auricular fácil de mover</text>
+                <text x="20" y="220">Auricular exigente</text>
+              </g>
+
+              <g>
+                <rect x="170" y="56" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="230" y="75" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="320" y="56" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="380" y="75" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="470" y="56" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="530" y="75" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Sí, pero vigila ruido</text>
+
+                <rect x="620" y="56" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="680" y="75" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Sí, si tiene ganancia baja</text>
+
+                <rect x="170" y="102" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="230" y="121" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">A veces justo</text>
+
+                <rect x="320" y="102" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="380" y="121" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Depende</text>
+
+                <rect x="470" y="102" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="530" y="121" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="620" y="102" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="680" y="121" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="170" y="148" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="230" y="167" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Volumen sí, margen no</text>
+
+                <rect x="320" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="380" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="470" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="530" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="620" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="680" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+
+                <rect x="170" y="194" width="120" height="30" rx="8" fill="rgba(252,165,165,0.18)" stroke="rgba(252,165,165,0.45)"></rect>
+                <text x="230" y="213" text-anchor="middle" fill="#ffe0e0" font-size="13" font-family="system-ui">No recomendado</text>
+
+                <rect x="320" y="194" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="380" y="213" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Puede quedarse corto</text>
+
+                <rect x="470" y="194" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
+                <text x="530" y="213" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Según modelo</text>
+
+                <rect x="620" y="194" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
+                <text x="680" y="213" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
+              </g>
+            </svg>
+          </div>
+
+          <div class="legend" aria-label="Leyenda de compatibilidad">
+            <span><i class="ok" aria-hidden="true"></i>Sí: suele bastar</span>
+            <span><i class="maybe" aria-hidden="true"></i>Sí, pero con límites</span>
+            <span><i class="no" aria-hidden="true"></i>No recomendado</span>
+          </div>
+        </div>
+
+        <div class="table-shell" style="margin-top:14px;">
+          <table aria-label="Tabla rápida de compatibilidad por fuente">
+            <thead>
+              <tr>
+                <th>Cadena</th>
+                <th>Qué suele resolver</th>
+                <th>Qué no resuelve por sí sola</th>
+                <th>Cuándo descartarla</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Dongle USB-C básico</td>
+                <td>IEMs sensibles y auriculares fáciles si la salida es limpia</td>
+                <td>Auriculares con más demanda o control fino de ganancia</td>
+                <td>Si ya notas ruido de fondo, salto brusco de volumen o falta de margen</td>
+              </tr>
+              <tr>
+                <td>Portátil con salida decente</td>
+                <td>Escucha doméstica simple con modelos fáciles de mover</td>
+                <td>No garantiza buen resultado con cada auricular</td>
+                <td>Si buscas más aislamiento, movilidad o una salida más silenciosa con IEMs</td>
+              </tr>
+              <tr>
+                <td>Dongle con más ganancia</td>
+                <td>Más margen para auriculares o IEMs menos fáciles</td>
+                <td>No siempre mejora con IEMs muy sensibles</td>
+                <td>Si el único objetivo es “sonar más caro” sin un problema identificable</td>
+              </tr>
+              <tr>
+                <td>DAC/amp de escritorio</td>
+                <td>Margen, control y uso fijo con auriculares exigentes</td>
+                <td>No convierte un auricular cómodo o tonalmente mejor por sí mismo</td>
+                <td>Si escuchas sobre todo en móvil y no piensas montar un puesto fijo</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: fabricantes y guías coinciden en que la necesidad real de DAC/amp depende del problema concreto, la sensibilidad, la impedancia y la salida disponible; no de una regla universal por precio o gama.</p>
+      </section>
+
+      <section aria-labelledby="coste-heading">
+        <h2 id="coste-heading">Coste total real antes de comprar</h2>
+        <p class="muted">La compra mala no siempre es la más cara. A veces es la que parece simple y obliga a completar media cadena después.</p>
+
+        <div class="cost-grid">
+          <div class="cost-card">
+            <strong>Cuando un auricular “barato” deja de serlo</strong>
+            <ul>
+              <li>Necesita adaptador porque tu fuente no tiene el conector correcto.</li>
+              <li>Se queda corto con un móvil y acabas añadiendo dongle o DAC/amp.</li>
+              <li>El confort obliga a cambiar almohadillas muy pronto.</li>
+            </ul>
+          </div>
+
+          <div class="cost-card">
+            <strong>Cuando un dongle sí tiene sentido</strong>
+            <ul>
+              <li>Tu móvil ya no tiene jack y solo quieres una cadena mínima viable.</li>
+              <li>El ruido de fondo o el control de volumen actual son el problema real.</li>
+              <li>No quieres atarte a un escritorio fijo todavía.</li>
+            </ul>
+          </div>
+
+          <div class="cost-card">
+            <strong>Cuándo descartar gasto adicional</strong>
+            <ul>
+              <li>Si el equipo actual ya da volumen suficiente sin ruido ni distorsión clara.</li>
+              <li>Si el supuesto salto depende de una promesa vaga de “más detalle”.</li>
+              <li>Si tu uso principal es simple y móvil, no una cadena de escritorio.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section aria-labelledby="articulo-heading">
+        <h2 id="articulo-heading">Cuándo un DAC/amp sí aporta mejora audible y cuándo no</h2>
+        <p class="muted">Última revisión: 01/09</p>
+        <p>La respuesta corta es simple: un DAC/amp merece la pena cuando corrige un problema concreto de tu salida actual. Si tus auriculares ya alcanzan el volumen que usas, sin ruido de fondo ni distorsión al subir, el cambio suele ser pequeño o directamente inaudible.</p>
+        <p class="notice">No compres por inercia un DAC/amp solo porque “debería sonar mejor”. Si no puedes nombrar el problema que quieres arreglar, probablemente no necesitas otro aparato.</p>
+
+        <div class="table-shell">
+          <table aria-label="Cuándo merece la pena un DAC amp">
+            <thead>
+              <tr>
+                <th>Situación</th>
+                <th>Qué mirar</th>
+                <th>Decisión práctica</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IEMs muy sensibles</td>
+                <td>Siseo de fondo, volumen útil demasiado corto o salto brusco entre niveles</td>
+                <td>Valora una salida más limpia o con mejor control de ganancia</td>
+              </tr>
+              <tr>
+                <td>Auriculares difíciles de mover</td>
+                <td>Volumen máximo bajo, pérdida de control o distorsión al exigir la salida</td>
+                <td>Necesitas más tensión o potencia real, no solo otro DAC</td>
+              </tr>
+              <tr>
+                <td>Equipo ya silencioso y sobrado</td>
+                <td>No hay ruido, no hay limitación de volumen, no hay distorsión evidente</td>
+                <td>El gasto adicional suele ser innecesario</td>
+              </tr>
+              <tr>
+                <td>Duda genérica por “mejora de sonido”</td>
+                <td>No hay síntoma concreto que corregir</td>
+                <td>Espera y usa el equipo actual antes de comprar</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p class="muted">Verificado con búsquedas de contraste sobre compatibilidad, potencia y casos de uso. No hay un dato universal para todos los modelos: las cifras concretas dependen de cada combinación y quedan sin confirmar a fecha de 07/09 si no se miden por separado.</p>
       </section>
     </div>
-
-    <section aria-labelledby="articulo-heading">
-      <h2 id="articulo-heading">Cuándo un DAC/amp sí aporta mejora audible y cuándo no</h2>
-      <p class="muted">Última revisión: 01/09</p>
-      <p>La respuesta corta es simple: un DAC/amp merece la pena cuando corrige un problema concreto de tu salida actual. Si tus auriculares ya alcanzan el volumen que usas, sin ruido de fondo ni distorsión al subir, el cambio suele ser pequeño o directamente inaudible.</p>
-      <p class="notice">No compres por inercia un DAC/amp solo porque “debería sonar mejor”. Si no puedes nombrar el problema que quieres arreglar, probablemente no necesitas otro aparato.</p>
-
-      <table aria-label="Cuándo merece la pena un DAC amp">
-        <thead>
-          <tr>
-            <th>Situación</th>
-            <th>Qué mirar</th>
-            <th>Decisión práctica</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>IEMs muy sensibles</td>
-            <td>Siseo de fondo, volumen útil demasiado corto o salto brusco entre niveles</td>
-            <td>Valora una salida más limpia o con mejor control de ganancia</td>
-          </tr>
-          <tr>
-            <td>Auriculares difíciles de mover</td>
-            <td>Volumen máximo bajo, pérdida de control o distorsión al exigir la salida</td>
-            <td>Necesitas más tensión o potencia real, no solo otro DAC</td>
-          </tr>
-          <tr>
-            <td>Equipo ya silencioso y sobrado</td>
-            <td>No hay ruido, no hay limitación de volumen, no hay distorsión evidente</td>
-            <td>El gasto adicional suele ser innecesario</td>
-          </tr>
-          <tr>
-            <td>Duda genérica por “mejora de sonido”</td>
-            <td>No hay síntoma concreto que corregir</td>
-            <td>Espera y usa el equipo actual antes de comprar</td>
-          </tr>
-        </tbody>
-      </table>
-
-      <p class="muted">Verificado con búsquedas de contraste sobre compatibilidad, potencia y casos de uso. No hay un dato universal para todos los modelos: las cifras concretas dependen de cada combinación y quedan sin confirmar a fecha de 01/09 si no se miden por separado.</p>
-    </section>
   </main>
 
   <footer>
