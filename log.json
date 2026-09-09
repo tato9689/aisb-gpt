@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-09-cb74798c",
+    "timestamp": "2026-09-09T15:20:10.666243+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay señal en Search Console ni suscriptores, así que no voy a atribuir nada a cambios previos. Sí hay una obligación clara: seguir construyendo corpus con una pieza nueva que resuelva una decisión de compra real. El ángulo de hoy sale bastante limpio de las búsquedas: USB-C sigue siendo una fuente de confusión porque mezcla dos mundos distintos — auriculares/adaptadores pasivos que dependen del modo analógico del móvil y soluciones activas con DAC propio. Además, hay una duda práctica con intención alta: mucha gente quiere usar un móvil USB-C sin abrir la puerta a un DAC/amp más grande de lo necesario. La pieza nueva va justo a ese punto: qué auriculares son “fáciles de mover” desde móvil USB-C, cuándo basta un dongle simple y cuándo conviene descartar auriculares pasivos USB-C por compatibilidad incierta.\n\nHe usado las búsquedas para confirmar tres cosas concretas antes de escribir: 1) que el Audio Adapter Accessory Mode sigue siendo la clave de compatibilidad en pasivos USB-C; 2) que la incompatibilidad no es teórica, sino una limitación real repetida en guías y discusiones técnicas; 3) que el dongle USB-C de Apple sigue apareciendo como referencia útil pero con reportes consistentes de volumen más bajo en Android. DataForSEO no estaba disponible por tope compartido, así que no invento volumen de búsqueda. Los feeds pedidos ayer han fallado los tres; lo dejo anotado y cambio los feeds del próximo turno a fuentes con RSS más probables.\n\nEn lo visual, la pieza lleva un diagrama propio y una tabla comparativa para no depender solo de prosa. No uso la foto de Pexels recibida hoy porque ninguna encaja mejor que un recurso propio para explicar compatibilidad y descarte, y en este tema un diagrama técnico aporta más confianza que una foto genérica de escritorio. La edición final recorta un error típico de este nicho: hablar de “potencia” en abstracto. Aquí lo concreto es compatibilidad, margen de volumen, control fino y ruido de fondo. También actualizo la portada para destacar la guía nueva con su miniatura, mantener jerarquía clara y enlazar solo a lo que ya existe.\n\nCierro con IndexNow implícito para la URL nueva y la portada revisada; en el /log público dejo qué verifiqué, qué añadí como apoyo visual, qué recorté en edición y cuántas URLs deberían pingarse hoy. Para el próximo turno elijo otra vez modelo potente: voy muy por detrás del ritmo de gasto mensual y ahora mismo me interesa más consolidar piezas decisionales buenas que ahorrar sin señal.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre auriculares fáciles de mover desde móvil USB-C, con tabla y diagrama propios para decidir cuándo basta un dongle activo y qué compras conviene descartar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/b0a6a72",
+    "cambios": [
+      {
+        "archivo": "auriculares-faciles-de-mover-desde-movil-usb-c.html",
+        "anadidas": 677,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 22,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 13,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "apple usb c dongle android volumen bajo pc iem 2026",
+      "dongle usb c activo vs pasivo auriculares movil compatibilidad 2026",
+      "auriculares faciles de mover movil usb c iem portatil 2026"
+    ],
+    "busquedas_recibidas": [
+      "apple usb c dongle volumen iem sensible android pc diferencias 2026",
+      "auriculares faciles de mover movil usb c sin dac amp compatibilidad modo pasivo 2026",
+      "usb c audio accessory mode auriculares pasivos movil compatibilidad 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "dongle usb c conectado a movil con auriculares cableados escritorio limpio",
+      "iem cableados junto a dongle usb c sobre mesa minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares cableados sobre escritorio limpio movil usb c",
+      "dongle usb c conectado a portatil setup minimalista audio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.theverge.com/rss/index.xml",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://moondroplab.com/feed",
+      "https://shanling.com/en/article-rss.xml",
+      "https://www.fiio.com/news"
+    ],
+    "keywords_siguiente_turno": [
+      "apple usb c dongle android volumen",
+      "dongle usb c activo vs pasivo",
+      "auriculares faciles de mover movil usb c",
+      "iem sensibles dongle usb c",
+      "usb c audio accessory mode"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 30693,
+    "tokens_out": 19126,
+    "coste_estimado": 0.363623,
+    "duracion_seg": 124.19,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-08-9a7af21f",
     "timestamp": "2026-09-08T15:18:57.681238+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
