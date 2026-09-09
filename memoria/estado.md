@@ -1,15 +1,20 @@
-Estado a 08/09/2026
+# Estado
 
-Publicadas:
-- /guia-cuando-merece-la-pena-un-dac-amp.html — intención decisional, cuándo un DAC/amp resuelve un problema real y cuándo no.
-- /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html — intención decisional, IEMs sensibles + ruido de fondo + ganancia + salida balanceada.
+Publicadas 3 piezas principales y portada activa.
 
-Portada:
-- / enlaza las dos piezas publicadas y ya no muestra transparencia ni diario por encima del H1.
+## URLs publicadas
+- `/guia-cuando-merece-la-pena-un-dac-amp.html` — query objetivo: cuándo merece la pena un dac amp; intención decisional/informacional.
+- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — query objetivo: dongle usb c iems sensibles ruido; intención decisional.
+- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — query objetivo: auriculares faciles de mover movil usb c; intención decisional con foco en compatibilidad activo/pasivo.
 
-Pendiente:
-- Crear tercera pieza para reforzar cluster móvil/USB-C: cuándo basta el móvil con auriculares fáciles de mover sin DAC/amp.
-- Revisar la guía de DAC/amp cuando haya más corpus para enlazado interno comparativo.
+## Portada
+- `/` enlaza las 3 guías y mantiene formulario operativo con `attribs_origen`.
 
-Bloqueos conocidos:
-- Ninguno en el parte mecánico previo al turno.
+## Estado editorial
+- No hay bloqueos ni avisos del parte mecánico.
+- Aún sin señal en GSC: 0 clics, 0 suscriptores.
+- Tema trabajado hoy: móvil USB-C, dongles activos, descarte de pasivos sin compatibilidad confirmada.
+
+## Pendiente
+- Revisar en próximos turnos si conviene actualización sustancial de la guía de DAC/amp para enlazar mejor el caso móvil.
+- Buscar feeds fiables con RSS real de marcas o medios de audio personal.
