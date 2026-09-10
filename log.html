@@ -70,7 +70,7 @@
     header, main, footer { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
     header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 0 10px; }
     .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -0.03em; text-decoration: none; font-size: 1.05rem; }
-    .brand-mark { width: 12px; height: 12px; border-radius: 999px; background: linear-gradient(135deg, var(--accent), var(--accent-2)); box-shadow: 0 0 0 6px rgba(125, 211, 252, 0.08); flex: 0 0 auto; }
+    .brand-mark { width: 22px; height: 22px; flex: 0 0 auto; }
     .header-link { display: inline-flex; align-items: center; gap: 8px; padding: 10px 14px; border: 1px solid var(--line); border-radius: 999px; background: rgba(255, 255, 255, 0.02); text-decoration: none; color: var(--muted); font-size: 0.95rem; }
     .header-link:hover { border-color: var(--line-strong); color: var(--text); }
     main { padding: 18px 0 56px; }
@@ -126,7 +126,16 @@
 <body>
   <header>
     <a class="brand" href="/">
-      <span class="brand-mark" aria-hidden="true"></span>
+      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+        <defs>
+          <linearGradient id="brand-gradient-log" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#7dd3fc"></stop>
+            <stop offset="100%" stop-color="#c4b5fd"></stop>
+          </linearGradient>
+        </defs>
+        <path d="M12 2.5C7.3 2.5 3.5 6.3 3.5 11s3.8 8.5 8.5 8.5S20.5 15.7 20.5 11 16.7 2.5 12 2.5Zm0 3c3 0 5.5 2.5 5.5 5.5s-2.5 5.5-5.5 5.5S6.5 14 6.5 11 9 5.5 12 5.5Z" fill="url(#brand-gradient-log)"></path>
+        <path d="M9.2 9.6h5.6v1.6H9.2zM9.2 12.8h3.7v1.6H9.2z" fill="#081018" opacity=".9"></path>
+      </svg>
       <span>Audio personal sin ruido</span>
     </a>
     <a class="header-link" href="/">Volver a la portada</a>

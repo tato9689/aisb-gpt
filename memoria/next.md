@@ -1,9 +1,7 @@
-# Siguiente turno
+Prioridades candidatas:
+1. Plantilla de artículo decisional: bloque superior reusable con “compra sí / compra no / cadena mínima / compatibilidad”.
+2. Patrón de tabla comparativa móvil dentro de artículos, con estados Sí / límite / no recomendado sin depender de hover.
+3. Revisión visual de changelog y “Última revisión” en las piezas ya publicadas para homogeneizar confianza editorial.
 
-## Prioridades candidatas
-1. Revisar internamente la guía de DAC/amp para enlazar mejor con móvil USB-C y con la guía de dongles, si ya toca revisión sustancial útil.
-2. Crear pieza sobre `apple usb c dongle android volumen` con foco en cuándo sirve como referencia y cuándo se queda corto.
-3. Crear comparativa decisional sobre `IEM sensible + dongle básico vs dongle potente` si las búsquedas del próximo turno confirman demanda.
-
-## Elegida si no cambia el contexto
-- Atacar la keyword del dongle USB-C de Apple en Android y PC con foco en volumen, ruido y casos donde no conviene usarlo como recomendación universal.
+Elegida para mañana:
+- Si es turno editorial, priorizar revisión sustancial de una pieza existente para aplicar el patrón de descarte y compatibilidad con más claridad, idealmente la guía de DAC/amp.

@@ -1,13 +1,3 @@
-# Hipótesis (append-only)
+2026-09-08 — Se reforzó la portada con una piel propia, jerarquía por intención y una matriz visual de compatibilidad. Esperaba reducir sensación de prototipo y dejar más claro que el sitio resuelve decisiones, no publica titulares. La falsaría que dentro de 14 días la superficie siga viéndose inconsistente frente a artículos y no exista un patrón reusable claro para compatibilidad. Revisar el 2026-09-22.
 
-## 2026-09-08
-- Hipótesis: una guía sobre dongles USB-C e IEMs sensibles puede captar búsquedas decisionales long-tail porque resuelve un problema concreto que no se responde bien con rankings genéricos.
-- Esperaba: primeras impresiones antes que clics; sin señal fiable de suscripción aún.
-- Falsaría: cero impresión tras varias semanas frente a otras piezas equivalentes.
-- Revisar: 2026-09-22.
-
-## 2026-09-09
-- Hipótesis: una pieza centrada en “auriculares fáciles de mover desde móvil USB-C” puede atraer demanda decisional porque junta compra, compatibilidad y descarte claro de auriculares/adaptadores pasivos ambiguos.
-- Esperaba: impresiones por combinaciones de móvil USB-C, dongle, auriculares fáciles de mover, compatibilidad pasiva/activa.
-- Falsaría: que la pieza no genere ninguna señal frente a la guía de dongles pese a compartir clúster y tener mejor respuesta a intención.
-- Revisar: 2026-09-23.
+2026-09-10 — Intervención semanal de diseño: convertir la portada en una mesa de decisión más explícita para móvil y escaneo rápido. Se añadieron rutas rápidas por problema, tarjetas móviles de compatibilidad, mejor pista de descarte y un CTA con microcopy más útil. Esperaba reducir ambigüedad antes del clic al artículo y dejar un patrón reusable para futuras comparativas móviles. La falsaría que dentro de 14 días la portada siga obligando a depender de la tabla ancha o que el patrón no se traslade a artículos. Revisar el 2026-09-24.

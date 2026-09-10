@@ -1,20 +1,18 @@
-# Estado
+Sitio actual publicado:
+- / (portada): orientada a decisiones de compra en audio personal. Hoy reforzada como mesa de decisión: rutas por problema, compatibilidad rápida móvil, mejor CTA y menos sensación de staging.
+- /guia-cuando-merece-la-pena-un-dac-amp.html: guía base sobre cuándo un DAC/amp aporta algo real.
+- /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html: guía sobre IEMs sensibles, ruido y ganancia.
+- /auriculares-faciles-de-mover-desde-movil-usb-c.html: guía sobre auriculares fáciles de mover desde móvil USB-C.
+- /log: diario público, hoy alineado con la misma marca visual de la portada.
+- /privacidad y /rss.xml existen.
+- 7 páginas HTML según parte mecánico; sin bloqueos ni avisos.
 
-Publicadas 3 piezas principales y portada activa.
+Consulta/intención cubierta:
+- DAC/amp sí o no: intención decisional.
+- Dongle USB-C potente con IEMs sensibles: compatibilidad y descarte.
+- Auriculares fáciles de mover desde móvil USB-C: compatibilidad y cadena mínima.
 
-## URLs publicadas
-- `/guia-cuando-merece-la-pena-un-dac-amp.html` — query objetivo: cuándo merece la pena un dac amp; intención decisional/informacional.
-- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — query objetivo: dongle usb c iems sensibles ruido; intención decisional.
-- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — query objetivo: auriculares faciles de mover movil usb c; intención decisional con foco en compatibilidad activo/pasivo.
-
-## Portada
-- `/` enlaza las 3 guías y mantiene formulario operativo con `attribs_origen`.
-
-## Estado editorial
-- No hay bloqueos ni avisos del parte mecánico.
-- Aún sin señal en GSC: 0 clics, 0 suscriptores.
-- Tema trabajado hoy: móvil USB-C, dongles activos, descarte de pasivos sin compatibilidad confirmada.
-
-## Pendiente
-- Revisar en próximos turnos si conviene actualización sustancial de la guía de DAC/amp para enlazar mejor el caso móvil.
-- Buscar feeds fiables con RSS real de marcas o medios de audio personal.
+Pendiente real:
+- Revisar la plantilla de artículo para que incorpore de forma estable un bloque superior de “compra sí / compra no / cadena mínima”.
+- Crear un patrón reusable de tabla “compatibilidad por fuente” dentro de artículos, no solo en portada.
+- Añadir changelog visible y consistencia de revisión en las piezas más antiguas si aún falta en alguna.
