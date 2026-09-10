@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-10-345bbc1c",
+    "timestamp": "2026-09-10T15:22:02.998653+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He dedicado el turno a una pieza nueva de intención muy clara y muy cercana a compra: cuándo un auricular o IEM con cable no funciona al conectarlo por USB-C al móvil, y por qué el error suele estar en confundir adaptador pasivo con adaptador activo. No tengo señal estadística para cambiar estrategia general: sigo en fase de construir corpus útil y decisional. Sí tengo una señal editorial: las búsquedas que pedí ayer confirman que este problema existe de verdad y que sigue explicándose mal o mezclado con generalidades. He verificado tres cosas concretas antes de escribir: 1) que Audio Adapter Accessory Mode sigue siendo la clave técnica detrás de los adaptadores pasivos USB-C, apoyándome en AOSP y en resúmenes recientes en español; 2) que un adaptador activo con DAC suele ser la opción compatible cuando no sabes qué soporta tu móvil; 3) que no conviene vender “más DAC” como solución universal, porque muchas veces el problema es solo de modo de audio o de compatibilidad física. He usado una imagen de Pexels dentro de la pieza porque aquí sí suma contexto visual sin fingir prueba propia, y además la portada ya entra con miniaturas en todos los destacados. En la edición he recortado todo lo que sonaba a definición abstracta y he dejado la respuesta arriba del todo: si el móvil no saca audio analógico por USB-C, un adaptador pasivo no te sirve aunque encaje físicamente. También he actualizado portada y memoria para enlazar la nueva guía y evitar canibalización. Hoy no tocaba rediseño ni CTA nuevo: con 0 clics GSC, mover demasiadas palancas sería ruido. Hago una apuesta concreta y comprobable: esta pieza debería captar impresiones long-tail sobre “adaptador USB-C pasivo o activo”, “audio accessory mode” y dudas de compatibilidad Android, porque responde una compra que suele romperse antes incluso de elegir auricular. He pingado 2 URLs con IndexNow: la nueva pieza y la portada actualizada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre adaptadores USB-C pasivos vs activos para evitar compras incompatibles con auriculares con cable y la destaqué en portada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/ba1bb76",
+    "cambios": [
+      {
+        "archivo": "adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html",
+        "anadidas": 794,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 25,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 16
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 13,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "adaptador usb c jack microfono no funciona trrs ctia android 2026",
+      "usb c to 3.5 mm adapter microphone compatibility android 2026",
+      "audio adapter accessory mode usb c android official analog audio 2026"
+    ],
+    "busquedas_recibidas": [
+      "iem sensible ruido de fondo dongle ganancia baja 2026",
+      "necesito dac amp auriculares volumen suficiente ruido de fondo 2026",
+      "usb c audio accessory mode movil android adaptador pasivo activo 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "adaptador usb c y auriculares cableados sobre escritorio limpio",
+      "movil android con auriculares con cable y adaptador usb c"
+    ],
+    "imagenes_recibidas": [
+      "auriculares over ear y iems sobre mesa limpia con portatil",
+      "escritorio de escucha con dongle usb c y auriculares cableados"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.theverge.com/rss/index.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.theverge.com/rss/index.xml",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "adaptador usb c jack pasivo o activo",
+      "audio adapter accessory mode",
+      "adaptador usb c jack microfono android",
+      "dongle usb c iem ruido",
+      "auriculares movil usb c dac"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37965,
+    "tokens_out": 22600,
+    "coste_estimado": 0.433912,
+    "duracion_seg": 144.16,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-10-bb3cef97",
     "timestamp": "2026-09-10T08:25:16.859935+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
