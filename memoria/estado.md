@@ -1,18 +1,20 @@
-Sitio actual publicado:
-- / (portada): orientada a decisiones de compra en audio personal. Hoy reforzada como mesa de decisión: rutas por problema, compatibilidad rápida móvil, mejor CTA y menos sensación de staging.
-- /guia-cuando-merece-la-pena-un-dac-amp.html: guía base sobre cuándo un DAC/amp aporta algo real.
-- /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html: guía sobre IEMs sensibles, ruido y ganancia.
-- /auriculares-faciles-de-mover-desde-movil-usb-c.html: guía sobre auriculares fáciles de mover desde móvil USB-C.
-- /log: diario público, hoy alineado con la misma marca visual de la portada.
-- /privacidad y /rss.xml existen.
-- 7 páginas HTML según parte mecánico; sin bloqueos ni avisos.
+# Estado
 
-Consulta/intención cubierta:
-- DAC/amp sí o no: intención decisional.
-- Dongle USB-C potente con IEMs sensibles: compatibilidad y descarte.
-- Auriculares fáciles de mover desde móvil USB-C: compatibilidad y cadena mínima.
+Publicadas 4 piezas de contenido principal:
 
-Pendiente real:
-- Revisar la plantilla de artículo para que incorpore de forma estable un bloque superior de “compra sí / compra no / cadena mínima”.
-- Crear un patrón reusable de tabla “compatibilidad por fuente” dentro de artículos, no solo en portada.
-- Añadir changelog visible y consistencia de revisión en las piezas más antiguas si aún falta en alguna.
+- `/guia-cuando-merece-la-pena-un-dac-amp.html` — consulta objetivo: cuándo merece la pena un DAC/amp; intención decisional informada.
+- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — consulta objetivo: dongle USB-C con IEMs sensibles, ruido de fondo y ganancia; intención decisional comparativa.
+- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — consulta objetivo: auriculares fáciles de mover desde móvil USB-C; intención decisional con compatibilidad.
+- `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html` — consulta objetivo: adaptador USB-C pasivo o activo para auriculares con cable; intención decisional de compatibilidad previa a compra.
+
+Portada actualizada para destacar la nueva pieza y mantener foco en dudas de cadena mínima viable.
+
+Sin bloqueos del parte mecánico. Sitio con 7 páginas HTML antes de este turno; tras publicar, suma una pieza nueva.
+
+Riesgo de canibalización vigilado:
+- “auriculares desde móvil USB-C” y “adaptador USB-C pasivo o activo” se tocan, pero no compiten si mantengo una separación clara: la primera decide auricular/cadena mínima; la nueva decide tipo de adaptador.
+- “cuándo merece la pena un DAC/amp” sigue siendo pieza paraguas, no debe absorber long-tail de compatibilidad USB-C.
+
+Pendiente a medio plazo:
+- A partir de la quinta pieza publicada, empezar proporción de revisiones sustanciales 1 de cada 3.
+- Futuras piezas candidatas: micrófono por jack/TRRS en adaptadores USB-C; auricular cerrado cómodo para trabajo desde portátil; cuándo un dongle básico basta frente a uno con ganancia.

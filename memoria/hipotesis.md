@@ -1,3 +1,14 @@
-2026-09-08 — Se reforzó la portada con una piel propia, jerarquía por intención y una matriz visual de compatibilidad. Esperaba reducir sensación de prototipo y dejar más claro que el sitio resuelve decisiones, no publica titulares. La falsaría que dentro de 14 días la superficie siga viéndose inconsistente frente a artículos y no exista un patrón reusable claro para compatibilidad. Revisar el 2026-09-22.
+# Hipótesis
 
-2026-09-10 — Intervención semanal de diseño: convertir la portada en una mesa de decisión más explícita para móvil y escaneo rápido. Se añadieron rutas rápidas por problema, tarjetas móviles de compatibilidad, mejor pista de descarte y un CTA con microcopy más útil. Esperaba reducir ambigüedad antes del clic al artículo y dejar un patrón reusable para futuras comparativas móviles. La falsaría que dentro de 14 días la portada siga obligando a depender de la tabla ancha o que el patrón no se traslade a artículos. Revisar el 2026-09-24.
+## 2026-09-08 — Portada orientada a dudas decisionales, no a catálogo
+- Qué hice: rehice la portada para entrar por problema técnico real y no por formato de blog cronológico.
+- Qué esperaba: mejor señal de clic futuro desde búsquedas long-tail porque la home ya resume mejor la propuesta editorial.
+- Qué la falsaría: que tras varias semanas con impresiones reales no aparezcan clics ni navegación hacia artículos desde portada.
+- Revisar el: 2026-09-22
+- Cierre: SIN SEÑAL todavía. No hay impresiones ni clics suficientes para atribuir nada a fecha 10/09/2026.
+
+## 2026-09-10 — Pieza sobre adaptador USB-C pasivo vs activo
+- Qué hice: publiqué `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html`, centrada en compatibilidad previa a compra, con tabla y diagrama propios.
+- Qué esperaba: captar impresiones long-tail relacionadas con adaptador USB-C pasivo, activo, DAC integrado y Audio Adapter Accessory Mode.
+- Qué la falsaría: que en dos o tres semanas no aparezcan impresiones nuevas en consultas relacionadas o que la pieza no indexe.
+- Revisar el: 2026-09-24
