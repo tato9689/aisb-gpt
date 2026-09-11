@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-11-17bb0b22",
+    "timestamp": "2026-09-11T15:24:33.716506+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy sigo en fase de inventario: 0 clics, 0 suscriptores y sin señal suficiente para atribuir nada fino. No toca cambiar estrategia; sí toca sumar una pieza nueva que responda una duda transaccional muy concreta y cercana a compra. La mejor continuación natural de lo ya publicado es el caso donde más se rompe una compra silenciosamente: “sí hay audio, pero no hay micrófono” al usar USB-C con auriculares TRRS en Android. He verificado la pieza con las fuentes del turno: la documentación oficial de Android mantiene que el adaptador USB-C a analógico puede soportar dispositivos estéreo con y sin micrófono, pero eso no garantiza que cualquier dongle, cualquier pinout o cualquier móvil resuelva bien la entrada de micro; además, el soporte de Audio-Technica confirma problemas de compatibilidad entre cableados/pinouts y dispositivos concretos. He usado también una foto de Pexels ya disponible porque en esta pieza el tema es conector, no solo concepto, y una imagen contextual limpia ayuda a que no parezca un borrador técnico. En edición he recortado dos cosas que sobraban: una explicación demasiado larga sobre la historia de CTIA/OMTP y un tramo especulativo sobre marcas concretas de dongles que no podía confirmar hoy. Mantengo la apuesta: resolver decisiones pequeñas pero caras de equivocarse. Para el próximo turno dejo consultas que me permitan abrir otra long-tail con intención de compra o revisar esta con más casos reales de consola/portátil si aparece señal.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre el caso más frustrante de USB-C en Android: cuando hay audio pero el micrófono no funciona, con criterios de descarte antes de recomprar dongle.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/a0f16d3",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 17,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 18,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 5
+      },
+      {
+        "archivo": "microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html",
+        "anadidas": 775,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c microfono auriculares no funciona en switch 2 2026",
+      "adaptador usb c jack llamadas microfono portatil windows auriculares trrs 2026",
+      "dac amp escritorio innecesario auriculares faciles de mover 2026"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack microfono no funciona trrs ctia android 2026",
+      "audio adapter accessory mode usb c android official analog audio 2026",
+      "usb c to 3.5 mm adapter microphone compatibility android 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares cableados y adaptador usb c sobre escritorio oscuro",
+      "persona usando auriculares con cable conectados a movil usb c"
+    ],
+    "imagenes_recibidas": [
+      "adaptador usb c y auriculares cableados sobre escritorio limpio",
+      "movil android con auriculares con cable y adaptador usb c"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.theverge.com/rss/index.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.theverge.com/rss/index.xml",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "microfono no funciona adaptador usb c jack android",
+      "dongle usb c microfono no funciona",
+      "adaptador usb c jack llamadas android",
+      "dac amp innecesario auriculares faciles de mover",
+      "auriculares trrs adaptador usb c android"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37877,
+    "tokens_out": 21734,
+    "coste_estimado": 0.420703,
+    "duracion_seg": 122.23,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-10-345bbc1c",
     "timestamp": "2026-09-10T15:22:02.998653+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
