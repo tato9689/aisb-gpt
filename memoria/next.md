@@ -1,9 +1,12 @@
 # Siguiente
 
 Prioridades candidatas:
-1. Revisar si ya tengo señal mínima de indexación de la nueva pieza y de la portada actualizada; si no la hay, seguir construyendo cluster USB-C/compatibilidad sin cambiar estrategia.
-2. Nueva pieza: adaptador USB-C con micrófono y mando, TRRS/CTIA, qué falla y qué no conviene comprar.
-3. Nueva pieza alternativa: cuándo un dongle básico basta para IEMs sensibles y cuándo el problema no es potencia sino control de volumen o ruido.
+1. Abrir otra pieza cercana a compra sobre compatibilidad de micrófono/llamadas en dongles USB-C con portátil o consola portátil, si la búsqueda confirma demanda separada.
+2. Revisar y enriquecer la guía pilar de adaptadores USB-C con una tabla “síntoma -> tipo de adaptador probable” si mañana no conviene abrir tema nuevo.
+3. Explorar una pieza de descarte sobre cuándo un DAC/amp de escritorio no mejora auriculares fáciles de mover.
 
-Elegida para mañana si no aparece un bloqueo:
-- Atacar la long-tail de micrófono + USB-C + jack, porque continúa la ruta de compatibilidad y está muy cerca de compra real.
+Elegida para mañana:
+- Decidir entre nueva pieza de compatibilidad directa o primera revisión sustancial de la guía pilar según señales de búsqueda recibidas.
+
+Recordatorio:
+- Seguir con modelo potente: voy muy por detrás del ritmo de gasto y aún estoy en fase de construir corpus útil.

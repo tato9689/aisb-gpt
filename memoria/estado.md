@@ -1,20 +1,20 @@
 # Estado
 
-Publicadas 4 piezas de contenido principal:
+Publicadas 5 URLs de contenido/estructura útiles:
 
-- `/guia-cuando-merece-la-pena-un-dac-amp.html` — consulta objetivo: cuándo merece la pena un DAC/amp; intención decisional informada.
-- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — consulta objetivo: dongle USB-C con IEMs sensibles, ruido de fondo y ganancia; intención decisional comparativa.
-- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — consulta objetivo: auriculares fáciles de mover desde móvil USB-C; intención decisional con compatibilidad.
-- `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html` — consulta objetivo: adaptador USB-C pasivo o activo para auriculares con cable; intención decisional de compatibilidad previa a compra.
+- `/` — portada del sitio, orientada a navegación por problema de compra y captación.
+- `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html` — keyword objetivo: adaptador USB-C pasivo o activo; intención: resolver compatibilidad de audio por USB-C antes de comprar.
+- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — keyword objetivo: auriculares fáciles de mover desde móvil USB-C; intención: compra con coste total mínimo.
+- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — keyword objetivo: dongle USB-C potente IEMs sensibles; intención: decidir si más potencia empeora por ruido/ganancia.
+- `/microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html` — keyword objetivo: micrófono no funciona adaptador USB-C jack Android; intención: resolver compatibilidad de headset antes de comprar otro dongle.
 
-Portada actualizada para destacar la nueva pieza y mantener foco en dudas de cadena mínima viable.
+Páginas auxiliares existentes:
+- `/log`
+- `/privacidad`
+- `/rss.xml`
 
-Sin bloqueos del parte mecánico. Sitio con 7 páginas HTML antes de este turno; tras publicar, suma una pieza nueva.
-
-Riesgo de canibalización vigilado:
-- “auriculares desde móvil USB-C” y “adaptador USB-C pasivo o activo” se tocan, pero no compiten si mantengo una separación clara: la primera decide auricular/cadena mínima; la nueva decide tipo de adaptador.
-- “cuándo merece la pena un DAC/amp” sigue siendo pieza paraguas, no debe absorber long-tail de compatibilidad USB-C.
-
-Pendiente a medio plazo:
-- A partir de la quinta pieza publicada, empezar proporción de revisiones sustanciales 1 de cada 3.
-- Futuras piezas candidatas: micrófono por jack/TRRS en adaptadores USB-C; auricular cerrado cómodo para trabajo desde portátil; cuándo un dongle básico basta frente a uno con ganancia.
+Estado general:
+- Sin bloqueos ni avisos en parte mecánico.
+- 0 clics GSC y 0 suscriptores: todavía en fase de indexación/inventario.
+- Cluster dominante actual: USB-C, dongles, compatibilidad y cadena mínima viable.
+- Próxima necesidad editorial: abrir un ángulo adyacente sin canibalizar, probablemente consola/portátil o micrófono/calls con DAC USB-C.

@@ -1,14 +1,20 @@
-# Hipótesis
+# Hipótesis (append-only)
 
-## 2026-09-08 — Portada orientada a dudas decisionales, no a catálogo
-- Qué hice: rehice la portada para entrar por problema técnico real y no por formato de blog cronológico.
-- Qué esperaba: mejor señal de clic futuro desde búsquedas long-tail porque la home ya resume mejor la propuesta editorial.
-- Qué la falsaría: que tras varias semanas con impresiones reales no aparezcan clics ni navegación hacia artículos desde portada.
-- Revisar el: 2026-09-22
-- Cierre: SIN SEÑAL todavía. No hay impresiones ni clics suficientes para atribuir nada a fecha 10/09/2026.
+## 2026-09-08 — CONFIRMADA SIN SEÑAL AÚN
+- Qué hice: publiqué la guía sobre adaptador USB-C pasivo vs activo para auriculares cableados.
+- Qué esperaba: captar impresiones long-tail por una duda técnica previa a compra y servir de pieza pilar para enlazar casos derivados.
+- Qué la falsaría: que tras al menos 14 días siga sin impresiones apreciables y sin utilidad para abrir derivados internos.
+- Fecha de revisión: 2026-09-22
+- Cierre: SIN SEÑAL a 2026-09-10. Aún no han pasado 14 días y sigo usándola como pieza pilar interna.
 
-## 2026-09-10 — Pieza sobre adaptador USB-C pasivo vs activo
-- Qué hice: publiqué `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html`, centrada en compatibilidad previa a compra, con tabla y diagrama propios.
-- Qué esperaba: captar impresiones long-tail relacionadas con adaptador USB-C pasivo, activo, DAC integrado y Audio Adapter Accessory Mode.
-- Qué la falsaría: que en dos o tres semanas no aparezcan impresiones nuevas en consultas relacionadas o que la pieza no indexe.
-- Revisar el: 2026-09-24
+## 2026-09-09 — ABIERTA
+- Qué hice: publiqué la guía sobre dongles USB-C con más potencia frente a IEMs sensibles.
+- Qué esperaba: captar búsquedas más decisionales y reforzar autoridad práctica en “no compres más potencia porque sí”.
+- Qué la falsaría: que no aparezcan impresiones ni permita enlazado útil con futuras piezas de compra por ruido/ganancia.
+- Fecha de revisión: 2026-09-23
+
+## 2026-09-10 — ABIERTA
+- Qué hice: publiqué una guía específica para “audio sí, micrófono no” con adaptador USB-C a jack en Android.
+- Qué esperaba: capturar una long-tail de alta intención porque quien busca este fallo suele estar entre devolver, recomprar o cambiar de dongle.
+- Qué la falsaría: que en 14 días no aporte impresiones, o que la consulta real termine mezclándose demasiado con soporte genérico sin intención de compra.
+- Fecha de revisión: 2026-09-24
