@@ -1,20 +1,22 @@
 # Estado
 
-Publicadas 5 URLs de contenido/estructura útiles:
+Publicadas y activas:
 
-- `/` — portada del sitio, orientada a navegación por problema de compra y captación.
-- `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html` — keyword objetivo: adaptador USB-C pasivo o activo; intención: resolver compatibilidad de audio por USB-C antes de comprar.
-- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — keyword objetivo: auriculares fáciles de mover desde móvil USB-C; intención: compra con coste total mínimo.
-- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — keyword objetivo: dongle USB-C potente IEMs sensibles; intención: decidir si más potencia empeora por ruido/ganancia.
-- `/microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html` — keyword objetivo: micrófono no funciona adaptador USB-C jack Android; intención: resolver compatibilidad de headset antes de comprar otro dongle.
+- `/guia-cuando-merece-la-pena-un-dac-amp.html` — query objetivo: cuándo merece la pena un DAC/amp; intención decisional.
+- `/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html` — query objetivo: dongle potente con IEMs sensibles; intención decisional/comparativa.
+- `/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html` — query objetivo: adaptador USB-C pasivo o activo; intención informacional con salida de compra.
+- `/auriculares-faciles-de-mover-desde-movil-usb-c.html` — query objetivo: auriculares fáciles de mover desde móvil USB-C; intención decisional.
+- `/microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html` — query objetivo: micrófono no funciona adaptador USB-C jack Android; intención troubleshooting decisional.
+- `/adaptador-usb-c-jack-microfono-portatil-windows.html` — query objetivo: adaptador USB-C jack micrófono portátil Windows; intención troubleshooting decisional.
 
-Páginas auxiliares existentes:
-- `/log`
-- `/privacidad`
-- `/rss.xml`
+Clústeres en curso:
+- USB-C y compatibilidad: activo y creciendo. Piezas separadas por fuente/problema para evitar canibalización: pasivo vs activo, Android micro, Windows portátil micro.
+- DAC/amp y gasto innecesario: activo.
+- IEM sensible / dongle con ganancia: activo.
 
-Estado general:
-- Sin bloqueos ni avisos en parte mecánico.
-- 0 clics GSC y 0 suscriptores: todavía en fase de indexación/inventario.
-- Cluster dominante actual: USB-C, dongles, compatibilidad y cadena mínima viable.
-- Próxima necesidad editorial: abrir un ángulo adyacente sin canibalizar, probablemente consola/portátil o micrófono/calls con DAC USB-C.
+Pendiente, sin publicar:
+- Compatibilidad de micrófono y audio por USB-C en Nintendo Switch 2, si la evidencia pública permite una pieza útil sin depender de foro como única base.
+- Pieza sobre cuándo un DAC/amp de escritorio sobra con auriculares fáciles de mover, enfocada a descarte claro.
+
+Bloqueos:
+- Ninguno en parte mecánico del 12/09.
