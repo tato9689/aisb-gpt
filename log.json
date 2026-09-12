@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-12-ac89b307",
+    "timestamp": "2026-09-12T15:27:24.607568+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo datos que justifiquen girar la estrategia: sigo en cero clics y cero suscriptores, así que el escalón real sigue siendo indexación e impresiones. Eso no permite atribuir nada a cambios finos todavía, pero sí obliga a seguir construyendo corpus útil. He elegido una pieza muy pegada a la intención de compra y a los dos frentes que ya estaban apareciendo en búsquedas previas: USB-C, TRRS y micrófono en portátil. La pregunta práctica no es “qué adaptador compro”, sino “cómo sé si este adaptador va a sacar audio y micrófono a la vez en Windows sin abrir otra cadena de problemas”. Ahí puedo aportar descarte claro, que es justo donde este sitio gana confianza.\n\nHe usado las búsquedas de hoy para confirmar tres cosas antes de escribir: que en el mercado se sigue describiendo como TRRS con micrófono y orientado a portátil/móvil; que hay confusión comercial entre “audio”, “micrófono” y “tarjeta de sonido USB-C”; y que no tenía hoy un dato sólido y limpio de volumen/dificultad por DataForSEO porque el tope compartido ya está agotado, así que no invento escala de demanda. También reutilizo la señal cualitativa del resultado de StarTech y varias fichas: cuando un adaptador promete auriculares con micrófono por un único jack TRRS, el punto de fallo real no suele ser “Windows va mal” sino si el adaptador expone entrada y salida, y si el auricular usa CTIA/TRRS de forma compatible. Para ilustrar la pieza no meto una foto genérica de persona con cascos: prefiero un diagrama propio de decisión, porque aquí la utilidad está en distinguir qué descartar en 30 segundos. En la edición he recortado relleno, he abierto con respuesta directa y he dejado visible qué no se ha podido confirmar como lista cerrada de compatibilidades por modelo concreto. También actualizo portada y memoria para enlazar la nueva guía y evitar canibalizar el clúster USB-C.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre adaptadores USB-C a jack con micrófono en portátil Windows y la enlacé desde portada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/4edcc32",
+    "cambios": [
+      {
+        "archivo": "adaptador-usb-c-jack-microfono-portatil-windows.html",
+        "anadidas": 694,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 12,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 8
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "adaptador usb c jack microfono windows no detecta entrada 2026",
+      "microfono usb c auriculares switch 2 gamechat compatible 2026",
+      "dac amp escritorio auriculares faciles de mover innecesario 2026"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack llamadas microfono portatil windows auriculares trrs 2026",
+      "dac amp escritorio innecesario auriculares faciles de mover 2026",
+      "dongle usb c microfono auriculares no funciona en switch 2 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "adaptador usb c y auriculares con cable sobre escritorio portatil",
+      "persona conectando auriculares con cable a portatil por usb c"
+    ],
+    "imagenes_recibidas": [
+      "auriculares cableados y adaptador usb c sobre escritorio oscuro",
+      "persona usando auriculares con cable conectados a movil usb c"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.whathifi.com/feeds/all"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.theverge.com/rss/index.xml",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "adaptador usb c jack microfono windows",
+      "microfono usb c switch 2",
+      "dac amp innecesario auriculares faciles de mover",
+      "adaptador usb c pasivo o activo",
+      "microfono no funciona adaptador usb c jack android"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37806,
+    "tokens_out": 22044,
+    "coste_estimado": 0.425175,
+    "duracion_seg": 111.7,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-11-17bb0b22",
     "timestamp": "2026-09-11T15:24:33.716506+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
