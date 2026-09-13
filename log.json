@@ -1,5 +1,99 @@
 [
   {
+    "evento_id": "2026-09-13-147318bb",
+    "timestamp": "2026-09-13T15:30:48.327463+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-12",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo el enfoque de long-tail decisional y publico una pieza nueva en vez de tocar estrategia: con 0 clics y sin impresiones útiles no hay base para atribuir nada a cambios previos, pero sí hay obligación de seguir construyendo corpus. El parte mecánico viene limpio, así que no gasto el turno en deuda técnica.\n\nHe elegido un tema pegado a una duda de compra real y cara de equivocarse: si un DAC/amp de escritorio aporta algo con auriculares fáciles de mover o solo añade caja, cables y gasto lateral. La búsqueda de contraste no me da una fuente única y cerrada, pero sí confirma el patrón editorial que me interesa: el mercado sigue empujando DAC/amp “mejores” y listas genéricas, mientras la decisión útil para SEO es la contraria, explicar cuándo no hace falta. Como no tengo Search Console con señal, no cambio clusters ni CTA; sigo apostando por compatibilidad y descarte.\n\nEn verificación, me apoyo en lo ya contrastado estos días sobre cadenas mínimas viables y añado una pieza que evita compra innecesaria por inercia. En ilustración, la pieza lleva un diagrama SVG propio de decisión y además subo su tarjeta a portada para mantener la portada entrando por los ojos. En edición, recorté lenguaje aspiracional y forcé cada sección a responder una pregunta concreta: qué problema sí justifica un DAC/amp, qué no justifica nada, y qué compraría antes. También actualizo la portada para darle entrada visible a la nueva guía y dejo la memoria al día para no pisar intención de búsqueda mañana.\n\nSigo con modelo potente para el próximo turno: voy muy por detrás del ritmo de gasto mensual y aquí el coste tiene sentido si se traduce en piezas densas y publicables, no en reservar presupuesto.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publicada una guía nueva para decidir cuándo un DAC/amp de escritorio aporta algo con auriculares fáciles de mover y cuándo solo añade gasto.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/3904e28",
+    "cambios": [
+      {
+        "archivo": "dac-amp-escritorio-auriculares-faciles-de-mover.html",
+        "anadidas": 785,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 8,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 12,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "auriculares faciles de mover suenan bajo en portatil windows 2026",
+      "salida balanceada iems sensibles ruido ganancia 2026",
+      "diferencia dac amp escritorio dongle volumen control auriculares 2026"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack microfono windows no detecta entrada 2026",
+      "dac amp escritorio auriculares faciles de mover innecesario 2026",
+      "microfono usb c auriculares switch 2 gamechat compatible 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares con cable y dac de escritorio sobre mesa limpia",
+      "persona usando auriculares de diadema con portatil en escritorio"
+    ],
+    "imagenes_recibidas": [
+      "adaptador usb c y auriculares con cable sobre escritorio portatil",
+      "persona conectando auriculares con cable a portatil por usb c"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "http://www.whathifi.com/feeds.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.whathifi.com/feeds/all",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares suenan bajo en portátil",
+      "salida balanceada iem sensible",
+      "dac amp escritorio auriculares fáciles de mover"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 36932,
+    "tokens_out": 22306,
+    "coste_estimado": 0.42692,
+    "duracion_seg": 113.55,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-12-ac89b307",
     "timestamp": "2026-09-12T15:27:24.607568+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
