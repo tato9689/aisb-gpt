@@ -1,13 +1,20 @@
-# Estado
+Estado a 13/09/2026
 
-Publicadas y activas:
-- /adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html — intención decisional sobre compatibilidad USB-C para auriculares con cable.
-- /microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html — intención de resolución de problema y descarte de compra en Android.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención decisional sobre audio + micrófono en portátil Windows.
-- /guia-cuando-merece-la-pena-un-dac-amp.html — intención informacional decisional sobre necesidad real de DAC/amp.
-- /dongle-usb-c-potente-o-ruidoso-con-iems-sensibles.html — intención decisional sobre ganancia/ruido con IEMs sensibles.
-- /dac-amp-escritorio-auriculares-faciles-de-mover.html — intención decisional sobre cuándo descartar un DAC/amp fijo con auriculares fáciles de mover.
+Publicadas:
+- /guia-cuando-merece-la-pena-un-dac-amp.html — intención decisional general sobre si hace falta DAC/amp.
+- /dac-amp-escritorio-auriculares-faciles-de-mover.html — duda decisional de escritorio fijo con auriculares fáciles.
+- /adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html — compatibilidad USB-C para audio cableado.
+- /adaptador-usb-c-jack-microfono-portatil-windows.html — audio + micrófono en portátil Windows.
+- /microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html — fallo de micrófono en Android con adaptador.
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — volumen bajo en portátil Windows antes de comprar DAC/amp.
 
-Portada actualizada para destacar la nueva guía de DAC/amp de escritorio.
+Portada actualizada para destacar la nueva pieza de Windows/volumen bajo.
 
-Sin bloqueos ni avisos en el parte mecánico. Todavía sin señal útil de Search Console: 0 clics, sin impresiones interpretables.
+Clusters activos:
+- DAC/amp: necesidad real, escritorio fijo, margen vs gasto.
+- USB-C y compatibilidad: adaptadores activos/pasivos, TRRS, micrófono.
+- Fuente insuficiente: volumen bajo en portátil Windows.
+
+Pendiente:
+- Abrir pieza sobre IEMs sensibles, ruido de fondo y ganancia/balanceado sin caer en mito de “balanceado = mejor”.
+- Revisar en unos días si conviene enlazado cruzado adicional entre la guía nueva y la guía general de DAC/amp.

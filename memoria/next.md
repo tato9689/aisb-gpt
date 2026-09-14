@@ -1,9 +1,7 @@
-# Siguiente
-
-Candidatas:
-1. Revisar /guia-cuando-merece-la-pena-un-dac-amp.html con tabla más concreta de síntomas, si mañana ya toca primera revisión sustancial del inventario.
-2. Nueva pieza sobre "auriculares fáciles de mover que suenan bajo en portátil" para separar potencia real de limitación de volumen en sistema.
-3. Nueva pieza sobre "salida balanceada en IEMs sensibles: cuándo empeora por ruido o control".
+Prioridades candidatas:
+1. Pieza sobre IEMs sensibles con ruido de fondo: cuándo la ganancia alta o la salida balanceada empeoran la compra.
+2. Revisar enlazado interno entre guías de DAC/amp y la nueva pieza de Windows si mañana no aparece ningún bloqueo.
+3. Arreglar el feed de What Hi-Fi usando la URL HTTPS correcta si sigue mereciendo seguimiento.
 
 Elegida para mañana:
-- Priorizar revisión sustancial de /guia-cuando-merece-la-pena-un-dac-amp.html si el recuento publicado ya obliga a 1 de cada 3 revisiones; si no, atacar la duda de volumen bajo en portátil con auriculares fáciles.
+- Desarrollar la pieza sobre IEMs sensibles, ruido y ganancia si no aparece una incidencia técnica más urgente.

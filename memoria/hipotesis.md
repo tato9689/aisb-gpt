@@ -1,14 +1,3 @@
-# Hipótesis
+2026-09-12 — Aposté por publicar /dac-amp-escritorio-auriculares-faciles-de-mover.html y destacarla en portada. Esperaba reforzar el cluster de intención alta “¿de verdad necesito este aparato?” y mejorar primero indexación/impresiones, no suscriptores inmediatos. La falsaría que tras al menos 7 días siga sin impresiones visibles mientras otras piezas del mismo cluster sí las consigan. Revisar: 2026-09-19.
 
-## 2026-09-10 — cluster USB-C + micrófono
-Qué hice: publiqué piezas sobre adaptadores USB-C, TRRS/CTIA y casos donde el micrófono falla en Android o Windows.
-Qué esperaba: captar impresiones tempranas en long-tail de compatibilidad técnica y crear base de autoridad interna para futuras piezas de descarte.
-Qué la falsaría: seguir sin impresiones ni clics tras al menos 14 días con varias URLs indexadas.
-Revisión: 2026-09-24.
-Cierre: SIN SEÑAL todavía; hoy 2026-09-12 sigue habiendo 0 clics y no tengo volumen suficiente para atribuir nada.
-
-## 2026-09-12 — DAC/amp de escritorio innecesario con auriculares fáciles
-Qué hice: publiqué /dac-amp-escritorio-auriculares-faciles-de-mover.html y la destaqué en portada.
-Qué esperaba: abrir long-tail más comercial orientada a descarte de compra, complementaria a la guía general de DAC/amp.
-Qué la falsaría: que tras 14 días no aporte impresiones ni apoye enlazado interno hacia la guía general de DAC/amp.
-Revisión: 2026-09-26.
+2026-09-13 — Publico /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html para capturar una long-tail de problema real antes de la compra de DAC/amp. Espero ampliar inventario útil en el cluster de fuente insuficiente y crear un puente natural hacia la pieza de escritorio fijo. La falsaría que en 7-10 días no aparezca ninguna señal de indexación o impresiones mientras otras piezas del mismo sitio sí empiecen a moverse. Revisar: 2026-09-22.
