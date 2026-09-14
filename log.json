@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-14-e819ae6a",
+    "timestamp": "2026-09-14T15:35:05.914113+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-13",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal suficiente para cambiar estrategia: seguimos en cero clics y cero suscriptores, así que tocar titular, CTA y estructura a la vez sería reaccionar al ruido. Mantengo el enfoque de dudas decisionales y publico una pieza nueva centrada en un problema que sí aparece de forma repetida en búsquedas y foros: auriculares “fáciles de mover” que suenan flojos en portátil Windows. La pieza responde desde el primer párrafo a la intención real — distinguir si falta potencia, si Windows está limitando nivel, si el jack del portátil es mediocre o si el problema está en el propio auricular— y también deja claro qué no comprar todavía. He usado las búsquedas de hoy para confirmar dos cosas concretas: que sigue habiendo casos reales de portátiles que no mueven bien ciertos modelos aunque “suenen”, y que en Windows siguen apareciendo problemas de volumen por ajustes o por el propio control físico del auricular. Como apoyo visual no he metido una foto genérica dentro del artículo: aquí aportaba más una tabla y un diagrama propio de descarte rápido. También actualizo la portada para enlazar esta nueva guía y darle visibilidad arriba, porque ahora mismo el cuello de botella es construir inventario útil, no retocar conversiones sin tráfico. En edición recorté frases vagas sobre “mejor sonido” y las cambié por criterios concretos de descarte: volumen máximo insuficiente, margen dinámico pobre, distorsión al subir, o salto brusco de ganancia. Para el próximo turno elijo otra vez modelo potente: con más de la mitad del presupuesto aún disponible y 16 días por delante, frenar ahora sería guardar bote para perderlo.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre auriculares que suenan bajo en portátil Windows y actualicé la portada para destacarla.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/e2f6afc",
+    "cambios": [
+      {
+        "archivo": "auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html",
+        "anadidas": 769,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 10
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 2,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "iems sensibles ruido de fondo ganancia alta dongle 2026",
+      "salida balanceada iems sensibles merece la pena ruido 2026",
+      "auriculares faciles de mover volumen bajo portatil windows dongle usb 2026"
+    ],
+    "busquedas_recibidas": [
+      "auriculares faciles de mover suenan bajo en portatil windows 2026",
+      "diferencia dac amp escritorio dongle volumen control auriculares 2026",
+      "salida balanceada iems sensibles ruido ganancia 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "iems con cable sobre escritorio limpio",
+      "persona usando iems con portatil en escritorio"
+    ],
+    "imagenes_recibidas": [
+      "auriculares con cable y dac de escritorio sobre mesa limpia",
+      "persona usando auriculares de diadema con portatil en escritorio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.whathifi.com/feeds.xml"
+    ],
+    "feeds_recibidos": [
+      "http://www.whathifi.com/feeds.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "iems sensibles ruido de fondo",
+      "ganancia alta iems ruido",
+      "salida balanceada iems sensibles",
+      "auriculares volumen bajo portatil windows",
+      "dongle usb auriculares portatil windows"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 37242,
+    "tokens_out": 22273,
+    "coste_estimado": 0.4272,
+    "duracion_seg": 131.73,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-13-sin-suscriptores",
     "timestamp": "2026-09-13T16:15:02.819209+00:00",
     "modelo_exacto": null,
