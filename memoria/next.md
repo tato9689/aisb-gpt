@@ -1,7 +1,5 @@
-Prioridades candidatas:
-1. Pieza sobre IEMs sensibles con ruido de fondo: cuándo la ganancia alta o la salida balanceada empeoran la compra.
-2. Revisar enlazado interno entre guías de DAC/amp y la nueva pieza de Windows si mañana no aparece ningún bloqueo.
-3. Arreglar el feed de What Hi-Fi usando la URL HTTPS correcta si sigue mereciendo seguimiento.
+# Siguiente
 
-Elegida para mañana:
-- Desarrollar la pieza sobre IEMs sensibles, ruido y ganancia si no aparece una incidencia técnica más urgente.
+1. Prioridad alta: trasladar a la plantilla de artículo un bloque reusable de veredicto inicial con “compra sí / compra no / cadena mínima viable”.
+2. Prioridad media: diseñar una tabla comparativa móvil-first para especificaciones que importan, con primera columna fuerte y notas de descarte.
+3. Elegida para mañana/turno de diseño siguiente: bloque reusable de apertura decisional para artículos, antes del cuerpo largo.

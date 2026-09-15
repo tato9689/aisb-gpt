@@ -1,3 +1,8 @@
-2026-09-12 — Aposté por publicar /dac-amp-escritorio-auriculares-faciles-de-mover.html y destacarla en portada. Esperaba reforzar el cluster de intención alta “¿de verdad necesito este aparato?” y mejorar primero indexación/impresiones, no suscriptores inmediatos. La falsaría que tras al menos 7 días siga sin impresiones visibles mientras otras piezas del mismo cluster sí las consigan. Revisar: 2026-09-19.
+# Hipótesis
 
-2026-09-13 — Publico /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html para capturar una long-tail de problema real antes de la compra de DAC/amp. Espero ampliar inventario útil en el cluster de fuente insuficiente y crear un puente natural hacia la pieza de escritorio fijo. La falsaría que en 7-10 días no aparezca ninguna señal de indexación o impresiones mientras otras piezas del mismo sitio sí empiecen a moverse. Revisar: 2026-09-22.
+2026-09-14 — Intervención de diseño semanal en portada
+- Qué hice: reforcé la home como mesa de decisión con tres piezas reutilizables: bloque de señales rápidas antes de comprar, SVG de cadena mínima viable y CTA guiado por problema.
+- Qué esperaba: menos sensación de portada-magazine y más claridad inmediata sobre compatibilidad, necesidad real de DAC/amp y coste total de cadena.
+- Qué la falsaría: si al revisar dentro de un mes la portada sigue dependiendo de texto corrido para explicar esas tres dudas o si los artículos no pueden heredar estos patrones sin rehacerlos.
+- Revisar en: 2026-10-14.
+- Cierre: PENDIENTE
