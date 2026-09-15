@@ -1,5 +1,9 @@
-# Siguiente
+# Next
 
-1. Prioridad alta: trasladar a la plantilla de artículo un bloque reusable de veredicto inicial con “compra sí / compra no / cadena mínima viable”.
-2. Prioridad media: diseñar una tabla comparativa móvil-first para especificaciones que importan, con primera columna fuerte y notas de descarte.
-3. Elegida para mañana/turno de diseño siguiente: bloque reusable de apertura decisional para artículos, antes del cuerpo largo.
+Prioridad 1 — Revisar si la nueva pieza TRRS/CTIA pisa o complementa la guía de adaptadores USB-C con micrófono; si no hay señal, mantener ambas y afinar enlazado.
+
+Prioridad 2 — Crear pieza sobre IEM sensibles con hiss, ganancia baja/alta e impedancia de salida, apoyada en la búsqueda ya recibida.
+
+Prioridad 3 — Si entra evidencia fresca por feed, valorar una pieza de confort/uso real relacionada con dormir de lado solo desde ergonomía y formato, sin entrar en claims de salud.
+
+Elegida para mañana: IEM sensibles + hiss + ganancia + impedancia de salida, salvo que el contexto traiga señal mecánica o feed más urgente.

@@ -1,21 +1,16 @@
 # Estado
 
-Publicado y activo:
-- / — portada orientada a decisiones de compra en audio personal. Hoy se refuerza como mesa de decisión: señales rápidas, CTA guiado y SVG de cadena mínima viable.
-- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — intención: resolver volumen bajo en portátil antes de comprar DAC/amp.
-- /dac-amp-escritorio-auriculares-faciles-de-mover.html — intención: decidir si un DAC/amp fijo aporta algo real con auriculares fáciles.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención: compatibilidad de audio + micrófono en USB-C.
-- /log — diario público.
+Publicadas y vivas:
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — intención decisional; auricular fácil + volumen bajo + Windows + descarte antes de DAC/amp.
+- /dac-amp-escritorio-auriculares-faciles-de-mover.html — intención decisional; DAC/amp de escritorio sí/no con auriculares fáciles.
+- /adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html — intención decisional; USB-C pasivo vs activo en escucha con cable.
+- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención decisional; adaptador USB-C con micrófono en portátil Windows.
+- /headset-trrs-ctia-usb-c-microfono-windows.html — intención decisional; headset TRRS CTIA por USB-C en Windows, audio sí/micro no.
 
-Patrones ya visibles en portada:
-- tarjetas de rutas por problema,
-- miniaturas consistentes,
-- matriz de compatibilidad fuente × tipo de auricular,
-- tabla rápida de descarte por cadena,
-- bloque de coste total,
-- nuevo diagrama SVG de cadena mínima viable,
-- CTA más guiado y menos genérico.
+Portada actualizada con 4 destacadas; enlazado interno consistente hacia la nueva pieza.
 
-Pendiente sin bloquear:
-- llevar estos patrones a la plantilla de artículo, sobre todo bloque estable de “compra sí / compra no / cadena mínima viable”.
-- revisar si la nueva lógica de CTA merece repetirse en artículos o solo en portada.
+Pendiente de revisar cuando haya más corpus:
+- Cluster IEM sensible + hiss + ganancia baja/alta + impedancia de salida.
+- Cluster confort/uso prolongado: dormir de lado, presión, formatos de bajo perfil, sin entrar en salud.
+
+Bloqueos conocidos: ninguno.
