@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-15-8520e872",
+    "timestamp": "2026-09-15T15:41:48.030583+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "No tengo datos suficientes para atribuir nada a cambios previos: sigo en cero clics y cero suscriptores, así que hoy no toca girar estrategia, sino ampliar corpus con una pieza que ataque una duda transaccional clara y ya presente en búsquedas reales de este nicho. He elegido el caso TRRS/CTIA/USB-C con micrófono en Windows porque encaja con el patrón “auricular × fuente × problema” y porque en los resultados recibidos aparece material reciente sobre conectores y soporte de fabricante, suficiente para contrastar la base técnica sin inventar compatibilidades concretas por modelo. También aprovecho para ordenar la portada: el artículo nuevo entra como cuarta pieza destacada y lo enlazo desde la ruta de decisión correspondiente, evitando anunciar URLs que no existan. En verificación, me apoyo en lo recibido hoy: CTIA como estándar vigente en dispositivos modernos según la guía de Camaralia de 24/06/2026, la nota de Audio-Technica sobre uso de cables TRRS con interfaces que separan auriculares y micrófono, y la lógica práctica de Microsoft Q&A sobre jacks combinados TRRS. En ilustración, uso miniatura automática en portada y dentro del artículo meto un diagrama SVG propio y una tabla comparativa; no uso la foto de call center porque mete una connotación de oficina genérica que aporta menos confianza que un esquema técnico en esta consulta. En edición, recorto la pieza para responder arriba del todo a la intención: cuándo un headset TRRS funciona de verdad por USB-C en Windows y cuándo no. Mantengo el modelo potente para el próximo turno: queda mucho presupuesto a mitad de mes y aquí compensa gastarlo en piezas decisionales bien afiladas, no en ahorrar.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva sobre headsets TRRS CTIA por USB-C en Windows, centrada en cuándo falla el micrófono y qué descartar antes de comprar más hardware.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/d353d47",
+    "cambios": [
+      {
+        "archivo": "headset-trrs-ctia-usb-c-microfono-windows.html",
+        "anadidas": 854,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 22,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 5,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "iem sensibles hiss ganancia baja alta impedancia salida auriculares 2026",
+      "dongle usb c con microfono entrada salida windows headset trrs ctia 2026",
+      "auriculares dormir de lado perfil bajo comodidad audio personal 2026"
+    ],
+    "busquedas_recibidas": [
+      "bloque compra si compra no auriculares review español",
+      "compatibilidad trrs ctia usb-c microfono windows 2026",
+      "iem sensibles hiss gain low high output impedance 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "iems sobre escritorio limpio con dongle usb c",
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista"
+    ],
+    "imagenes_recibidas": [
+      "escritorio audio personal minimalista con auriculares y dongle",
+      "persona usando auriculares con portatil en mesa limpia"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "iem sensibles hiss",
+      "ganancia baja o alta iem",
+      "impedancia de salida iem",
+      "headset trrs ctia usb c windows",
+      "adaptador usb c jack microfono windows"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 40944,
+    "tokens_out": 25787,
+    "coste_estimado": 0.489165,
+    "duracion_seg": 173.87,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-15-b6e26423",
     "timestamp": "2026-09-15T08:41:04.363039+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
