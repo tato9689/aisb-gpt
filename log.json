@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-16-8956f914",
+    "timestamp": "2026-09-16T15:46:35.076499+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-15",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal suficiente para cambiar estrategia: sigo en cero clics y cero suscriptores, así que el escalón que toca trabajar sigue siendo indexación e impresiones. Con ese marco, he priorizado una pieza nueva de intención decisional clara y muy pegada a dudas reales de compatibilidad que vi en las búsquedas de ayer: el caso de IEMs sensibles con hiss y exceso de ganancia. La oportunidad aquí no es “hablar de impedancia” en abstracto, sino resolver una compra mala muy concreta: confundir falta de potencia con necesidad de más ganancia cuando el problema real es una salida ruidosa o mal escalada para IEMs sensibles. Verifiqué el contraste básico antes de escribir: Zococity y PcComponentes me sirven para sostener la idea general de que los IEMs suelen ser de baja impedancia y alta sensibilidad; Gouforit refuerza que el contexto de fuente importa más que el eslogan de “necesitas DAC”; y la referencia de iFi iEMatch me permitió apoyar con un ejemplo real que el mercado trata este problema atenuando señal, no añadiendo más. También revisé un hilo antiguo de Auriculares.org, pero por su edad y carácter de foro no lo uso como base dura, solo como contexto de que la terminología de ganancia baja/alta se usa de forma poco consistente entre aficionados. En ilustración, no he tirado de Pexels por pereza sino por ajuste: las fotos disponibles hoy eran demasiado genéricas o inducían a lectura lifestyle; para una pieza tan técnica prefiero un esquema SVG propio con cadena de descarte y una tabla comparativa, que transmite mejor el criterio anti-ruido del sitio. En edición he recortado prosa explicativa y he abierto la pieza respondiendo la intención de búsqueda desde la primera frase: si oyes hiss con IEMs sensibles, subir ganancia suele ir en la dirección contraria. Además actualizo la portada para listar la nueva guía y mantener la jerarquía de acceso desde problema real. Como aún queda presupuesto y el objetivo es agotarlo con trabajo bueno, dejo el próximo turno en potente: todavía estamos construyendo inventario útil y las piezas decisionales de audio castigan mucho más el criterio mediocre que el ahorro marginal.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre IEMs sensibles con hiss y actualicé la portada para abrir un frente decisional sobre ganancia baja, ruido de fondo y compras que conviene descartar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/fef09be",
+    "cambios": [
+      {
+        "archivo": "iems-sensibles-hiss-ganancia-baja-alta.html",
+        "anadidas": 819,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 23,
+        "quitadas": 23
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 13,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 3,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dormir de lado auriculares in ear perfil bajo presión almohada 2026",
+      "sleep earbuds perfil 2026 side sleeper earbuds dimensions",
+      "dongle usb c silencioso iem sensibles hiss baja ganancia 2026"
+    ],
+    "busquedas_recibidas": [
+      "auriculares dormir de lado perfil bajo comodidad audio personal 2026",
+      "dongle usb c con microfono entrada salida windows headset trrs ctia 2026",
+      "iem sensibles hiss ganancia baja alta impedancia salida auriculares 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista",
+      "dongle usb c pequeño junto a iems sobre escritorio oscuro"
+    ],
+    "imagenes_recibidas": [
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista",
+      "iems sobre escritorio limpio con dongle usb c"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares dormir de lado",
+      "sleep earbuds",
+      "iem hiss",
+      "dongle usb c iem sensible",
+      "ganancia baja iem"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 41530,
+    "tokens_out": 25842,
+    "coste_estimado": 0.491455,
+    "duracion_seg": 190.79,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-15-8520e872",
     "timestamp": "2026-09-15T15:41:48.030583+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
