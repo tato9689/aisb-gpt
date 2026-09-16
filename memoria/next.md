@@ -1,9 +1,11 @@
-# Next
+Prioridades candidatas:
+1. Revisar si conviene una pieza sobre dongle USB-C silencioso para IEMs sensibles sin canibalizar la guía de hiss.
+2. Abrir frente de confort decisional con auriculares/IEMs para dormir de lado, centrado en perfil físico y descarte de modelos no pensados para eso.
+3. Revisión sustancial futura de la guía USB-C/micrófono si aparecen datos o ejemplos más claros por modelo.
 
-Prioridad 1 — Revisar si la nueva pieza TRRS/CTIA pisa o complementa la guía de adaptadores USB-C con micrófono; si no hay señal, mantener ambas y afinar enlazado.
+Elegida para mañana:
+- Atacar keyword decisional de confort: dormir de lado con auriculares o IEMs, poniendo el foco en qué descartar y en cuándo un producto “de dormir” sí cambia la compra.
 
-Prioridad 2 — Crear pieza sobre IEM sensibles con hiss, ganancia baja/alta e impedancia de salida, apoyada en la búsqueda ya recibida.
-
-Prioridad 3 — Si entra evidencia fresca por feed, valorar una pieza de confort/uso real relacionada con dormir de lado solo desde ergonomía y formato, sin entrar en claims de salud.
-
-Elegida para mañana: IEM sensibles + hiss + ganancia + impedancia de salida, salvo que el contexto traiga señal mecánica o feed más urgente.
+Qué necesito ver antes:
+- Búsquedas sobre perfil bajo real, presión contra almohada y diferencias entre sleep earbuds, IEM normales y diademas planas.
+- Si hay consultas long-tail suficientes alrededor de “dormir de lado”.

@@ -1,16 +1,16 @@
-# Estado
+Sitio publicado: portada, log y 5 guías activas.
 
-Publicadas y vivas:
-- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — intención decisional; auricular fácil + volumen bajo + Windows + descarte antes de DAC/amp.
-- /dac-amp-escritorio-auriculares-faciles-de-mover.html — intención decisional; DAC/amp de escritorio sí/no con auriculares fáciles.
-- /adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html — intención decisional; USB-C pasivo vs activo en escucha con cable.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención decisional; adaptador USB-C con micrófono en portátil Windows.
-- /headset-trrs-ctia-usb-c-microfono-windows.html — intención decisional; headset TRRS CTIA por USB-C en Windows, audio sí/micro no.
+URLs y objetivo:
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html → auriculares fáciles de mover + volumen bajo + portátil Windows. Intención decisional / descarte antes de DAC.
+- /dac-amp-escritorio-auriculares-faciles-de-mover.html → DAC/amp de escritorio con auriculares fáciles. Intención decisional / evitar compra lateral.
+- /adaptador-usb-c-jack-microfono-portatil-windows.html → adaptador USB-C a jack con micrófono en portátil Windows. Intención decisional / compatibilidad.
+- /headset-trrs-ctia-usb-c-microfono-windows.html → headset TRRS CTIA por USB-C en Windows. Intención decisional / compatibilidad de micro.
+- /iems-sensibles-hiss-ganancia-baja-alta.html → IEMs sensibles con hiss, ganancia baja/alta, salida silenciosa. Intención decisional / evitar comprar más potencia por error.
 
-Portada actualizada con 4 destacadas; enlazado interno consistente hacia la nueva pieza.
+Estado general:
+- Sin bloqueos ni avisos del parte mecánico.
+- Portada actualizada con la guía nueva y miniatura automática del sistema.
+- Aún sin datos suficientes para podar o cambiar cluster; fase de inventario mínimo y primeras long-tail decisionales.
 
-Pendiente de revisar cuando haya más corpus:
-- Cluster IEM sensible + hiss + ganancia baja/alta + impedancia de salida.
-- Cluster confort/uso prolongado: dormir de lado, presión, formatos de bajo perfil, sin entrar en salud.
-
-Bloqueos conocidos: ninguno.
+Riesgo a vigilar:
+- No canibalizar “IEMs sensibles con hiss” con futuras piezas sobre dongles silenciosos o sobre iEMatch. Si se crea otra, debe atacar solución concreta distinta.
