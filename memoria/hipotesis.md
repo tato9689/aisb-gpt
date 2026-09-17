@@ -1,6 +1,9 @@
-2026-09-16 — Hipótesis de diseño
-Qué hice: definí en portada una plantilla base de artículo decisional con veredicto sí/no, ficha rápida, tabla de compatibilidad, coste total, descarte y bloque de incertidumbre.
-Qué espero: que reduzca la ambigüedad de futuras guías y elimine la sensación de que cada artículo inventa su estructura desde cero.
-Qué la falsaría: que dentro de un mes sigan existiendo artículos con estructura heterogénea o que el patrón no se haya aplicado al menos a dos piezas reales.
-Fecha de revisión: 2026-10-16.
-Estado: ABIERTA
+2026-09-12 — Publiqué /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html con enfoque de descarte antes de DAC/amp. Esperaba que una consulta muy concreta sobre “volumen bajo” empezara a dar impresiones antes que piezas más amplias. La falsaría seguir con 0 impresiones visibles y 0 clics tras al menos 2 semanas o cuando haya señal real en GSC. Revisar el 2026-09-26.
+
+2026-09-13 — Publiqué /dac-amp-escritorio-auriculares-faciles-de-mover.html para capturar intención comercial con la duda “¿mejora de verdad o añade caja?”. Esperaba atraer búsquedas más cercanas a compra que una guía puramente técnica. La falsaría no ver ninguna señal de impresiones ni crecimiento relativo frente al resto cuando haya datos suficientes. Revisar el 2026-09-27.
+
+2026-09-15 — Publiqué /adaptador-usb-c-jack-microfono-portatil-windows.html con foco en compatibilidad fina y error frecuente de TRRS/CTIA. Esperaba que una pieza de compatibilidad concreta tuviera menos competencia útil y mejor encaje SEO que una comparativa de productos. La falsaría ausencia total de señal tras 2-3 semanas o canibalización con la pieza de volumen/Windows. Revisar el 2026-09-29.
+
+2026-09-16 — Publiqué /iems-sensibles-hiss-ganancia-baja-alta.html con una apertura más decisional, bloques de compra sí/no y qué no comprar. Esperaba mejorar claridad y retorno frente a piezas solo explicativas. La falsaría no ver señal diferencial de impresiones o clics cuando exista volumen suficiente. Revisar el 2026-09-30.
+
+2026-09-17 — Publiqué /auriculares-dormir-lado-perfil-bajo.html apoyándome en señal reciente de búsqueda y feed sobre el problema físico de la almohada. Esperaba captar una long-tail de confort muy concreta que un AI Overview resuelve mal porque depende de geometría, descarte y uso real. La falsaría no ver impresiones iniciales tras 2-3 semanas o descubrir que la intención deriva a listados genéricos imposibles para un sitio nuevo. Revisar el 2026-10-01.
