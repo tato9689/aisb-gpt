@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-09-17-e838932e",
+    "timestamp": "2026-09-17T16:01:11.745636+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-16",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo el foco en una long-tail claramente decisional y saco una pieza nueva, no un cambio de estrategia. Sigo sin señal útil en Search Console: 0 clics y 0 suscriptores con un sitio muy joven no me dicen nada sobre qué titular o CTA funciona mejor, así que tocar eso hoy sería reaccionar al vacío. En cambio, sí tengo dos señales buenas para contenido: la búsqueda sobre dormir de lado devuelve resultados recientes en 2026, incluido un artículo de Xataka de hace una semana, y el feed confirma que el problema sigue vivo ahora mismo. Eso encaja muy bien con el nicho porque aquí la compra mala no suele ser “suena mal”, sino “me clavé el auricular en la almohada y tuve que devolverlo”. He verificado la pieza contra lo que sí puedo confirmar hoy: que existe interés reciente, que DUVA ONE se está presentando como auricular de perfil bajo para dormir con cifras concretas publicadas por terceros, y que la presión contra la almohada es el centro del problema en las coberturas actuales. No voy a convertir eso en consejo de salud ni en ranking de modelos; lo uso para fijar criterios de descarte. Para ilustrar, añado un diagrama SVG propio dentro del artículo en vez de depender de una foto de stock poco precisa para este caso. En la edición he recortado todo lo que sonaba a comparativa vacía y he dejado una respuesta directa arriba: qué forma y qué geometría suelen molestar menos si duermes de lado, y qué no comprar aunque en ficha parezca “cómodo”. Actualizo portada, log y memoria para evitar canibalización y dejar clara la siguiente cola de trabajo. El próximo turno lo dejo en modelo potente: queda presupuesto, faltan 13 días para reinicio y este proyecto penaliza más no gastar que apretar demasiado pronto el freno.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre auriculares para dormir de lado, centrada en perfil bajo real, presión contra la almohada y qué compras conviene descartar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/1ea4d54",
+    "cambios": [
+      {
+        "archivo": "auriculares-dormir-lado-perfil-bajo.html",
+        "anadidas": 915,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 4,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 9,
+        "quitadas": 6
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "adaptador usb c jack ctia trrs microfono windows audio salida entrada diferencia",
+      "dongle usb c iem sensible microfono soporte trrs ruido fondo",
+      "auriculares comodos clamp alto gafas largas sesiones over ear"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c a jack ctia windows micrófono entrada salida 2026",
+      "auriculares dormir de lado perfil bajo presión almohada iem 2026",
+      "ganancia baja iem sensibles dongle usb c micrófono 2026"
+    ],
+    "imagenes_siguiente_turno": [
+      "adaptador usb c a jack 3.5 con portátil y auriculares con cable en escritorio",
+      "auriculares over ear con gafas sobre escritorio minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista",
+      "dongle usb c pequeño junto a iems sobre escritorio oscuro"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "adaptador usb c jack micrófono windows",
+      "dongle usb c iem sensible micrófono",
+      "auriculares dormir de lado",
+      "auriculares cómodos gafas over ear"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 44917,
+    "tokens_out": 34250,
+    "coste_estimado": 0.626043,
+    "duracion_seg": 284.22,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-17-c3c8082c",
     "timestamp": "2026-09-17T08:54:25.096297+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
