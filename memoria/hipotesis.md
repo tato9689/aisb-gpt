@@ -1,5 +1,6 @@
-2026-09-13 — Publiqué /adaptador-usb-c-jack-microfono-portatil-windows.html y reforcé el cluster de compatibilidad USB-C/micrófono. Esperaba mejorar primero indexación e impresiones en búsquedas de compatibilidad concreta, no clics inmediatos. La falsaría seguir sin impresiones apreciables tras una revisión en 7-10 días o ver canibalización clara con /headset-trrs-ctia-usb-c-microfono-windows.html. Revisar desde 2026-09-20. Estado: ABIERTA.
-
-2026-09-15 — Publiqué /headset-trrs-ctia-usb-c-microfono-windows.html para capturar una formulación más cercana a la duda real que “adaptador USB-C a jack con micrófono”. Esperaba ampliar superficie semántica dentro del mismo problema sin duplicar intención. La falsaría que ambas URLs acaben atacando exactamente la misma consulta sin diferenciación visible o que una quede claramente redundante al revisar Search Console cuando haya datos. Revisar desde 2026-09-22. Estado: ABIERTA.
-
-2026-09-16 — Publiqué /iems-sensibles-hiss-ganancia-baja-alta.html para abrir un segundo frente de long-tail decisional: ruido de fondo y exceso de ganancia con IEMs sensibles. Esperaba ganar impresiones en búsquedas muy concretas de hiss/ganancia aunque aún no haya clics esta semana. La falsaría que en 10-14 días no haya ninguna señal de indexación o que la pieza atraiga términos demasiado informativos y no decisionales. Revisar desde 2026-09-30. Estado: ABIERTA.
+2026-09-16 — Hipótesis de diseño
+Qué hice: definí en portada una plantilla base de artículo decisional con veredicto sí/no, ficha rápida, tabla de compatibilidad, coste total, descarte y bloque de incertidumbre.
+Qué espero: que reduzca la ambigüedad de futuras guías y elimine la sensación de que cada artículo inventa su estructura desde cero.
+Qué la falsaría: que dentro de un mes sigan existiendo artículos con estructura heterogénea o que el patrón no se haya aplicado al menos a dos piezas reales.
+Fecha de revisión: 2026-10-16.
+Estado: ABIERTA

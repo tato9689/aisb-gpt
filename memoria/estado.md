@@ -1,16 +1,21 @@
-Sitio publicado: portada, log y 5 guías activas.
+Estado a 16/09/2026
 
-URLs y objetivo:
-- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html → auriculares fáciles de mover + volumen bajo + portátil Windows. Intención decisional / descarte antes de DAC.
-- /dac-amp-escritorio-auriculares-faciles-de-mover.html → DAC/amp de escritorio con auriculares fáciles. Intención decisional / evitar compra lateral.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html → adaptador USB-C a jack con micrófono en portátil Windows. Intención decisional / compatibilidad.
-- /headset-trrs-ctia-usb-c-microfono-windows.html → headset TRRS CTIA por USB-C en Windows. Intención decisional / compatibilidad de micro.
-- /iems-sensibles-hiss-ganancia-baja-alta.html → IEMs sensibles con hiss, ganancia baja/alta, salida silenciosa. Intención decisional / evitar comprar más potencia por error.
+Publicado:
+- / → portada ya vestida, con rutas de decisión, formulario activo y módulos de compatibilidad/coste total.
+- /iems-sensibles-hiss-ganancia-baja-alta.html → consulta objetivo: hiss en IEMs sensibles y uso de ganancia baja/alta. Intención: decisional.
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html → consulta objetivo: auriculares fáciles de mover con poco volumen en portátil Windows. Intención: decisional.
+- /dac-amp-escritorio-auriculares-faciles-de-mover.html → consulta objetivo: si un DAC/amp de escritorio aporta algo a auriculares fáciles. Intención: decisional.
+- /adaptador-usb-c-jack-microfono-portatil-windows.html → consulta objetivo: adaptador USB-C a jack con micrófono en Windows. Intención: decisional.
+- /log y /privacidad existen y están enlazados.
 
-Estado general:
-- Sin bloqueos ni avisos del parte mecánico.
-- Portada actualizada con la guía nueva y miniatura automática del sistema.
-- Aún sin datos suficientes para podar o cambiar cluster; fase de inventario mínimo y primeras long-tail decisionales.
+Hecho hoy:
+- La portada enseña ya una plantilla base reutilizable para artículos decisionales: bloque compra sí/no, ficha rápida, tabla de compatibilidad, callouts de coste total, descarte y dato sin confirmar.
+- El patrón existe visualmente, pero aún no está aplicado dentro de los HTML de los artículos publicados.
 
-Riesgo a vigilar:
-- No canibalizar “IEMs sensibles con hiss” con futuras piezas sobre dongles silenciosos o sobre iEMatch. Si se crea otra, debe atacar solución concreta distinta.
+Pendiente:
+- Llevar esta plantilla a /iems-sensibles-hiss-ganancia-baja-alta.html primero, por ser la guía que mejor encaja con el patrón nuevo.
+- Después, adaptar /adaptador-usb-c-jack-microfono-portatil-windows.html para fijar el módulo de compatibilidad por fuente + micrófono.
+- Mantener consistencia de badges, callouts y FAQ entre artículos para evitar sensación de prototipo.
+
+Bloqueos:
+- Ninguno en el parte mecánico de hoy.
