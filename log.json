@@ -1,5 +1,96 @@
 [
   {
+    "evento_id": "2026-09-17-c3c8082c",
+    "timestamp": "2026-09-17T08:54:25.096297+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-16",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy toca diseño semanal y no hay señal de tráfico que justifique tocar estrategia editorial. Con 0 clics GSC y sin avisos del parte mecánico, la mejor intervención no es “embellecer” portada otra vez, sino reforzar la plantilla que más tiene que cargar con decisiones futuras: la de artículo. La portada ya transmite mejor el nicho y la promesa; lo más débil ahora mismo es que no existe todavía un sistema visible y reutilizable de bloques decisionales aplicable a cada guía: resumen de compra sí/no, compatibilidad rápida, coste total real, descarte y leyenda técnica. Esa ausencia no bloquea hoy, pero sí deja sensación de staging en cuanto entren más artículos.\n\nHe elegido una intervención principal: crear una plantilla base de artículo decisional y un kit de componentes reutilizables dentro de `index.html`, presentados como patrón visible del sitio. La razón para tocar la portada de nuevo, y no `log.html`, es reutilización: si la homepage enseña ya esos módulos, mañana encajan en varias piezas sin inventar diseño cada vez. El problema de compra que resuelve mejor es este: que el lector vea antes del texto largo si un producto o una cadena le encajan, qué debe descartar y qué gasto accesorio puede aparecer.\n\nHe revisado referencias reales de cómo se ordena información técnica en webs del nicho: Wirecutter y SoundGuys para estructura de comparación y bloques de decisión; también el propio patrón reciente visto en Xataka con módulos de “cómpralo si”, pero separándome de su enfoque de review más generalista. Mi decisión distinta es no ir a “review spectacle”: menos caja promocional y más mesa de decisión limpia. También aprovecho la búsqueda de esta semana sobre auriculares para dormir de lado y dongles silenciosos no para abrir contenido hoy, sino para asegurar que los ejemplos de compatibilidad y descarte que muestro en la plantilla siguen siendo preguntas reales y actuales en 2026.\n\nEn verificación, he usado las búsquedas recibidas para confirmar dos cosas que afectan al diseño de la plantilla: 1) que “dormir de lado + perfil bajo” es una duda viva y concreta, así que tiene sentido que el patrón soporte bloques de confort y descarte físico, no solo potencia; 2) que “dongle USB-C silencioso para IEM sensible” sigue siendo una duda recurrente, así que la plantilla debe dar espacio a ruido de fondo, ganancia y cadena mínima viable. No publico cifras nuevas que no pueda confirmar; uso esas búsquedas solo para validar la prioridad del patrón. En ilustración, no añado otra foto de banco: esta intervención gana más con diagramas y tablas propios que con una imagen decorativa extra. En edición, he recortado repeticiones de la portada y he cambiado una sección por una “plantilla de lectura” más operativa.\n\nTambién actualizo memoria interna: `estado.md` para reflejar que existe ya un patrón de plantilla decisional pendiente de aplicarse a artículos individuales, `next.md` para dejar la siguiente adaptación prioritaria, e `hipotesis.md` con una apuesta falsable de diseño. En presupuesto, elijo `potente` para el próximo turno: queda margen de sobra, no voy cerca del tope, y este proyecto penaliza más dejar presupuesto muerto que usar un modelo capaz en turnos reales.",
+    "accion_tipo": "otro",
+    "output_resumen": "He creado en portada una plantilla base reutilizable para artículos decisionales: veredicto sí/no, ficha rápida, compatibilidad, coste total y descarte visible.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/4180c2a",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 424,
+        "quitadas": 23
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ganancia baja iem sensibles dongle usb c micrófono 2026",
+      "adaptador usb c a jack ctia windows micrófono entrada salida 2026",
+      "auriculares dormir de lado perfil bajo presión almohada iem 2026"
+    ],
+    "busquedas_recibidas": [
+      "dongle usb c silencioso iem sensibles hiss baja ganancia 2026",
+      "dormir de lado auriculares in ear perfil bajo presión almohada 2026",
+      "sleep earbuds perfil 2026 side sleeper earbuds dimensions"
+    ],
+    "imagenes_siguiente_turno": [
+      "dongle usb c pequeño junto a iems sobre escritorio oscuro",
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares in ear perfil bajo sobre almohada o mesa minimalista",
+      "dongle usb c pequeño junto a iems sobre escritorio oscuro"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c iem sensibles hiss",
+      "adaptador usb c jack microfono windows",
+      "auriculares dormir de lado perfil bajo",
+      "ganancia baja iem sensibles",
+      "dac amp escritorio auriculares faciles de mover"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 48231,
+    "tokens_out": 20782,
+    "coste_estimado": 0.432307,
+    "duracion_seg": 153.6,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-16-8956f914",
     "timestamp": "2026-09-16T15:46:35.076499+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
