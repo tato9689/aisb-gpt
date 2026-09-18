@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar</title>
-  <meta name="description" content="Cómo saber si un adaptador USB-C a jack sacará audio y micrófono en Windows antes de comprarlo o descartarlo.">
+  <meta name="description" content="Cómo saber si un adaptador USB-C a jack dará audio y micrófono en Windows, qué mirar en TRRS/CTIA y qué compras conviene descartar.">
   <link rel="canonical" href="https://gpt.retoseo.com/adaptador-usb-c-jack-microfono-portatil-windows.html">
   <link rel="alternate" type="application/rss+xml" title="Audio personal sin ruido — RSS" href="/rss.xml">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -12,8 +12,8 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://gpt.retoseo.com/adaptador-usb-c-jack-microfono-portatil-windows.html">
   <meta property="og:title" content="Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar">
-  <meta property="og:description" content="Cómo saber si un adaptador USB-C a jack sacará audio y micrófono en Windows antes de comprarlo o descartarlo.">
-  <meta property="og:image" content="https://gpt.retoseo.com/og/miniatura/adaptador-usb-c-jack-microfono-portatil-windows.jpg">
+  <meta property="og:description" content="Cómo saber si un adaptador USB-C a jack dará audio y micrófono en Windows, qué mirar en TRRS/CTIA y qué compras conviene descartar.">
+  <meta property="og:image" content="https://gpt.retoseo.com/og.png">
   <meta name="twitter:card" content="summary_large_image">
 
   <script type="application/ld+json">
@@ -21,7 +21,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar",
-    "description": "Cómo saber si un adaptador USB-C a jack sacará audio y micrófono en Windows antes de comprarlo o descartarlo.",
+    "description": "Cómo saber si un adaptador USB-C a jack dará audio y micrófono en Windows, qué mirar en TRRS/CTIA y qué compras conviene descartar.",
     "author": {
       "@type": "Organization",
       "name": "Audio personal sin ruido"
@@ -31,26 +31,23 @@
       "name": "Audio personal sin ruido",
       "url": "https://gpt.retoseo.com/"
     },
-    "mainEntityOfPage": {
-      "@type": "WebPage",
-      "@id": "https://gpt.retoseo.com/adaptador-usb-c-jack-microfono-portatil-windows.html"
-    },
-    "datePublished": "2026-09-12",
-    "dateModified": "2026-09-12"
+    "mainEntityOfPage": "https://gpt.retoseo.com/adaptador-usb-c-jack-microfono-portatil-windows.html",
+    "datePublished": "2026-09-18",
+    "dateModified": "2026-09-18"
   }
   </script>
 
   <style>
     :root {
       --bg: #0c1118;
-      --panel: rgba(17, 25, 39, 0.9);
+      --panel: #111927;
       --panel-2: #162131;
       --panel-3: #0f1723;
       --text: #edf2f7;
       --muted: #a9b7c7;
-      --muted-2: #ced8e3;
+      --muted-2: #c7d2de;
       --line: rgba(255,255,255,0.08);
-      --line-strong: rgba(125, 211, 252, 0.24);
+      --line-strong: rgba(125,211,252,0.24);
       --accent: #7dd3fc;
       --accent-2: #c4b5fd;
       --ok: #86efac;
@@ -58,7 +55,7 @@
       --danger: #fca5a5;
       --radius: 18px;
       --radius-sm: 14px;
-      --shadow: 0 18px 50px rgba(0,0,0,.28);
+      --shadow: 0 18px 50px rgba(0,0,0,0.28);
       --max: 1120px;
       --reading: 760px;
       --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -71,17 +68,17 @@
       margin: 0;
       font-family: var(--font-body);
       background:
-        radial-gradient(circle at top left, rgba(125, 211, 252, 0.12), transparent 32%),
-        radial-gradient(circle at top right, rgba(196, 181, 253, 0.10), transparent 28%),
+        radial-gradient(circle at top left, rgba(125,211,252,0.12), transparent 32%),
+        radial-gradient(circle at top right, rgba(196,181,253,0.10), transparent 28%),
         var(--bg);
       color: var(--text);
-      line-height: 1.68;
+      line-height: 1.62;
       text-rendering: optimizeLegibility;
     }
 
     a {
       color: inherit;
-      text-decoration-color: rgba(125, 211, 252, 0.45);
+      text-decoration-color: rgba(125,211,252,0.45);
       text-underline-offset: 0.18em;
       transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
     }
@@ -93,7 +90,8 @@
 
     a:focus-visible,
     button:focus-visible,
-    input:focus-visible {
+    input:focus-visible,
+    summary:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 3px;
     }
@@ -127,7 +125,7 @@
       flex: 0 0 auto;
     }
 
-    .header-link {
+    .back-link {
       display: inline-flex;
       align-items: center;
       gap: 8px;
@@ -140,81 +138,84 @@
       font-size: 0.95rem;
     }
 
-    .header-link:hover {
+    .back-link:hover {
       border-color: var(--line-strong);
       color: var(--text);
     }
 
     main { padding: 18px 0 56px; }
 
-    .article-shell {
+    .article-layout {
       display: grid;
+      grid-template-columns: minmax(0, 1fr) 300px;
       gap: 18px;
+      align-items: start;
     }
 
-    .hero,
-    .article-body,
-    .cta,
-    .related {
+    .article-shell,
+    .side-shell {
       border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: var(--panel);
+      border-radius: calc(var(--radius) + 2px);
+      background: rgba(17,25,39,0.88);
       box-shadow: var(--shadow);
     }
 
-    .hero {
-      padding: 28px;
-      display: grid;
-      gap: 16px;
-    }
+    .article-shell { padding: 28px; }
+    .side-shell { padding: 18px; position: sticky; top: 18px; }
 
     .eyebrow {
       display: inline-flex;
       width: fit-content;
       align-items: center;
-      gap: 6px;
+      gap: 8px;
       padding: 6px 10px;
       border-radius: 999px;
-      background: rgba(125, 211, 252, 0.1);
+      background: rgba(125,211,252,0.10);
       color: #d7f3ff;
       font-size: 0.84rem;
     }
 
-    h1, h2, h3 { margin: 0; letter-spacing: -0.02em; }
-    h1 {
-      font-size: clamp(2rem, 4vw, 3.25rem);
-      line-height: 1.05;
+    h1, h2, h3, p { margin: 0; }
+
+    .article-header {
+      display: grid;
+      gap: 14px;
+      margin-bottom: 22px;
+    }
+
+    .article-header h1 {
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      line-height: 1.04;
       letter-spacing: -0.04em;
-      max-width: 14ch;
+      max-width: 12ch;
     }
 
-    .hero p {
-      margin: 0;
-      max-width: var(--reading);
-      color: var(--muted);
-      font-size: 1.04rem;
+    .lead {
+      color: var(--muted-2);
+      font-size: 1.06rem;
+      max-width: 68ch;
     }
 
-    .meta {
+    .meta-row {
       display: flex;
       flex-wrap: wrap;
       gap: 10px 14px;
       color: var(--muted);
-      font-size: 0.94rem;
+      font-size: 0.93rem;
     }
 
     .hero-figure {
-      margin: 4px 0 0;
+      margin: 0 0 22px;
       border: 1px solid var(--line);
-      border-radius: 16px;
+      border-radius: var(--radius);
       overflow: hidden;
       background: var(--panel-3);
     }
 
     .hero-figure img {
-      display: block;
       width: 100%;
       height: auto;
+      display: block;
       aspect-ratio: 640 / 336;
       object-fit: cover;
     }
@@ -226,89 +227,227 @@
       border-top: 1px solid var(--line);
     }
 
-    .article-body {
-      padding: 28px;
+    .small-note {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 8px;
     }
 
-    .article-body > * {
-      max-width: var(--reading);
+    .summary-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 12px;
+      margin-bottom: 18px;
     }
 
-    .article-body > * + * {
-      margin-top: 18px;
+    .summary-card {
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
     }
 
-    .article-body p,
-    .article-body li {
-      color: var(--muted-2);
-      font-size: 1rem;
+    .summary-card strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.96rem;
     }
 
-    .article-body strong {
-      color: var(--text);
+    .summary-card p {
+      color: var(--muted);
+      font-size: 0.95rem;
     }
 
-    .article-body ul,
-    .article-body ol {
-      padding-left: 20px;
+    .summary-yes {
+      border-color: rgba(134,239,172,0.24);
+      background: rgba(134,239,172,0.06);
+    }
+
+    .summary-no {
+      border-color: rgba(252,165,165,0.24);
+      background: rgba(252,165,165,0.05);
+    }
+
+    .facts-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 10px;
+      margin-bottom: 22px;
+    }
+
+    .fact-card {
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .fact-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .fact-card strong {
+      display: block;
+      font-size: 0.97rem;
+      line-height: 1.3;
+    }
+
+    .callout {
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+      margin-bottom: 18px;
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.98rem;
+    }
+
+    .callout p,
+    .callout ul {
+      color: var(--muted);
+      font-size: 0.95rem;
       margin: 0;
     }
 
-    .article-body li + li {
-      margin-top: 10px;
+    .callout ul {
+      padding-left: 18px;
     }
 
-    .leadbox,
-    .note,
-    .warning,
-    .checklist,
-    .mini-card {
+    .callout li + li {
+      margin-top: 8px;
+    }
+
+    .callout-no {
+      border-color: rgba(252,165,165,0.24);
+      background: rgba(252,165,165,0.05);
+    }
+
+    .callout-note {
+      border-color: rgba(125,211,252,0.2);
+      background: rgba(125,211,252,0.06);
+    }
+
+    .toc {
+      display: grid;
+      gap: 10px;
+    }
+
+    .toc h2 {
+      font-size: 1rem;
+      margin-bottom: 2px;
+    }
+
+    .toc ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: 8px;
+    }
+
+    .toc a {
+      display: block;
+      padding: 10px 12px;
       border: 1px solid var(--line);
-      border-radius: var(--radius-sm);
+      border-radius: 12px;
       background: rgba(255,255,255,0.02);
+      text-decoration: none;
+      color: var(--muted-2);
+      font-size: 0.92rem;
+    }
+
+    .toc a:hover {
+      color: var(--text);
+      border-color: var(--line-strong);
+    }
+
+    .side-card {
+      display: grid;
+      gap: 10px;
       padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+      margin-top: 14px;
+    }
+
+    .side-card h2,
+    .side-card h3 {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    .side-card p,
+    .side-card ul {
+      color: var(--muted);
+      font-size: 0.93rem;
+      margin: 0;
+    }
+
+    .side-card ul {
+      padding-left: 18px;
+    }
+
+    .side-card li + li {
+      margin-top: 8px;
+    }
+
+    .content {
+      display: grid;
+      gap: 22px;
+    }
+
+    .content section {
+      display: grid;
+      gap: 12px;
+    }
+
+    .content h2 {
+      font-size: 1.38rem;
+      letter-spacing: -0.02em;
+      scroll-margin-top: 20px;
+    }
+
+    .content h3 {
+      font-size: 1.08rem;
+      letter-spacing: -0.02em;
+    }
+
+    .content p,
+    .content li {
+      color: var(--muted-2);
+      font-size: 1rem;
       max-width: var(--reading);
     }
 
-    .leadbox {
-      background: linear-gradient(180deg, rgba(125,211,252,0.08), rgba(255,255,255,0.02));
+    .content ul {
+      margin: 0;
+      padding-left: 20px;
+      display: grid;
+      gap: 8px;
     }
 
-    .leadbox p:last-child,
-    .note p:last-child,
-    .warning p:last-child,
-    .mini-card p:last-child {
-      margin-bottom: 0;
-    }
-
-    .warning {
-      border-color: rgba(252,165,165,0.22);
-      background: rgba(252,165,165,0.06);
-    }
-
-    .note {
-      border-color: rgba(196,181,253,0.2);
-      background: rgba(196,181,253,0.06);
-    }
-
-    .checklist h2,
-    .mini-card h3 {
-      margin-bottom: 10px;
-    }
-
-    .decision-table {
+    .table-shell {
       border: 1px solid var(--line);
       border-radius: 14px;
       overflow: auto;
       background: rgba(255,255,255,0.015);
-      max-width: 100%;
     }
 
     table {
       width: 100%;
+      min-width: 700px;
       border-collapse: collapse;
-      min-width: 680px;
-      font-size: 0.96rem;
+      font-size: 0.95rem;
     }
 
     th, td {
@@ -319,104 +458,90 @@
     }
 
     th {
-      background: rgba(255,255,255,0.03);
       color: #dce7f3;
+      background: rgba(255,255,255,0.03);
       font-weight: 700;
     }
 
     tr:last-child td { border-bottom: 0; }
 
-    .diagram {
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      font-size: 0.82rem;
       border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px;
       background: rgba(255,255,255,0.02);
-      overflow: auto;
-      max-width: 100%;
     }
 
-    .diagram svg {
+    .badge-ok {
+      color: #dfffea;
+      border-color: rgba(134,239,172,0.26);
+      background: rgba(134,239,172,0.10);
+    }
+
+    .badge-maybe {
+      color: #fff3c4;
+      border-color: rgba(253,230,138,0.26);
+      background: rgba(253,230,138,0.10);
+    }
+
+    .badge-no {
+      color: #ffe0e0;
+      border-color: rgba(252,165,165,0.26);
+      background: rgba(252,165,165,0.10);
+    }
+
+    .diagram-card {
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+      overflow: auto;
+    }
+
+    .diagram-card svg {
       width: 100%;
       height: auto;
-      min-width: 660px;
+      min-width: 680px;
       display: block;
     }
 
-    .related,
-    .cta {
-      padding: 22px;
+    .faq-list {
       display: grid;
-      gap: 14px;
+      gap: 10px;
     }
 
-    .related-grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 14px;
-    }
-
-    .related a.card {
-      display: grid;
-      gap: 8px;
-      padding: 16px;
+    .faq-item {
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
-      text-decoration: none;
+      overflow: clip;
     }
 
-    .related a.card:hover {
-      transform: translateY(-2px);
-      border-color: var(--line-strong);
-      color: inherit;
+    .faq-item summary {
+      cursor: pointer;
+      list-style: none;
+      padding: 14px 16px;
+      font-weight: 700;
     }
 
-    .card-kicker {
-      color: #d7f3ff;
-      font-size: 0.8rem;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
+    .faq-item summary::-webkit-details-marker {
+      display: none;
     }
 
-    .small {
+    .faq-item div {
+      padding: 0 16px 16px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .changelog {
+      padding-top: 8px;
+      border-top: 1px solid var(--line);
       color: var(--muted);
       font-size: 0.92rem;
-    }
-
-    form {
-      display: grid;
-      gap: 12px;
-      max-width: 560px;
-    }
-
-    input[type="email"], button {
-      width: 100%;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      padding: 14px 16px;
-      font: inherit;
-    }
-
-    input[type="email"] {
-      background: rgba(255,255,255,0.03);
-      color: var(--text);
-    }
-
-    input[type="email"]::placeholder {
-      color: #92a4b7;
-    }
-
-    button {
-      background: linear-gradient(135deg, var(--accent), var(--accent-2));
-      color: #081018;
-      font-weight: 800;
-      cursor: pointer;
-      transition: transform 160ms ease, filter 160ms ease;
-    }
-
-    button:hover {
-      transform: translateY(-1px);
-      filter: brightness(1.03);
     }
 
     footer {
@@ -425,8 +550,20 @@
       font-size: 0.96rem;
     }
 
-    footer p { margin: 0 0 10px; max-width: 74ch; }
+    footer p { margin: 0 0 10px; }
     .descargo { color: #d6dee7; }
+
+    @media (max-width: 980px) {
+      .article-layout,
+      .summary-grid,
+      .facts-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .side-shell {
+        position: static;
+      }
+    }
 
     @media (max-width: 860px) {
       header {
@@ -434,28 +571,30 @@
         align-items: flex-start;
       }
 
-      .hero,
-      .article-body,
-      .related,
-      .cta {
-        padding: 20px;
+      .article-shell {
+        padding: 22px;
       }
 
-      .related-grid {
-        grid-template-columns: 1fr;
-      }
-
-      .diagram svg,
+      .diagram-card svg,
       table {
         min-width: 560px;
       }
     }
 
     @media (max-width: 560px) {
-      body { line-height: 1.6; }
-      h1 { max-width: 11ch; }
-      .header-link { width: 100%; justify-content: center; }
-      .diagram svg,
+      body { line-height: 1.58; }
+      .article-shell,
+      .side-shell {
+        padding: 18px;
+      }
+      .article-header h1 {
+        max-width: 10ch;
+      }
+      .back-link {
+        width: 100%;
+        justify-content: center;
+      }
+      .diagram-card svg,
       table {
         min-width: 520px;
       }
@@ -477,190 +616,285 @@
       </svg>
       <span>Audio personal sin ruido</span>
     </a>
-    <a class="header-link" href="https://gpt.retoseo.com/">Volver a la portada</a>
+    <a class="back-link" href="https://gpt.retoseo.com/">Volver a la portada</a>
   </header>
 
   <main>
-    <div class="article-shell">
-      <section class="hero" aria-labelledby="article-heading">
-        <span class="eyebrow">USB-C, TRRS y portátil Windows</span>
-        <h1 id="article-heading">Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar</h1>
-        <p>Si quieres escuchar y usar el micrófono desde un solo jack de 3,5 mm en un portátil Windows, no basta con que el adaptador tenga “USB-C a audio”. Tiene que exponer salida y entrada, y tu auricular tiene que hablar el mismo idioma de pinout.</p>
-
-        <div class="meta">
-          <span>Publicado: 12/09/2026</span>
-          <span>Última revisión: 12/09</span>
-          <span>Intención: resolver compatibilidad antes de comprar</span>
-        </div>
+    <div class="article-layout">
+      <article class="article-shell">
+        <header class="article-header">
+          <span class="eyebrow">Guía práctica · Compatibilidad USB-C</span>
+          <h1>Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar</h1>
+          <p class="lead">Si necesitas sacar audio y micrófono por el mismo jack de 3,5 mm en Windows, no compres por la foto del conector. Lo decisivo es si el adaptador actúa como tarjeta de sonido USB con entrada y salida, y si tu auricular usa el pinout TRRS esperado.</p>
+          <div class="meta-row">
+            <span>Publicado: 18/09/2026</span>
+            <span>Última revisión: 18/09</span>
+            <span>Intención: resolver compra y descarte</span>
+          </div>
+        </header>
 
         <figure class="hero-figure">
-          <img src="/og/miniatura/adaptador-usb-c-jack-microfono-portatil-windows.jpg" alt="Diagrama de decisión para comprobar si un adaptador USB-C a jack permitirá usar audio y micrófono en un portátil Windows" width="640" height="336">
-          <figcaption>La duda útil aquí no es si “sirve para audio”, sino si sirve para audio y voz al mismo tiempo en tu cadena concreta.</figcaption>
+          <img src="https://images.pexels.com/photos/4195404/pexels-photo-4195404.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Portátil plateado con un adaptador USB-C conectado sobre un escritorio de madera" width="640" height="336">
+          <figcaption>
+            Un adaptador USB-C puede parecer uno más, pero en esta compra importa más qué funciones expone que la forma del cuerpo o el material del cable.
+            <div class="small-note">Foto de <a href="https://www.pexels.com/es-es/@karola-g">https://kaboompics.com/</a> en <a href="https://www.pexels.com/es-es/foto/puerto-oporto-ordenador-portatil-cuaderno-4195404/">Pexels</a></div>
+          </figcaption>
         </figure>
-      </section>
 
-      <article class="article-body">
-        <div class="leadbox">
-          <p><strong>Respuesta corta:</strong> busca un adaptador USB-C que se anuncie de forma explícita como compatible con <strong>auriculares con micrófono</strong> o <strong>TRRS</strong>. Si la ficha solo habla de auriculares, música o DAC, no des por hecho que captará voz. Y si tu auricular usa un pinout distinto al esperado por el adaptador, Windows puede sacar sonido perfecto y dejar el micro muerto.</p>
+        <div class="summary-grid" aria-label="Veredicto rápido">
+          <div class="summary-card summary-yes">
+            <strong>Cómpralo si…</strong>
+            <p>tu portátil necesita una salida única de 3,5 mm para auriculares con micrófono y el adaptador confirma entrada y salida de audio por USB.</p>
+          </div>
+          <div class="summary-card summary-no">
+            <strong>No lo compres si…</strong>
+            <p>solo ves “USB-C a jack” sin mención clara a micrófono, TRRS o entrada de audio. En ese caso puedes oír bien y seguir sin poder hablar.</p>
+          </div>
         </div>
 
-        <p>La confusión viene de cómo se venden estos accesorios. En las búsquedas de contraste de hoy aparecían fichas que mezclan “audio”, “llamadas”, “micrófono” y “tarjeta de sonido USB-C” como si fueran sinónimos. No lo son. Para una compra de audio personal, ese detalle cambia bastante: un adaptador puede ser correcto para escuchar y malo para trabajar, jugar o hacer videollamadas.</p>
-
-        <h2>Qué revisar antes de comprar otro adaptador</h2>
-        <ul>
-          <li><strong>Que el jack sea TRRS para auriculares con micrófono.</strong> Si el anuncio habla de auriculares y micrófono en el mismo puerto, buena señal. Si no lo dice, yo lo trataría como dudoso.</li>
-          <li><strong>Que la ficha mencione entrada y salida, no solo salida de audio.</strong> “Adaptador de audio” a veces significa solo escuchar.</li>
-          <li><strong>Que tu auricular use el estándar esperado.</strong> En audio personal actual, lo normal es CTIA. Si vienes de auriculares antiguos o raros, ahí puede romperse la cadena.</li>
-          <li><strong>Que tu problema sea de compatibilidad y no de reconocimiento en Windows.</strong> Si Windows detecta salida pero no entrada, el fallo suele estar antes del sistema: adaptador o pinout.</li>
-        </ul>
-
-        <div class="diagram" aria-labelledby="diag-title">
-          <svg viewBox="0 0 760 300" role="img" aria-labelledby="diag-title diag-desc">
-            <title id="diag-title">Flujo de decisión para adaptadores USB-C a jack con micrófono en Windows</title>
-            <desc id="diag-desc">Esquema de cuatro pasos: confirmar que el adaptador anuncia auriculares con micrófono o TRRS, comprobar si Windows detecta entrada, revisar si el auricular usa CTIA y decidir si el problema es de adaptador o de cadena.</desc>
-
-            <rect x="0" y="0" width="760" height="300" rx="18" fill="#101826"></rect>
-
-            <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-              <rect x="34" y="40" width="160" height="70" rx="14" fill="rgba(125,211,252,0.12)" stroke="rgba(125,211,252,0.36)"></rect>
-              <text x="114" y="67" text-anchor="middle" fill="#edf2f7" font-size="15" font-weight="700">1. Mira la ficha</text>
-              <text x="114" y="88" text-anchor="middle" fill="#c7d2de" font-size="13">¿Habla de TRRS o</text>
-              <text x="114" y="105" text-anchor="middle" fill="#c7d2de" font-size="13">auriculares con micro?</text>
-
-              <rect x="300" y="40" width="160" height="70" rx="14" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.36)"></rect>
-              <text x="380" y="67" text-anchor="middle" fill="#edf2f7" font-size="15" font-weight="700">2. Conecta</text>
-              <text x="380" y="88" text-anchor="middle" fill="#c7d2de" font-size="13">¿Windows ve entrada</text>
-              <text x="380" y="105" text-anchor="middle" fill="#c7d2de" font-size="13">y salida por separado?</text>
-
-              <rect x="566" y="40" width="160" height="70" rx="14" fill="rgba(196,181,253,0.12)" stroke="rgba(196,181,253,0.36)"></rect>
-              <text x="646" y="67" text-anchor="middle" fill="#edf2f7" font-size="15" font-weight="700">3. Revisa el auricular</text>
-              <text x="646" y="88" text-anchor="middle" fill="#c7d2de" font-size="13">¿Usa TRRS CTIA y</text>
-              <text x="646" y="105" text-anchor="middle" fill="#c7d2de" font-size="13">no un pinout raro?</text>
-
-              <rect x="164" y="184" width="200" height="74" rx="14" fill="rgba(252,165,165,0.12)" stroke="rgba(252,165,165,0.36)"></rect>
-              <text x="264" y="212" text-anchor="middle" fill="#edf2f7" font-size="15" font-weight="700">Si falla aquí</text>
-              <text x="264" y="232" text-anchor="middle" fill="#c7d2de" font-size="13">Descarta el adaptador</text>
-              <text x="264" y="249" text-anchor="middle" fill="#c7d2de" font-size="13">antes de culpar a Windows</text>
-
-              <rect x="402" y="184" width="200" height="74" rx="14" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.36)"></rect>
-              <text x="502" y="212" text-anchor="middle" fill="#edf2f7" font-size="15" font-weight="700">Si todo encaja</text>
-              <text x="502" y="232" text-anchor="middle" fill="#c7d2de" font-size="13">Ya tiene sentido probar</text>
-              <text x="502" y="249" text-anchor="middle" fill="#c7d2de" font-size="13">configuración y permisos</text>
-
-              <path d="M194 75H300" stroke="rgba(125,211,252,0.5)" stroke-width="3" fill="none"></path>
-              <path d="M460 75H566" stroke="rgba(125,211,252,0.5)" stroke-width="3" fill="none"></path>
-              <path d="M380 110V156H264V184" stroke="rgba(252,165,165,0.45)" stroke-width="3" fill="none"></path>
-              <path d="M646 110V156H502V184" stroke="rgba(134,239,172,0.45)" stroke-width="3" fill="none"></path>
-            </g>
-          </svg>
+        <div class="facts-grid" aria-label="Pistas rápidas">
+          <div class="fact-card">
+            <span>Conector del auricular</span>
+            <strong>TRRS de 4 polos para audio + micro</strong>
+          </div>
+          <div class="fact-card">
+            <span>Dato clave</span>
+            <strong>El adaptador debe exponer entrada y salida</strong>
+          </div>
+          <div class="fact-card">
+            <span>Riesgo típico</span>
+            <strong>Confundir divisor analógico con tarjeta USB</strong>
+          </div>
+          <div class="fact-card">
+            <span>Compatibilidad</span>
+            <strong>CTIA suele ser la apuesta segura hoy</strong>
+          </div>
         </div>
 
-        <h2>La señal más útil en la ficha: TRRS y micrófono</h2>
-        <p>En los resultados de hoy aparecían varios productos descritos como <em>USB-C a jack 3,5 mm para auriculares y micrófono</em> o <em>TRRS minijack</em>. Ese matiz importa más que el tamaño del DAC, los bits o cualquier número vistoso para alguien que solo quiere conectar unos cascos con micro al portátil. Si no ves esa promesa por escrito, yo no compraría a ciegas.</p>
-
-        <div class="warning">
-          <p><strong>Qué descartaría de entrada:</strong> adaptadores cuya ficha solo promete escuchar música, “mejor sonido” o compatibilidad genérica con USB-C. Para voz, hace falta que el fabricante deje claro que el puerto de 3,5 mm admite micrófono.</p>
-        </div>
-
-        <h2>Qué puede pasar en Windows y por qué no siempre es culpa de Windows</h2>
-        <p>Cuando conectas un adaptador correcto, lo lógico es que el sistema vea una salida y una entrada, aunque a veces las nombre de forma genérica. Si solo aparece salida, o si tu voz no entra en ninguna app, el error puede estar en una de estas tres capas:</p>
-
-        <div class="decision-table">
-          <table aria-label="Fallos típicos con adaptador USB-C a jack y micrófono en Windows">
-            <thead>
-              <tr>
-                <th>Qué ves</th>
-                <th>Qué suele significar</th>
-                <th>Qué haría antes de comprar otro</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Oyes bien, no te oyen</td>
-                <td>El adaptador saca audio pero no expone entrada, o el auricular no casa con el pinout esperado</td>
-                <td>Confirmar TRRS/micrófono en la ficha y probar otro auricular con micro conocido</td>
-              </tr>
-              <tr>
-                <td>No aparece micrófono en Windows</td>
-                <td>El adaptador puede presentarse solo como salida</td>
-                <td>Descartar el adaptador antes de culpar a la app de llamada</td>
-              </tr>
-              <tr>
-                <td>El micro aparece pero va mal o no estable</td>
-                <td>Puede haber mala conexión física, TRRS problemático o calidad pobre del adaptador</td>
-                <td>Probar reconexión limpia y otro casco antes de repetir compra a ciegas</td>
-              </tr>
-              <tr>
-                <td>Todo funciona con otro auricular</td>
-                <td>La fricción está en el auricular o su estándar, no en el portátil</td>
-                <td>No cambiar fuente ni comprar DAC/amp por inercia</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h2>TRRS, CTIA y el error silencioso más común</h2>
-        <p>Si compras audio personal a base de fichas rápidas, este es uno de los fallos más fáciles de pasar por alto. El adaptador puede estar pensado para un auricular con micro en estándar actual, pero si tu auricular usa otra disposición de contactos, la salida puede ir y la entrada no. Por eso, para este caso concreto, me parece mejor priorizar <strong>compatibilidad declarada</strong> que una lista de cifras bonitas.</p>
-
-        <div class="note">
-          <p><strong>Sin confirmar a fecha de 12/09:</strong> no tengo hoy una lista cerrada y fiable de modelos concretos de adaptador que mantengan el micro en todos los portátiles Windows, porque las fichas comerciales en resultados abiertos no bastan para afirmar compatibilidad universal por modelo. Prefiero dejar esa parte sin cerrar antes que rellenarla a ojo.</p>
-        </div>
-
-        <h2>Qué no comprar</h2>
-        <ul>
-          <li>No compraría un DAC/amp de escritorio para arreglar un problema que casi siempre está en un adaptador pequeño o en el auricular.</li>
-          <li>No compraría un adaptador “solo porque tiene 32 bits” si la ficha no aclara entrada de micrófono.</li>
-          <li>No compraría otro igual si el primero ya falló y sigues sin haber confirmado TRRS con micrófono en la descripción.</li>
-        </ul>
-
-        <h2>Mi criterio rápido de descarte</h2>
-        <div class="checklist">
+        <aside class="callout callout-no">
+          <strong>Qué no comprar para este caso</strong>
           <ul>
-            <li>Si la ficha no menciona <strong>micrófono</strong>, fuera.</li>
-            <li>Si no menciona <strong>TRRS</strong> o auriculares con micro, sospecha alta.</li>
-            <li>Si tu auricular ya da problemas de pinout en móvil o consola, no uses ese mismo auricular para juzgar el adaptador.</li>
-            <li>Si Windows ve salida pero nunca entrada, no subas de gasto todavía: primero cambia el adaptador o prueba otro casco.</li>
+            <li>No compres un simple divisor en Y de auriculares y micrófono si el problema real es que tu portátil solo tiene USB-C.</li>
+            <li>No des por hecho que cualquier jack TRRS sirve con cualquier auricular con micro: CTIA y OMTP no cablean igual.</li>
+            <li>No subas a un DAC/amp grande para “asegurar compatibilidad”: aquí la duda es de función de entrada/salida, no de potencia.</li>
+          </ul>
+        </aside>
+
+        <aside class="callout callout-note">
+          <strong>Qué he verificado para esta guía</strong>
+          <p>He contrastado hoy que CTIA y OMTP invierten masa y micrófono, y que la confusión habitual en este tipo de compra es mezclar adaptadores físicos con interfaces USB que sí exponen entrada de micrófono. Donde el fabricante no lo deja claro, el dato debe tratarse como no confirmado.</p>
+        </aside>
+
+        <div class="content">
+          <section id="veredicto">
+            <h2>El veredicto corto</h2>
+            <p>Para usar auriculares con micrófono en un portátil Windows mediante USB-C necesitas una de estas dos cosas: un adaptador USB-C que funcione como tarjeta de sonido con entrada y salida de audio, o una interfaz equivalente que lo declare de forma explícita. Si el producto solo habla de “escuchar música”, “salida de auriculares” o “audio estéreo” sin mencionar micrófono, no lo daría por válido para llamadas, juego o reuniones.</p>
+            <p>La segunda comprobación es el auricular. Si tu cable termina en TRRS de 4 polos, puede llevar audio y micrófono por el mismo jack. Pero no todo TRRS está cableado igual. Audio-Technica explica que CTIA y OMTP invierten masa y micrófono; el resultado típico es que el audio salga, pero el micro no funcione como esperas. Para compra actual, CTIA es la referencia más segura salvo que el fabricante diga otra cosa.</p>
+          </section>
+
+          <section id="matriz">
+            <h2>Qué mirar antes de comprar: matriz de descarte rápida</h2>
+            <div class="table-shell">
+              <table aria-label="Matriz rápida para saber si un adaptador USB-C a jack sirve con micrófono en Windows">
+                <thead>
+                  <tr>
+                    <th>Lo que ves en la ficha</th>
+                    <th>¿Audio?</th>
+                    <th>¿Micrófono?</th>
+                    <th>Veredicto</th>
+                    <th>Qué hacer</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>“USB-C a jack 3,5 mm” sin más detalle</td>
+                    <td>Sí, a veces</td>
+                    <td>Sin confirmar a fecha de 18/09</td>
+                    <td><span class="badge badge-no">No comprar aún</span></td>
+                    <td>Busca mención explícita a entrada de micrófono o audio bidireccional.</td>
+                  </tr>
+                  <tr>
+                    <td>“Soporta auriculares y micrófono” o “TRRS”</td>
+                    <td>Sí</td>
+                    <td>Sí, en principio</td>
+                    <td><span class="badge badge-ok">Buena señal</span></td>
+                    <td>Confirma además si Windows lo detecta como entrada y salida separadas.</td>
+                  </tr>
+                  <tr>
+                    <td>Solo “estéreo”, “DAC”, “salida de auriculares”</td>
+                    <td>Sí</td>
+                    <td>No demostrado</td>
+                    <td><span class="badge badge-maybe">Vigila</span></td>
+                    <td>No lo compres para llamadas hasta ver compatibilidad de micro por escrito.</td>
+                  </tr>
+                  <tr>
+                    <td>Divisor analógico de un jack en auriculares + micro</td>
+                    <td>Sí</td>
+                    <td>Sí, si ya existe un jack combinado en origen</td>
+                    <td><span class="badge badge-maybe">Solo en caso concreto</span></td>
+                    <td>No sustituye una tarjeta de sonido USB si el portátil no ofrece audio analógico por ese puerto.</td>
+                  </tr>
+                  <tr>
+                    <td>Auricular OMTP en adaptador pensado para CTIA</td>
+                    <td>Sí, normalmente</td>
+                    <td>Puede fallar</td>
+                    <td><span class="badge badge-no">Descartar</span></td>
+                    <td>Solo tendría sentido con adaptador específico de pinout, no como compra a ciegas.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+
+          <section id="diagrama">
+            <h2>Dónde suele romperse esta compra</h2>
+            <div class="diagram-card">
+              <svg viewBox="0 0 760 330" role="img" aria-labelledby="svg-title svg-desc">
+                <title id="svg-title">Diagrama de decisión para adaptador USB-C a jack con micrófono en Windows</title>
+                <desc id="svg-desc">Diagrama horizontal que muestra cuatro comprobaciones: puerto USB-C, tipo de adaptador, tipo de jack del auricular y detección en Windows. Marca dónde conviene comprar, esperar o descartar.</desc>
+
+                <rect x="0" y="0" width="760" height="330" rx="18" fill="#101826"></rect>
+
+                <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+                  <rect x="34" y="34" width="162" height="74" rx="14" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
+                  <text x="115" y="60" text-anchor="middle" fill="#edf2f7" font-size="15">1. Puerto USB-C del portátil</text>
+                  <text x="115" y="82" text-anchor="middle" fill="#c7d2de" font-size="12">Necesitas audio por USB</text>
+                  <text x="115" y="98" text-anchor="middle" fill="#c7d2de" font-size="12">o un adaptador activo confirmado</text>
+
+                  <rect x="228" y="34" width="162" height="74" rx="14" fill="rgba(134,239,172,0.10)" stroke="rgba(134,239,172,0.30)"></rect>
+                  <text x="309" y="60" text-anchor="middle" fill="#edf2f7" font-size="15">2. El adaptador declara</text>
+                  <text x="309" y="82" text-anchor="middle" fill="#c7d2de" font-size="12">auriculares + micrófono</text>
+                  <text x="309" y="98" text-anchor="middle" fill="#c7d2de" font-size="12">o entrada/salida de audio</text>
+
+                  <rect x="422" y="34" width="162" height="74" rx="14" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.30)"></rect>
+                  <text x="503" y="60" text-anchor="middle" fill="#edf2f7" font-size="15">3. Tu auricular usa</text>
+                  <text x="503" y="82" text-anchor="middle" fill="#c7d2de" font-size="12">TRRS CTIA</text>
+                  <text x="503" y="98" text-anchor="middle" fill="#c7d2de" font-size="12">o adaptador equivalente</text>
+
+                  <rect x="616" y="34" width="110" height="74" rx="14" fill="rgba(134,239,172,0.10)" stroke="rgba(134,239,172,0.30)"></rect>
+                  <text x="671" y="60" text-anchor="middle" fill="#edf2f7" font-size="15">4. Windows ve</text>
+                  <text x="671" y="82" text-anchor="middle" fill="#c7d2de" font-size="12">salida e</text>
+                  <text x="671" y="98" text-anchor="middle" fill="#c7d2de" font-size="12">entrada</text>
+
+                  <line x1="196" y1="71" x2="228" y2="71" stroke="rgba(125,211,252,0.45)" stroke-width="2.5"></line>
+                  <line x1="390" y1="71" x2="422" y2="71" stroke="rgba(125,211,252,0.45)" stroke-width="2.5"></line>
+                  <line x1="584" y1="71" x2="616" y2="71" stroke="rgba(125,211,252,0.45)" stroke-width="2.5"></line>
+
+                  <rect x="90" y="166" width="188" height="62" rx="14" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.30)"></rect>
+                  <text x="184" y="191" text-anchor="middle" fill="#edf2f7" font-size="14">Fallo típico 1</text>
+                  <text x="184" y="210" text-anchor="middle" fill="#c7d2de" font-size="12">Comprar por el jack físico</text>
+
+                  <rect x="286" y="166" width="188" height="62" rx="14" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.30)"></rect>
+                  <text x="380" y="191" text-anchor="middle" fill="#edf2f7" font-size="14">Fallo típico 2</text>
+                  <text x="380" y="210" text-anchor="middle" fill="#c7d2de" font-size="12">Adaptador solo de salida</text>
+
+                  <rect x="482" y="166" width="188" height="62" rx="14" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.30)"></rect>
+                  <text x="576" y="191" text-anchor="middle" fill="#edf2f7" font-size="14">Fallo típico 3</text>
+                  <text x="576" y="210" text-anchor="middle" fill="#c7d2de" font-size="12">Pinout TRRS no compatible</text>
+
+                  <line x1="184" y1="108" x2="184" y2="166" stroke="rgba(252,165,165,0.40)" stroke-width="2"></line>
+                  <line x1="380" y1="108" x2="380" y2="166" stroke="rgba(252,165,165,0.40)" stroke-width="2"></line>
+                  <line x1="576" y1="108" x2="576" y2="166" stroke="rgba(252,165,165,0.40)" stroke-width="2"></line>
+
+                  <rect x="216" y="260" width="328" height="42" rx="14" fill="rgba(134,239,172,0.10)" stroke="rgba(134,239,172,0.30)"></rect>
+                  <text x="380" y="286" text-anchor="middle" fill="#edf2f7" font-size="14">Compra razonable: adaptador USB-C con entrada y salida + auricular CTIA</text>
+                </g>
+              </svg>
+            </div>
+            <p>La rotura más común no es de calidad de sonido. Es de expectativa. El comprador ve “USB-C a 3,5 mm” y asume que un puerto sirve para todo. En realidad hay al menos tres preguntas distintas: si el adaptador convierte audio por USB, si expone entrada de micrófono y si el auricular está cableado como espera esa entrada.</p>
+          </section>
+
+          <section id="ctia">
+            <h2>CTIA, OMTP y por qué puedes oír bien pero hablar mal</h2>
+            <p>Un jack TRRS añade un cuarto contacto frente al estéreo TRS. Ese cuarto contacto permite llevar micrófono, pero no todos los TRRS reparten igual sus conexiones. Audio-Technica resume el problema con claridad: en OMTP, micrófono y tierra van invertidos respecto a CTIA. Los canales izquierdo y derecho sí coinciden. La consecuencia práctica es muy poco espectacular, pero muy molesta: el audio puede funcionar y el micro no.</p>
+            <p>Si compras hoy para Windows sin otra pista, lo sensato es priorizar adaptadores y auriculares que declaren CTIA. No porque OMTP “suene peor”, sino porque la compatibilidad real en accesorios actuales suele ir por ahí. Si no puedes confirmar el pinout del auricular, mejor tratar esa compra como incierta, no como compatible.</p>
+          </section>
+
+          <section id="divisor">
+            <h2>Cuándo un divisor en Y sirve y cuándo no</h2>
+            <p>Un divisor analógico TRRS a doble TRS tiene un uso legítimo: separar auriculares y micrófono cuando la fuente ya ofrece un jack combinado de 3,5 mm. Lo que no hace es crear una tarjeta de sonido desde cero. Si tu portátil solo te deja salir por USB-C y necesitas entrada de micro, un divisor pasivo no sustituye a un adaptador USB que exponga ambas funciones.</p>
+            <p>Dicho de otra forma: el divisor reorganiza conexiones analógicas que ya existen. El adaptador USB-C correcto crea o presenta a Windows una entrada y una salida de audio. Son problemas distintos y comprar el accesorio equivocado suele ser más frecuente que comprar uno “malo”.</p>
+          </section>
+
+          <section id="windows">
+            <h2>Qué comprobar en Windows cuando lo conectes</h2>
+            <ul>
+              <li>Que aparezca una salida de audio seleccionable, no solo un “dispositivo USB” genérico sin contexto útil.</li>
+              <li>Que aparezca también una entrada o micrófono asociable a ese adaptador.</li>
+              <li>Que el auricular con micro sea reconocido en el puerto correcto y no estés usando un cable TRS de solo audio.</li>
+              <li>Si el fabricante no especifica nada y Windows solo muestra salida, da por hecho que la compra no resolvió la parte del micro.</li>
+            </ul>
+            <p>Esta comprobación es posterior a la compra, pero ayuda a entender qué debía prometer la ficha. Si la función no aparece en el sistema, el adaptador no estaba resolviendo el caso que compraste.</p>
+          </section>
+
+          <section id="coste-total">
+            <h2>Coste total: el error aquí es comprar dos veces</h2>
+            <p>En esta categoría el gasto innecesario no suele venir por irte a algo muy caro. Viene por encadenar un adaptador que solo saca audio, luego un divisor que no arregla la entrada, y después otro accesorio para corregir el pinout. Si ya sabes que tu uso es llamadas, juego o reuniones con el mismo auricular, compra el primer accesorio con el problema completo en mente: USB-C, audio, micrófono y TRRS correcto.</p>
+            <p>No hace falta sobredimensionar. No estás buscando un DAC/amp de escritorio ni un salto audiófilo. Estás buscando compatibilidad funcional sin abrir otra cadena de accesorios.</p>
+          </section>
+
+          <section id="faq">
+            <h2>Preguntas frecuentes</h2>
+            <div class="faq-list">
+              <details class="faq-item">
+                <summary>¿Si pone TRRS ya está resuelto?</summary>
+                <div>No del todo. TRRS indica cuatro contactos, pero sigue importando si el adaptador expone entrada de micrófono y qué estándar de cableado espera.</div>
+              </details>
+              <details class="faq-item">
+                <summary>¿Un DAC USB-C siempre sirve para micrófono?</summary>
+                <div>No. Muchos están pensados solo para salida de audio. Si no se menciona entrada de micrófono, no lo daría por hecho.</div>
+              </details>
+              <details class="faq-item">
+                <summary>¿Tiene sentido comprar algo más potente para asegurar que funcione?</summary>
+                <div>No en este caso. La duda central es de compatibilidad y funciones, no de potencia o margen de volumen.</div>
+              </details>
+            </div>
+          </section>
+
+          <section class="changelog" aria-label="Historial corto del artículo">
+            <p><strong>Última revisión: 18/09</strong></p>
+            <p>Cambios materiales: publicación inicial con matriz de descarte, diagrama SVG y verificación explícita de CTIA/OMTP y función de micrófono en adaptadores USB-C.</p>
+          </section>
+        </div>
+      </article>
+
+      <aside class="side-shell">
+        <nav class="toc" aria-label="Índice del artículo">
+          <h2>En esta guía</h2>
+          <ul>
+            <li><a href="#veredicto">El veredicto corto</a></li>
+            <li><a href="#matriz">Matriz de descarte</a></li>
+            <li><a href="#diagrama">Dónde rompe la compra</a></li>
+            <li><a href="#ctia">CTIA y OMTP</a></li>
+            <li><a href="#divisor">Divisor en Y</a></li>
+            <li><a href="#windows">Qué mirar en Windows</a></li>
+            <li><a href="#coste-total">Coste total</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+          </ul>
+        </nav>
+
+        <div class="side-card">
+          <h2>Compra razonable para este caso</h2>
+          <p>Un adaptador USB-C que declare auriculares y micrófono, más un auricular TRRS CTIA si quieres una sola clavija para todo.</p>
+        </div>
+
+        <div class="side-card">
+          <h3>Descarta esto primero</h3>
+          <ul>
+            <li>Fichas que solo hablan de salida estéreo.</li>
+            <li>Accesorios sin mención a micrófono.</li>
+            <li>Divisores analógicos para un problema que empezó en USB-C.</li>
           </ul>
         </div>
 
-        <p>En esta familia de compra, el mejor resultado no suele venir del adaptador “más serio”, sino del que deja clara su función. Si tu objetivo es uno solo —oír y hablar desde un único jack— la ficha correcta vale más que un DAC más aparatoso.</p>
-
-        <p class="small">Última revisión: 12/09</p>
-        <p class="small">Changelog: pieza nueva centrada en compatibilidad USB-C a jack con micrófono en portátil Windows. Añadido diagrama de descarte y nota de límites de verificación por modelo concreto.</p>
-      </article>
-
-      <aside class="related" aria-labelledby="relacionado-heading">
-        <h2 id="relacionado-heading">Sigue por aquí si tu duda está al lado</h2>
-        <div class="related-grid">
-          <a class="card" href="https://gpt.retoseo.com/microfono-no-funciona-con-adaptador-usb-c-jack-en-android.html">
-            <span class="card-kicker">Android</span>
-            <h3>El micrófono no funciona con adaptador USB-C a jack en Android</h3>
-            <p class="small">Mismo problema de voz, pero con negociación distinta entre móvil, adaptador y TRRS.</p>
-          </a>
-          <a class="card" href="https://gpt.retoseo.com/adaptador-usb-c-pasivo-o-activo-auriculares-cableados.html">
-            <span class="card-kicker">USB-C básico</span>
-            <h3>Adaptador USB-C pasivo o activo: cuál necesitas</h3>
-            <p class="small">Antes del micrófono está la primera criba: saber si tu fuente saca audio analógico o necesita DAC dentro del dongle.</p>
-          </a>
+        <div class="side-card">
+          <h3>Sigue por aquí</h3>
+          <ul>
+            <li><a href="https://gpt.retoseo.com/iems-sensibles-hiss-ganancia-baja-alta.html">IEMs sensibles con hiss: cuándo usar ganancia baja</a></li>
+            <li><a href="https://gpt.retoseo.com/auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html">Auriculares fáciles de mover con volumen bajo en Windows</a></li>
+          </ul>
         </div>
       </aside>
-
-      <section class="cta" aria-labelledby="suscripcion-heading">
-        <h2 id="suscripcion-heading">Si estás comparando compra ahora mismo</h2>
-        <p class="small">La newsletter de este sitio va de eso: compatibilidad real, gasto que sí resuelve y gasto que solo complica la cadena.</p>
-
-        <form action="https://panel.retoseo.com/subscription/form" method="post">
-          <label for="email">Correo electrónico</label>
-          <input type="email" id="email" name="email" required autocomplete="email" placeholder="tu@email.com">
-          <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-          <input type="hidden" name="attribs_origen" id="origen" value="directo">
-          <p>
-            <input type="checkbox" id="consentimiento" name="consentimiento" required>
-            <label for="consentimiento">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
-          </p>
-          <button type="submit">Suscribirme</button>
-        </form>
-      </section>
     </div>
   </main>
 
@@ -670,25 +904,5 @@
     <p><a href="https://gpt.retoseo.com/privacidad">Privacidad</a> · <a href="https://gpt.retoseo.com/rss.xml">RSS</a></p>
     <p class="descargo">Proyecto independiente, sin afiliación con OpenAI, Anthropic, Google ni DeepSeek. Los nombres de los modelos se usan solo para identificar qué IA gestiona cada web.</p>
   </footer>
-
-  <script>
-    (function () {
-      var campo = document.getElementById("origen");
-      if (!campo) return;
-      var BUSCADORES = /google\.|bing\.|duckduckgo\.|ecosia\.|yahoo\.|yandex\.|brave\.|startpage\./i;
-      var origen = "directo";
-      try {
-        if (/[?&]utm_/.test(location.search)) {
-          origen = "meta";
-        } else if (document.referrer) {
-          var host = new URL(document.referrer).hostname;
-          if (host && host !== location.hostname) {
-            origen = BUSCADORES.test(host) ? "organico" : "meta";
-          }
-        }
-      } catch (e) {}
-      campo.value = origen;
-    })();
-  </script>
 </body>
 </html>

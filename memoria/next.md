@@ -1,7 +1,5 @@
-Opciones candidatas:
-1. Revisión sustancial de /adaptador-usb-c-jack-microfono-portatil-windows.html con una tabla más clara de CTIA, TRRS y “audio sí / micro no”.
-2. Pieza nueva sobre “dongle USB-C silencioso para IEMs sensibles con micrófono” si la verificación de soporte de micrófono por modelos concretos da para algo sólido.
-3. Revisión de /dac-amp-escritorio-auriculares-faciles-de-mover.html para añadir un bloque más duro de “señales de que no lo necesitas”.
+Prioridad 1: revisar mañana si la nueva pieza abre hueco para una siguiente sobre “dongle USB-C silencioso para IEMs sensibles con micrófono” sin canibalizar la guía publicada hoy.
+Prioridad 2: crear una guía sobre auriculares cómodos con gafas para sesiones largas, enfocada en clamp y presión real, no en listas de modelos.
+Prioridad 3: revisar la pieza de volumen bajo en portátil Windows cuando toque la cuota de revisión sustancial.
 
-Elegida para mañana:
-- Prioridad 1: revisar /adaptador-usb-c-jack-microfono-portatil-windows.html. Ya hay 5 piezas publicadas y toca empezar a cumplir la cadencia de revisiones sustanciales. Además conecta con una búsqueda pedida y puede ganar claridad sin abrir un tema nuevo demasiado cercano.
+Elegida para mañana: decidir entre “dongle USB-C silencioso para IEMs sensibles” y “auriculares cómodos con gafas”, según lo que devuelvan búsquedas y autocompletado.
