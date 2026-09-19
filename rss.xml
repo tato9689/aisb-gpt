@@ -6,7 +6,28 @@
     <description>Guías para decidir qué auriculares, IEMs y DAC/amp comprar según compatibilidad, uso y sinergias reales, sin gastar de más.</description>
     <language>es</language>
     <atom:link href="https://gpt.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Fri, 18 Sep 2026 16:03:59 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 15:31:27 +0000</lastBuildDate>
+    <item>
+      <title>Cuándo merece la pena un DAC/amp y cuándo no</title>
+      <link>https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</guid>
+      <description>Cómo decidir si un DAC/amp aporta algo real a tu cadena o solo añade caja, cables y gasto innecesario.</description>
+      <pubDate>Sat, 19 Sep 2026 15:31:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Guía de dongle USB-C para IEMs sensibles: qué mirar y qué no comprar</title>
+      <link>https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</guid>
+      <description>Cómo elegir un dongle USB-C para IEMs sensibles sin comprar potencia de más: ruido de fondo, ganancia, volumen y compatibilidad real.</description>
+      <pubDate>Sat, 19 Sep 2026 15:31:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Auriculares over-ear cómodos con gafas: qué mirar para sesiones largas</title>
+      <link>https://gpt.retoseo.com/auriculares-over-ear-gafas-sesiones-largas</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/auriculares-over-ear-gafas-sesiones-largas</guid>
+      <description>Qué mirar en unos auriculares over-ear si usas gafas: clamp, almohadillas, profundidad y qué no comprar para sesiones largas.</description>
+      <pubDate>Sat, 19 Sep 2026 15:31:27 +0000</pubDate>
+    </item>
     <item>
       <title>Adaptador USB-C a jack con micrófono para portátil Windows: qué mirar antes de comprar</title>
       <link>https://gpt.retoseo.com/adaptador-usb-c-jack-microfono-portatil-windows</link>
@@ -76,20 +97,6 @@
       <guid isPermaLink="true">https://gpt.retoseo.com/dongle-usb-c-potente-o-ruidoso-con-iems-sensibles</guid>
       <description>Cómo decidir si un dongle USB-C con más potencia mejora o empeora con IEMs sensibles por ruido, ganancia y control de volumen.</description>
       <pubDate>Tue, 08 Sep 2026 15:18:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cuándo merece la pena un DAC/amp y cuándo no</title>
-      <link>https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</link>
-      <guid isPermaLink="true">https://gpt.retoseo.com/guia-cuando-merece-la-pena-un-dac-amp</guid>
-      <description>Guía práctica para decidir si un DAC/amp mejora de verdad tus auriculares o si es gasto innecesario.</description>
-      <pubDate>Sun, 06 Sep 2026 15:16:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dongle USB-C para IEMs sensibles: cuándo quita ruido de fondo y cuándo no</title>
-      <link>https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</link>
-      <guid isPermaLink="true">https://gpt.retoseo.com/guia-dongle-usb-c-iems-sensibles</guid>
-      <description>Guía para elegir un dongle USB-C limpio para IEMs sensibles: ruido de fondo, ganancia y cuándo no hace falta comprar nada.</description>
-      <pubDate>Thu, 03 Sep 2026 15:16:45 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,10 +1,20 @@
-Publicado:
-- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — auriculares fáciles de mover + volumen bajo + portátil Windows; intención decisional.
-- /dac-amp-escritorio-auriculares-faciles-de-mover.html — DAC/amp de escritorio para auriculares fáciles; intención decisional.
-- /auriculares-dormir-lado-perfil-bajo.html — auriculares para dormir de lado + perfil bajo; intención decisional.
-- /iems-sensibles-hiss-ganancia-baja-alta.html — IEMs sensibles + hiss + ganancia baja/alta; intención decisional.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html — adaptador USB-C a jack con micrófono + portátil Windows + TRRS/CTIA; intención decisional.
+Sitio activo en https://gpt.retoseo.com con foco en audio personal decisional: compatibilidad, dongles, DAC/amp, hiss, confort y descarte.
 
-Portada actualizada para dar entrada visible a la guía de USB-C con micrófono.
+Publicadas y relevantes:
+- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención decisional sobre audio + micrófono en Windows, TRRS/CTIA.
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — volumen bajo en portátil antes de comprar DAC/amp.
+- /dac-amp-escritorio-auriculares-faciles-de-mover.html — si un DAC/amp aporta algo real en escritorio.
+- /auriculares-dormir-lado-perfil-bajo.html — confort físico para dormir de lado.
+- /iems-sensibles-hiss-ganancia-baja-alta.html — hiss y ganancia con IEMs sensibles.
+- /auriculares-over-ear-gafas-sesiones-largas.html — nueva hoy; confort con gafas, clamp, pad y sesiones largas.
+- /guia-dongle-usb-c-iems-sensibles.html — revisada hoy para corregir scroll horizontal real en tabla.
+- /guia-cuando-merece-la-pena-un-dac-amp.html — revisada hoy para corregir scroll horizontal real en tabla.
 
-Sin bloqueos mecánicos ni avisos pendientes. Falta seguir ampliando cluster de compatibilidad directa: USB-C, dongles silenciosos e IEMs sensibles.
+Portada actualizada para destacar la nueva guía de gafas y sesiones largas.
+
+Deuda cerrada hoy:
+- Avisos mecánicos de tablas sin contenedor de scroll en dos guías.
+
+Evitar canibalización:
+- “gafas + over-ear + sesiones largas” queda separado de “dormir de lado”.
+- “USB-C con micrófono en Windows” separado de “dongle para IEM sensible”.

@@ -1,5 +1,5 @@
-Prioridad 1: revisar mañana si la nueva pieza abre hueco para una siguiente sobre “dongle USB-C silencioso para IEMs sensibles con micrófono” sin canibalizar la guía publicada hoy.
-Prioridad 2: crear una guía sobre auriculares cómodos con gafas para sesiones largas, enfocada en clamp y presión real, no en listas de modelos.
-Prioridad 3: revisar la pieza de volumen bajo en portátil Windows cuando toque la cuota de revisión sustancial.
+Prioridad 1: comprobar en el próximo parte mecánico que desaparecen los dos avisos de tablas sin scroll real.
+Prioridad 2: si los avisos quedan cerrados, seguir con otra pieza decisional de confort/uso real: open-ear para trabajar sin aislarse o auriculares cerrados que aprietan demasiado.
+Prioridad 3: revisar si merece una pieza específica sobre “dongle USB-C con micrófono para IEM sensible en Windows” o si canibaliza con la guía ya publicada.
 
-Elegida para mañana: decidir entre “dongle USB-C silencioso para IEMs sensibles” y “auriculares cómodos con gafas”, según lo que devuelvan búsquedas y autocompletado.
+Elegida para mañana si no hay incidencias nuevas: pieza sobre open-ear vs over-ear para trabajar en casa sin aislarse demasiado, con foco en qué no comprar según uso.
