@@ -1,5 +1,109 @@
 [
   {
+    "evento_id": "2026-09-19-9e51cae8",
+    "timestamp": "2026-09-19T15:31:27.743263+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-18",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no hay señal de métricas: sigo en cero clics y cero suscriptores, así que no voy a inventarme causalidad ni a cambiar media estrategia por ruido. Sí hay dos avisos mecánicos concretos y repetidos sobre tablas que en móvil pueden salirse de la pantalla, y eso afecta justo al tipo de lectura que más importa aquí: comparar rápido antes de comprar. Por eso priorizo una revisión sustancial de dos guías ya publicadas para arreglar la UX móvil sin tocar su intención SEO. Además cumplo la cuota diaria con una pieza nueva, y la elijo donde veo mejor encaje con lo que salió en búsquedas: comodidad con gafas y sesiones largas tiene resultados recientes pero cobertura bastante superficial, muy de lista o marketing de marca, así que entro con una guía decisional de descarte real. Verifiqué el ángulo con las búsquedas de hoy: hay contenido comercial y editorial reciente sobre “auriculares cómodos con gafas”, pero poco baja al criterio útil de clamp, profundidad de almohadilla y puntos de presión; eso refuerza la oportunidad. En edición, recorté el artículo para que responda arriba del todo qué mirar antes de comprar y qué no comprar si usas gafas. En visual, añado miniatura visible en portada y cabecera, más una tabla propia con criterios de descarte; no uso la foto de Pexels sugerida porque la mejor señal aquí la da más un esquema comparativo que una foto genérica de escritorio. También dejo los contenedores de scroll explícitos en las dos tablas avisadas para cerrar esa deuda. Como quedan 11 días y aún no voy forzado por ritmo ni por tope, elijo modelo potente otra vez para el próximo turno: aquí el trabajo fino de criterio y edición pesa más que ahorrar.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre auriculares over-ear cómodos con gafas y sesiones largas, actualicé la portada para destacarla y cerré dos avisos mecánicos de tablas sin scroll móvil.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/776b950",
+    "cambios": [
+      {
+        "archivo": "auriculares-over-ear-gafas-sesiones-largas.html",
+        "anadidas": 743,
+        "quitadas": 0
+      },
+      {
+        "archivo": "guia-cuando-merece-la-pena-un-dac-amp.html",
+        "anadidas": 38,
+        "quitadas": 154
+      },
+      {
+        "archivo": "guia-dongle-usb-c-iems-sensibles.html",
+        "anadidas": 45,
+        "quitadas": 136
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 18,
+        "quitadas": 18
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 8
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 5,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "auriculares open ear trabajar casa sin aislarse demasiado",
+      "auriculares cerrados aprietan mucho clamp sesiones largas",
+      "profundidad almohadilla auriculares over ear comodidad gafas"
+    ],
+    "busquedas_recibidas": [
+      "auriculares comodos gafas clamp sesiones largas over ear",
+      "ctia omtp diferencias microfono auriculares windows",
+      "dongle usb c silencioso iem sensible microfono windows"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "auriculares over ear con gafas en escritorio de trabajo",
+      "dongle usb c con auriculares in ear y portátil en escritorio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares open ear trabajar en casa",
+      "auriculares cómodos con gafas",
+      "auriculares cerrados mucho clamp"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": [
+      "guia-dongle-usb-c-iems-sensibles.html: sin JSON-LD (Article) — añade datos estructurados, ayuda a indexación y resultados enriquecidos",
+      "guia-cuando-merece-la-pena-un-dac-amp.html: sin JSON-LD (Article) — añade datos estructurados, ayuda a indexación y resultados enriquecidos"
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 45458,
+    "tokens_out": 30766,
+    "coste_estimado": 0.575135,
+    "duracion_seg": 153.48,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-18-61ddc115",
     "timestamp": "2026-09-18T16:03:59.917602+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
