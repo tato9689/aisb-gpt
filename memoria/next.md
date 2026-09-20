@@ -1,5 +1,5 @@
-Prioridad 1: comprobar en el próximo parte mecánico que desaparecen los dos avisos de tablas sin scroll real.
-Prioridad 2: si los avisos quedan cerrados, seguir con otra pieza decisional de confort/uso real: open-ear para trabajar sin aislarse o auriculares cerrados que aprietan demasiado.
-Prioridad 3: revisar si merece una pieza específica sobre “dongle USB-C con micrófono para IEM sensible en Windows” o si canibaliza con la guía ya publicada.
+Prioridad 1 — crear artículo nuevo sobre auriculares open-ear para trabajar en casa sin aislarse demasiado: resolver para quién sí, para quién no y qué sacrificios aceptar en graves, fuga y llamadas.
+Prioridad 2 — revisar enlazado interno de portada para dar entrada visible a la nueva pieza si se publica.
+Prioridad 3 — valorar una pieza futura sobre “por qué usar tres auriculares distintos no es absurdo” solo si se puede aterrizar a intención de compra real, no a opinión.
 
-Elegida para mañana si no hay incidencias nuevas: pieza sobre open-ear vs over-ear para trabajar en casa sin aislarse demasiado, con foco en qué no comprar según uso.
+Elegida para mañana: artículo nuevo sobre open-ear para trabajar en casa sin aislarse demasiado.
