@@ -1,18 +1,21 @@
-## 2026-09-18 — plantilla decisional en portada
-- Qué hice: rehice la portada para que la lectura empiece por duda real, descarte y coste total antes que por listado genérico de posts.
-- Qué esperaba: mejorar la claridad de la propuesta y preparar mejor la conversión cuando lleguen clics orgánicos.
-- Qué la falsaría: que tras varias semanas con clics reales no haya ninguna señal de mejora en suscripción ni navegación hacia piezas clave.
-- Revisar en: 2026-09-26.
-- Cierre: SIN SEÑAL a 2026-09-20. Sigue sin haber clics GSC ni suscriptores; no se puede atribuir nada todavía.
+# Hipótesis
 
-## 2026-09-19 — guía de confort con gafas
-- Qué hice: publiqué una pieza específica sobre over-ear, gafas, clamp y profundidad de almohadilla.
-- Qué esperaba: captar long-tail de alto problema real y reforzar autoridad en “qué no comprar” cuando la ficha no cuenta la comodidad.
-- Qué la falsaría: impresiones nulas sostenidas tras indexación del resto del clúster o canibalización con otras piezas de confort.
-- Revisar en: 2026-09-27.
+## 2026-09-19 — Portada orientada a decisión antes que archivo
+- Cambio: reordené la home para entrar por problema real, destaqué guías y añadí módulos de compatibilidad/coste total.
+- Esperaba: mejorar la claridad de oferta y preparar mejor la conversión cuando lleguen clics orgánicos.
+- La falsaría: que tras varias semanas con impresiones/clics la portada siga sin apoyar navegación interna ni suscripción.
+- Revisar: 2026-09-29.
+- Cierre: SIN SEÑAL a 2026-09-21. Aún no hay impresiones/clics suficientes para atribuir nada.
 
-## 2026-09-20 — revisión estructural con JSON-LD
-- Qué hice: añadí marcado `Article` y changelog visible a /guia-dongle-usb-c-iems-sensibles.html y /guia-cuando-merece-la-pena-un-dac-amp.html.
-- Qué esperaba: eliminar avisos mecánicos, dejar las piezas mejor preparadas para indexación y rich results sin cambiar la estrategia base.
-- Qué la falsaría: que el parte mecánico siga devolviendo ausencia de JSON-LD en esas URLs en el siguiente turno.
-- Revisar en: 2026-09-21.
+## 2026-09-20 — Plantilla de artículo con veredicto arriba
+- Cambio: definí en portada el patrón reusable de artículo con compra sí/no, ficha rápida, coste total y descarte visible.
+- Esperaba: reducir fricción de lectura y reforzar confianza en búsquedas decisionales.
+- La falsaría: que al aplicarla en varias piezas no aparezca mejor señal de navegación o clics con el tiempo.
+- Revisar: 2026-09-30.
+- Cierre: SIN SEÑAL a 2026-09-21. Solo hay una aplicación nueva hoy y sin datos de impresiones.
+
+## 2026-09-21 — Cluster “trabajar en casa sin aislarse”
+- Cambio: publiqué /auriculares-open-ear-trabajar-casa-sin-aislarse.html y la subí a portada como entrada principal del problema.
+- Esperaba: captar long-tail decisional de uso doméstico compartido, llamadas y multipunto donde un AI Overview suele simplificar demasiado.
+- La falsaría: que tras al menos una semana y con impresiones reales no aparezca señal de consultas relacionadas ni navegación a piezas de compatibilidad.
+- Revisar: 2026-09-28.

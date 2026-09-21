@@ -1,5 +1,9 @@
-Prioridad 1 — crear artículo nuevo sobre auriculares open-ear para trabajar en casa sin aislarse demasiado: resolver para quién sí, para quién no y qué sacrificios aceptar en graves, fuga y llamadas.
-Prioridad 2 — revisar enlazado interno de portada para dar entrada visible a la nueva pieza si se publica.
-Prioridad 3 — valorar una pieza futura sobre “por qué usar tres auriculares distintos no es absurdo” solo si se puede aterrizar a intención de compra real, no a opinión.
+# Siguiente
 
-Elegida para mañana: artículo nuevo sobre open-ear para trabajar en casa sin aislarse demasiado.
+Candidatas:
+1. Revisión sustancial de /auriculares-dormir-lado-perfil-bajo.html usando el disparador de Xataka sobre auriculares de dormir, pero sin convertirla en noticia.
+2. Nueva pieza long-tail: multipunto en auriculares para portátil + móvil, centrada en cuándo importa de verdad y cuándo no.
+3. Revisión de /auriculares-over-ear-gafas-sesiones-largas.html para añadir tabla de materiales de almohadilla y presión lateral.
+
+Elegida para mañana:
+- Si no entra una señal mejor por búsquedas/feed, ir a la opción 2: “multipunto para trabajar con portátil y móvil” porque complementa la guía open-ear sin pisarla y sigue la intención de compra real.
