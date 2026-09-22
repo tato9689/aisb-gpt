@@ -519,7 +519,8 @@
     .table-shell {
       border: 1px solid var(--line);
       border-radius: 14px;
-      overflow: auto;
+      overflow-x: auto;
+      overflow-y: hidden;
       background: rgba(255,255,255,0.015);
       position: relative;
     }
@@ -582,7 +583,8 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
-      overflow: auto;
+      overflow-x: auto;
+      overflow-y: hidden;
     }
 
     .diagram-card svg {
@@ -794,6 +796,34 @@
       letter-spacing: -0.03em;
     }
 
+    .decision-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .decision-strip-card {
+      padding: 14px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .decision-strip-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 5px;
+    }
+
+    .decision-strip-card strong {
+      display: block;
+      font-size: 0.97rem;
+      line-height: 1.35;
+    }
+
     .frame-summary {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -829,6 +859,19 @@
       background: rgba(252, 165, 165, 0.05);
     }
 
+    .template-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 270px;
+      gap: 14px;
+      align-items: start;
+    }
+
+    .template-main {
+      display: grid;
+      gap: 16px;
+      min-width: 0;
+    }
+
     .article-facts {
       display: grid;
       grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -856,6 +899,60 @@
       font-size: 0.98rem;
       line-height: 1.32;
       color: var(--text);
+    }
+
+    .before-buy {
+      display: grid;
+      gap: 10px;
+      padding: 16px;
+      border: 1px solid rgba(125, 211, 252, 0.2);
+      border-radius: 14px;
+      background: rgba(125, 211, 252, 0.06);
+      position: sticky;
+      top: 18px;
+    }
+
+    .before-buy h4 {
+      margin: 0;
+      font-size: 0.98rem;
+      letter-spacing: -0.02em;
+    }
+
+    .before-buy ul {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .before-buy li + li {
+      margin-top: 8px;
+    }
+
+    .scale-shell {
+      display: grid;
+      gap: 10px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .scale-shell h4 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .scale-shell p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.93rem;
+    }
+
+    .scale-shell svg {
+      display: block;
+      width: 100%;
+      height: auto;
     }
 
     .callout-grid {
@@ -1104,12 +1201,18 @@
       .diagram-grid,
       .template-grid,
       .frame-summary,
-      .article-facts {
+      .article-facts,
+      .decision-strip,
+      .template-layout {
         grid-template-columns: 1fr;
       }
 
       .article-card {
         grid-template-columns: 1fr;
+      }
+
+      .before-buy {
+        position: static;
       }
     }
 
@@ -1345,7 +1448,7 @@
 
       <section aria-labelledby="plantilla-heading">
         <h2 id="plantilla-heading">Plantilla base para guías decisionales</h2>
-        <p class="muted">Este es el patrón que usarán las próximas guías: primero veredicto y descarte, después compatibilidad y coste total, y solo luego desarrollo largo. La idea es que una persona que entra desde Google responda su duda principal sin tener que adivinar dónde está lo importante.</p>
+        <p class="muted">Este turno semanal deja más rígido el orden de lectura de cualquier análisis futuro: veredicto arriba, coste total real antes del desarrollo largo y descarte visible sin obligar a leer media página.</p>
 
         <div class="template-grid">
           <article class="article-frame" aria-labelledby="frame-heading">
@@ -1353,7 +1456,22 @@
 
             <div class="frame-head">
               <h3 id="frame-heading">¿Necesitas un dongle USB-C silencioso para IEMs sensibles o solo bajar ganancia?</h3>
-              <p class="muted">Ejemplo de cómo se abrirán las piezas más decisionales: una pregunta concreta, un veredicto corto y un mapa rápido de compatibilidad antes de entrar en matices técnicos.</p>
+              <p class="muted">Ejemplo de apertura para las piezas más decisionales: una pregunta cerrada, una respuesta visible en el primer bloque y una cadena mínima viable antes de entrar en matices.</p>
+            </div>
+
+            <div class="decision-strip" aria-label="Resumen ultra rápido de la decisión">
+              <div class="decision-strip-card">
+                <span>Problema real</span>
+                <strong>Hiss, control de volumen tosco o falta de jack útil</strong>
+              </div>
+              <div class="decision-strip-card">
+                <span>Compra mínima</span>
+                <strong>Dongle pequeño y silencioso antes que stack completo</strong>
+              </div>
+              <div class="decision-strip-card">
+                <span>Error típico</span>
+                <strong>Confundir más potencia con mejor resultado en IEM sensible</strong>
+              </div>
             </div>
 
             <div class="frame-summary" aria-label="Resumen de compra sí o no">
@@ -1367,121 +1485,180 @@
               </div>
             </div>
 
-            <div class="article-facts" aria-label="Compatibilidad y requisitos rápidos">
-              <div class="fact-card">
-                <span>Fuente mínima</span>
-                <strong>USB-C con audio digital o adaptador activo confirmado</strong>
-              </div>
-              <div class="fact-card">
-                <span>Ganancia</span>
-                <strong>Baja o control de volumen fino por pasos pequeños</strong>
-              </div>
-              <div class="fact-card">
-                <span>Riesgo a vigilar</span>
-                <strong>Ruido de fondo con IEM muy sensible</strong>
-              </div>
-              <div class="fact-card">
-                <span>Cadena extra</span>
-                <strong>Ninguna si el dongle ya resuelve conexión y silencio</strong>
-              </div>
-            </div>
+            <div class="template-layout">
+              <div class="template-main">
+                <div class="article-facts" aria-label="Compatibilidad y requisitos rápidos">
+                  <div class="fact-card">
+                    <span>Fuente mínima</span>
+                    <strong>USB-C con audio digital o adaptador activo confirmado</strong>
+                  </div>
+                  <div class="fact-card">
+                    <span>Ganancia</span>
+                    <strong>Baja o control de volumen fino por pasos pequeños</strong>
+                  </div>
+                  <div class="fact-card">
+                    <span>Riesgo a vigilar</span>
+                    <strong>Ruido de fondo con IEM muy sensible</strong>
+                  </div>
+                  <div class="fact-card">
+                    <span>Cadena extra</span>
+                    <strong>Ninguna si el dongle ya resuelve conexión y silencio</strong>
+                  </div>
+                </div>
 
-            <div class="table-shell">
-              <table aria-label="Matriz rápida de compatibilidad de ejemplo para plantilla de artículo">
-                <thead>
-                  <tr>
-                    <th>Cadena</th>
-                    <th>¿Funciona?</th>
-                    <th>¿Volumen útil?</th>
-                    <th>¿Ruido de fondo?</th>
-                    <th>Cuándo descartarla</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Móvil + adaptador básico desconocido</td>
-                    <td><span class="badge badge-maybe">Sí, con matices</span></td>
-                    <td>Puede bastar</td>
-                    <td>Sin confirmar a fecha de 16/09</td>
-                    <td>Si no sabes si es activo o si el control de volumen va a saltos grandes</td>
-                  </tr>
-                  <tr>
-                    <td>Móvil + dongle pequeño orientado a IEM</td>
-                    <td><span class="badge badge-ok">Sí</span></td>
-                    <td>Suele bastar</td>
-                    <td>Prioridad: salida silenciosa</td>
-                    <td>Si necesitas además micrófono y el modelo no lo expone</td>
-                  </tr>
-                  <tr>
-                    <td>Dongle potente con 4.4 mm</td>
-                    <td><span class="badge badge-maybe">Sí, pero vigila</span></td>
-                    <td>De sobra</td>
-                    <td>Más riesgo con IEM sensible</td>
-                    <td>Si el problema era hiss y no falta de margen</td>
-                  </tr>
-                  <tr>
-                    <td>DAC/amp de escritorio</td>
-                    <td><span class="badge badge-maybe">Solo en puesto fijo</span></td>
-                    <td>De sobra</td>
-                    <td>Depende de ganancia mínima</td>
-                    <td>Si tu uso sigue siendo móvil o cama/escritorio compartido</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+                <div class="scale-shell" aria-labelledby="escala-heading">
+                  <h4 id="escala-heading">Escalera de gasto útil en esta duda</h4>
+                  <p>No toda mejora añade el mismo valor. En estas guías, el artículo enseñará dónde suele estar el punto de suficiencia antes de añadir cajas.</p>
 
-            <div class="callout-grid">
-              <div class="callout callout-cost">
-                <strong>Coste total real</strong>
-                <p>Antes de añadir un DAC/amp más grande, la plantilla obliga a mostrar si falta también adaptador, cable corto, soporte de micrófono o un control de volumen usable con IEM sensible.</p>
+                  <svg viewBox="0 0 760 160" role="img" aria-labelledby="scale-svg-title scale-svg-desc">
+                    <title id="scale-svg-title">Escalera de gasto útil para decidir si hace falta un dongle o un DAC/amp más grande</title>
+                    <desc id="scale-svg-desc">Diagrama horizontal con cinco niveles: salida actual, adaptador correcto, dongle silencioso, dongle potente y DAC amp de escritorio. Una línea marca dónde suele estar el punto de suficiencia para IEMs sensibles.</desc>
+
+                    <rect x="0" y="0" width="760" height="160" rx="18" fill="#101826"></rect>
+
+                    <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+                      <line x1="78" y1="96" x2="690" y2="96" stroke="rgba(255,255,255,0.14)" stroke-width="8" stroke-linecap="round"></line>
+
+                      <rect x="52" y="72" width="96" height="48" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
+                      <text x="100" y="91" text-anchor="middle" fill="#edf2f7" font-size="13">Salida actual</text>
+                      <text x="100" y="107" text-anchor="middle" fill="#a9b7c7" font-size="10">si ya falla, no insistas</text>
+
+                      <rect x="172" y="62" width="108" height="58" rx="12" fill="rgba(125,211,252,0.10)" stroke="rgba(125,211,252,0.34)"></rect>
+                      <text x="226" y="84" text-anchor="middle" fill="#edf2f7" font-size="13">Adaptador</text>
+                      <text x="226" y="100" text-anchor="middle" fill="#edf2f7" font-size="13">correcto</text>
+                      <text x="226" y="114" text-anchor="middle" fill="#a9b7c7" font-size="10">aporta viabilidad física</text>
+
+                      <rect x="308" y="50" width="118" height="70" rx="12" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.38)"></rect>
+                      <text x="367" y="72" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
+                      <text x="367" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">silencioso</text>
+                      <text x="367" y="104" text-anchor="middle" fill="#dfffea" font-size="10">punto de suficiencia</text>
+                      <text x="367" y="116" text-anchor="middle" fill="#a9b7c7" font-size="10">en muchos IEMs</text>
+
+                      <rect x="456" y="62" width="112" height="58" rx="12" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.34)"></rect>
+                      <text x="512" y="84" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
+                      <text x="512" y="100" text-anchor="middle" fill="#edf2f7" font-size="13">potente</text>
+                      <text x="512" y="114" text-anchor="middle" fill="#a9b7c7" font-size="10">útil si falta margen real</text>
+
+                      <rect x="596" y="72" width="108" height="48" rx="12" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.34)"></rect>
+                      <text x="650" y="91" text-anchor="middle" fill="#edf2f7" font-size="13">DAC/amp fijo</text>
+                      <text x="650" y="107" text-anchor="middle" fill="#a9b7c7" font-size="10">solo si el uso ya es escritorio</text>
+
+                      <line x1="367" y1="20" x2="367" y2="46" stroke="rgba(134,239,172,0.7)" stroke-width="3" stroke-linecap="round"></line>
+                      <circle cx="367" cy="18" r="6" fill="#86efac"></circle>
+                      <text x="387" y="22" fill="#dfffea" font-size="11">Suele bastar aquí</text>
+                    </g>
+                  </svg>
+                </div>
+
+                <div class="table-shell">
+                  <table aria-label="Matriz rápida de compatibilidad de ejemplo para plantilla de artículo">
+                    <thead>
+                      <tr>
+                        <th>Cadena</th>
+                        <th>¿Funciona?</th>
+                        <th>¿Volumen útil?</th>
+                        <th>¿Ruido de fondo?</th>
+                        <th>Cuándo descartarla</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Móvil + adaptador básico desconocido</td>
+                        <td><span class="badge badge-maybe">Sí, con matices</span></td>
+                        <td>Puede bastar</td>
+                        <td>Sin confirmar a fecha de 21/09</td>
+                        <td>Si no sabes si es activo o si el control de volumen va a saltos grandes</td>
+                      </tr>
+                      <tr>
+                        <td>Móvil + dongle pequeño orientado a IEM</td>
+                        <td><span class="badge badge-ok">Sí</span></td>
+                        <td>Suele bastar</td>
+                        <td>Prioridad: salida silenciosa</td>
+                        <td>Si necesitas además micrófono y el modelo no lo expone</td>
+                      </tr>
+                      <tr>
+                        <td>Dongle potente con 4.4 mm</td>
+                        <td><span class="badge badge-maybe">Sí, pero vigila</span></td>
+                        <td>De sobra</td>
+                        <td>Más riesgo con IEM sensible</td>
+                        <td>Si el problema era hiss y no falta de margen</td>
+                      </tr>
+                      <tr>
+                        <td>DAC/amp de escritorio</td>
+                        <td><span class="badge badge-maybe">Solo en puesto fijo</span></td>
+                        <td>De sobra</td>
+                        <td>Depende de ganancia mínima</td>
+                        <td>Si tu uso sigue siendo móvil o cama/escritorio compartido</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+
+                <div class="callout-grid">
+                  <div class="callout callout-cost">
+                    <strong>Coste total real</strong>
+                    <p>Antes de añadir un DAC/amp más grande, la plantilla obliga a mostrar si falta también adaptador, cable corto, soporte de micrófono o un control de volumen usable con IEM sensible.</p>
+                  </div>
+
+                  <div class="callout callout-no">
+                    <strong>Qué no comprar en este caso</strong>
+                    <ul>
+                      <li>No subas a una salida más potente si el síntoma es hiss en pausa o entre pistas.</li>
+                      <li>No des por hecho que la salida balanceada mejora un IEM sensible por sí sola.</li>
+                      <li>No montes escritorio fijo para una duda que empezó en el móvil.</li>
+                    </ul>
+                  </div>
+
+                  <div class="callout callout-uncertain">
+                    <strong>Qué dato puede quedar sin cerrar</strong>
+                    <p>Si un dongle concreto no confirma soporte de micrófono, control de ganancia o compatibilidad con una consola, la plantilla lo mostrará como “sin confirmar”, no como hueco maquillado.</p>
+                  </div>
+                </div>
+
+                <div class="faq-list" aria-label="Preguntas frecuentes de ejemplo">
+                  <details class="faq-item">
+                    <summary>¿Más potencia ayuda si mi IEM ya llega a volumen?</summary>
+                    <div>No necesariamente. En esta clase de guía, el bloque de descarte aparece antes para separar falta de margen real de salida ruidosa o control de volumen poco fino.</div>
+                  </details>
+                  <details class="faq-item">
+                    <summary>¿Y si el problema no es ruido sino confort?</summary>
+                    <div>El patrón también reserva sitio a peso, clamp, boquilla o perfil bajo cuando la compra dependa de dormir de lado, uso largo o sellado difícil.</div>
+                  </details>
+                </div>
               </div>
 
-              <div class="callout callout-no">
-                <strong>Qué no comprar en este caso</strong>
+              <aside class="before-buy" aria-labelledby="before-buy-heading">
+                <h4 id="before-buy-heading">Antes de comprar</h4>
                 <ul>
-                  <li>No subas a una salida más potente si el síntoma es hiss en pausa o entre pistas.</li>
-                  <li>No des por hecho que la salida balanceada mejora un IEM sensible por sí sola.</li>
-                  <li>No montes escritorio fijo para una duda que empezó en el móvil.</li>
+                  <li>Confirma primero si tu USB-C saca audio digital y no solo carga.</li>
+                  <li>Nombra el síntoma: hiss, falta de volumen, micrófono roto o confort.</li>
+                  <li>Si la escucha sigue siendo móvil, evita saltar directo a escritorio.</li>
+                  <li>Si la salida actual ya es silenciosa, el siguiente gasto tiene que justificar otra cosa.</li>
                 </ul>
-              </div>
-
-              <div class="callout callout-uncertain">
-                <strong>Qué dato puede quedar sin cerrar</strong>
-                <p>Si un dongle concreto no confirma soporte de micrófono, control de ganancia o compatibilidad con una consola, la plantilla lo mostrará como “sin confirmar”, no como hueco maquillado.</p>
-              </div>
-            </div>
-
-            <div class="faq-list" aria-label="Preguntas frecuentes de ejemplo">
-              <details class="faq-item">
-                <summary>¿Más potencia ayuda si mi IEM ya llega a volumen?</summary>
-                <div>No necesariamente. En esta clase de guía, el bloque de descarte aparece antes para separar falta de margen real de salida ruidosa o control de volumen poco fino.</div>
-              </details>
-              <details class="faq-item">
-                <summary>¿Y si el problema no es ruido sino confort?</summary>
-                <div>El patrón también reserva sitio a peso, clamp, boquilla o perfil bajo cuando la compra dependa de dormir de lado, uso largo o sellado difícil.</div>
-              </details>
+              </aside>
             </div>
           </article>
 
           <aside class="template-side" aria-labelledby="patrones-heading">
             <div class="pattern-card">
               <h3 id="patrones-heading">Qué resuelve esta plantilla</h3>
-              <p>No cambia la identidad del sitio. Cambia el orden de lectura para que la respuesta decisional llegue antes.</p>
+              <p>No cambia la identidad del sitio. Cambia el orden de lectura para que la respuesta decisional llegue antes y con menos ambigüedad.</p>
               <ul>
                 <li>Veredicto visible arriba: compra sí / compra no.</li>
-                <li>Compatibilidad rápida sin esperar al tercer scroll.</li>
-                <li>Coste total y descarte como módulos estables.</li>
-                <li>Hueco explícito para incertidumbre técnica real.</li>
+                <li>Problema real y error típico resumidos en una franja inicial.</li>
+                <li>Escalera de gasto útil para enseñar dónde suele bastar la cadena.</li>
+                <li>Coste total, descarte e incertidumbre como módulos estables.</li>
               </ul>
             </div>
 
             <div class="pattern-card">
               <h3>Componentes reutilizables desde hoy</h3>
-              <p>Con este turno quedan definidos los bloques base que irán saltando de una guía a otra.</p>
+              <p>Con este turno quedan definidos bloques que podrán repetirse con poco cambio entre guías de auriculares, IEMs y dongles.</p>
               <div class="inline-tags" aria-label="Componentes de la plantilla">
                 <span>Resumen sí/no</span>
+                <span>Franja de decisión</span>
                 <span>Ficha rápida</span>
-                <span>Tabla de compatibilidad</span>
+                <span>Escalera de gasto</span>
                 <span>Coste total real</span>
                 <span>Qué no comprar</span>
                 <span>Dato sin confirmar</span>
@@ -1490,12 +1667,12 @@
 
             <div class="pattern-card">
               <h3>Móvil y accesibilidad</h3>
-              <p>El patrón evita esconder lo importante en hover o en una imagen. Todo lo decisional sigue visible como texto, tabla o bloque corto.</p>
+              <p>La intervención de hoy no añade efectos. Refuerza comprensión en lectura estrecha y deja la misma respuesta por más de una vía.</p>
               <ul>
-                <li>Resumen apilable en una columna.</li>
+                <li>Tablas siempre dentro de contenedor con scroll horizontal.</li>
+                <li>Resumen decisional y checklist lateral apilables en una columna.</li>
                 <li>Badges con texto, no solo color.</li>
-                <li>FAQ en <code>details</code> nativo con foco visible.</li>
-                <li>Tabla con encabezados claros y degradación a scroll solo cuando haga falta.</li>
+                <li>SVG con <code>title</code>, <code>desc</code> y lectura completa sin hover.</li>
               </ul>
             </div>
           </aside>
@@ -1839,7 +2016,7 @@
         </div>
 
         <p class="scroll-hint desktop-only">Si estás en una pantalla estrecha, desplaza la tabla en horizontal para ver la comparación completa.</p>
-        <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: CTIA y OMTP no cablean igual, y ver un jack de 3,5 mm en un adaptador USB-C no confirma por sí solo que Windows vaya a exponer también entrada de micrófono. Por eso las guías de compatibilidad aquí priorizan función real antes que apariencia externa.</p>
+        <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: las dudas recientes alrededor de open-ear, multipunto y trabajo en casa se repiten más por contexto de uso que por marca concreta. Por eso esta capa de diseño prioriza cadena, descarte y compatibilidad antes que catálogo.</p>
       </section>
 
       <section aria-labelledby="coste-heading">
