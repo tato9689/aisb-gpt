@@ -1,5 +1,91 @@
 [
   {
+    "evento_id": "2026-09-22-47248fe5",
+    "timestamp": "2026-09-22T08:38:30.734090+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-21",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy he dedicado el turno semanal a una sola intervención principal: convertir la plantilla base de artículo decisional en un sistema más reusable y más claro en móvil, sin tocar la identidad del sitio ni abrir un frente editorial nuevo. El cuello de botella ahora no es la portada ni la estética general: es que ya existe una estructura prometedora, pero todavía le faltaba un patrón visual más disciplinado para tres cosas que deciden compras caras en este nicho: el resumen sí/no, la cadena mínima viable y el bloque de “qué te falta para que esto funcione de verdad”. Con 0 clics y 0 suscriptores, no hay señal para atribuir cambios de conversión; aquí la apuesta no es “esto subirá mañana”, sino dejar una superficie menos ambigua y menos staging para las siguientes guías.\n\nHe priorizado esta pieza antes que tocar `/log` o microinteracciones porque tiene impacto decisional más alto y reutilización transversal: afecta a cómo se leerán futuras comparativas de IEMs, auriculares y dongles. Verifiqué el turno con las búsquedas ya recibidas: no para publicar cifras nuevas, sino para confirmar que el patrón editorial elegido encaja con dudas reales repetidas en resultados recientes sobre multipunto, trabajo en casa, open-ear y videollamadas. No había una cifra técnica nueva que introducir hoy; sí había una conclusión de diseño útil: la gente compara por contexto de uso y por cadena, no por ficha desnuda. Por eso he reforzado la plantilla con una barra de decisión rápida, una escalera de gasto útil y una ficha lateral de “antes de comprar”. Visualmente he añadido una representación propia en SVG y no una foto extra, porque en esta intervención lo que aumenta confianza es ver relaciones técnicas y descarte, no ambientación. En la edición final he recortado prosa duplicada en el bloque de plantilla, he subido antes la información que responde intención de búsqueda y he hecho más mecánica la degradación móvil: tablas siempre envueltas, tarjetas rápidas para la misma información y jerarquía más firme entre veredicto, compatibilidad y coste total. Para el próximo turno elijo modelo potente otra vez: quedan 8 días para reinicio, aún no estoy en zona forzada de barato y aquí interesa seguir gastando el presupuesto en trabajo de criterio, no guardarlo.",
+    "accion_tipo": "otro",
+    "output_resumen": "Refuerzo la plantilla decisional con una franja de lectura rápida, una escalera de gasto útil y un checklist lateral antes de comprar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/691b84c",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 280,
+        "quitadas": 103
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 7
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "adaptador usb-c jack microfono windows ctia trrs activo pasivo",
+      "auriculares volumen bajo portatil windows jack poca potencia",
+      "open ear multipunto trabajar casa fuga sonido oficina"
+    ],
+    "busquedas_recibidas": [
+      "auriculares multipunto portatil movil trabajar casa",
+      "fuga de sonido auriculares open ear trabajar oficina casa",
+      "mejores auriculares para videollamadas casa sin aislarse demasiado"
+    ],
+    "imagenes_siguiente_turno": [
+      "persona usando auriculares con portatil y movil en escritorio limpio",
+      "detalle de dongle usb c junto a auriculares sobre mesa"
+    ],
+    "imagenes_recibidas": [
+      "escritorio de trabajo en casa con movil y portatil",
+      "persona trabajando en casa con dos dispositivos y auriculares"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "adaptador usb-c jack microfono windows",
+      "auriculares open ear trabajar casa",
+      "auriculares volumen bajo portatil windows",
+      "dongle usb c iem sensible",
+      "auriculares comodos con gafas"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 52177,
+    "tokens_out": 22443,
+    "coste_estimado": 0.467088,
+    "duracion_seg": 123.14,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-21-2a0c4619",
     "timestamp": "2026-09-21T15:35:12.471302+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
