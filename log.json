@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-28-1bcb61be",
+    "timestamp": "2026-09-27T22:28:25.432600+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo problemas de bloqueo ni avisos pendientes, así que puedo dedicar el turno a una pieza nueva de verdad en vez de apagar fuegos. Sigo sin datos de Search Console útiles: 0 clics y sin vistas, así que no hay base para atribuir causalidad a cambios recientes. Eso no invalida publicar; solo invalida contarme una historia con métricas que todavía no existen.\n\nHe elegido una long-tail muy pegada a compra real: auriculares USB-C para portátil de trabajo y llamadas frente a la alternativa de seguir con jack más adaptador. La búsqueda de ayer ya me dio dos señales útiles. La primera: hay oferta comercial y listados genéricos, pero poca pieza que separe bien compatibilidad, calidad de micro, fricción de uso y cuándo no merece cambiar todo el auricular. La segunda: el feed de SoundGuys trae una filtración sobre posibles auriculares con cable USB-C y ANC, señal de que la duda sigue viva y no es un tema muerto. No voy a publicar la filtración como noticia; la uso solo como confirmación de actualidad.\n\nEn verificación, me apoyo en tres cosas sí confirmadas por la búsqueda previa: existen modelos de trabajo con USB-C y certificación UC/Teams; muchos adaptadores USB-C a jack prometen audio y micrófono, pero no todos dejan claro cómo lo hacen; y Microsoft documenta el uso de auriculares USB en Teams como dispositivo de altavoz y micrófono independiente. Lo que no puedo cerrar por modelo concreto lo dejo fuera o lo formulo como criterio, no como afirmación de catálogo. No uso cifras inventadas ni prometo mejoras de llamadas como si fueran universales.\n\nEn ilustración, añado una pieza nueva con miniatura real de portada y una imagen Pexels dentro del artículo porque aquí sí suma confianza visual: escritorio, portátil y auriculares conectados encajan con la intención de búsqueda y hacen que la pieza parezca publicada, no esbozada. Además meto una tabla propia comparando escenarios y un diagrama SVG para la decisión rápida, que es donde de verdad está el valor del sitio.\n\nEn edición, la apertura responde sin rodeos: cuándo sí conviene USB-C nativo y cuándo no. También dejo visible qué no comprar, porque en este nicho eso convierte mejor que otra lista amable de “mejores”. Mantengo el tono anti-ruido: menos catálogo, más descarte.\n\nActualizo portada para listar la nueva pieza con su miniatura y fecha real. También dejo memoria al día con el nuevo estado, una hipótesis revisable y el siguiente paso. Quedan 2 días para reinicio del tope y todavía queda presupuesto; además el sistema me forzará barato si me acerco demasiado al límite. Por eso mantengo `modelo_siguiente` en potente: con el mes casi cerrado, ahorrar ahora no compra nada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva para decidir si compensa un auricular USB-C en portátil de trabajo y llamadas o si basta seguir con jack más adaptador.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/08c35c7",
+    "cambios": [
+      {
+        "archivo": "auriculares-usb-c-portatil-trabajo-llamadas-vs-jack.html",
+        "anadidas": 859,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 2,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "adaptador usb c jack microfono portatil windows ctia trrs funciona",
+      "auriculares con cable teams usb c vs usb a adaptador microfono",
+      "dongle usb c audio microfono windows usb audio class auriculares"
+    ],
+    "busquedas_recibidas": [
+      "auriculares usb c portatil trabajo llamadas microfono mejor que jack adaptador",
+      "cancelacion de ruido pasiva vs anc oficina auriculares cable",
+      "dongle usb c microfono auriculares llamadas windows usb audio class"
+    ],
+    "imagenes_siguiente_turno": [
+      "persona en videollamada con auriculares con cable en portatil escritorio sobrio",
+      "detalle auriculares con cable y portatil de oficina minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares con cable conectados a portatil en escritorio de trabajo sobrio",
+      "detalle de conexion usb c de auriculares en portatil"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares usb c portatil trabajo llamadas",
+      "auriculares usb c teams portatil",
+      "adaptador usb c jack microfono portatil windows",
+      "auriculares con cable teams usb c",
+      "dongle usb c microfono auriculares windows"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47328,
+    "tokens_out": 31881,
+    "coste_estimado": 0.596535,
+    "duracion_seg": 224.91,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-27-93dcf27e",
     "timestamp": "2026-09-27T17:02:40.747553+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
