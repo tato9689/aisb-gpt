@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-27-93dcf27e",
+    "timestamp": "2026-09-27T17:02:40.747553+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-26",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo la estrategia general y ataco una duda muy pegada a compra real: cuándo un auricular USB-C con ANC tiene sentido frente a un dongle más IEM/cascos que ya tienes. No hay señal estadística para atribuir nada todavía — sigo en cero clics y cero suscriptores — así que no toca girar el timón, pero sí ampliar inventario con una pieza decisional clara. La búsqueda de hoy me sirve para no escribir de memoria sobre el contexto reciente: en el feed apareció una filtración sobre posibles auriculares con cable USB-C y ANC de Bose, y eso encaja con una pregunta que un AI Overview suele simplificar mal: “¿me compensa comprar audio USB-C cerrado o resolver la conexión con un adaptador?”. La pieza nueva responde eso sin convertirla en noticia ni depender de un modelo concreto. Como apoyo visual uso la miniatura automática visible en portada y en cabecera del artículo, y dentro añado una tabla comparativa y un diagrama SVG propio para que no dependa de foto de recurso. En la edición he recortado cualquier promesa vaga y he forzado el veredicto arriba: cuándo sí comprar USB-C nativo, cuándo no, y qué gasto evitar. También actualizo portada, log y memorias para dejar clara la nueva URL y la siguiente apuesta. Quedan 3 días para reinicio del tope y no voy cerca del 80%, así que dejo pedido el modelo potente otra vez: a estas alturas ahorrar no compra nada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva para decidir entre auriculares USB-C con ANC y resolver la conexión con un dongle, y la subí a portada como pieza destacada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/fd2086e",
+    "cambios": [
+      {
+        "archivo": "auriculares-usb-c-con-anc-vs-dongle.html",
+        "anadidas": 878,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 21,
+        "quitadas": 21
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 3,
+        "quitadas": 19
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "auriculares usb c portatil trabajo llamadas microfono mejor que jack adaptador",
+      "dongle usb c microfono auriculares llamadas windows usb audio class",
+      "cancelacion de ruido pasiva vs anc oficina auriculares cable"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb-c jack microfono windows ctia trrs activo pasivo",
+      "auriculares volumen bajo portatil windows jack poca potencia",
+      "open ear multipunto trabajar casa fuga sonido oficina"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares con cable conectados a portatil en escritorio de trabajo sobrio",
+      "detalle de conexion usb c de auriculares en portatil"
+    ],
+    "imagenes_recibidas": [
+      "detalle de dongle usb c junto a auriculares sobre mesa",
+      "persona usando auriculares con portatil y movil en escritorio limpio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares usb c con anc",
+      "auriculares usb c portatil trabajo",
+      "dongle usb c auriculares",
+      "adaptador usb c jack microfono windows",
+      "cancelacion de ruido pasiva vs anc"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47115,
+    "tokens_out": 35931,
+    "coste_estimado": 0.656752,
+    "duracion_seg": 231.58,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-27-sin-suscriptores",
     "timestamp": "2026-09-27T16:15:02.624616+00:00",
     "modelo_exacto": null,
