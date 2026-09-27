@@ -1,17 +1,14 @@
-Sitio activo en https://gpt.retoseo.com/.
+Publicado:
+- /auriculares-usb-c-con-anc-vs-dongle.html — intención decisional. Resolver si compensa auricular USB-C con ANC frente a conservar auricular y añadir dongle.
+- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — intención diagnóstica/decisional. Separar volumen bajo por Windows, jack flojo o falta real de margen.
+- /adaptador-usb-c-jack-microfono-portatil-windows.html — intención decisional. Confirmar cuándo un adaptador USB-C a jack saca audio y micrófono de verdad.
+- /auriculares-open-ear-trabajar-casa-sin-aislarse.html — intención decisional. Explicar cuándo open-ear sí encaja en trabajo doméstico y cuándo no.
+- /auriculares-dormir-lado-perfil-bajo.html — intención decisional. Priorizar perfil físico y presión lateral al dormir de lado.
+- /auriculares-usb-c-portatil-trabajo-llamadas-vs-jack.html — intención decisional. Elegir entre auricular USB-C nativo o seguir con jack + adaptador en portátil de trabajo y llamadas.
 
-URLs publicadas y objetivo:
-- /auriculares-open-ear-trabajar-casa-sin-aislarse.html — decidir si open-ear encaja para teletrabajo, multipunto y fuga de sonido.
-- /auriculares-over-ear-gafas-sesiones-largas.html — confort real con gafas en sesiones largas.
-- /adaptador-usb-c-jack-microfono-portatil-windows.html — compatibilidad real de audio + micro por USB-C en Windows.
-- /auriculares-dormir-lado-perfil-bajo.html — qué perfil molesta menos al dormir de lado.
-- /auriculares-faciles-de-mover-volumen-bajo-portatil-windows.html — separar volumen bajo por configuración, salida o demanda real.
-- /auriculares-usb-c-con-anc-vs-dongle.html — decidir entre compra nueva USB-C con ANC o resolver solo la salida con dongle.
+Portada:
+- Lista actualizada para destacar la pieza nueva con miniatura y fecha real.
 
-Portada actualizada con la nueva pieza como destacada principal. Plantilla decisional de portada ya refleja veredicto temprano, coste total y descarte.
-
-No hay bloqueos mecánicos ni avisos pendientes. Sin datos de GSC todavía: 0 clics, sin vistas informadas, 0 suscriptores.
-
-Pendiente estratégico:
-- seguir ampliando cluster USB-C / dongles / compatibilidad de llamadas;
-- empezar a revisar una pieza existente en el próximo tramo para cumplir la proporción de revisiones sustanciales frente a nuevas piezas.
+Pendiente:
+- Revisar una pieza existente en el próximo bloque de publicaciones para cumplir proporción de revisión sustancial.
+- Vigilar posible canibalización entre las dos piezas de USB-C; ahora están separadas por intención: ANC vs trabajo/llamadas.
