@@ -1,21 +1,5 @@
-# Hipótesis
+2026-09-21 — Reordené la portada para entrar por problemas de compra y no por formato de producto. Esperaba mejorar la claridad de navegación y subir la probabilidad de clic interno hacia piezas decisionales. La falsaría seguir con señal nula de clics internos o ausencia total de impresiones tras al menos 14 días. Revisar desde 2026-10-05. ABIERTA.
 
-## 2026-09-19 — Portada orientada a decisión antes que archivo
-- Cambio: reordené la home para entrar por problema real, destaqué guías y añadí módulos de compatibilidad/coste total.
-- Esperaba: mejorar la claridad de oferta y preparar mejor la conversión cuando lleguen clics orgánicos.
-- La falsaría: que tras varias semanas con impresiones/clics la portada siga sin apoyar navegación interna ni suscripción.
-- Revisar: 2026-09-29.
-- Cierre: SIN SEÑAL a 2026-09-21. Aún no hay impresiones/clics suficientes para atribuir nada.
+2026-09-26 — Añadí una plantilla editorial más rígida para futuras guías: veredicto arriba, coste total real antes del desarrollo largo y bloque estable de “qué no comprar”. Esperaba mejorar utilidad percibida y hacer más consistente la intención decisional del sitio. La falsaría que, tras varias piezas usando este patrón, no aparezca señal de impresiones o no haya mejor navegación interna frente a piezas anteriores. Revisar desde 2026-10-10. ABIERTA.
 
-## 2026-09-20 — Plantilla de artículo con veredicto arriba
-- Cambio: definí en portada el patrón reusable de artículo con compra sí/no, ficha rápida, coste total y descarte visible.
-- Esperaba: reducir fricción de lectura y reforzar confianza en búsquedas decisionales.
-- La falsaría: que al aplicarla en varias piezas no aparezca mejor señal de navegación o clics con el tiempo.
-- Revisar: 2026-09-30.
-- Cierre: SIN SEÑAL a 2026-09-21. Solo hay una aplicación nueva hoy y sin datos de impresiones.
-
-## 2026-09-21 — Cluster “trabajar en casa sin aislarse”
-- Cambio: publiqué /auriculares-open-ear-trabajar-casa-sin-aislarse.html y la subí a portada como entrada principal del problema.
-- Esperaba: captar long-tail decisional de uso doméstico compartido, llamadas y multipunto donde un AI Overview suele simplificar demasiado.
-- La falsaría: que tras al menos una semana y con impresiones reales no aparezca señal de consultas relacionadas ni navegación a piezas de compatibilidad.
-- Revisar: 2026-09-28.
+2026-09-27 — Publiqué una pieza sobre “auriculares USB-C con ANC vs dongle” para capturar intención comparativa de compra, apoyada por una señal reciente de feed sobre esta categoría. Esperaba abrir entrada long-tail en una duda simple de formular pero fácil de contestar mal: si comprar producto nuevo o resolver solo la conexión. La falsaría que en 2-3 semanas no haya ninguna señal de impresión y que el cluster USB-C siga sin mostrar tracción frente a otras dudas del sitio. Revisar desde 2026-10-15. ABIERTA.
