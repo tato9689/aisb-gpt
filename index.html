@@ -262,7 +262,7 @@
 
     section { padding: 22px; }
 
-    h2, h3 {
+    h2, h3, h4 {
       margin: 0;
       letter-spacing: -0.02em;
     }
@@ -428,141 +428,100 @@
       font-size: 0.95rem;
     }
 
-    .article-list { display: grid; gap: 14px; }
-
-    .article-card {
+    .system-grid {
       display: grid;
-      grid-template-columns: 176px minmax(0, 1fr);
-      gap: 16px;
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: calc(var(--radius) - 4px);
-      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
-      transition: transform 160ms ease, border-color 160ms ease;
+      grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
+      gap: 18px;
       align-items: start;
+      margin-top: 16px;
     }
 
-    .article-card:hover {
-      transform: translateY(-2px);
-      border-color: rgba(125, 211, 252, 0.35);
-    }
-
-    .article-thumb {
-      display: block;
-      border-radius: 12px;
-      overflow: hidden;
-      border: 1px solid var(--line);
-      background: var(--panel-3);
-    }
-
-    .article-thumb img {
-      display: block;
-      width: 100%;
-      height: auto;
-      aspect-ratio: 640 / 336;
-      object-fit: cover;
-    }
-
-    .article-copy {
+    .system-main,
+    .system-side {
       display: grid;
-      gap: 8px;
-      min-width: 0;
+      gap: 14px;
     }
 
-    .article-copy h3 a {
-      text-decoration-thickness: 0.08em;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: 0.92rem;
-      margin: 0;
-    }
-
-    .inline-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 4px;
-    }
-
-    .inline-tags span,
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 5px 9px;
+    .stack-card {
+      display: grid;
+      gap: 14px;
+      padding: 18px;
       border: 1px solid var(--line);
+      border-radius: 16px;
+      background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
+    }
+
+    .eyebrow {
+      display: inline-flex;
+      width: fit-content;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 10px;
       border-radius: 999px;
-      color: #d8e4f2;
+      background: rgba(196, 181, 253, 0.12);
+      color: #ece4ff;
       font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+
+    .system-lead {
+      max-width: var(--reading);
+      color: var(--muted);
+      font-size: 0.98rem;
+    }
+
+    .decision-strip {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
+    }
+
+    .decision-strip-card {
+      padding: 14px 15px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
       background: rgba(255,255,255,0.02);
     }
 
-    .badge-ok {
-      color: #dfffea;
-      border-color: rgba(134, 239, 172, 0.26);
-      background: rgba(134, 239, 172, 0.10);
+    .decision-strip-card span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 5px;
     }
 
-    .badge-maybe {
-      color: #fff3c4;
-      border-color: rgba(253, 230, 138, 0.26);
-      background: rgba(253, 230, 138, 0.10);
+    .decision-strip-card strong {
+      display: block;
+      font-size: 0.97rem;
+      line-height: 1.35;
     }
 
-    .badge-no {
-      color: #ffe0e0;
-      border-color: rgba(252, 165, 165, 0.26);
-      background: rgba(252, 165, 165, 0.10);
+    .system-steps {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 12px;
     }
 
-    .table-shell {
+    .system-step {
+      padding: 16px;
       border: 1px solid var(--line);
       border-radius: 14px;
-      overflow-x: auto;
-      overflow-y: hidden;
-      background: rgba(255,255,255,0.015);
-      position: relative;
+      background: rgba(255,255,255,0.02);
+      display: grid;
+      gap: 8px;
     }
 
-    .table-shell::after {
-      content: "";
-      position: sticky;
-      right: 0;
-      top: 0;
-      float: right;
-      width: 28px;
-      height: 100%;
-      pointer-events: none;
-      background: linear-gradient(90deg, rgba(12,17,24,0), rgba(12,17,24,0.92));
+    .system-step strong {
+      font-size: 0.96rem;
     }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.95rem;
-      min-width: 620px;
-    }
-
-    th, td {
-      border-bottom: 1px solid var(--line);
-      padding: 12px 10px;
-      text-align: left;
-      vertical-align: top;
-    }
-
-    th {
-      color: #dce7f3;
-      background: rgba(255,255,255,0.03);
-      font-weight: 700;
-    }
-
-    tr:last-child td { border-bottom: 0; }
-
-    .notice {
-      border-left: 3px solid var(--accent-2);
-      padding-left: 14px;
+    .system-step p {
+      margin: 0;
       color: var(--muted);
+      font-size: 0.93rem;
     }
 
     .diagram-shell {
@@ -725,316 +684,84 @@
       font-size: 0.88rem;
     }
 
-    .cost-grid {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 14px;
-      margin-top: 14px;
-    }
-
-    .cost-card {
-      padding: 18px;
+    .table-shell {
       border: 1px solid var(--line);
       border-radius: 14px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
+      overflow-x: auto;
+      overflow-y: hidden;
+      background: rgba(255,255,255,0.015);
+      position: relative;
     }
 
-    .cost-card strong {
-      display: block;
-      margin-bottom: 8px;
-      letter-spacing: -0.01em;
-    }
-
-    .cost-card ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-    }
-
-    .cost-card li + li { margin-top: 8px; }
-
-    .template-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.18fr) minmax(280px, 0.82fr);
-      gap: 18px;
-      align-items: start;
-      margin-top: 16px;
-    }
-
-    .article-frame {
-      display: grid;
-      gap: 18px;
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: var(--radius);
-      background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
-    }
-
-    .eyebrow {
-      display: inline-flex;
-      width: fit-content;
-      align-items: center;
-      gap: 8px;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: rgba(196, 181, 253, 0.12);
-      color: #ece4ff;
-      font-size: 0.82rem;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-
-    .frame-head {
-      display: grid;
-      gap: 10px;
-      max-width: var(--reading);
-    }
-
-    .frame-head h3 {
-      font-size: clamp(1.35rem, 2vw, 1.9rem);
-      line-height: 1.12;
-      letter-spacing: -0.03em;
-    }
-
-    .decision-strip {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .decision-strip-card {
-      padding: 14px 15px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .decision-strip-card span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 5px;
-    }
-
-    .decision-strip-card strong {
-      display: block;
-      font-size: 0.97rem;
-      line-height: 1.35;
-    }
-
-    .frame-summary {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .verdict-card {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .verdict-card strong {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 0.96rem;
-    }
-
-    .verdict-card p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.94rem;
-    }
-
-    .verdict-yes {
-      border-color: rgba(134, 239, 172, 0.22);
-      background: rgba(134, 239, 172, 0.06);
-    }
-
-    .verdict-no {
-      border-color: rgba(252, 165, 165, 0.22);
-      background: rgba(252, 165, 165, 0.05);
-    }
-
-    .template-layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) 270px;
-      gap: 14px;
-      align-items: start;
-    }
-
-    .template-main {
-      display: grid;
-      gap: 16px;
-      min-width: 0;
-    }
-
-    .article-facts {
-      display: grid;
-      grid-template-columns: repeat(4, minmax(0, 1fr));
-      gap: 10px;
-    }
-
-    .fact-card {
-      padding: 14px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .fact-card span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.8rem;
-      margin-bottom: 5px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-
-    .fact-card strong {
-      display: block;
-      font-size: 0.98rem;
-      line-height: 1.32;
-      color: var(--text);
-    }
-
-    .before-buy {
-      display: grid;
-      gap: 10px;
-      padding: 16px;
-      border: 1px solid rgba(125, 211, 252, 0.2);
-      border-radius: 14px;
-      background: rgba(125, 211, 252, 0.06);
+    .table-shell::after {
+      content: "";
       position: sticky;
-      top: 18px;
+      right: 0;
+      top: 0;
+      float: right;
+      width: 28px;
+      height: 100%;
+      pointer-events: none;
+      background: linear-gradient(90deg, rgba(12,17,24,0), rgba(12,17,24,0.92));
     }
 
-    .before-buy h4 {
-      margin: 0;
-      font-size: 0.98rem;
-      letter-spacing: -0.02em;
-    }
-
-    .before-buy ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      font-size: 0.93rem;
-    }
-
-    .before-buy li + li {
-      margin-top: 8px;
-    }
-
-    .scale-shell {
-      display: grid;
-      gap: 10px;
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .scale-shell h4 {
-      margin: 0;
-      font-size: 1rem;
-    }
-
-    .scale-shell p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.93rem;
-    }
-
-    .scale-shell svg {
-      display: block;
+    table {
       width: 100%;
-      height: auto;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      min-width: 620px;
     }
 
-    .callout-grid {
-      display: grid;
-      gap: 12px;
+    th, td {
+      border-bottom: 1px solid var(--line);
+      padding: 12px 10px;
+      text-align: left;
+      vertical-align: top;
     }
 
-    .callout {
-      padding: 16px;
-      border-radius: 14px;
-      border: 1px solid var(--line);
-      background: rgba(255,255,255,0.02);
-    }
-
-    .callout strong {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 0.96rem;
-    }
-
-    .callout p,
-    .callout ul {
-      color: var(--muted);
-      font-size: 0.94rem;
-      margin: 0;
-    }
-
-    .callout ul {
-      padding-left: 18px;
-    }
-
-    .callout li + li {
-      margin-top: 7px;
-    }
-
-    .callout-cost {
-      border-color: rgba(125, 211, 252, 0.2);
-      background: rgba(125, 211, 252, 0.06);
-    }
-
-    .callout-no {
-      border-color: rgba(252, 165, 165, 0.22);
-      background: rgba(252, 165, 165, 0.05);
-    }
-
-    .callout-uncertain {
-      border-color: rgba(253, 230, 138, 0.22);
-      background: rgba(253, 230, 138, 0.06);
-    }
-
-    .faq-list {
-      display: grid;
-      gap: 10px;
-    }
-
-    .faq-item {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      overflow: clip;
-    }
-
-    .faq-item summary {
-      cursor: pointer;
-      list-style: none;
-      padding: 14px 16px;
+    th {
+      color: #dce7f3;
+      background: rgba(255,255,255,0.03);
       font-weight: 700;
     }
 
-    .faq-item summary::-webkit-details-marker {
-      display: none;
+    tr:last-child td { border-bottom: 0; }
+
+    .inline-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
     }
 
-    .faq-item div {
-      padding: 0 16px 16px;
-      color: var(--muted);
-      font-size: 0.94rem;
+    .inline-tags span,
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #d8e4f2;
+      font-size: 0.82rem;
+      background: rgba(255,255,255,0.02);
     }
 
-    .template-side {
-      display: grid;
-      gap: 14px;
+    .badge-ok {
+      color: #dfffea;
+      border-color: rgba(134, 239, 172, 0.26);
+      background: rgba(134, 239, 172, 0.10);
+    }
+
+    .badge-maybe {
+      color: #fff3c4;
+      border-color: rgba(253, 230, 138, 0.26);
+      background: rgba(253, 230, 138, 0.10);
+    }
+
+    .badge-no {
+      color: #ffe0e0;
+      border-color: rgba(252, 165, 165, 0.26);
+      background: rgba(252, 165, 165, 0.10);
     }
 
     .pattern-card {
@@ -1063,6 +790,100 @@
     }
 
     .pattern-card li + li { margin-top: 8px; }
+
+    .check-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .check-card {
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .check-card strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.96rem;
+    }
+
+    .check-card p,
+    .check-card ul {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin: 0;
+    }
+
+    .check-card ul { padding-left: 18px; }
+    .check-card li + li { margin-top: 7px; }
+
+    .check-cost {
+      border-color: rgba(125, 211, 252, 0.2);
+      background: rgba(125, 211, 252, 0.06);
+    }
+
+    .check-no {
+      border-color: rgba(252, 165, 165, 0.22);
+      background: rgba(252, 165, 165, 0.05);
+    }
+
+    .check-uncertain {
+      border-color: rgba(253, 230, 138, 0.22);
+      background: rgba(253, 230, 138, 0.06);
+    }
+
+    .article-list { display: grid; gap: 14px; }
+
+    .article-card {
+      display: grid;
+      grid-template-columns: 176px minmax(0, 1fr);
+      gap: 16px;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: calc(var(--radius) - 4px);
+      background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      transition: transform 160ms ease, border-color 160ms ease;
+      align-items: start;
+    }
+
+    .article-card:hover {
+      transform: translateY(-2px);
+      border-color: rgba(125, 211, 252, 0.35);
+    }
+
+    .article-thumb {
+      display: block;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      background: var(--panel-3);
+    }
+
+    .article-thumb img {
+      display: block;
+      width: 100%;
+      height: auto;
+      aspect-ratio: 640 / 336;
+      object-fit: cover;
+    }
+
+    .article-copy {
+      display: grid;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .article-copy h3 a {
+      text-decoration-thickness: 0.08em;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.92rem;
+      margin: 0;
+    }
 
     .cta {
       display: grid;
@@ -1195,22 +1016,15 @@
       .grid-2,
       .decision-grid,
       .signal-grid,
-      .cost-grid,
+      .system-grid,
+      .system-steps,
       .diagram-grid,
-      .template-grid,
-      .frame-summary,
-      .article-facts,
-      .decision-strip,
-      .template-layout {
+      .decision-strip {
         grid-template-columns: 1fr;
       }
 
       .article-card {
         grid-template-columns: 1fr;
-      }
-
-      .before-buy {
-        position: static;
       }
     }
 
@@ -1236,7 +1050,7 @@
       }
 
       .diagram-card,
-      .table-shell,
+      .table-shell.compat-desktop,
       .scroll-hint.desktop-only {
         display: none;
       }
@@ -1248,8 +1062,7 @@
       .hero h1 { max-width: 9ch; }
 
       .hero,
-      section,
-      .article-frame {
+      section {
         padding: 18px;
       }
 
@@ -1444,233 +1257,169 @@
         </div>
       </section>
 
-      <section aria-labelledby="plantilla-heading">
-        <h2 id="plantilla-heading">Plantilla base para guías decisionales</h2>
-        <p class="muted">Este turno semanal deja más rígido el orden de lectura de cualquier análisis futuro: veredicto arriba, coste total real antes del desarrollo largo y descarte visible sin obligar a leer media página.</p>
+      <section aria-labelledby="sistema-heading">
+        <h2 id="sistema-heading">Cómo se leen las guías de este sitio</h2>
+        <p class="muted">La mejora de diseño de esta semana compacta el sistema editorial: menos demo de plantilla y más bloques que responden rápido a compatibilidad, descarte y coste total.</p>
 
-        <div class="template-grid">
-          <article class="article-frame" aria-labelledby="frame-heading">
-            <span class="eyebrow">Patrón reusable de artículo</span>
+        <div class="system-grid">
+          <div class="system-main">
+            <article class="stack-card" aria-labelledby="sistema-bloque-heading">
+              <span class="eyebrow">Sistema reusable de decisión</span>
+              <h3 id="sistema-bloque-heading">Tres preguntas fijas antes de gastar más</h3>
+              <p class="system-lead">Cada guía decisional del sitio tenderá a abrir con el mismo orden: qué problema tienes, qué compra mínima lo resuelve y qué compra deberías descartar aunque parezca “subir de nivel”.</p>
 
-            <div class="frame-head">
-              <h3 id="frame-heading">¿Necesitas un dongle USB-C silencioso para IEMs sensibles o solo bajar ganancia?</h3>
-              <p class="muted">Ejemplo de apertura para las piezas más decisionales: una pregunta cerrada, una respuesta visible en el primer bloque y una cadena mínima viable antes de entrar en matices.</p>
+              <div class="decision-strip" aria-label="Resumen de cómo se estructura la decisión">
+                <div class="decision-strip-card">
+                  <span>Problema nombrado</span>
+                  <strong>Conector, volumen, hiss, confort o aislamiento</strong>
+                </div>
+                <div class="decision-strip-card">
+                  <span>Compra mínima</span>
+                  <strong>La cadena más corta que ya resuelve el síntoma</strong>
+                </div>
+                <div class="decision-strip-card">
+                  <span>Descarte visible</span>
+                  <strong>Qué no aporta nada en tu caso concreto</strong>
+                </div>
+              </div>
+
+              <div class="system-steps" aria-label="Pasos del sistema editorial">
+                <div class="system-step">
+                  <strong>1. Confirmar viabilidad</strong>
+                  <p>Antes de juzgar sonido, la guía aclara si la conexión, el pinout, el puerto o la exposición de micrófono son compatibles.</p>
+                </div>
+                <div class="system-step">
+                  <strong>2. Medir el salto útil</strong>
+                  <p>No todo gasto sube igual. El patrón enseña si el salto aporta viabilidad, margen real o solo complejidad.</p>
+                </div>
+                <div class="system-step">
+                  <strong>3. Dejar claro el no</strong>
+                  <p>Si el siguiente aparato añade cajas, ruido o sobremesa a una duda móvil, se descarta arriba y no al final.</p>
+                </div>
+              </div>
+            </article>
+
+            <div class="diagram-card">
+              <svg viewBox="0 0 760 170" role="img" aria-labelledby="scale-svg-title scale-svg-desc">
+                <title id="scale-svg-title">Escalera de gasto útil en audio personal por conexión directa</title>
+                <desc id="scale-svg-desc">Diagrama horizontal con cinco niveles: salida actual, adaptador correcto, dongle silencioso, dongle con más margen y DAC amp de escritorio. Marca el punto donde suele bastar la solución en muchas compras de audio personal.</desc>
+
+                <rect x="0" y="0" width="760" height="170" rx="18" fill="#101826"></rect>
+
+                <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
+                  <line x1="78" y1="102" x2="690" y2="102" stroke="rgba(255,255,255,0.14)" stroke-width="8" stroke-linecap="round"></line>
+
+                  <rect x="48" y="74" width="102" height="56" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
+                  <text x="99" y="95" text-anchor="middle" fill="#edf2f7" font-size="13">Salida actual</text>
+                  <text x="99" y="111" text-anchor="middle" fill="#a9b7c7" font-size="10">si ya falla, nómbralo</text>
+
+                  <rect x="172" y="64" width="108" height="66" rx="12" fill="rgba(125,211,252,0.10)" stroke="rgba(125,211,252,0.34)"></rect>
+                  <text x="226" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">Adaptador</text>
+                  <text x="226" y="104" text-anchor="middle" fill="#edf2f7" font-size="13">correcto</text>
+                  <text x="226" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">resuelve viabilidad</text>
+
+                  <rect x="306" y="50" width="122" height="80" rx="12" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.38)"></rect>
+                  <text x="367" y="74" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
+                  <text x="367" y="90" text-anchor="middle" fill="#edf2f7" font-size="13">silencioso</text>
+                  <text x="367" y="106" text-anchor="middle" fill="#dfffea" font-size="10">suele bastar aquí</text>
+                  <text x="367" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">si la duda era móvil</text>
+
+                  <rect x="456" y="64" width="116" height="66" rx="12" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.34)"></rect>
+                  <text x="514" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle con</text>
+                  <text x="514" y="104" text-anchor="middle" fill="#edf2f7" font-size="13">más margen</text>
+                  <text x="514" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">solo si falta empuje real</text>
+
+                  <rect x="598" y="74" width="112" height="56" rx="12" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.34)"></rect>
+                  <text x="654" y="95" text-anchor="middle" fill="#edf2f7" font-size="13">DAC/amp fijo</text>
+                  <text x="654" y="111" text-anchor="middle" fill="#a9b7c7" font-size="10">si el uso ya es escritorio</text>
+
+                  <line x1="367" y1="20" x2="367" y2="46" stroke="rgba(134,239,172,0.7)" stroke-width="3" stroke-linecap="round"></line>
+                  <circle cx="367" cy="18" r="6" fill="#86efac"></circle>
+                  <text x="390" y="22" fill="#dfffea" font-size="11">Punto de suficiencia frecuente</text>
+                </g>
+              </svg>
             </div>
 
-            <div class="decision-strip" aria-label="Resumen ultra rápido de la decisión">
-              <div class="decision-strip-card">
-                <span>Problema real</span>
-                <strong>Hiss, control de volumen tosco o falta de jack útil</strong>
-              </div>
-              <div class="decision-strip-card">
-                <span>Compra mínima</span>
-                <strong>Dongle pequeño y silencioso antes que stack completo</strong>
-              </div>
-              <div class="decision-strip-card">
-                <span>Error típico</span>
-                <strong>Confundir más potencia con mejor resultado en IEM sensible</strong>
-              </div>
+            <div class="table-shell">
+              <table aria-label="Qué tipo de bloque usa cada guía para responder mejor a la decisión">
+                <thead>
+                  <tr>
+                    <th>Duda del lector</th>
+                    <th>Bloque que aparece arriba</th>
+                    <th>Qué intenta evitar</th>
+                    <th>Cuándo se descarta gasto</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>No sé si mi fuente puede con esto</td>
+                    <td>Matriz de compatibilidad por fuente</td>
+                    <td>Comprar a ciegas por impedancia o marketing</td>
+                    <td>Si la salida actual ya cumple volumen, silencio y uso real</td>
+                  </tr>
+                  <tr>
+                    <td>No sé si necesito dongle o DAC/amp</td>
+                    <td>Escalera de gasto útil</td>
+                    <td>Saltar directo a sobremesa por inercia</td>
+                    <td>Si el problema era solo falta de jack o control de volumen burdo</td>
+                  </tr>
+                  <tr>
+                    <td>No sé si me conviene subir de modelo</td>
+                    <td>Bloque de qué no comprar</td>
+                    <td>Confundir más precio con mejor encaje</td>
+                    <td>Si el siguiente escalón no mejora confort, compatibilidad ni margen</td>
+                  </tr>
+                  <tr>
+                    <td>No sé qué me falta para que funcione bien</td>
+                    <td>Coste total real</td>
+                    <td>Comprar el producto principal y descubrir luego el resto</td>
+                    <td>Si el accesorio no cambia el uso y solo complica la cadena</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
 
-            <div class="frame-summary" aria-label="Resumen de compra sí o no">
-              <div class="verdict-card verdict-yes">
-                <strong>Cómpralo si…</strong>
-                <p>tu móvil no tiene jack, tu salida actual mete hiss y necesitas una cadena mínima viable con control fino de volumen.</p>
-              </div>
-              <div class="verdict-card verdict-no">
-                <strong>No lo compres si…</strong>
-                <p>ya escuchas en silencio de fondo limpio y el único motivo es “subir de categoría” sin un problema concreto.</p>
-              </div>
-            </div>
-
-            <div class="template-layout">
-              <div class="template-main">
-                <div class="article-facts" aria-label="Compatibilidad y requisitos rápidos">
-                  <div class="fact-card">
-                    <span>Fuente mínima</span>
-                    <strong>USB-C con audio digital o adaptador activo confirmado</strong>
-                  </div>
-                  <div class="fact-card">
-                    <span>Ganancia</span>
-                    <strong>Baja o control de volumen fino por pasos pequeños</strong>
-                  </div>
-                  <div class="fact-card">
-                    <span>Riesgo a vigilar</span>
-                    <strong>Ruido de fondo con IEM muy sensible</strong>
-                  </div>
-                  <div class="fact-card">
-                    <span>Cadena extra</span>
-                    <strong>Ninguna si el dongle ya resuelve conexión y silencio</strong>
-                  </div>
-                </div>
-
-                <div class="scale-shell" aria-labelledby="escala-heading">
-                  <h4 id="escala-heading">Escalera de gasto útil en esta duda</h4>
-                  <p>No toda mejora añade el mismo valor. En estas guías, el artículo enseñará dónde suele estar el punto de suficiencia antes de añadir cajas.</p>
-
-                  <svg viewBox="0 0 760 160" role="img" aria-labelledby="scale-svg-title scale-svg-desc">
-                    <title id="scale-svg-title">Escalera de gasto útil para decidir si hace falta un dongle o un DAC/amp más grande</title>
-                    <desc id="scale-svg-desc">Diagrama horizontal con cinco niveles: salida actual, adaptador correcto, dongle silencioso, dongle potente y DAC amp de escritorio. Una línea marca dónde suele estar el punto de suficiencia para IEMs sensibles.</desc>
-
-                    <rect x="0" y="0" width="760" height="160" rx="18" fill="#101826"></rect>
-
-                    <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-                      <line x1="78" y1="96" x2="690" y2="96" stroke="rgba(255,255,255,0.14)" stroke-width="8" stroke-linecap="round"></line>
-
-                      <rect x="52" y="72" width="96" height="48" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
-                      <text x="100" y="91" text-anchor="middle" fill="#edf2f7" font-size="13">Salida actual</text>
-                      <text x="100" y="107" text-anchor="middle" fill="#a9b7c7" font-size="10">si ya falla, no insistas</text>
-
-                      <rect x="172" y="62" width="108" height="58" rx="12" fill="rgba(125,211,252,0.10)" stroke="rgba(125,211,252,0.34)"></rect>
-                      <text x="226" y="84" text-anchor="middle" fill="#edf2f7" font-size="13">Adaptador</text>
-                      <text x="226" y="100" text-anchor="middle" fill="#edf2f7" font-size="13">correcto</text>
-                      <text x="226" y="114" text-anchor="middle" fill="#a9b7c7" font-size="10">aporta viabilidad física</text>
-
-                      <rect x="308" y="50" width="118" height="70" rx="12" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.38)"></rect>
-                      <text x="367" y="72" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
-                      <text x="367" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">silencioso</text>
-                      <text x="367" y="104" text-anchor="middle" fill="#dfffea" font-size="10">punto de suficiencia</text>
-                      <text x="367" y="116" text-anchor="middle" fill="#a9b7c7" font-size="10">en muchos IEMs</text>
-
-                      <rect x="456" y="62" width="112" height="58" rx="12" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.34)"></rect>
-                      <text x="512" y="84" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
-                      <text x="512" y="100" text-anchor="middle" fill="#edf2f7" font-size="13">potente</text>
-                      <text x="512" y="114" text-anchor="middle" fill="#a9b7c7" font-size="10">útil si falta margen real</text>
-
-                      <rect x="596" y="72" width="108" height="48" rx="12" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.34)"></rect>
-                      <text x="650" y="91" text-anchor="middle" fill="#edf2f7" font-size="13">DAC/amp fijo</text>
-                      <text x="650" y="107" text-anchor="middle" fill="#a9b7c7" font-size="10">solo si el uso ya es escritorio</text>
-
-                      <line x1="367" y1="20" x2="367" y2="46" stroke="rgba(134,239,172,0.7)" stroke-width="3" stroke-linecap="round"></line>
-                      <circle cx="367" cy="18" r="6" fill="#86efac"></circle>
-                      <text x="387" y="22" fill="#dfffea" font-size="11">Suele bastar aquí</text>
-                    </g>
-                  </svg>
-                </div>
-
-                <div class="table-shell">
-                  <table aria-label="Matriz rápida de compatibilidad de ejemplo para plantilla de artículo">
-                    <thead>
-                      <tr>
-                        <th>Cadena</th>
-                        <th>¿Funciona?</th>
-                        <th>¿Volumen útil?</th>
-                        <th>¿Ruido de fondo?</th>
-                        <th>Cuándo descartarla</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Móvil + adaptador básico desconocido</td>
-                        <td><span class="badge badge-maybe">Sí, con matices</span></td>
-                        <td>Puede bastar</td>
-                        <td>Sin confirmar a fecha de 21/09</td>
-                        <td>Si no sabes si es activo o si el control de volumen va a saltos grandes</td>
-                      </tr>
-                      <tr>
-                        <td>Móvil + dongle pequeño orientado a IEM</td>
-                        <td><span class="badge badge-ok">Sí</span></td>
-                        <td>Suele bastar</td>
-                        <td>Prioridad: salida silenciosa</td>
-                        <td>Si necesitas además micrófono y el modelo no lo expone</td>
-                      </tr>
-                      <tr>
-                        <td>Dongle potente con 4.4 mm</td>
-                        <td><span class="badge badge-maybe">Sí, pero vigila</span></td>
-                        <td>De sobra</td>
-                        <td>Más riesgo con IEM sensible</td>
-                        <td>Si el problema era hiss y no falta de margen</td>
-                      </tr>
-                      <tr>
-                        <td>DAC/amp de escritorio</td>
-                        <td><span class="badge badge-maybe">Solo en puesto fijo</span></td>
-                        <td>De sobra</td>
-                        <td>Depende de ganancia mínima</td>
-                        <td>Si tu uso sigue siendo móvil o cama/escritorio compartido</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-
-                <div class="callout-grid">
-                  <div class="callout callout-cost">
-                    <strong>Coste total real</strong>
-                    <p>Antes de añadir un DAC/amp más grande, la plantilla obliga a mostrar si falta también adaptador, cable corto, soporte de micrófono o un control de volumen usable con IEM sensible.</p>
-                  </div>
-
-                  <div class="callout callout-no">
-                    <strong>Qué no comprar en este caso</strong>
-                    <ul>
-                      <li>No subas a una salida más potente si el síntoma es hiss en pausa o entre pistas.</li>
-                      <li>No des por hecho que la salida balanceada mejora un IEM sensible por sí sola.</li>
-                      <li>No montes escritorio fijo para una duda que empezó en el móvil.</li>
-                    </ul>
-                  </div>
-
-                  <div class="callout callout-uncertain">
-                    <strong>Qué dato puede quedar sin cerrar</strong>
-                    <p>Si un dongle concreto no confirma soporte de micrófono, control de ganancia o compatibilidad con una consola, la plantilla lo mostrará como “sin confirmar”, no como hueco maquillado.</p>
-                  </div>
-                </div>
-
-                <div class="faq-list" aria-label="Preguntas frecuentes de ejemplo">
-                  <details class="faq-item">
-                    <summary>¿Más potencia ayuda si mi IEM ya llega a volumen?</summary>
-                    <div>No necesariamente. En esta clase de guía, el bloque de descarte aparece antes para separar falta de margen real de salida ruidosa o control de volumen poco fino.</div>
-                  </details>
-                  <details class="faq-item">
-                    <summary>¿Y si el problema no es ruido sino confort?</summary>
-                    <div>El patrón también reserva sitio a peso, clamp, boquilla o perfil bajo cuando la compra dependa de dormir de lado, uso largo o sellado difícil.</div>
-                  </details>
-                </div>
-              </div>
-
-              <aside class="before-buy" aria-labelledby="before-buy-heading">
-                <h4 id="before-buy-heading">Antes de comprar</h4>
-                <ul>
-                  <li>Confirma primero si tu USB-C saca audio digital y no solo carga.</li>
-                  <li>Nombra el síntoma: hiss, falta de volumen, micrófono roto o confort.</li>
-                  <li>Si la escucha sigue siendo móvil, evita saltar directo a escritorio.</li>
-                  <li>Si la salida actual ya es silenciosa, el siguiente gasto tiene que justificar otra cosa.</li>
-                </ul>
-              </aside>
-            </div>
-          </article>
-
-          <aside class="template-side" aria-labelledby="patrones-heading">
+          <aside class="system-side" aria-labelledby="checks-heading">
             <div class="pattern-card">
-              <h3 id="patrones-heading">Qué resuelve esta plantilla</h3>
-              <p>No cambia la identidad del sitio. Cambia el orden de lectura para que la respuesta decisional llegue antes y con menos ambigüedad.</p>
+              <h3 id="checks-heading">Qué deja cerrado este turno</h3>
+              <p>La portada enseña mejor el sistema editorial sin arrastrar un ejemplo de artículo tan largo que compita con las rutas de entrada.</p>
               <ul>
-                <li>Veredicto visible arriba: compra sí / compra no.</li>
-                <li>Problema real y error típico resumidos en una franja inicial.</li>
-                <li>Escalera de gasto útil para enseñar dónde suele bastar la cadena.</li>
-                <li>Coste total, descarte e incertidumbre como módulos estables.</li>
+                <li>Menos cajas anidadas y menos sensación de maqueta.</li>
+                <li>Patrón reusable centrado en decisión, no en exhibición de componentes.</li>
+                <li>Compatibilidad, descarte y coste total presentados como sistema estable.</li>
               </ul>
             </div>
 
-            <div class="pattern-card">
-              <h3>Componentes reutilizables desde hoy</h3>
-              <p>Con este turno quedan definidos bloques que podrán repetirse con poco cambio entre guías de auriculares, IEMs y dongles.</p>
-              <div class="inline-tags" aria-label="Componentes de la plantilla">
-                <span>Resumen sí/no</span>
-                <span>Franja de decisión</span>
-                <span>Ficha rápida</span>
-                <span>Escalera de gasto</span>
-                <span>Coste total real</span>
-                <span>Qué no comprar</span>
-                <span>Dato sin confirmar</span>
+            <div class="check-grid">
+              <div class="check-card check-cost">
+                <strong>Coste total real</strong>
+                <p>La pregunta ya no es solo “qué comprar”, sino qué más exigiría esa compra: adaptador, dongle, control de volumen usable o escritorio fijo.</p>
+              </div>
+
+              <div class="check-card check-no">
+                <strong>Qué no comprar</strong>
+                <ul>
+                  <li>No subas a un stack grande si tu duda sigue siendo móvil.</li>
+                  <li>No compres más potencia para un síntoma que en realidad es hiss.</li>
+                  <li>No cambies de puerto por deporte si tu cadena actual ya es estable.</li>
+                </ul>
+              </div>
+
+              <div class="check-card check-uncertain">
+                <strong>Qué sigue yendo marcado como duda</strong>
+                <p>Cuando una guía no confirme soporte de micro, pasos finos de volumen o compatibilidad con consola, el dato irá como “sin confirmar”, no maquillado.</p>
               </div>
             </div>
 
             <div class="pattern-card">
               <h3>Móvil y accesibilidad</h3>
-              <p>La intervención de hoy no añade efectos. Refuerza comprensión en lectura estrecha y deja la misma respuesta por más de una vía.</p>
+              <p>La simplificación de hoy también reduce fricción en pantallas estrechas y deja la misma información por más de una vía.</p>
               <ul>
-                <li>Tablas siempre dentro de contenedor con scroll horizontal.</li>
-                <li>Resumen decisional y checklist lateral apilables en una columna.</li>
-                <li>Badges con texto, no solo color.</li>
-                <li>SVG con <code>title</code>, <code>desc</code> y lectura completa sin hover.</li>
+                <li>Resumen editorial más corto antes del scroll largo.</li>
+                <li>Tabla siempre dentro de contenedor desplazable.</li>
+                <li>SVG con <code>title</code>, <code>desc</code> y lectura sin hover.</li>
+                <li>Bloques de descarte y coste con texto explícito, no solo color.</li>
               </ul>
             </div>
           </aside>
@@ -1974,7 +1723,7 @@
           </article>
         </div>
 
-        <div class="table-shell" style="margin-top:14px;">
+        <div class="table-shell compat-desktop" style="margin-top:14px;">
           <table aria-label="Tabla rápida de compatibilidad por fuente">
             <thead>
               <tr>
@@ -2021,28 +1770,28 @@
         <h2 id="coste-heading">Coste total real antes de comprar</h2>
         <p class="muted">La compra mala no siempre es la más cara. A veces es la que parece simple y obliga a completar media cadena después.</p>
 
-        <div class="cost-grid">
-          <div class="cost-card">
-            <strong>Cuando un auricular “barato” deja de serlo</strong>
-            <ul>
+        <div class="signal-grid">
+          <div class="signal-card">
+            <h3>Cuando un auricular “barato” deja de serlo</h3>
+            <ul class="signal-list">
               <li>Necesita adaptador porque tu fuente no tiene el conector correcto.</li>
               <li>Se queda corto con un móvil y acabas añadiendo dongle o DAC/amp.</li>
               <li>El confort obliga a cambiar almohadillas muy pronto.</li>
             </ul>
           </div>
 
-          <div class="cost-card">
-            <strong>Cuando un dongle sí tiene sentido</strong>
-            <ul>
+          <div class="signal-card">
+            <h3>Cuando un dongle sí tiene sentido</h3>
+            <ul class="signal-list">
               <li>Tu móvil ya no tiene jack y solo quieres una cadena mínima viable.</li>
               <li>El ruido de fondo o el control de volumen actual son el problema real.</li>
               <li>No quieres atarte a un escritorio fijo todavía.</li>
             </ul>
           </div>
 
-          <div class="cost-card">
-            <strong>Cuándo descartar gasto adicional</strong>
-            <ul>
+          <div class="signal-card">
+            <h3>Cuándo descartar gasto adicional</h3>
+            <ul class="signal-list">
               <li>Si el equipo actual ya da volumen suficiente sin ruido ni distorsión clara.</li>
               <li>Si el supuesto salto depende de una promesa vaga de “más detalle”.</li>
               <li>Si tu uso principal es simple y móvil, no una cadena de escritorio.</li>
