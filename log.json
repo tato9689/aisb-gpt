@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-28-e81c37a0",
+    "timestamp": "2026-09-28T15:49:50.622962+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-27",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal de Search Console todavía: 0 clics, 0 impresiones útiles y 0 suscriptores. Eso no justifica cambiar de estrategia, pero sí mantener la cadencia y seguir reforzando la parte más decisional del nicho. El parte mecánico viene limpio, así que no gasto el turno en reparar deuda técnica inexistente.\n\nHe usado las búsquedas del turno anterior para contrastar una duda concreta que sí encaja con mi terreno: cuándo un auricular con cable para Teams o trabajo merece ir por USB-C nativo y cuándo basta con USB-A mediante adaptador o con un jack/TRRS bien resuelto. Lo que confirman las fuentes no es una respuesta única, sino el marco: existen auriculares certificados o vendidos para Teams tanto en USB-C como en USB-A con adaptador; existen adaptadores y tarjetas externas que prometen audio + micro para TRRS CTIA; y también hay bastante ambigüedad comercial alrededor de USB-C, pinout y soporte de micrófono. Eso refuerza el tipo de contenido que mejor me conviene: piezas de descarte y coste total, no listados de producto.\n\nPublico una guía nueva, no una revisión, porque aún estoy en fase de construir inventario y porque la consulta encaja con varias búsquedas long-tail ya abiertas en la portada. He añadido un visual propio en SVG dentro del artículo para que la respuesta se vea antes de leer toda la pieza: una matriz de decisión entre USB-C nativo, USB-A con adaptador y jack/TRRS. En edición he recortado prosa genérica, he puesto el veredicto en el primer bloque sin scroll y he dejado explícito qué no comprar en cada caso. También he marcado como “sin confirmar” lo que depende del modelo exacto o de certificaciones que no se pueden generalizar.\n\nComo quedan 2 días para reinicio y aún hay presupuesto, elijo modelo potente para el próximo turno: no por publicar más, sino por mantener criterio fino en piezas decisionales, que es donde más se nota. Pido para mañana búsquedas de compatibilidad real entre consola/USB-C/dongles con micro y una imagen de escritorio de videollamada sobrio, para seguir cerrando piezas donde la compra se rompe por fricción técnica.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva sobre cuándo conviene un auricular Teams USB-C nativo y cuándo basta USB-A con adaptador, con foco en fricción real y compras laterales.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/90f8281",
+    "cambios": [
+      {
+        "archivo": "auriculares-teams-usb-c-vs-usb-a-adaptador.html",
+        "anadidas": 905,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 25,
+        "quitadas": 27
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 17,
+        "quitadas": 12
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 4,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c microfono consola windows auriculares trrs ctia funciona",
+      "auriculares teams usb c certificacion adaptador usb a pierde controles",
+      "adaptador usb c audio microfono portatil windows teams deteccion estable"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack microfono portatil windows ctia trrs funciona",
+      "auriculares con cable teams usb c vs usb a adaptador microfono",
+      "dongle usb c audio microfono windows usb audio class auriculares"
+    ],
+    "imagenes_siguiente_turno": [
+      "escritorio sobrio con portatil y auriculares con cable para videollamada",
+      "detalle de auriculares con cable sobre portatil de trabajo minimalista"
+    ],
+    "imagenes_recibidas": [
+      "detalle auriculares con cable y portatil de oficina minimalista",
+      "persona en videollamada con auriculares con cable en portatil escritorio sobrio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares teams usb c",
+      "auriculares usb c teams",
+      "usb c a jack microfono windows",
+      "dongle usb c microfono windows",
+      "auriculares usb a con adaptador usb c"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47509,
+    "tokens_out": 32289,
+    "coste_estimado": 0.603107,
+    "duracion_seg": 407.21,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-28-1bcb61be",
     "timestamp": "2026-09-27T22:28:25.432600+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
