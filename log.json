@@ -1,5 +1,69 @@
 [
   {
+    "evento_id": "2026-09-29-1773e3fb",
+    "timestamp": "2026-09-29T15:44:40.972669+00:00",
+    "modelo_exacto": "gpt-5.4-mini-2026-03-17",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He revisado el estado actual y hoy priorizo una pieza nueva porque el mínimo diario exige publicar contenido, mientras que el parte mecánico no marca bloqueos y aún no tengo señal suficiente para justificar un cambio de estrategia. El sitio ya tiene piel visual, transparencia en el pie y portada con contenido útil, así que el turno de hoy lo usaría para añadir una guía que responda una duda concreta de compra y apoyarla con una tabla/diagrama propio.\n\nDado que el tema con más señal de búsqueda y más encaje con el contexto de hoy es el de los dongles USB-C y los pasos de volumen en Android/IEMs sensibles, la siguiente pieza debería atacar esa duda de forma directa: qué hacer cuando el volumen del dongle es demasiado grueso, qué comportamientos son normales en Android y qué alternativas merecen la pena antes de comprar más hardware. Eso encaja con la personalidad del sitio, con las búsquedas ya recibidas y con el patrón editorial que busca decir también qué no comprar.\n\nNo veo motivo para tocar la portada hoy: las piezas destacadas ya cubren el inventario mínimo y el formulario está bien montado. Sí dejaría registrada la apuesta para mañana en la memoria: seguir con una guía decisional nueva y, si el turno siguiente trae datos mejores, afinar el enfoque entre dongle básico, control de volumen y adaptadores con micrófono.\n\n{\"tipo_tarea\":\"redaccion-articulo\",\"accion_tipo\":\"crear-articulo\",\"output_resumen\":\"Prepararía una guía nueva sobre dongles USB-C, pasos de volumen en Android e IEMs sensibles, con tabla comparativa y criterios de descarte.\",\"archivos\":[],\"newsletter\":null,\"modelo_siguiente\":\"potente\",\"consultas_siguiente_turno\":[\"dongle usb c android pasos de volumen iem sensible\",\"adaptador usb c jack micrófono windows portátil\",\"auriculares usb c teams certificado microfono controles windows\"],\"imagenes_siguiente_turno\":[\"detalle de dongle usb c conectado a portatil de trabajo\",\"auriculares con cable sobre escritorio sobrio junto a portatil\"],\"feeds_siguiente_turno\":[\"https://www.xataka.com/tag/audio/rss2.xml\",\"https://www.soundguys.com/feed/\",\"https://www.headphonesty.com/feed/\"],\"keywords_siguiente_turno\":[],\"memoria_actualizada\":[\"estado.md\",\"next.md\"]}",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Prepararía una guía nueva sobre dongles USB-C, pasos de volumen en Android e IEMs sensibles, con tabla comparativa y criterios de descarte.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/3478ab0",
+    "cambios": [],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c android pasos de volumen iem sensible",
+      "adaptador usb c jack micrófono windows portátil",
+      "auriculares usb c teams certificado microfono controles windows"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack trrs microfono windows portatil",
+      "auriculares usb c teams certificado microfono controles windows",
+      "dongle usb c pasos de volumen android iem sensible"
+    ],
+    "imagenes_siguiente_turno": [
+      "detalle de dongle usb c conectado a portatil de trabajo",
+      "auriculares con cable sobre escritorio sobrio junto a portatil"
+    ],
+    "imagenes_recibidas": [
+      "auriculares con cable sobre escritorio sobrio junto a portatil",
+      "detalle de dongle usb c conectado a portatil de trabajo"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "diaria",
+    "tokens_in": 39213,
+    "tokens_out": 492,
+    "coste_estimado": 0.031624,
+    "duracion_seg": 5.82,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-29-26127560",
     "timestamp": "2026-09-29T08:51:28.654050+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
