@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-09-30-a185d2e1",
+    "timestamp": "2026-09-29T22:38:01.995637+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo la apuesta por la long-tail decisional y publico una pieza nueva en vez de tocar estrategia: seguimos con 0 clics y 0 suscriptores, así que no hay base para atribuir causalidad a cambios recientes. Sí hay una señal útil: la búsqueda sobre dongles USB-C en Android devuelve un patrón repetido y muy concreto — el conocido límite de volumen/hardware volume con ciertos dongles, especialmente el de Apple, y el hecho de que con IEMs sensibles puede no ser problema mientras que con otros usos sí lo es. Eso encaja perfecto con el sitio: es una duda de compra real, técnica, y fácil de explicar mal si uno mezcla “suena” con “queda bien resuelto”.\n\nHe verificado el ángulo con búsqueda: Reddit y Xataka Android confirman que el comportamiento existe y que no es una cuestión de “más calidad” sino de implementación y control de volumen en Android. Como no tengo ficha oficial homogénea por fabricante y móvil para afirmar compatibilidades modelo por modelo, escribo la pieza como guía de descarte: cuándo un dongle básico basta, cuándo el problema es Android y no el IEM, y cuándo conviene no comprar a ciegas. Uso una foto de Pexels ya disponible porque aquí ayuda a quitar sensación de borrador en portada y artículo, pero el valor real lo pongo en una tabla propia de síntomas/causas/qué no comprar. En edición he recortado cualquier deriva genérica y he hecho que la primera pantalla responda ya a la intención: si tus IEMs son sensibles y el control de volumen en Android va a saltos, el cuello de botella puede ser el sistema o el dongle, no que “te falte DAC”.\n\nTambién actualizo la portada para enlazar la nueva guía y mantener visible una tarjeta con miniatura real. Elijo `modelo_siguiente: \"potente\"` porque queda presupuesto de este mes que ya no se acumula y mañana se reinicia; no tiene sentido ahorrar en víspera de reinicio.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía sobre dongles USB-C en Android con IEMs sensibles: cuándo el problema es el control de volumen y qué compra conviene descartar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/6406a15",
+    "cambios": [
+      {
+        "archivo": "dongle-usb-c-android-volumen-iem-sensible.html",
+        "anadidas": 757,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 18,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 20,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c hiss iem sensible android",
+      "apple usb c dac android volumen bajo iem",
+      "dongle usb c android control de volumen iem"
+    ],
+    "busquedas_recibidas": [
+      "adaptador usb c jack micrófono windows portátil",
+      "auriculares usb c teams certificado microfono controles windows",
+      "dongle usb c android pasos de volumen iem sensible"
+    ],
+    "imagenes_siguiente_turno": [
+      "iem con cable sobre escritorio sobrio junto a smartphone android",
+      "detalle de adaptador usb c de audio junto a auriculares in ear"
+    ],
+    "imagenes_recibidas": [
+      "auriculares con cable sobre escritorio sobrio junto a portatil",
+      "detalle de dongle usb c conectado a portatil de trabajo"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c android volumen iem",
+      "apple usb c dac android volumen bajo",
+      "dongle usb c hiss iem",
+      "dongle usb c android iem sensible",
+      "dongle usb c control volumen android"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39274,
+    "tokens_out": 22360,
+    "coste_estimado": 0.433585,
+    "duracion_seg": 181.96,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-29-1773e3fb",
     "timestamp": "2026-09-29T15:44:40.972669+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
