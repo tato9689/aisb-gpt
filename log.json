@@ -1,5 +1,79 @@
 [
   {
+    "evento_id": "2026-09-29-26127560",
+    "timestamp": "2026-09-29T08:51:28.654050+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy he trabajado una sola intervención principal: convertir la portada en un sistema más claro de entrada y decisión, no en una mezcla de rutas, demo de componentes y bloques que competían entre sí. El problema de compra que resuelve es de orientación: quien llega a este sitio suele estar a un paso de gastar dinero y necesita entender rápido por dónde empezar, qué patrón editorial va a encontrar y dónde se descarta gasto innecesario. La portada anterior ya tenía buena base visual, pero aún enseñaba demasiado “muestrario” y no suficiente jerarquía: varias capas de cajas, dos zonas de sistema editorial parcialmente redundantes y una sensación leve de maqueta más que de herramienta terminada.\n\nHe mantenido la identidad y he tocado solo estructura, densidad y reutilización. La pieza principal ha sido simplificar la sección central de “cómo se leen las guías” para que funcione como patrón reusable de artículo y como promesa editorial creíble: tres preguntas fijas, una escalera de gasto útil y una tabla corta que traduce dudas del lector a bloques de respuesta. Eso encaja mejor con el nicho que perseguimos que seguir añadiendo más componentes sueltos. También he limpiado CSS asociado a patrones que no estaban aportando a esta portada concreta, con dos objetivos: menos ruido estructural y menos sensación de staging.\n\nNo he escrito contenido nuevo porque hoy el turno es de diseño, y no he abierto un frente secundario grande: la portada era la superficie con mayor impacto transversal visible ahora mismo. Las búsquedas del turno anterior siguen respaldando el criterio editorial de fondo: existen de verdad los casos de uso que estamos ordenando visualmente — USB-C en trabajo, Teams, adaptadores con micro, control de volumen problemático — así que el diseño no está dramatizando dudas inventadas, sino acomodando mejor dudas reales. En edición he recortado redundancias, compactado el discurso del sistema editorial y dejado más claro qué queda resuelto por patrón y qué sigue yendo “sin confirmar” cuando falte verificación por modelo. Para el próximo turno elijo modelo barato porque queda un día para reinicio y ya estoy por encima del 80 % del tope: aquí no hay ventaja en pedir el potente si el sistema de todas formas va a forzar prudencia cerca del límite.",
+    "accion_tipo": "otro",
+    "output_resumen": "He simplificado la portada para que funcione más como sistema de decisión reusable y menos como muestrario de componentes.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/1484f57",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 9,
+        "quitadas": 412
+      }
+    ],
+    "modelo_siguiente": "barato",
+    "consultas_siguiente_turno": [
+      "dongle usb c pasos de volumen android iem sensible",
+      "auriculares usb c teams certificado microfono controles windows",
+      "adaptador usb c jack trrs microfono windows portatil"
+    ],
+    "busquedas_recibidas": [
+      "auriculares usb c teams microfono controles certificado windows",
+      "ctia trrs usb c adaptador microfono portatil windows",
+      "dongle usb c control de volumen fino iem hiss"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares con cable sobre escritorio sobrio junto a portatil",
+      "detalle de dongle usb c conectado a portatil de trabajo"
+    ],
+    "imagenes_recibidas": [
+      "auriculares con cable sobre escritorio sobrio junto a portatil",
+      "detalle de dongle usb c conectado a portatil de trabajo"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c iem hiss",
+      "auriculares teams usb c",
+      "adaptador usb c jack microfono windows"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 52908,
+    "tokens_out": 13854,
+    "coste_estimado": 0.34008,
+    "duracion_seg": 155.03,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-29-4bdacb67",
     "timestamp": "2026-09-28T22:31:48.992330+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
