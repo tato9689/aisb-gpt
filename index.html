@@ -430,7 +430,7 @@
 
     .system-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.12fr) minmax(280px, 0.88fr);
+      grid-template-columns: minmax(0, 1.16fr) minmax(280px, 0.84fr);
       gap: 18px;
       align-items: start;
       margin-top: 16px;
@@ -524,36 +524,7 @@
       font-size: 0.93rem;
     }
 
-    .diagram-shell {
-      display: grid;
-      gap: 10px;
-    }
-
-    .diagram-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
-      gap: 14px;
-      align-items: start;
-      margin-top: 16px;
-    }
-
-    .diagram-card {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-
-    .diagram-card svg {
-      width: 100%;
-      height: auto;
-      display: block;
-      min-width: 640px;
-    }
-
-    .diagram-note {
+    .system-summary {
       display: grid;
       gap: 12px;
       padding: 16px;
@@ -562,126 +533,14 @@
       background: rgba(255,255,255,0.02);
     }
 
-    .diagram-note h3 {
+    .system-summary h3 {
       font-size: 1rem;
-      margin: 0;
     }
 
-    .diagram-note p {
+    .system-summary p {
       margin: 0;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .diagram-note ul {
-      margin: 0;
-      padding-left: 18px;
       color: var(--muted);
       font-size: 0.94rem;
-    }
-
-    .diagram-note li + li {
-      margin-top: 8px;
-    }
-
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px 16px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    .legend span {
-      display: inline-flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .legend i {
-      width: 14px;
-      height: 14px;
-      border-radius: 4px;
-      display: inline-block;
-      border: 1px solid rgba(255,255,255,0.12);
-    }
-
-    .legend .ok { background: rgba(134, 239, 172, 0.18); }
-    .legend .maybe { background: rgba(253, 230, 138, 0.18); }
-    .legend .no { background: rgba(252, 165, 165, 0.18); }
-
-    .compatibility-cards {
-      display: none;
-      gap: 12px;
-      margin-top: 14px;
-    }
-
-    .compatibility-card {
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      padding: 16px;
-      background: rgba(255,255,255,0.02);
-      display: grid;
-      gap: 10px;
-    }
-
-    .compatibility-card h3 {
-      font-size: 1rem;
-      margin: 0;
-    }
-
-    .compatibility-list {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      display: grid;
-      gap: 8px;
-    }
-
-    .compatibility-list li {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
-      gap: 10px;
-      align-items: start;
-      color: var(--muted-2);
-      font-size: 0.93rem;
-    }
-
-    .state-badge {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 104px;
-      padding: 4px 8px;
-      border-radius: 999px;
-      border: 1px solid transparent;
-      font-size: 0.78rem;
-      font-weight: 700;
-      white-space: nowrap;
-    }
-
-    .state-badge.ok {
-      background: rgba(134, 239, 172, 0.12);
-      color: #dfffea;
-      border-color: rgba(134, 239, 172, 0.28);
-    }
-
-    .state-badge.maybe {
-      background: rgba(253, 230, 138, 0.12);
-      color: #fff3c4;
-      border-color: rgba(253, 230, 138, 0.28);
-    }
-
-    .state-badge.no {
-      background: rgba(252, 165, 165, 0.12);
-      color: #ffe0e0;
-      border-color: rgba(252, 165, 165, 0.28);
-    }
-
-    .scroll-hint {
-      margin-top: 10px;
-      color: var(--muted);
-      font-size: 0.88rem;
     }
 
     .table-shell {
@@ -744,24 +603,6 @@
       color: #d8e4f2;
       font-size: 0.82rem;
       background: rgba(255,255,255,0.02);
-    }
-
-    .badge-ok {
-      color: #dfffea;
-      border-color: rgba(134, 239, 172, 0.26);
-      background: rgba(134, 239, 172, 0.10);
-    }
-
-    .badge-maybe {
-      color: #fff3c4;
-      border-color: rgba(253, 230, 138, 0.26);
-      background: rgba(253, 230, 138, 0.10);
-    }
-
-    .badge-no {
-      color: #ffe0e0;
-      border-color: rgba(252, 165, 165, 0.26);
-      background: rgba(252, 165, 165, 0.10);
     }
 
     .pattern-card {
@@ -1018,7 +859,6 @@
       .signal-grid,
       .system-grid,
       .system-steps,
-      .diagram-grid,
       .decision-strip {
         grid-template-columns: 1fr;
       }
@@ -1038,21 +878,8 @@
         padding: 22px;
       }
 
-      .diagram-card svg,
       table {
         min-width: 560px;
-      }
-    }
-
-    @media (max-width: 720px) {
-      .compatibility-cards {
-        display: grid;
-      }
-
-      .diagram-card,
-      .table-shell.compat-desktop,
-      .scroll-hint.desktop-only {
-        display: none;
       }
     }
 
@@ -1066,7 +893,6 @@
         padding: 18px;
       }
 
-      .diagram-card svg,
       table {
         min-width: 520px;
       }
@@ -1080,15 +906,6 @@
       .cta-step-number {
         width: 30px;
         height: 30px;
-      }
-
-      .compatibility-list li {
-        grid-template-columns: 1fr;
-      }
-
-      .state-badge {
-        min-width: 0;
-        width: fit-content;
       }
     }
   </style>
@@ -1259,7 +1076,7 @@
 
       <section aria-labelledby="sistema-heading">
         <h2 id="sistema-heading">Cómo se leen las guías de este sitio</h2>
-        <p class="muted">La mejora de diseño de esta semana compacta el sistema editorial: menos demo de plantilla y más bloques que responden rápido a compatibilidad, descarte y coste total.</p>
+        <p class="muted">La portada ya no intenta enseñar todos los componentes a la vez. Enseña el patrón estable que una compra cara y confusa necesita para decidir mejor.</p>
 
         <div class="system-grid">
           <div class="system-main">
@@ -1298,47 +1115,6 @@
                 </div>
               </div>
             </article>
-
-            <div class="diagram-card">
-              <svg viewBox="0 0 760 170" role="img" aria-labelledby="scale-svg-title scale-svg-desc">
-                <title id="scale-svg-title">Escalera de gasto útil en audio personal por conexión directa</title>
-                <desc id="scale-svg-desc">Diagrama horizontal con cinco niveles: salida actual, adaptador correcto, dongle silencioso, dongle con más margen y DAC amp de escritorio. Marca el punto donde suele bastar la solución en muchas compras de audio personal.</desc>
-
-                <rect x="0" y="0" width="760" height="170" rx="18" fill="#101826"></rect>
-
-                <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-                  <line x1="78" y1="102" x2="690" y2="102" stroke="rgba(255,255,255,0.14)" stroke-width="8" stroke-linecap="round"></line>
-
-                  <rect x="48" y="74" width="102" height="56" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
-                  <text x="99" y="95" text-anchor="middle" fill="#edf2f7" font-size="13">Salida actual</text>
-                  <text x="99" y="111" text-anchor="middle" fill="#a9b7c7" font-size="10">si ya falla, nómbralo</text>
-
-                  <rect x="172" y="64" width="108" height="66" rx="12" fill="rgba(125,211,252,0.10)" stroke="rgba(125,211,252,0.34)"></rect>
-                  <text x="226" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">Adaptador</text>
-                  <text x="226" y="104" text-anchor="middle" fill="#edf2f7" font-size="13">correcto</text>
-                  <text x="226" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">resuelve viabilidad</text>
-
-                  <rect x="306" y="50" width="122" height="80" rx="12" fill="rgba(134,239,172,0.12)" stroke="rgba(134,239,172,0.38)"></rect>
-                  <text x="367" y="74" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle</text>
-                  <text x="367" y="90" text-anchor="middle" fill="#edf2f7" font-size="13">silencioso</text>
-                  <text x="367" y="106" text-anchor="middle" fill="#dfffea" font-size="10">suele bastar aquí</text>
-                  <text x="367" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">si la duda era móvil</text>
-
-                  <rect x="456" y="64" width="116" height="66" rx="12" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.34)"></rect>
-                  <text x="514" y="88" text-anchor="middle" fill="#edf2f7" font-size="13">Dongle con</text>
-                  <text x="514" y="104" text-anchor="middle" fill="#edf2f7" font-size="13">más margen</text>
-                  <text x="514" y="118" text-anchor="middle" fill="#a9b7c7" font-size="10">solo si falta empuje real</text>
-
-                  <rect x="598" y="74" width="112" height="56" rx="12" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.34)"></rect>
-                  <text x="654" y="95" text-anchor="middle" fill="#edf2f7" font-size="13">DAC/amp fijo</text>
-                  <text x="654" y="111" text-anchor="middle" fill="#a9b7c7" font-size="10">si el uso ya es escritorio</text>
-
-                  <line x1="367" y1="20" x2="367" y2="46" stroke="rgba(134,239,172,0.7)" stroke-width="3" stroke-linecap="round"></line>
-                  <circle cx="367" cy="18" r="6" fill="#86efac"></circle>
-                  <text x="390" y="22" fill="#dfffea" font-size="11">Punto de suficiencia frecuente</text>
-                </g>
-              </svg>
-            </div>
 
             <div class="table-shell">
               <table aria-label="Qué tipo de bloque usa cada guía para responder mejor a la decisión">
@@ -1381,14 +1157,9 @@
           </div>
 
           <aside class="system-side" aria-labelledby="checks-heading">
-            <div class="pattern-card">
-              <h3 id="checks-heading">Qué deja cerrado este turno</h3>
-              <p>La portada enseña mejor el sistema editorial sin arrastrar un ejemplo de artículo tan largo que compita con las rutas de entrada.</p>
-              <ul>
-                <li>Menos cajas anidadas y menos sensación de maqueta.</li>
-                <li>Patrón reusable centrado en decisión, no en exhibición de componentes.</li>
-                <li>Compatibilidad, descarte y coste total presentados como sistema estable.</li>
-              </ul>
+            <div class="system-summary">
+              <h3 id="checks-heading">Qué debe quedar claro al abrir cualquier guía</h3>
+              <p>Qué compra mínima ya resuelve el problema, qué cadena sigue siendo razonable en móvil o escritorio y qué gasto conviene dejar fuera aunque suene a mejora.</p>
             </div>
 
             <div class="check-grid">
@@ -1418,7 +1189,6 @@
               <ul>
                 <li>Resumen editorial más corto antes del scroll largo.</li>
                 <li>Tabla siempre dentro de contenedor desplazable.</li>
-                <li>SVG con <code>title</code>, <code>desc</code> y lectura sin hover.</li>
                 <li>Bloques de descarte y coste con texto explícito, no solo color.</li>
               </ul>
             </div>
@@ -1551,179 +1321,7 @@
         <h2 id="compatibilidad-heading">Compatibilidad rápida por tipo de fuente</h2>
         <p class="muted">Esto no sustituye una medición por modelo, pero sí evita el error más común: asumir que “suena” y “está bien resuelto” significan lo mismo.</p>
 
-        <div class="diagram-grid">
-          <div class="diagram-shell">
-            <div class="diagram-card">
-              <svg viewBox="0 0 760 260" role="img" aria-labelledby="compatibilidad-svg-title compatibilidad-svg-desc">
-                <title id="compatibilidad-svg-title">Matriz de compatibilidad básica entre fuente y tipo de auricular</title>
-                <desc id="compatibilidad-svg-desc">Cuatro columnas de tipo de fuente y cuatro filas de casos de uso: IEM sensible, IEM con más demanda, auricular fácil de mover y auricular exigente. Cada celda marca si suele bastar, si va justa o si no es recomendable.</desc>
-
-                <rect x="0" y="0" width="760" height="260" rx="16" fill="#101826"></rect>
-
-                <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" fill="#edf2f7">
-                  <text x="180" y="38">Móvil con dongle básico</text>
-                  <text x="324" y="38">Portátil correcto</text>
-                  <text x="474" y="38">Dongle con ganancia</text>
-                  <text x="624" y="38">DAC/amp de escritorio</text>
-
-                  <text x="20" y="82">IEM sensible</text>
-                  <text x="20" y="128">IEM con más demanda</text>
-                  <text x="20" y="174">Auricular fácil de mover</text>
-                  <text x="20" y="220">Auricular exigente</text>
-                </g>
-
-                <g>
-                  <rect x="170" y="56" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="230" y="75" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="320" y="56" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="380" y="75" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="470" y="56" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="530" y="75" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Sí, pero vigila ruido</text>
-
-                  <rect x="620" y="56" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="680" y="75" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Sí, si tiene ganancia baja</text>
-
-                  <rect x="170" y="102" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="230" y="121" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">A veces justo</text>
-
-                  <rect x="320" y="102" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="380" y="121" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Depende</text>
-
-                  <rect x="470" y="102" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="530" y="121" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="620" y="102" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="680" y="121" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="170" y="148" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="230" y="167" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Volumen sí, margen no</text>
-
-                  <rect x="320" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="380" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="470" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="530" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="620" y="148" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="680" y="167" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-
-                  <rect x="170" y="194" width="120" height="30" rx="8" fill="rgba(252,165,165,0.18)" stroke="rgba(252,165,165,0.45)"></rect>
-                  <text x="230" y="213" text-anchor="middle" fill="#ffe0e0" font-size="13" font-family="system-ui">No recomendado</text>
-
-                  <rect x="320" y="194" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="380" y="213" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Puede quedarse corto</text>
-
-                  <rect x="470" y="194" width="120" height="30" rx="8" fill="rgba(253,230,138,0.18)" stroke="rgba(253,230,138,0.45)"></rect>
-                  <text x="530" y="213" text-anchor="middle" fill="#fff3c4" font-size="13" font-family="system-ui">Según modelo</text>
-
-                  <rect x="620" y="194" width="120" height="30" rx="8" fill="rgba(134,239,172,0.18)" stroke="rgba(134,239,172,0.45)"></rect>
-                  <text x="680" y="213" text-anchor="middle" fill="#dfffea" font-size="13" font-family="system-ui">Sí</text>
-                </g>
-              </svg>
-            </div>
-
-            <div class="legend" aria-label="Leyenda de compatibilidad">
-              <span><i class="ok" aria-hidden="true"></i>Sí: suele bastar</span>
-              <span><i class="maybe" aria-hidden="true"></i>Sí, pero con límites</span>
-              <span><i class="no" aria-hidden="true"></i>No recomendado</span>
-            </div>
-          </div>
-
-          <aside class="diagram-note" aria-labelledby="cadena-heading">
-            <h3 id="cadena-heading">Cadena mínima viable antes de subir gasto</h3>
-            <p>Este esquema no intenta impresionar. Intenta que se vea rápido dónde suele estar el salto útil y dónde empiezan las compras laterales.</p>
-
-            <div class="diagram-card">
-              <svg viewBox="0 0 420 360" role="img" aria-labelledby="cadena-svg-title cadena-svg-desc">
-                <title id="cadena-svg-title">Mapa simple de cadena de escucha personal</title>
-                <desc id="cadena-svg-desc">Diagrama vertical con cinco bloques: fuente, adaptador o dongle, DAC, amplificación y auricular o IEM. Marca qué bloques suelen ser obligatorios, opcionales o prescindibles según el caso.</desc>
-
-                <rect x="0" y="0" width="420" height="360" rx="18" fill="#101826"></rect>
-
-                <g font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif">
-                  <rect x="110" y="28" width="200" height="42" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
-                  <text x="210" y="54" text-anchor="middle" fill="#edf2f7" font-size="15">Fuente real</text>
-                  <text x="210" y="68" text-anchor="middle" fill="#a9b7c7" font-size="11">móvil, portátil o consola</text>
-
-                  <line x1="210" y1="70" x2="210" y2="98" stroke="rgba(125,211,252,0.45)" stroke-width="2"></line>
-
-                  <rect x="90" y="98" width="240" height="52" rx="12" fill="rgba(134,239,172,0.10)" stroke="rgba(134,239,172,0.30)"></rect>
-                  <text x="210" y="121" text-anchor="middle" fill="#edf2f7" font-size="14">Adaptador o dongle correcto</text>
-                  <text x="210" y="138" text-anchor="middle" fill="#c7d2de" font-size="11">suele ser el mínimo viable si falta jack o la salida es mala</text>
-
-                  <line x1="210" y1="150" x2="210" y2="176" stroke="rgba(125,211,252,0.45)" stroke-width="2"></line>
-
-                  <rect x="90" y="176" width="240" height="52" rx="12" fill="rgba(253,230,138,0.10)" stroke="rgba(253,230,138,0.30)"></rect>
-                  <text x="210" y="199" text-anchor="middle" fill="#edf2f7" font-size="14">DAC dedicado</text>
-                  <text x="210" y="216" text-anchor="middle" fill="#c7d2de" font-size="11">opcional si el problema ya no es solo la conexión</text>
-
-                  <line x1="210" y1="228" x2="210" y2="254" stroke="rgba(125,211,252,0.45)" stroke-width="2"></line>
-
-                  <rect x="90" y="254" width="240" height="52" rx="12" fill="rgba(252,165,165,0.10)" stroke="rgba(252,165,165,0.30)"></rect>
-                  <text x="210" y="277" text-anchor="middle" fill="#edf2f7" font-size="14">Amp más capaz</text>
-                  <text x="210" y="294" text-anchor="middle" fill="#c7d2de" font-size="11">solo si falta margen real o control con tu auricular</text>
-
-                  <line x1="210" y1="306" x2="210" y2="332" stroke="rgba(125,211,252,0.45)" stroke-width="2"></line>
-
-                  <rect x="110" y="320" width="200" height="28" rx="12" fill="#162131" stroke="rgba(255,255,255,0.08)"></rect>
-                  <text x="210" y="338" text-anchor="middle" fill="#edf2f7" font-size="13">Auricular o IEM</text>
-                </g>
-              </svg>
-            </div>
-
-            <ul>
-              <li>Con IEMs sensibles, más ganancia puede resolver poco y añadir ruido de fondo.</li>
-              <li>Con auriculares fáciles de mover, el salto útil suele estar antes en la salida correcta que en apilar aparatos.</li>
-              <li>Con auriculares exigentes, el gasto extra solo compensa cuando la cadena actual ya ha mostrado su límite.</li>
-            </ul>
-          </aside>
-        </div>
-
-        <div class="compatibility-cards" aria-label="Compatibilidad rápida en móvil">
-          <article class="compatibility-card">
-            <h3>IEM sensible</h3>
-            <ul class="compatibility-list">
-              <li><span>Móvil con dongle básico</span><span class="state-badge ok">Suele bastar</span></li>
-              <li><span>Portátil correcto</span><span class="state-badge ok">Suele bastar</span></li>
-              <li><span>Dongle con ganancia</span><span class="state-badge maybe">Vigila ruido</span></li>
-              <li><span>DAC/amp de escritorio</span><span class="state-badge maybe">Mejor con ganancia baja</span></li>
-            </ul>
-          </article>
-
-          <article class="compatibility-card">
-            <h3>IEM con más demanda</h3>
-            <ul class="compatibility-list">
-              <li><span>Móvil con dongle básico</span><span class="state-badge maybe">A veces justo</span></li>
-              <li><span>Portátil correcto</span><span class="state-badge maybe">Depende</span></li>
-              <li><span>Dongle con ganancia</span><span class="state-badge ok">Suele bastar</span></li>
-              <li><span>DAC/amp de escritorio</span><span class="state-badge ok">Suele bastar</span></li>
-            </ul>
-          </article>
-
-          <article class="compatibility-card">
-            <h3>Auricular fácil de mover</h3>
-            <ul class="compatibility-list">
-              <li><span>Móvil con dongle básico</span><span class="state-badge maybe">Volumen sí, margen no</span></li>
-              <li><span>Portátil correcto</span><span class="state-badge ok">Suele bastar</span></li>
-              <li><span>Dongle con ganancia</span><span class="state-badge ok">Suele bastar</span></li>
-              <li><span>DAC/amp de escritorio</span><span class="state-badge ok">Suele bastar</span></li>
-            </ul>
-          </article>
-
-          <article class="compatibility-card">
-            <h3>Auricular exigente</h3>
-            <ul class="compatibility-list">
-              <li><span>Móvil con dongle básico</span><span class="state-badge no">No recomendado</span></li>
-              <li><span>Portátil correcto</span><span class="state-badge maybe">Puede quedarse corto</span></li>
-              <li><span>Dongle con ganancia</span><span class="state-badge maybe">Según modelo</span></li>
-              <li><span>DAC/amp de escritorio</span><span class="state-badge ok">Suele bastar</span></li>
-            </ul>
-          </article>
-        </div>
-
-        <div class="table-shell compat-desktop" style="margin-top:14px;">
+        <div class="table-shell" style="margin-top:14px;">
           <table aria-label="Tabla rápida de compatibilidad por fuente">
             <thead>
               <tr>
@@ -1762,7 +1360,6 @@
           </table>
         </div>
 
-        <p class="scroll-hint desktop-only">Si estás en una pantalla estrecha, desplaza la tabla en horizontal para ver la comparación completa.</p>
         <p class="small-note">Base editorial verificada con búsquedas de contraste del turno: existen auriculares USB-C orientados a trabajo y UC, también auriculares USB-A con adaptador, y adaptadores que prometen sacar audio y micrófono, así que la duda real no es “si existe”, sino cuándo simplifica la cadena y cuándo solo cambia el conector.</p>
       </section>
 
