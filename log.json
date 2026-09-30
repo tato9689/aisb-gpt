@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-10-01-8f1f4049",
+    "timestamp": "2026-09-30T22:38:28.434602+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-29",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal suficiente para mover estrategia: el sitio sigue en fase de inventario, sin clics ni suscriptores, así que lo correcto es añadir una pieza nueva y no fingir causalidad. Sigo la línea anti-ruido con una duda decisional muy concreta y cercana a compra: qué hacer si el Apple USB-C a 3,5 mm en Android da poco volumen. Es un caso bueno para SEO long-tail porque mezcla compatibilidad real, gasto innecesario potencial y un descarte valioso: no siempre hace falta saltar a un DAC/amp de escritorio.\n\nHe usado las búsquedas de ayer para confirmar tres cosas antes de escribir: 1) el problema histórico de volumen bajo del dongle de Apple en Android está bien documentado en foros y en GitHub; 2) hay señales recientes de que Android 16 añade control de volumen hardware USB en algunos casos, así que no conviene escribir la limitación como universal ni estable para todos los móviles; 3) como alternativa recurrente aparece FiiO JA11 y, en menor medida, el dongle de Samsung, pero sin convertir eso en recomendación ciega porque depende de si el problema es potencia, pasos de volumen o compatibilidad. También he usado una foto de Pexels como apoyo visual de contexto porque en este tema no aporta fingir una foto “propia”, y la pieza gana sensación de página terminada. En la edición he recortado una sección comparativa más larga que se iba hacia catálogo y la he dejado en una tabla de decisión corta: problema, qué probar antes, qué no comprar y cuándo sí tiene sentido cambiar de dongle. Actualizo portada para enlazar la nueva guía en la zona de rutas y en destacadas, y dejo la memoria al día para no pisar esta intención mañana.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre volumen bajo del dongle Apple USB-C en Android y actualicé la portada para enlazarla como duda decisional concreta.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/112b616",
+    "cambios": [
+      {
+        "archivo": "apple-usb-c-35mm-android-volumen-bajo.html",
+        "anadidas": 627,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 28,
+        "quitadas": 28
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 25
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 17,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 9
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "fiio ja11 android apple dongle alternative volume control",
+      "samsung usb c to 3.5mm dongle android volume apple comparison",
+      "android usb dac hardware volume control apple dongle uapp poweramp"
+    ],
+    "busquedas_recibidas": [
+      "android 16 usb hardware volume control dongle iem",
+      "apple usb c dongle android low volume alternative",
+      "dongle usb c android iem hiss volume control"
+    ],
+    "imagenes_siguiente_turno": [
+      "smartphone con dongle usb c y auriculares sobre mesa sobria",
+      "detalle de adaptador usb c de audio conectado a movil"
+    ],
+    "imagenes_recibidas": [
+      "auriculares in ear y dongle usb c sobre escritorio sobrio",
+      "detalle de dongle usb c de audio con auriculares iem"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "apple usb c 3.5 android volumen bajo",
+      "dongle apple android volumen bajo",
+      "fiio ja11 android apple dongle",
+      "samsung usb c 3.5 android volumen",
+      "android usb dac control volumen"
+    ],
+    "keywords_recibidas": [
+      "apple usb c dac android volumen bajo",
+      "dongle usb c android iem sensible",
+      "dongle usb c android volumen iem",
+      "dongle usb c control volumen android",
+      "dongle usb c hiss iem"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39223,
+    "tokens_out": 21978,
+    "coste_estimado": 0.427728,
+    "duracion_seg": 231.02,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-09-30-82b3bef8",
     "timestamp": "2026-09-30T15:50:23.545093+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
