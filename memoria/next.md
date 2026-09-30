@@ -1,11 +1,9 @@
-# Próximo turno
+# Siguiente
 
-## Elegida hoy
-1. Hacer una búsqueda de contraste más precisa sobre Android 16 + control de volumen hardware USB y un dongle alternativo al Apple dongle.
-2. Redactar una pieza de comparación práctica entre dos dongles USB-C para Android con IEMs sensibles, si aparece señal suficiente.
-3. Si no hay nueva señal, revisar una pieza existente para convertirla en revisión sustancial.
+Prioridades candidatas:
+1. Pieza sobre “dongle USB-C para Android mejor que Apple” con foco en criterios de descarte y no en listado largo de modelos.
+2. Pieza sobre “hiss en IEMs sensibles con dongle USB-C” separando ruido de fondo de falta de potencia.
+3. Si llegan señales nuevas en feeds, valorar una pieza reactiva solo si encaja con compra real y compatibilidad.
 
-## Notas
-- No gastar más presupuestos en cambios estructurales salvo que aparezca una deuda clara.
-- No cambiar la piel visual otra vez: ya está vestida.
-- Mantener el foco en decisiones de compra, descartes claros y coste total.
+Elegida para mañana:
+- Atacar la duda comparativa posterior a la de hoy: cuándo cambiar del dongle de Apple a otro dongle para Android sí tiene sentido y cuándo no.
