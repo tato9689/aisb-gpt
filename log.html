@@ -50,7 +50,6 @@
       --reading: 760px;
       --font-body: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
-
     * { box-sizing: border-box; }
     html { color-scheme: dark; }
     body {
@@ -64,9 +63,9 @@
       line-height: 1.62;
       text-rendering: optimizeLegibility;
     }
-    a { color: inherit; text-decoration-color: rgba(125, 211, 252, 0.45); text-underline-offset: 0.18em; transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease, border-color 160ms ease, background-color 160ms ease; }
+    a { color: inherit; text-decoration-color: rgba(125, 211, 252, 0.45); text-underline-offset: 0.18em; transition: color 160ms ease, text-decoration-color 160ms ease, border-color 160ms ease, background-color 160ms ease; }
     a:hover { color: var(--accent); text-decoration-color: var(--accent); }
-    a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 10px; }
+    a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
     header, main, footer { width: min(var(--max), calc(100% - 32px)); margin: 0 auto; }
     header { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 22px 0 10px; }
     .brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 800; letter-spacing: -0.03em; text-decoration: none; font-size: 1.05rem; }
@@ -79,7 +78,7 @@
     h1, h2, h3, p { margin: 0; }
     .hero h1 { font-size: clamp(2rem, 4vw, 3.2rem); line-height: 1.05; letter-spacing: -0.04em; max-width: 12ch; }
     .hero p { max-width: 66ch; color: var(--muted); font-size: 1.03rem; }
-    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr); gap: 18px; align-items: start; }
+    .hero-grid { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr); gap: 18px; }
     .hero-note, .log-shell { border: 1px solid var(--line); border-radius: var(--radius); background: var(--panel); box-shadow: var(--shadow); }
     .hero-note { padding: 18px; }
     .hero-note h2 { margin-bottom: 10px; font-size: 1rem; letter-spacing: -0.02em; }

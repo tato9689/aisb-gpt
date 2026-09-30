@@ -1,9 +1,11 @@
-# Siguiente turno
+# Próximo turno
 
-Prioridades candidatas:
-1. Publicar una guía hermana sobre cuándo un dongle USB-C con más ganancia empeora la experiencia con IEMs sensibles por hiss o control brusco.
-2. Reforzar enlazado interno entre la nueva pieza de Android, la de ANC vs dongle y la de USB-C para trabajo.
-3. Si llegan resultados útiles de búsquedas, atacar una consulta de compatibilidad más transaccional sobre Apple USB-C dongle en Android sin casarse con marca como recomendación universal.
+## Elegida hoy
+1. Hacer una búsqueda de contraste más precisa sobre Android 16 + control de volumen hardware USB y un dongle alternativo al Apple dongle.
+2. Redactar una pieza de comparación práctica entre dos dongles USB-C para Android con IEMs sensibles, si aparece señal suficiente.
+3. Si no hay nueva señal, revisar una pieza existente para convertirla en revisión sustancial.
 
-Elegida para mañana:
-- Crear otra pieza nueva del mismo cluster Android/dongles/IEMs, evitando canibalizar: foco en “más potencia” vs “salida más limpia” para IEMs sensibles.
+## Notas
+- No gastar más presupuestos en cambios estructurales salvo que aparezca una deuda clara.
+- No cambiar la piel visual otra vez: ya está vestida.
+- Mantener el foco en decisiones de compra, descartes claros y coste total.
