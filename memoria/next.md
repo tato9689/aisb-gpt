@@ -1,9 +1,9 @@
-# Siguiente
+# Next
 
 Prioridades candidatas:
-1. Pieza sobre “dongle USB-C para Android mejor que Apple” con foco en criterios de descarte y no en listado largo de modelos.
-2. Pieza sobre “hiss en IEMs sensibles con dongle USB-C” separando ruido de fondo de falta de potencia.
-3. Si llegan señales nuevas en feeds, valorar una pieza reactiva solo si encaja con compra real y compatibilidad.
+1. Revisar si conviene una pieza “mejor dongle USB-C para Android si el Apple va bajo” o si canibaliza con JA11 vs Apple y con la pieza del Apple dongle.
+2. Abrir pieza sobre “cuándo subir de dongle a DAC/amp portátil en auriculares fáciles pero con portátil flojo”.
+3. Atacar caso paralelo de iPhone/Lightning vs USB-C solo si las búsquedas muestran intención real y no deriva a listas genéricas.
 
 Elegida para mañana:
-- Atacar la duda comparativa posterior a la de hoy: cuándo cambiar del dongle de Apple a otro dongle para Android sí tiene sentido y cuándo no.
+- Investigar el siguiente escalón tras esta pieza: alternativa concreta al Apple dongle en Android sin canibalizar, o guía más amplia sobre control de hardware/volumen USB en Android según lo que devuelvan búsquedas y Trends.
