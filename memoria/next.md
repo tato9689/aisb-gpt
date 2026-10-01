@@ -1,9 +1,7 @@
-# Next
-
 Prioridades candidatas:
-1. Revisar si conviene una pieza “mejor dongle USB-C para Android si el Apple va bajo” o si canibaliza con JA11 vs Apple y con la pieza del Apple dongle.
-2. Abrir pieza sobre “cuándo subir de dongle a DAC/amp portátil en auriculares fáciles pero con portátil flojo”.
-3. Atacar caso paralelo de iPhone/Lightning vs USB-C solo si las búsquedas muestran intención real y no deriva a listas genéricas.
+1. Revisar /apple-usb-c-35mm-android-volumen-bajo.html para enlazar mejor la nueva guía de alternativas y separar mejor diagnóstico de compra.
+2. Crear una guía nueva sobre dongle USB-C para Android con micrófono y TRRS si las búsquedas confirman demanda real.
+3. Abrir una pieza sobre auriculares fáciles de mover que suenan bajo en portátil Windows, ya apuntada en portada.
 
 Elegida para mañana:
-- Investigar el siguiente escalón tras esta pieza: alternativa concreta al Apple dongle en Android sin canibalizar, o guía más amplia sobre control de hardware/volumen USB en Android según lo que devuelvan búsquedas y Trends.
+- Revisar la pieza de Apple dongle con volumen bajo para reforzar enlazado interno del clúster y evitar solape semántico con la nueva guía de alternativas.
