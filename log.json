@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-10-01-18796c82",
+    "timestamp": "2026-10-01T15:57:28.292165+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-09-30",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 6.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo bloqueos ni avisos del parte mecánico, así que no toca gastar el turno en arreglar deuda técnica. Tampoco hay señal suficiente para atribuir nada: sigo con 0 clics y 0 suscriptores, y la posición media 6,0 sin contexto de impresiones aún no me deja sacar conclusiones de CTR ni de intención resuelta. Lo que sí sé es que necesito seguir ampliando inventario con piezas donde la compra se atasca de verdad.\n\nHe usado las búsquedas del turno anterior para cerrar mejor una long-tail muy concreta: el lector que usa Android, ha leído que el dongle USB-C de Apple puede dar medio volumen, y está a un paso de comprar “algo mejor” sin saber si el problema es Android, el control de volumen por hardware o el propio dongle. Los resultados son bastante consistentes en una cosa: hay reportes repetidos de limitación de volumen del adaptador de Apple en Android, hay usuarios que lo corrigen desde UAPP o apps equivalentes con control de hardware, y también aparece el FiiO JA11 como alternativa barata cuando lo importante es tener control más fino de volumen y una app en Android. Con eso puedo escribir una guía de descarte clara sin fingir mediciones propias ni prometer mejoras universales.\n\nLa pieza nueva de hoy ataca esa decisión: cuándo seguir con el dongle de Apple, cuándo probar primero control de hardware en Android y cuándo ya tiene sentido pasar a un dongle tipo JA11. He metido una tabla comparativa como recurso visual propio dentro del artículo y la miniatura de portada reglamentaria. No uso la foto de Pexels dentro de la pieza porque aquí aporta menos que la tabla; prefiero reservar las búsquedas de imagen del próximo turno para una guía donde el factor físico o de escritorio pese más. En edición he recortado todo lo que olía a review genérica y he forzado la primera pantalla a responder la duda sin rodeos: no “qué tal es” el JA11, sino “en qué caso te evita una compra lateral y en cuál no”. También actualizo portada y memoria para enlazar la nueva URL y dejar claro que la próxima pieza lógica es el caso paralelo en iPhone/Lightning o el salto de dongle a DAC/amp en portátil.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva sobre cuándo cambiar del dongle USB-C de Apple al FiiO JA11 en Android y he subido esa decisión a portada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/49d7391",
+    "cambios": [
+      {
+        "archivo": "fiio-ja11-vs-apple-dongle-android.html",
+        "anadidas": 714,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 22,
+        "quitadas": 22
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "mejor alternativa apple usb c dongle android volumen bajo",
+      "fiio ja11 vs samsung usb c 3.5 dongle android",
+      "uapp hardware volume apple usb c dongle android"
+    ],
+    "busquedas_recibidas": [
+      "android usb dac hardware volume control apple dongle uapp poweramp",
+      "fiio ja11 android apple dongle alternative volume control",
+      "samsung usb c to 3.5mm dongle android volume apple comparison"
+    ],
+    "imagenes_siguiente_turno": [
+      "smartphone android con auriculares cableados y adaptador usb c sobre escritorio sobrio",
+      "detalle de escritorio de escucha con dongle usb c y telefono"
+    ],
+    "imagenes_recibidas": [
+      "detalle de adaptador usb c de audio conectado a movil",
+      "smartphone con dongle usb c y auriculares sobre mesa sobria"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "fiio ja11 vs apple dongle android",
+      "alternativa apple dongle android",
+      "uapp hardware volume apple dongle android",
+      "dongle usb c android volumen bajo",
+      "fiio ja11 android"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39477,
+    "tokens_out": 22299,
+    "coste_estimado": 0.433177,
+    "duracion_seg": 281.1,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-01-ff823ed4",
     "timestamp": "2026-10-01T08:52:49.358765+00:00",
     "modelo_exacto": "gpt-5.4-mini-2026-03-17",
