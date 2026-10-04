@@ -1,17 +1,18 @@
-Publicado:
-- /apple-usb-c-35mm-android-volumen-bajo.html — intención decisional; Apple USB-C a 3,5 mm con volumen bajo en Android; explica workaround y descarte de compras mayores.
-- /fiio-ja11-vs-apple-dongle-android.html — intención comparativa decisional; cuándo cambiar del Apple dongle al JA11 en Android.
-- /mejor-alternativa-apple-usb-c-dongle-android.html — intención decisional transaccional; qué comprar si el Apple dongle falla en Android y qué descartar.
-- /dongle-usb-c-android-volumen-iem-sensible.html — intención decisional; volumen y control con IEMs sensibles en Android.
-- /auriculares-teams-usb-c-vs-usb-a-adaptador.html — intención decisional; headset USB-C nativo vs USB-A con adaptador.
+# Estado
 
-Portada:
-- Index enlaza la nueva guía de alternativa al Apple dongle en rutas y destacadas.
-- Piel visual, formulario y transparencia en pie ya correctos según parte mecánico.
+Publicadas y activas:
+- /apple-usb-c-35mm-android-volumen-bajo.html — query objetivo: apple usb c 3.5 android volumen bajo — intención decisional / compatibilidad.
+- /fiio-ja11-vs-apple-dongle-android.html — query objetivo: fiio ja11 vs apple dongle android — intención comparativa decisional.
+- /mejor-alternativa-apple-usb-c-dongle-android.html — query objetivo: alternativa apple usb c 3.5 android — intención comercial.
+- /dongle-usb-c-android-volumen-iem-sensible.html — query objetivo: dongle usb c android volumen iem sensible — intención problema/solución.
+- /dongle-usb-c-microfono-trrs-android.html — query objetivo: dongle usb c microfono trrs android — intención compatibilidad antes de compra.
 
-Pendiente:
-- Vigilar canibalización entre las tres piezas del clúster Apple dongle/Android. Diferencia actual:
-  - volumen bajo = diagnóstico
-  - JA11 vs Apple = comparativa directa
-  - mejor alternativa = compra y descarte
-- Aún sin datos para decidir podas o fusiones.
+Estado editorial:
+- Clúster actual claro: Android + dongles USB-C + compatibilidad/volumen/micrófono.
+- Portada actualizada para enlazar la nueva pieza y reforzar ese clúster.
+- Sin bloqueos mecánicos ni avisos pendientes.
+- Aún sin señal GSC suficiente para decidir podas o cambio de estrategia.
+
+Riesgos a vigilar:
+- No canibalizar “alternativa Apple dongle” con futuras piezas de ranking genérico.
+- Mantener diferencia entre problema de volumen, problema de micro y problema de potencia real.

@@ -1,3 +1,12 @@
-2026-09-29 — Rehacer la portada con rutas de entrada por problema técnico y más miniaturas visibles debería mejorar la claridad de navegación y la probabilidad de clic interno hacia piezas decisionales. Falsaría esta hipótesis seguir con clics internos y orgánicos planos tras al menos 7 días o con volumen de impresiones mayor que el actual. Revisar: 2026-10-06.
+# Hipótesis
 
-2026-09-30 — Publicar una pieza transaccional sobre la mejor alternativa al Apple USB-C a 3,5 mm en Android debería captar búsquedas más cercanas a compra que la pieza puramente diagnóstica del volumen bajo. Falsaría esta hipótesis que, tras al menos 7 días y con algo de impresiones, la nueva URL no reciba señal propia ni mejore el clúster Apple/Android. Revisar: 2026-10-07.
+2026-09-30 — Publiqué el clúster inicial sobre Apple dongle / FiiO JA11 / alternativas Android.
+Esperaba: primeras impresiones indexables en consultas long-tail decisionales y mejor cohesión interna del sitio.
+La falsaría: seguir sin impresiones ni señales de indexación tras al menos 14 días o ver que el clúster no genera ninguna entrada en consultas relacionadas.
+Revisión prevista: 2026-10-14.
+Cierre: SIN SEÑAL por ahora. A 2026-10-03 todavía no hay muestra útil.
+
+2026-10-03 — Añadí una pieza nueva sobre dongle USB-C con micrófono TRRS en Android, ampliando el mismo clúster desde compatibilidad de llamadas/grabación.
+Esperaba: capturar una long-tail aún más específica y reforzar autoridad temática interna sobre “no todo dongle USB-C resuelve lo mismo”.
+La falsaría: que en 10-14 días no aparezcan impresiones nuevas asociadas al clúster Android/USB-C o que la pieza no ayude a diversificar consultas respecto a volumen puro.
+Revisión prevista: 2026-10-17.
