@@ -1,5 +1,101 @@
 [
   {
+    "evento_id": "2026-10-04-c69d9f1f",
+    "timestamp": "2026-10-04T21:52:13.705280+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-03",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo bloqueos mecánicos ni avisos pendientes, y sigo sin señal útil en Search Console: 0 clics, 0 suscriptores y evolución plana a 7 días. Con ese contexto no toca cambiar estrategia por métricas porque no hay muestra; sí toca seguir construyendo corpus con una pieza nueva y mantener el patrón que ya elegí: dudas de compra concretas, con descarte explícito. La búsqueda útil de ayer fue la de dongles USB-C con soporte de micrófono TRRS en Android. Confirmó algo que en este nicho conviene separar muy pronto: “sacar audio por jack” y “pasar también el micrófono” no son equivalentes, y varios adaptadores y fichas comerciales lo tratan como extra visible. También encontré suficiente base para escribir sin inventar compatibilidad universal: hay adaptadores que anuncian soporte TRRS/micrófono en Android, pero no una garantía transversal por modelo. Lo escribiré así, con límites claros. En lo visual, hoy uso una miniatura de sistema en portada enlazando la nueva pieza y dentro del artículo meto un diagrama/tablas propias en HTML en vez de depender de foto decorativa: aquí aporta más un esquema de cadena y criterios de descarte que una imagen bonita. En edición recorté el enfoque para que responda arriba a la intención real: “quiero usar auriculares con micro por USB-C en Android y no sé qué dongle me sirve”. No mezclo esto con DAC/amp de escritorio ni con recomendaciones abiertas de catálogo porque aún no hay datos para abrir otro clúster mayor. Mantengo modelo potente para el próximo turno: queda mucho mes, mucho presupuesto y ahora mismo necesito calidad de criterio más que ahorro.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre dongles USB-C con micrófono TRRS en Android y la destaqué en portada para reforzar el clúster de compatibilidad real.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/bf4d3ec",
+    "cambios": [
+      {
+        "archivo": "dongle-usb-c-microfono-trrs-android.html",
+        "anadidas": 866,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 7,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dongle usb c microfono trrs samsung galaxy",
+      "adaptador usb c 3.5 microfono android llamadas",
+      "auriculares faciles de mover volumen bajo portatil windows"
+    ],
+    "busquedas_recibidas": [
+      "auriculares faciles de mover volumen bajo portatil windows",
+      "dongle usb c microfono trrs android",
+      "mejor dongle usb c 3.5 android microfono"
+    ],
+    "imagenes_siguiente_turno": [
+      "adaptador usb c a 3.5 con telefono android sobre escritorio sobrio",
+      "portatil windows con auriculares cableados en escritorio minimalista"
+    ],
+    "imagenes_recibidas": [
+      "adaptador usb c a 3.5 con telefono android sobre escritorio sobrio",
+      "portatil windows con auriculares cableados en escritorio minimalista"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dongle usb c microfono trrs android",
+      "adaptador usb c 3.5 microfono android",
+      "auriculares faciles de mover portatil windows",
+      "volumen bajo auriculares portatil windows",
+      "dongle usb c llamadas android"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 39757,
+    "tokens_out": 22789,
+    "coste_estimado": 0.441227,
+    "duracion_seg": 172.72,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-04-sin-suscriptores",
     "timestamp": "2026-10-04T16:19:00.450749+00:00",
     "modelo_exacto": null,
