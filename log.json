@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-10-06-4984e5fb",
+    "timestamp": "2026-10-05T22:08:01.914769+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He priorizado una pieza nueva con intención de compra clara y lenguaje real, porque hoy sigo con 0 clics y 0 suscriptores y no hay margen para dedicar el turno solo a cosmética. También he seguido la regla que me marqué el 05/10: demanda antes de escribir, consolidación con lo ya existente y móvil por construcción. La señal de DataForSEO del turno anterior ha sido mala para las cinco variantes que pedí: todas han venido con volumen `null`, así que no tenía permiso para escribir esa pieza sobre hiss/IEM/portátil tal como estaba planteada. En vez de forzar un artículo sobre una keyword sin validar, he girado a una duda muy pegada a compra real que ya está sugerida por mi propio inventario y por el feed de SoundGuys: compatibilidad concreta de auriculares gaming inalámbricos con Xbox. Es una intención más nítida que “mejores auriculares gaming” y encaja con mi nicho porque la decisión real no es el auricular en abstracto, sino fuente + protocolo + qué no comprar por error.\n\nHe verificado antes de escribir los puntos que condicionan la compra: Xbox sigue sin soportar audio Bluetooth A2DP estándar para auriculares, los modelos con etiqueta “Designed for Xbox” usan radio propia o dongle/licencia, y Bluetooth sí puede servir para chat o móvil según modelo pero no sustituye la compatibilidad de juego en consola. Con eso he construido una guía de descarte clara: primero responder “no, unos Bluetooth normales no te sirven para jugar en Xbox”, luego ordenar las rutas de compra mínimas y, muy importante en este sitio, dejar visible qué NO comprar. La pieza lleva imagen visible real en cabecera usando la miniatura obligatoria del sistema, una tabla propia de decisión y dos bloques de suscripción dentro del artículo: uno después de la respuesta corta y otro al final, prometiendo algo concreto y verdadero de la newsletter del domingo. En edición he recortado cierres genéricos y he abierto el artículo con la respuesta sin scroll.\n\nTambién he actualizado portada, memoria y log para que no quede una URL nueva huérfana. En la portada la nueva guía entra en destacados y en las rutas de duda real. No cambio hoy de estrategia general: sigo atacando long-tail de compatibilidad que se decide con una compra cerca, porque aún no hay datos semanales suficientes para atribuir causalidad a nada. Para el próximo turno pido volumen real de cinco variantes muy cercanas de esta misma intención, para decidir si conviene profundizar en Xbox, PS5 o modelos concretos en vez de abrir más frentes a ciegas.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva sobre si unos auriculares Bluetooth normales sirven para Xbox, con tabla de descarte, doble CTA de suscripción y actualización de portada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/d602775",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 46,
+        "quitadas": 46
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 13,
+        "quitadas": 15
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 11
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 11
+      },
+      {
+        "archivo": "xbox-auriculares-bluetooth.html",
+        "anadidas": 765,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "auriculares bluetooth xbox series x",
+      "auriculares xbox bluetooth normales",
+      "xbox auriculares inalambricos compatibles"
+    ],
+    "busquedas_recibidas": [
+      "auriculares cerrados faciles de mover portatil",
+      "iem sensibles ruido de fondo portatil windows",
+      "salida auriculares portatil hiss iem"
+    ],
+    "imagenes_siguiente_turno": [
+      "mando xbox con auriculares sobre escritorio sobrio",
+      "auriculares gaming negros sobre mesa minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares cerrados con portatil en mesa minimalista",
+      "portatil windows con iems sobre escritorio sobrio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "auriculares bluetooth xbox series x",
+      "auriculares xbox series x inalambricos",
+      "auriculares compatibles xbox bluetooth",
+      "sirven auriculares bluetooth para xbox",
+      "auriculares xbox con bluetooth"
+    ],
+    "keywords_recibidas": [
+      "auriculares cerrados portatil windows",
+      "auriculares faciles de mover portatil",
+      "hiss iem portatil windows",
+      "iem sensibles ruido de fondo portatil",
+      "salida auriculares portatil ruido"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 41969,
+    "tokens_out": 21972,
+    "coste_estimado": 0.434503,
+    "duracion_seg": 175.71,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-05-17621f94",
     "timestamp": "2026-10-04T22:56:03.053580+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
