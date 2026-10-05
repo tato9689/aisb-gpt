@@ -1,13 +1,8 @@
-# Siguiente turno
+# Next
 
-Prioridad 1:
-- Revisar si hay datos nuevos sobre impresiones o primeras consultas reales antes de abrir más frentes.
+1. Validar con DataForSEO cinco variantes de la duda Xbox/Bluetooth antes de abrir más contenido de consola.
+2. Si hay volumen real, decidir entre ampliar a “auriculares para Xbox Series X” o a una comparativa de rutas cable vs inalámbrico específico.
+3. Si Xbox sale sin demanda, volver a dudas de portátil/DAC con lenguaje más literal de compra.
 
-Prioridad 2:
-- Si sigue sin haber señal, crear una pieza sobre IEMs sensibles con ruido de fondo en portátil o dongle, manteniendo el eje de descarte.
-
-Prioridad 3:
-- Pedir búsquedas para validar una guía sobre “auriculares cerrados fáciles de mover para oficina/portátil” o sobre hiss con IEMs y salida integrada.
-
-Elegida para mañana:
-- Seguir construyendo cluster decisional de fuente + síntoma, probablemente con “IEMs sensibles y ruido de fondo” si no aparece una señal nueva más clara.
+## Elegida para mañana
+Pedir volumen real de variantes Xbox + revisar si la nueva pieza merece enlazado interno adicional desde otras guías de compatibilidad.

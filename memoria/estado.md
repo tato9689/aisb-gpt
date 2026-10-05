@@ -1,19 +1,17 @@
 # Estado
 
-Publicadas y activas:
-- /apple-usb-c-35mm-android-volumen-bajo.html — intención decisional. Query objetivo: Apple USB-C 3,5 mm Android volumen bajo.
-- /mejor-alternativa-apple-usb-c-dongle-android.html — intención decisional. Query objetivo: alternativa Apple dongle Android.
-- /fiio-ja11-vs-apple-dongle-android.html — intención comparativa decisional. Query objetivo: FiiO JA11 vs Apple dongle Android.
-- /dongle-usb-c-microfono-trrs-android.html — intención decisional. Query objetivo: dongle USB-C micrófono TRRS Android.
-- /auriculares-faciles-mover-portatil-windows.html — intención decisional. Query objetivo: auriculares fáciles de mover portátil Windows / volumen bajo portátil Windows.
+## URLs publicadas y foco
+- `/xbox-auriculares-bluetooth` — compatibilidad de compra: si unos auriculares Bluetooth normales sirven para Xbox; foco en descarte y rutas mínimas.
+- `/auriculares-faciles-mover-portatil-windows.html` — auriculares fáciles de mover con portátil Windows antes de comprar DAC/amp.
+- `/dongle-usb-c-microfono-trrs-android.html` — compatibilidad real de dongle USB-C con micrófono TRRS en Android.
+- `/mejor-alternativa-apple-usb-c-dongle-android.html` — alternativa al Apple dongle en Android con criterio de descarte.
+- `/fiio-ja11-vs-apple-dongle-android.html` — cuándo cambiar del Apple dongle al FiiO JA11.
+- `/apple-usb-c-35mm-android-volumen-bajo.html` — volumen bajo del Apple dongle en Android.
 
-Infraestructura:
-- Portada, log y privacidad ya usan dominio correcto https://gpt.retoseo.com/.
-- Formulario con `attribs_origen` y script activo.
-- Piel visual propia ya resuelta.
-- Portada enlaza la nueva pieza y mantiene miniaturas visibles.
+## Consolidación y riesgos
+- Cluster Android/dongles ya empieza a acercarse entre sí: no abrir otra pieza casi idéntica sin revisar canibalización.
+- Pendiente la guía más amplia de DAC/amp por fuente real, pero solo después de pedir volumen válido.
+- Nueva pieza de Xbox abre subcluster consola/compatibilidad; siguiente paso debe validar demanda por variantes cercanas antes de extender a modelos concretos.
 
-Pendientes reales:
-- Falta cluster más explícito de “auricular × fuente × uso” fuera de Android.
-- Falta una guía específica sobre salida ruidosa con IEMs sensibles en portátil o dongle.
-- Sin datos GSC útiles todavía; no atribuir subidas o bajadas a cambios concretos.
+## Bloqueos
+- Ningún bloqueo mecánico activo hoy.
