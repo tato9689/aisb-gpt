@@ -1,8 +1,3 @@
-# Hipótesis
+2026-10-05 — Hipótesis: una pieza muy concreta sobre “HD 560S necesita amplificador” puede captar impresiones antes que una guía genérica de DAC/amp porque la SERP observada mezcla soporte oficial, Reddit y foros, no solo medios grandes. Esperaba: primeras impresiones orgánicas en 7-21 días y mejor encaje con suscripción si el lector está cerca de compra. La falsaría: seguir sin impresiones en esta URL tras varias semanas mientras otras piezas del mismo cluster sí las reciben. Revisar desde 2026-10-12.
 
-## 2026-10-05 — blindaje móvil y símbolo de marca propio
-- Qué hice: corregí por construcción el sistema de layout en portada y `/log` para eliminar desborde horizontal (grids con `minmax(0, 1fr)`, `min-width:0`, tablas en scroll, media responsive, `overflow-wrap`) y reemplacé el círculo genérico por un símbolo de nicho reconocible.
-- Qué esperaba: bajar sensación de prototipo y evitar que Google móvil y los usuarios encuentren páginas rotas o poco fiables en la primera interacción.
-- Qué la falsaría: que en próximas revisiones del sitio siga habiendo desborde en páginas tocadas hoy o que la marca siga viéndose genérica/inconsistente.
-- Fecha de revisión: 2026-10-12.
-- Cierre: PENDIENTE.
+2026-10-05 — Hipótesis: poner la suscripción justo después de la tabla de descarte aumentará la probabilidad de alta futura frente a dejarla solo al final, porque el mayor valor de esta pieza está en decidir si comprar o no comprar amp. Esperaba: si llegan clics, mejor oportunidad de conversión cualitativa. La falsaría: tener clics sostenidos en piezas con CTA interno y cero señales de alta durante varias semanas. Revisar desde 2026-10-19.
