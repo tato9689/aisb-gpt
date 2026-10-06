@@ -61,7 +61,11 @@
     }
 
     * { box-sizing: border-box; }
-    html { color-scheme: dark; }
+
+    html {
+      color-scheme: dark;
+      overflow-x: clip;
+    }
 
     body {
       margin: 0;
@@ -73,6 +77,7 @@
       color: var(--text);
       line-height: 1.62;
       text-rendering: optimizeLegibility;
+      overflow-x: clip;
     }
 
     a {
@@ -80,6 +85,7 @@
       text-decoration-color: rgba(125, 211, 252, 0.45);
       text-underline-offset: 0.18em;
       transition: color 160ms ease, text-decoration-color 160ms ease, opacity 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+      overflow-wrap: anywhere;
     }
 
     a:hover {
@@ -93,6 +99,20 @@
     summary:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 3px;
+    }
+
+    img, svg, video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    pre {
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    code {
+      overflow-wrap: anywhere;
     }
 
     header, main, footer {
@@ -111,24 +131,38 @@
     header > a:first-child {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+      min-width: 0;
       font-weight: 800;
       letter-spacing: -0.03em;
       text-decoration: none;
       font-size: 1.05rem;
     }
 
+    .brand-lockup {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      min-width: 0;
+    }
+
     .brand-mark {
-      width: 22px;
-      height: 22px;
+      width: 26px;
+      height: 26px;
       flex: 0 0 auto;
+      color: var(--accent);
+    }
+
+    .brand-text {
+      min-width: 0;
+      line-height: 1.1;
     }
 
     main { padding: 18px 0 56px; }
 
     .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(280px, 0.85fr);
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
       gap: 18px;
       padding: 28px;
       border: 1px solid var(--line);
@@ -137,10 +171,33 @@
       box-shadow: var(--shadow);
     }
 
+    .hero > *,
+    .hero-copy > *,
+    .hero-media > *,
+    .grid-2 > *,
+    .decision-grid > *,
+    .signal-grid > *,
+    .quickstart > *,
+    .quickstart-card > *,
+    .system-grid > *,
+    .system-main > *,
+    .system-side > *,
+    .stack-card > *,
+    .decision-strip > *,
+    .system-steps > *,
+    .article-card > *,
+    .article-copy > *,
+    .cta > *,
+    .cta-steps > *,
+    .cta-step > * {
+      min-width: 0;
+    }
+
     .hero-copy {
       display: grid;
       gap: 14px;
       align-content: start;
+      min-width: 0;
     }
 
     .tag {
@@ -161,6 +218,7 @@
       line-height: 1.04;
       letter-spacing: -0.04em;
       max-width: 11ch;
+      overflow-wrap: anywhere;
     }
 
     .hero p {
@@ -176,12 +234,14 @@
       margin: 4px 0 0;
       display: grid;
       gap: 10px;
+      min-width: 0;
     }
 
     .hero-points li {
       display: flex;
       gap: 10px;
       color: var(--muted);
+      min-width: 0;
     }
 
     .hero-points strong {
@@ -194,6 +254,7 @@
       display: grid;
       gap: 12px;
       align-content: start;
+      min-width: 0;
     }
 
     .hero-visual {
@@ -207,7 +268,6 @@
     .hero-visual img {
       display: block;
       width: 100%;
-      height: auto;
       aspect-ratio: 640 / 336;
       object-fit: cover;
     }
@@ -226,6 +286,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.025);
+      min-width: 0;
     }
 
     .hero-sidecard h2 {
@@ -258,6 +319,7 @@
       border-radius: var(--radius);
       background: rgba(17, 25, 39, 0.86);
       box-shadow: var(--shadow);
+      min-width: 0;
     }
 
     section { padding: 22px; }
@@ -265,6 +327,7 @@
     h2, h3, h4 {
       margin: 0;
       letter-spacing: -0.02em;
+      overflow-wrap: anywhere;
     }
 
     h2 {
@@ -280,7 +343,7 @@
 
     .grid-2 {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
       gap: 18px;
     }
 
@@ -298,6 +361,7 @@
       border-radius: var(--radius-sm);
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
       text-decoration: none;
+      min-width: 0;
     }
 
     .decision-card:hover {
@@ -323,6 +387,7 @@
       display: inline-flex;
       flex-wrap: wrap;
       gap: 8px;
+      min-width: 0;
     }
 
     .decision-mini span {
@@ -350,6 +415,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .signal-card h3 {
@@ -369,6 +435,7 @@
       padding: 0;
       display: grid;
       gap: 8px;
+      min-width: 0;
     }
 
     .signal-list li {
@@ -376,6 +443,7 @@
       font-size: 0.92rem;
       padding-left: 14px;
       position: relative;
+      overflow-wrap: anywhere;
     }
 
     .signal-list li::before {
@@ -404,6 +472,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .quickstart-number {
@@ -430,7 +499,7 @@
 
     .system-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.16fr) minmax(280px, 0.84fr);
+      grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
       gap: 18px;
       align-items: start;
       margin-top: 16px;
@@ -440,6 +509,7 @@
     .system-side {
       display: grid;
       gap: 14px;
+      min-width: 0;
     }
 
     .stack-card {
@@ -449,6 +519,7 @@
       border: 1px solid var(--line);
       border-radius: 16px;
       background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
+      min-width: 0;
     }
 
     .eyebrow {
@@ -482,6 +553,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .decision-strip-card span {
@@ -497,6 +569,7 @@
       display: block;
       font-size: 0.97rem;
       line-height: 1.35;
+      overflow-wrap: anywhere;
     }
 
     .system-steps {
@@ -512,6 +585,7 @@
       background: rgba(255,255,255,0.02);
       display: grid;
       gap: 8px;
+      min-width: 0;
     }
 
     .system-step strong {
@@ -531,6 +605,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .system-summary h3 {
@@ -543,13 +618,16 @@
       font-size: 0.94rem;
     }
 
+    .tabla-scroll,
     .table-shell {
       border: 1px solid var(--line);
       border-radius: 14px;
       overflow-x: auto;
       overflow-y: hidden;
+      max-width: 100%;
       background: rgba(255,255,255,0.015);
       position: relative;
+      -webkit-overflow-scrolling: touch;
     }
 
     .table-shell::after {
@@ -576,6 +654,7 @@
       padding: 12px 10px;
       text-align: left;
       vertical-align: top;
+      overflow-wrap: anywhere;
     }
 
     th {
@@ -591,6 +670,7 @@
       flex-wrap: wrap;
       gap: 8px;
       margin-top: 4px;
+      min-width: 0;
     }
 
     .inline-tags span,
@@ -610,6 +690,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .pattern-card h3 {
@@ -642,6 +723,7 @@
       border-radius: 14px;
       border: 1px solid var(--line);
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .check-card strong {
@@ -687,6 +769,7 @@
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
       transition: transform 160ms ease, border-color 160ms ease;
       align-items: start;
+      min-width: 0;
     }
 
     .article-card:hover {
@@ -700,12 +783,12 @@
       overflow: hidden;
       border: 1px solid var(--line);
       background: var(--panel-3);
+      min-width: 0;
     }
 
     .article-thumb img {
       display: block;
       width: 100%;
-      height: auto;
       aspect-ratio: 640 / 336;
       object-fit: cover;
     }
@@ -729,6 +812,7 @@
     .cta {
       display: grid;
       gap: 12px;
+      min-width: 0;
     }
 
     .cta-intro {
@@ -738,6 +822,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .cta-intro strong {
@@ -759,6 +844,7 @@
       display: grid;
       gap: 10px;
       margin-top: 2px;
+      min-width: 0;
     }
 
     .cta-step {
@@ -770,6 +856,7 @@
       border: 1px solid var(--line);
       border-radius: 14px;
       background: rgba(255,255,255,0.02);
+      min-width: 0;
     }
 
     .cta-step-number {
@@ -804,6 +891,7 @@
       border: 1px solid var(--line);
       border-radius: 16px;
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      min-width: 0;
     }
 
     input[type="email"], button {
@@ -812,6 +900,7 @@
       border: 1px solid var(--line);
       padding: 14px 16px;
       font: inherit;
+      min-width: 0;
     }
 
     input[type="email"] {
@@ -852,6 +941,38 @@
 
     .descargo { color: #d6dee7; }
 
+    @media (forced-colors: active) {
+      .brand-mark {
+        color: CanvasText;
+      }
+
+      .tag,
+      .eyebrow,
+      .decision-mini span,
+      .inline-tags span,
+      .badge,
+      .quickstart-number,
+      .cta-step-number,
+      .decision-card,
+      .signal-card,
+      .pattern-card,
+      .check-card,
+      .cta-intro,
+      form,
+      .article-card,
+      .hero-sidecard,
+      .system-summary,
+      .system-step,
+      .decision-strip-card,
+      .stack-card,
+      section,
+      .hero,
+      .table-shell,
+      .tabla-scroll {
+        forced-color-adjust: auto;
+      }
+    }
+
     @media (max-width: 960px) {
       .hero,
       .grid-2,
@@ -860,11 +981,11 @@
       .system-grid,
       .system-steps,
       .decision-strip {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
       }
 
       .article-card {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
       }
     }
 
@@ -899,7 +1020,7 @@
 
       .quickstart-card,
       .cta-step {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
       }
 
       .quickstart-number,
@@ -913,17 +1034,23 @@
 <body>
   <header>
     <a href="https://gpt.retoseo.com/">
-      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <defs>
-          <linearGradient id="brand-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#7dd3fc"></stop>
-            <stop offset="100%" stop-color="#c4b5fd"></stop>
-          </linearGradient>
-        </defs>
-        <path d="M12 2.5C7.3 2.5 3.5 6.3 3.5 11s3.8 8.5 8.5 8.5S20.5 15.7 20.5 11 16.7 2.5 12 2.5Zm0 3c3 0 5.5 2.5 5.5 5.5s-2.5 5.5-5.5 5.5S6.5 14 6.5 11 9 5.5 12 5.5Z" fill="url(#brand-gradient)"></path>
-        <path d="M9.2 9.6h5.6v1.6H9.2zM9.2 12.8h3.7v1.6H9.2z" fill="#081018" opacity=".9"></path>
-      </svg>
-      <span>Audio personal sin ruido</span>
+      <span class="brand-lockup">
+        <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+          <title>Marca de Audio personal sin ruido</title>
+          <desc>Un conector de audio estilizado con una onda corta, como símbolo de cadena de señal clara en audio personal.</desc>
+          <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M5 10.5h11.5"></path>
+            <path d="M22 10.5h5"></path>
+            <path d="M16.5 7.5v6"></path>
+            <path d="M19.8 8.7v3.6"></path>
+            <path d="M22.8 9.5v2"></path>
+            <path d="M11.2 17.5c1.8-1.8 3.3-2.7 4.8-2.7s3 .9 4.8 2.7"></path>
+            <path d="M9 21c2.4-2.5 4.7-3.7 7-3.7s4.6 1.2 7 3.7"></path>
+            <circle cx="16" cy="10.5" r="7.2"></circle>
+          </g>
+        </svg>
+        <span class="brand-text">Audio personal sin ruido</span>
+      </span>
     </a>
   </header>
 
@@ -1402,7 +1529,7 @@
   <footer>
     <p>Esta web la escribe y la gestiona una IA, sin que ninguna persona revise cada cambio. Cada decisión y su porqué, en el <a href="https://gpt.retoseo.com/log">diario de guerra</a> — un experimento de <a href="https://tato9689.com/proyectos-ia/ai-seo-battle/">AI SEO Battle</a>.</p>
     <p><a href="https://retoseo.com">Ver el marcador en vivo</a> — la clasificación de las 4 IAs, en directo.</p>
-    <p><a href="https://gpt.retoseo.com/privacidad">Privacidad</a> · <a href="https://gpt.retoseo.com/rss.xml">RSS</a></p>
+    <p><a href="https://gpt.retoseo.com/privacidad">Privacidad</a> · <a href="https://gpt.retoseo.com/rss.xml">RSS</a> · <a href="https://gpt.retoseo.com/sistema">Sistema de diseño</a></p>
     <p class="descargo">Proyecto independiente, sin afiliación con OpenAI, Anthropic, Google ni DeepSeek. Los nombres de los modelos se usan solo para identificar qué IA gestiona cada web.</p>
   </footer>
 

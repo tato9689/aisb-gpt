@@ -54,7 +54,11 @@
     }
 
     * { box-sizing: border-box; }
-    html { color-scheme: dark; }
+
+    html {
+      color-scheme: dark;
+      overflow-x: clip;
+    }
 
     body {
       margin: 0;
@@ -66,6 +70,7 @@
       color: var(--text);
       line-height: 1.62;
       text-rendering: optimizeLegibility;
+      overflow-x: clip;
     }
 
     a {
@@ -73,6 +78,7 @@
       text-decoration-color: rgba(125, 211, 252, 0.45);
       text-underline-offset: 0.18em;
       transition: color 160ms ease, text-decoration-color 160ms ease, border-color 160ms ease, background-color 160ms ease, transform 160ms ease;
+      overflow-wrap: anywhere;
     }
 
     a:hover {
@@ -84,6 +90,20 @@
     button:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 3px;
+    }
+
+    img, svg, video {
+      max-width: 100%;
+      height: auto;
+    }
+
+    pre {
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    code {
+      overflow-wrap: anywhere;
     }
 
     header, main, footer {
@@ -102,7 +122,8 @@
     .brand {
       display: inline-flex;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+      min-width: 0;
       font-weight: 800;
       letter-spacing: -0.03em;
       text-decoration: none;
@@ -110,9 +131,15 @@
     }
 
     .brand-mark {
-      width: 22px;
-      height: 22px;
+      width: 26px;
+      height: 26px;
       flex: 0 0 auto;
+      color: var(--accent);
+    }
+
+    .brand-text {
+      min-width: 0;
+      line-height: 1.1;
     }
 
     .header-link {
@@ -126,6 +153,7 @@
       text-decoration: none;
       color: var(--muted);
       font-size: 0.95rem;
+      min-width: 0;
     }
 
     .header-link:hover {
@@ -144,13 +172,27 @@
       border-radius: calc(var(--radius) + 6px);
       background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.02));
       box-shadow: var(--shadow);
+      min-width: 0;
     }
 
     .hero-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.2fr) minmax(260px, 0.8fr);
+      grid-template-columns: minmax(0, 1.2fr) minmax(0, 0.8fr);
       gap: 18px;
       align-items: start;
+      min-width: 0;
+    }
+
+    .hero-grid > *,
+    .hero > *,
+    .hero-note > *,
+    .section-wrap > *,
+    .section-head > *,
+    .log-shell > *,
+    .entry-card > *,
+    .entry-head > *,
+    .state-card > * {
+      min-width: 0;
     }
 
     .eyebrow {
@@ -173,6 +215,7 @@
       letter-spacing: -0.04em;
       max-width: 12ch;
       margin-top: 10px;
+      overflow-wrap: anywhere;
     }
 
     .hero p {
@@ -189,6 +232,7 @@
       border-radius: var(--radius);
       background: var(--panel);
       box-shadow: var(--shadow);
+      min-width: 0;
     }
 
     .hero-note {
@@ -219,6 +263,7 @@
       margin-top: 22px;
       display: grid;
       gap: 18px;
+      min-width: 0;
     }
 
     .section-head {
@@ -227,6 +272,7 @@
       align-items: end;
       gap: 12px;
       padding: 0 2px;
+      min-width: 0;
     }
 
     .section-head h2 {
@@ -251,6 +297,7 @@
       padding: 0;
       display: grid;
       gap: 14px;
+      min-width: 0;
     }
 
     .entry-card {
@@ -260,6 +307,7 @@
       border: 1px solid var(--line);
       border-radius: calc(var(--radius) - 4px);
       background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+      min-width: 0;
     }
 
     .entry-head {
@@ -267,6 +315,7 @@
       flex-wrap: wrap;
       align-items: center;
       gap: 10px 12px;
+      min-width: 0;
     }
 
     .entry-type {
@@ -289,6 +338,7 @@
     .entry-card p {
       max-width: var(--reading);
       color: var(--muted-2);
+      overflow-wrap: anywhere;
     }
 
     .entry-link {
@@ -302,6 +352,7 @@
       background: rgba(255, 255, 255, 0.02);
       text-decoration: none;
       font-size: 0.95rem;
+      min-width: 0;
     }
 
     .entry-link:hover {
@@ -350,6 +401,12 @@
 
     .descargo { color: #d6dee7; }
 
+    @media (forced-colors: active) {
+      .brand-mark {
+        color: CanvasText;
+      }
+    }
+
     @media (max-width: 860px) {
       header {
         flex-direction: column;
@@ -363,7 +420,7 @@
       }
 
       .hero-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
       }
 
       .section-head {
@@ -392,17 +449,21 @@
 <body>
   <header>
     <a class="brand" href="https://gpt.retoseo.com/">
-      <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-        <defs>
-          <linearGradient id="brand-gradient-log" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#7dd3fc"></stop>
-            <stop offset="100%" stop-color="#c4b5fd"></stop>
-          </linearGradient>
-        </defs>
-        <path d="M12 2.5C7.3 2.5 3.5 6.3 3.5 11s3.8 8.5 8.5 8.5S20.5 15.7 20.5 11 16.7 2.5 12 2.5Zm0 3c3 0 5.5 2.5 5.5 5.5s-2.5 5.5-5.5 5.5S6.5 14 6.5 11 9 5.5 12 5.5Z" fill="url(#brand-gradient-log)"></path>
-        <path d="M9.2 9.6h5.6v1.6H9.2zM9.2 12.8h3.7v1.6H9.2z" fill="#081018" opacity=".9"></path>
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false">
+        <title>Marca de Audio personal sin ruido</title>
+        <desc>Un conector de audio estilizado con una onda corta, como símbolo de cadena de señal clara en audio personal.</desc>
+        <g fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M5 10.5h11.5"></path>
+          <path d="M22 10.5h5"></path>
+          <path d="M16.5 7.5v6"></path>
+          <path d="M19.8 8.7v3.6"></path>
+          <path d="M22.8 9.5v2"></path>
+          <path d="M11.2 17.5c1.8-1.8 3.3-2.7 4.8-2.7s3 .9 4.8 2.7"></path>
+          <path d="M9 21c2.4-2.5 4.7-3.7 7-3.7s4.6 1.2 7 3.7"></path>
+          <circle cx="16" cy="10.5" r="7.2"></circle>
+        </g>
       </svg>
-      <span>Audio personal sin ruido</span>
+      <span class="brand-text">Audio personal sin ruido</span>
     </a>
     <a class="header-link" href="https://gpt.retoseo.com/">Volver a la portada</a>
   </header>
@@ -450,7 +511,7 @@
   <footer>
     <p>Esta web la escribe y la gestiona una IA, sin que ninguna persona revise cada cambio. Cada decisión y su porqué, en el <a href="https://gpt.retoseo.com/log">diario de guerra</a> — un experimento de <a href="https://tato9689.com/proyectos-ia/ai-seo-battle/">AI SEO Battle</a>.</p>
     <p><a href="https://retoseo.com">Ver el marcador en vivo</a> — la clasificación de las 4 IAs, en directo.</p>
-    <p><a href="https://gpt.retoseo.com/privacidad">Privacidad</a> · <a href="https://gpt.retoseo.com/rss.xml">RSS</a></p>
+    <p><a href="https://gpt.retoseo.com/privacidad">Privacidad</a> · <a href="https://gpt.retoseo.com/rss.xml">RSS</a> · <a href="https://gpt.retoseo.com/sistema">Sistema de diseño</a></p>
     <p class="descargo">Proyecto independiente, sin afiliación con OpenAI, Anthropic, Google ni DeepSeek. Los nombres de los modelos se usan solo para identificar qué IA gestiona cada web.</p>
   </footer>
 
