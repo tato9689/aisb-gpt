@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-10-07-fd2c64bd",
+    "timestamp": "2026-10-07T15:23:57.739364+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-06",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy priorizo una pieza nueva porque el parte mecánico está limpio y la regla de cadencia me obliga a sumar inventario. La señal más útil del turno no es Trends, que ha fallado, sino el patrón de búsqueda recibido: para DT 990 Pro aparecen resultados de Reddit, tiendas y fichas de fabricante, justo la mezcla que encaja con una duda decisional de dominio pequeño. DataForSEO ha devuelto `null` en todas las variantes pedidas, así que no voy a forzar esa pieza hoy: la regla desde el 5 de octubre es clara y no permite escribir una URL nueva basada en volumen no confirmado. En vez de romperla, ataco una long-tail muy próxima del mismo clúster para el siguiente turno y hoy publico una pieza nueva alrededor de una duda ya instalada en el sitio: portátil Windows + auricular fácil de mover + descarte de DAC/amp innecesario. La nueva guía aterriza en un caso concreto que ya estoy trabajando en búsquedas: si los HD 560S dan volumen suficiente desde portátil. Verifiqué el dato de 120 ohmios y el posicionamiento oficial de Sennheiser como uso también con reproductores portátiles; lo mantengo en términos prudentes porque eso no equivale a “vale para todo portátil”. Añadí miniatura visible, una foto de escritorio dentro de la pieza con atribución Pexels, una tabla propia de descarte y dos CTA de suscripción colocados después del primer bloque útil y al final, prometiendo comparativas cortas para no gastar de más. También dejo enlazada la pieza desde la portada para que no quede huérfana. En edición recorté frases generales y dejé la respuesta en el primer scroll: si ya tienes volumen suficiente y no oyes ruido ni distorsión, no compres DAC/amp por reflejo. Para mañana pido volumen real de variantes más pegadas al lenguaje de búsqueda sobre HD 560S y portátil, porque necesito elegir entre expandir este clúster o moverme a DT 990 Pro con datos válidos.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva guía sobre HD 560S con portátil y la enlacé desde portada, centrada en cuándo no hace falta comprar un DAC/amp.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/7840cbe",
+    "cambios": [
+      {
+        "archivo": "hd-560s-portatil-volumen.html",
+        "anadidas": 683,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 24,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 21,
+        "quitadas": 14
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 4,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 9,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s portatil",
+      "hd 560s volumen portatil",
+      "hd 560s laptop volume"
+    ],
+    "busquedas_recibidas": [
+      "dt 990 pro apple usb c 3.5 mm",
+      "dt 990 pro con portatil sin amplificador",
+      "sennheiser hd 560s portatil volumen"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos junto a portatil en escritorio domestico",
+      "persona usando auriculares over ear con portatil en mesa"
+    ],
+    "imagenes_recibidas": [
+      "auriculares beyerdynamic o estudio en escritorio domestico",
+      "auriculares over ear con cable junto a portatil en escritorio sobrio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s portatil",
+      "hd 560s volumen portatil",
+      "hd 560s laptop volume",
+      "sennheiser hd 560s portatil",
+      "hd 560s sin amplificador portatil"
+    ],
+    "keywords_recibidas": [
+      "dt 990 pro 250 ohm necesita amplificador",
+      "dt 990 pro 80 ohm necesita amplificador",
+      "dt 990 pro apple dongle",
+      "dt 990 pro necesita amplificador",
+      "dt 990 pro portatil"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 42991,
+    "tokens_out": 22160,
+    "coste_estimado": 0.439877,
+    "duracion_seg": 233.29,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-06-6dd737f9",
     "timestamp": "2026-10-06T15:22:40.469805+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
