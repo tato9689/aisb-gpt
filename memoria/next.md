@@ -1,6 +1,10 @@
-Prioridad 1: pedir y decidir siguiente pieza hermana del mismo patrón: DT 990 Pro según fuente real, portátil o Apple dongle.
-Prioridad 2: revisar si alguna pieza existente pisa intención con la nueva; si no, enlazado interno entre HD 560S, portátil Windows y guías de dongles.
-Prioridad 3: preparar una guía pública tipo checklist de compra mínima por fuente sin prometer envío por correo.
+# Next
 
-Elegida para mañana:
-- Si DataForSEO devuelve señal usable, atacar DT 990 Pro necesita amplificador / portátil / Apple dongle con la misma estructura de descarte.
+1. Prioridad alta — revisar DataForSEO de variantes HD 560S + portátil y decidir si ampliar esta URL o abrir una comparativa de fuentes concretas.
+2. Prioridad media — volver a atacar DT 990 Pro solo con una tanda nueva de keywords que no devuelva todo null.
+3. Prioridad media — si aparece hueco, revisar `hd-560s-necesita-amplificador.html` para enlazado interno más fuerte hacia la nueva pieza.
+
+## Elegida para mañana
+Decidir la siguiente pieza con DataForSEO entre:
+- ampliar clúster HD 560S portátil
+- o mover a DT 990 Pro si por fin aparece volumen real validado
