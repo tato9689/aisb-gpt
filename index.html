@@ -179,17 +179,15 @@
     .signal-grid > *,
     .quickstart > *,
     .quickstart-card > *,
-    .system-grid > *,
-    .system-main > *,
-    .system-side > *,
-    .stack-card > *,
-    .decision-strip > *,
-    .system-steps > *,
     .article-card > *,
     .article-copy > *,
     .cta > *,
     .cta-steps > *,
-    .cta-step > * {
+    .cta-step > *,
+    .check-grid > *,
+    .frontline-grid > *,
+    .frontline-copy > *,
+    .frontline-media > * {
       min-width: 0;
     }
 
@@ -497,28 +495,17 @@
       font-size: 0.95rem;
     }
 
-    .system-grid {
+    .frontline-grid {
       display: grid;
-      grid-template-columns: minmax(0, 1.16fr) minmax(0, 0.84fr);
+      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
       gap: 18px;
       align-items: start;
-      margin-top: 16px;
     }
 
-    .system-main,
-    .system-side {
+    .frontline-copy,
+    .frontline-media {
       display: grid;
       gap: 14px;
-      min-width: 0;
-    }
-
-    .stack-card {
-      display: grid;
-      gap: 14px;
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 16px;
-      background: linear-gradient(180deg, rgba(255,255,255,0.035), rgba(255,255,255,0.02));
       min-width: 0;
     }
 
@@ -536,89 +523,16 @@
       text-transform: uppercase;
     }
 
-    .system-lead {
-      max-width: var(--reading);
+    .frontline-copy h3 {
+      font-size: 1.2rem;
+    }
+
+    .frontline-lead {
       color: var(--muted);
+      max-width: var(--reading);
       font-size: 0.98rem;
     }
 
-    .decision-strip {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .decision-strip-card {
-      padding: 14px 15px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      min-width: 0;
-    }
-
-    .decision-strip-card span {
-      display: block;
-      color: var(--muted);
-      font-size: 0.78rem;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-      margin-bottom: 5px;
-    }
-
-    .decision-strip-card strong {
-      display: block;
-      font-size: 0.97rem;
-      line-height: 1.35;
-      overflow-wrap: anywhere;
-    }
-
-    .system-steps {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 12px;
-    }
-
-    .system-step {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      display: grid;
-      gap: 8px;
-      min-width: 0;
-    }
-
-    .system-step strong {
-      font-size: 0.96rem;
-    }
-
-    .system-step p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.93rem;
-    }
-
-    .system-summary {
-      display: grid;
-      gap: 12px;
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      min-width: 0;
-    }
-
-    .system-summary h3 {
-      font-size: 1rem;
-    }
-
-    .system-summary p {
-      margin: 0;
-      color: var(--muted);
-      font-size: 0.94rem;
-    }
-
-    .tabla-scroll,
     .table-shell {
       border: 1px solid var(--line);
       border-radius: 14px;
@@ -665,97 +579,33 @@
 
     tr:last-child td { border-bottom: 0; }
 
-    .inline-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin-top: 4px;
-      min-width: 0;
-    }
-
-    .inline-tags span,
-    .badge {
-      display: inline-flex;
-      align-items: center;
-      padding: 5px 9px;
-      border: 1px solid var(--line);
-      border-radius: 999px;
-      color: #d8e4f2;
-      font-size: 0.82rem;
-      background: rgba(255,255,255,0.02);
-    }
-
-    .pattern-card {
-      padding: 16px;
-      border: 1px solid var(--line);
-      border-radius: 14px;
-      background: rgba(255,255,255,0.02);
-      min-width: 0;
-    }
-
-    .pattern-card h3 {
-      font-size: 1rem;
-      margin-bottom: 8px;
-    }
-
-    .pattern-card p {
-      color: var(--muted);
-      font-size: 0.94rem;
-      margin-bottom: 10px;
-    }
-
-    .pattern-card ul {
-      margin: 0;
-      padding-left: 18px;
-      color: var(--muted);
-      font-size: 0.93rem;
-    }
-
-    .pattern-card li + li { margin-top: 8px; }
-
-    .check-grid {
+    .frontline-card {
       display: grid;
-      gap: 12px;
-    }
-
-    .check-card {
+      gap: 10px;
       padding: 16px;
-      border-radius: 14px;
       border: 1px solid var(--line);
+      border-radius: 14px;
       background: rgba(255,255,255,0.02);
       min-width: 0;
     }
 
-    .check-card strong {
-      display: block;
-      margin-bottom: 6px;
-      font-size: 0.96rem;
-    }
-
-    .check-card p,
-    .check-card ul {
-      color: var(--muted);
-      font-size: 0.94rem;
+    .frontline-card h4 {
+      font-size: 1rem;
       margin: 0;
     }
 
-    .check-card ul { padding-left: 18px; }
-    .check-card li + li { margin-top: 7px; }
-
-    .check-cost {
-      border-color: rgba(125, 211, 252, 0.2);
-      background: rgba(125, 211, 252, 0.06);
+    .frontline-card p,
+    .frontline-card ul {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.94rem;
     }
 
-    .check-no {
-      border-color: rgba(252, 165, 165, 0.22);
-      background: rgba(252, 165, 165, 0.05);
+    .frontline-card ul {
+      padding-left: 18px;
     }
 
-    .check-uncertain {
-      border-color: rgba(253, 230, 138, 0.22);
-      background: rgba(253, 230, 138, 0.06);
-    }
+    .frontline-card li + li { margin-top: 8px; }
 
     .article-list { display: grid; gap: 14px; }
 
@@ -807,6 +657,70 @@
       color: var(--muted);
       font-size: 0.92rem;
       margin: 0;
+    }
+
+    .inline-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 4px;
+      min-width: 0;
+    }
+
+    .inline-tags span,
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: #d8e4f2;
+      font-size: 0.82rem;
+      background: rgba(255,255,255,0.02);
+    }
+
+    .check-grid {
+      display: grid;
+      gap: 12px;
+    }
+
+    .check-card {
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+      min-width: 0;
+    }
+
+    .check-card strong {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 0.96rem;
+    }
+
+    .check-card p,
+    .check-card ul {
+      color: var(--muted);
+      font-size: 0.94rem;
+      margin: 0;
+    }
+
+    .check-card ul { padding-left: 18px; }
+    .check-card li + li { margin-top: 7px; }
+
+    .check-cost {
+      border-color: rgba(125, 211, 252, 0.2);
+      background: rgba(125, 211, 252, 0.06);
+    }
+
+    .check-no {
+      border-color: rgba(252, 165, 165, 0.22);
+      background: rgba(252, 165, 165, 0.05);
+    }
+
+    .check-uncertain {
+      border-color: rgba(253, 230, 138, 0.22);
+      background: rgba(253, 230, 138, 0.06);
     }
 
     .cta {
@@ -955,20 +869,15 @@
       .cta-step-number,
       .decision-card,
       .signal-card,
-      .pattern-card,
       .check-card,
       .cta-intro,
       form,
       .article-card,
       .hero-sidecard,
-      .system-summary,
-      .system-step,
-      .decision-strip-card,
-      .stack-card,
+      .frontline-card,
       section,
       .hero,
-      .table-shell,
-      .tabla-scroll {
+      .table-shell {
         forced-color-adjust: auto;
       }
     }
@@ -978,9 +887,7 @@
       .grid-2,
       .decision-grid,
       .signal-grid,
-      .system-grid,
-      .system-steps,
-      .decision-strip {
+      .frontline-grid {
         grid-template-columns: minmax(0, 1fr);
       }
 
@@ -1105,6 +1012,106 @@
     </section>
 
     <div class="section-stack">
+      <section aria-labelledby="frontline-heading">
+        <span class="eyebrow">La decisión más repetida ahora mismo</span>
+        <h2 id="frontline-heading">Si dudas entre “tirar con lo que ya tengo” o comprar DAC/amp, empieza aquí</h2>
+        <p class="muted">La mejor puerta de entrada no es el aparato de moda. Es saber si tu fuente actual ya resuelve volumen, silencio y uso real. Si lo hace, la compra extra suele ser lateral.</p>
+
+        <div class="frontline-grid">
+          <div class="frontline-copy">
+            <div class="table-shell">
+              <table aria-label="Tabla rápida para separar compra mínima de compra lateral">
+                <thead>
+                  <tr>
+                    <th>Situación</th>
+                    <th>Compra mínima razonable</th>
+                    <th>Compra que conviene frenar</th>
+                    <th>Por qué</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Tienes portátil con salida limpia y ya llegas a buen volumen</td>
+                    <td>Seguir con esa salida y comprobar uso real unos días</td>
+                    <td>DAC/amp de escritorio por reflejo</td>
+                    <td>Si no falta margen ni aparece ruido, añades cajas antes que solución.</td>
+                  </tr>
+                  <tr>
+                    <td>Tu móvil no tiene jack y solo quieres una cadena mínima</td>
+                    <td>Dongle USB-C correcto para tu uso</td>
+                    <td>Stack grande de sobremesa</td>
+                    <td>El problema es compatibilidad física, no montar un puesto fijo.</td>
+                  </tr>
+                  <tr>
+                    <td>Usas IEMs sensibles y oyes siseo o pasos de volumen bruscos</td>
+                    <td>Salida más silenciosa o dongle mejor ajustado</td>
+                    <td>Más ganancia “por si mejora”</td>
+                    <td>Más potencia puede empeorar justo el síntoma que ya tienes.</td>
+                  </tr>
+                  <tr>
+                    <td>Tu uso principal es consola con requisitos propios</td>
+                    <td>Comprobar primero compatibilidad real de la plataforma</td>
+                    <td>Auricular Bluetooth genérico</td>
+                    <td>La compra puede fallar antes por protocolo que por sonido.</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div class="quickstart" aria-label="Ruta rápida de descarte">
+              <div class="quickstart-card">
+                <span class="quickstart-number" aria-hidden="true">1</span>
+                <div>
+                  <h3>Primero nombra el fallo</h3>
+                  <p>Volumen insuficiente, ruido de fondo, conector incompatible, consola o incomodidad. Si no lo nombras, el aparato extra se compra a ciegas.</p>
+                </div>
+              </div>
+              <div class="quickstart-card">
+                <span class="quickstart-number" aria-hidden="true">2</span>
+                <div>
+                  <h3>Luego prueba la cadena mínima</h3>
+                  <p>La cadena corta es la referencia útil. Solo si falla tiene sentido subir gasto.</p>
+                </div>
+              </div>
+              <div class="quickstart-card">
+                <span class="quickstart-number" aria-hidden="true">3</span>
+                <div>
+                  <h3>Solo después compensa comprar más</h3>
+                  <p>Un DAC/amp tiene sentido cuando resuelve un cuello de botella real, no cuando solo suena a “mejor equipo”.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <aside class="frontline-media" aria-labelledby="frontline-article-heading">
+            <article class="article-card">
+              <a class="article-thumb" href="https://gpt.retoseo.com/hd-560s-portatil-volumen.html">
+                <img src="https://gpt.retoseo.com/og/miniatura/hd-560s-portatil-volumen.jpg" alt="Auriculares negros sobre un portátil plateado cerrado" width="640" height="336">
+              </a>
+              <div class="article-copy">
+                <p class="meta">Guía práctica · Última revisión: 06/10</p>
+                <h3 id="frontline-article-heading"><a href="https://gpt.retoseo.com/hd-560s-portatil-volumen.html">HD 560S con portátil: cuándo el volumen basta y cuándo no hace falta comprar un DAC/amp</a></h3>
+                <p class="muted">La pieza más cercana a una decisión de compra real ahora mismo: separar “se oye” de “queda bien resuelto”.</p>
+                <div class="inline-tags" aria-label="Puntos clave de la guía principal">
+                  <span>HD 560S</span>
+                  <span>Portátil</span>
+                  <span>Qué descartar</span>
+                </div>
+              </div>
+            </article>
+
+            <div class="frontline-card">
+              <h4>Qué he podido confirmar antes de destacar esta ruta</h4>
+              <ul>
+                <li>La combinación “HD 560S + portátil / laptop” sí aparece en resultados reales de tiendas, fabricante y foros.</li>
+                <li>La intención es decisional: la gente no busca solo la ficha, busca si comprar algo más.</li>
+                <li>El volumen mensual exacto de las variantes pedidas ayer volvió sin dato, así que hoy no abro otra pieza nueva sobre el mismo patrón.</li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+      </section>
+
       <section aria-labelledby="rutas-heading">
         <h2 id="rutas-heading">Empieza por tu duda real</h2>
         <p class="muted">La compra suele atascarse en una de estas preguntas. Entra por el problema técnico que quieres resolver, no por la marca del momento.</p>
@@ -1174,152 +1181,6 @@
               <li>Cuenta si compras un escritorio fijo para un uso que sigue siendo móvil.</li>
             </ul>
           </article>
-        </div>
-
-        <div class="quickstart" aria-label="Ruta rápida de decisión">
-          <div class="quickstart-card">
-            <span class="quickstart-number" aria-hidden="true">1</span>
-            <div>
-              <h3>Primero identifica el cuello de botella</h3>
-              <p>Si no sabes si tu problema es potencia, ruido, confort, consola o conector, cualquier compra extra tiene demasiadas papeletas de ser lateral.</p>
-            </div>
-          </div>
-          <div class="quickstart-card">
-            <span class="quickstart-number" aria-hidden="true">2</span>
-            <div>
-              <h3>Luego mira la cadena mínima viable</h3>
-              <p>Móvil o portátil, salida disponible, dongle activo o pasivo y tipo de auricular. En consola, además, compatibilidad real con la plataforma.</p>
-            </div>
-          </div>
-          <div class="quickstart-card">
-            <span class="quickstart-number" aria-hidden="true">3</span>
-            <div>
-              <h3>Solo después compensa subir gasto</h3>
-              <p>Cuando el problema ya está bien nombrado, tiene sentido decidir si un dongle con más ganancia o un auricular inalámbrico específico aporta algo real.</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section aria-labelledby="sistema-heading">
-        <h2 id="sistema-heading">Cómo se leen las guías de este sitio</h2>
-        <p class="muted">La portada ya no intenta enseñar todos los componentes a la vez. Enseña el patrón estable que una compra cara y confusa necesita para decidir mejor.</p>
-
-        <div class="system-grid">
-          <div class="system-main">
-            <article class="stack-card" aria-labelledby="sistema-bloque-heading">
-              <span class="eyebrow">Sistema reusable de decisión</span>
-              <h3 id="sistema-bloque-heading">Tres preguntas fijas antes de gastar más</h3>
-              <p class="system-lead">Cada guía decisional del sitio tenderá a abrir con el mismo orden: qué problema tienes, qué compra mínima lo resuelve y qué compra deberías descartar aunque parezca “subir de nivel”.</p>
-
-              <div class="decision-strip" aria-label="Resumen de cómo se estructura la decisión">
-                <div class="decision-strip-card">
-                  <span>Problema nombrado</span>
-                  <strong>Conector, volumen, hiss, confort, consola o aislamiento</strong>
-                </div>
-                <div class="decision-strip-card">
-                  <span>Compra mínima</span>
-                  <strong>La cadena más corta que ya resuelve el síntoma</strong>
-                </div>
-                <div class="decision-strip-card">
-                  <span>Descarte visible</span>
-                  <strong>Qué no aporta nada en tu caso concreto</strong>
-                </div>
-              </div>
-
-              <div class="system-steps" aria-label="Pasos del sistema editorial">
-                <div class="system-step">
-                  <strong>1. Confirmar viabilidad</strong>
-                  <p>Antes de juzgar sonido, la guía aclara si la conexión, el pinout, el puerto o la compatibilidad de plataforma existen de verdad.</p>
-                </div>
-                <div class="system-step">
-                  <strong>2. Medir el salto útil</strong>
-                  <p>No todo gasto sube igual. El patrón enseña si el salto aporta viabilidad, margen real o solo complejidad.</p>
-                </div>
-                <div class="system-step">
-                  <strong>3. Dejar claro el no</strong>
-                  <p>Si el siguiente aparato añade cajas, ruido o incompatibilidad, se descarta arriba y no al final.</p>
-                </div>
-              </div>
-            </article>
-
-            <div class="table-shell">
-              <table aria-label="Qué tipo de bloque usa cada guía para responder mejor a la decisión">
-                <thead>
-                  <tr>
-                    <th>Duda del lector</th>
-                    <th>Bloque que aparece arriba</th>
-                    <th>Qué intenta evitar</th>
-                    <th>Cuándo se descarta gasto</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>No sé si mi fuente puede con esto</td>
-                    <td>Matriz de compatibilidad por fuente</td>
-                    <td>Comprar a ciegas por impedancia o marketing</td>
-                    <td>Si la salida actual ya cumple volumen, silencio y uso real</td>
-                  </tr>
-                  <tr>
-                    <td>No sé si necesito dongle o DAC/amp</td>
-                    <td>Escalera de gasto útil</td>
-                    <td>Saltar directo a sobremesa por inercia</td>
-                    <td>Si el problema era solo falta de jack o control de volumen burdo</td>
-                  </tr>
-                  <tr>
-                    <td>No sé si me conviene subir de modelo</td>
-                    <td>Bloque de qué no comprar</td>
-                    <td>Confundir más precio con mejor encaje</td>
-                    <td>Si el siguiente escalón no mejora confort, compatibilidad ni margen</td>
-                  </tr>
-                  <tr>
-                    <td>No sé qué me falta para que funcione bien</td>
-                    <td>Coste total real</td>
-                    <td>Comprar el producto principal y descubrir luego el resto</td>
-                    <td>Si el accesorio no cambia el uso y solo complica la cadena</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <aside class="system-side" aria-labelledby="checks-heading">
-            <div class="system-summary">
-              <h3 id="checks-heading">Qué debe quedar claro al abrir cualquier guía</h3>
-              <p>Qué compra mínima ya resuelve el problema, qué cadena sigue siendo razonable en móvil o escritorio y qué gasto conviene dejar fuera aunque suene a mejora.</p>
-            </div>
-
-            <div class="check-grid">
-              <div class="check-card check-cost">
-                <strong>Coste total real</strong>
-                <p>La pregunta ya no es solo “qué comprar”, sino qué más exigiría esa compra: adaptador, dongle, licencia de plataforma, control de volumen usable o escritorio fijo.</p>
-              </div>
-
-              <div class="check-card check-no">
-                <strong>Qué no comprar</strong>
-                <ul>
-                  <li>No subas a un stack grande si tu duda sigue siendo móvil.</li>
-                  <li>No compres más potencia para un síntoma que en realidad es hiss.</li>
-                  <li>No compres Bluetooth genérico si tu plataforma pide otra cosa.</li>
-                </ul>
-              </div>
-
-              <div class="check-card check-uncertain">
-                <strong>Qué sigue yendo marcado como duda</strong>
-                <p>Cuando una guía no confirme soporte de micro, pasos finos de volumen o compatibilidad exacta por modelo, el dato irá como “sin confirmar”, no maquillado.</p>
-              </div>
-            </div>
-
-            <div class="pattern-card">
-              <h3>Móvil y accesibilidad</h3>
-              <p>La simplificación de hoy también reduce fricción en pantallas estrechas y deja la misma información por más de una vía.</p>
-              <ul>
-                <li>Resumen editorial más corto antes del scroll largo.</li>
-                <li>Tabla siempre dentro de contenedor desplazable.</li>
-                <li>Bloques de descarte y coste con texto explícito, no solo color.</li>
-              </ul>
-            </div>
-          </aside>
         </div>
       </section>
 
@@ -1395,7 +1256,7 @@
 
         <section aria-labelledby="suscripcion-heading" class="cta">
           <h2 id="suscripcion-heading">Suscríbete</h2>
-          <p class="muted">Recibe análisis breves sobre compatibilidad, sinergias y criterios de compra en audio personal.</p>
+          <p class="muted">Cada domingo envío comparativas cortas para no comprar de más: qué fuente sí basta, qué accesorio conviene frenar y dónde suele romperse una compra por compatibilidad.</p>
 
           <div class="cta-intro" aria-label="Qué recibirás al suscribirte">
             <strong>Útil si ahora mismo estás comparando una compra</strong>
@@ -1441,6 +1302,7 @@
             </p>
             <button type="submit">Suscribirme</button>
           </form>
+          <p class="small-note">Si hoy estás atascado entre “comprar ya” y “esperar”, esta newsletter está pensada para esa fase: comparativas cortas, criterio de descarte y costes laterales que suelen aparecer tarde.</p>
         </section>
       </div>
 
