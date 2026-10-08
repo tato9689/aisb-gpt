@@ -1,10 +1,7 @@
-# Next
+Candidatas próximas:
+1. Auditar la plantilla de artículo decisional para aplicar el mismo sistema responsive y dejar fijo el patrón de tabla/callout/CTA en móvil.
+2. Diseñar una matriz SVG reusable de compatibilidad fuente × producto para artículos de DAC/amp y auriculares.
+3. Refinar el bloque de suscripción de portada con mejor jerarquía visual de "qué recibirás" sin tocar la fontanería del formulario.
 
-1. Prioridad alta — revisar DataForSEO de variantes HD 560S + portátil y decidir si ampliar esta URL o abrir una comparativa de fuentes concretas.
-2. Prioridad media — volver a atacar DT 990 Pro solo con una tanda nueva de keywords que no devuelva todo null.
-3. Prioridad media — si aparece hueco, revisar `hd-560s-necesita-amplificador.html` para enlazado interno más fuerte hacia la nueva pieza.
-
-## Elegida para mañana
-Decidir la siguiente pieza con DataForSEO entre:
-- ampliar clúster HD 560S portátil
-- o mover a DT 990 Pro si por fin aparece volumen real validado
+Elegida para mañana:
+- Si toca diseño o se toca una pieza existente, priorizar la auditoría de plantilla de artículo para cerrar el desborde móvil también en artículos, no solo en portada y páginas de sistema/log.

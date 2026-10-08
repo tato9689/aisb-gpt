@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Sistema de diseño — Audio personal sin ruido</title>
-  <meta name="description" content="Sistema de diseño y reglas de componentes para esta web de audio personal: tokens, tablas, móvil y patrones de confianza.">
+  <meta name="description" content="Sistema de diseño del sitio: tokens, componentes y reglas responsive para explicar compatibilidad, confort y coste total en audio personal.">
   <link rel="canonical" href="https://gpt.retoseo.com/sistema">
   <link rel="alternate" type="application/rss+xml" title="Audio personal sin ruido — RSS" href="/rss.xml">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -12,7 +12,7 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://gpt.retoseo.com/sistema">
   <meta property="og:title" content="Sistema de diseño — Audio personal sin ruido">
-  <meta property="og:description" content="Tokens, componentes y reglas de lectura para una web de audio personal centrada en compatibilidad y descarte.">
+  <meta property="og:description" content="Tokens, componentes y reglas responsive para un sitio de audio personal centrado en decisiones de compra claras.">
   <meta property="og:image" content="https://gpt.retoseo.com/og.png">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -22,7 +22,7 @@
     "@type": "WebPage",
     "name": "Sistema de diseño",
     "url": "https://gpt.retoseo.com/sistema",
-    "description": "Sistema de diseño y reglas de componentes para esta web de audio personal.",
+    "description": "Sistema de diseño del sitio Audio personal sin ruido: tokens, componentes y reglas responsive para decisiones de compra de auriculares, IEMs y DAC/amp.",
     "isPartOf": {
       "@type": "WebSite",
       "name": "Audio personal sin ruido",
@@ -41,9 +41,12 @@
       --muted: #a9b7c7;
       --muted-2: #c7d2de;
       --line: rgba(255, 255, 255, 0.08);
-      --line-strong: rgba(125, 211, 252, 0.22);
+      --line-strong: rgba(125, 211, 252, 0.24);
       --accent: #7dd3fc;
       --accent-2: #c4b5fd;
+      --ok: #86efac;
+      --warn: #fde68a;
+      --danger: #fca5a5;
       --radius: 18px;
       --radius-sm: 14px;
       --shadow: 0 18px 50px rgba(0, 0, 0, 0.28);
@@ -85,7 +88,8 @@
       text-decoration-color: var(--accent);
     }
 
-    a:focus-visible {
+    a:focus-visible,
+    summary:focus-visible {
       outline: 2px solid var(--accent);
       outline-offset: 3px;
     }
@@ -98,10 +102,17 @@
     pre {
       overflow-x: auto;
       max-width: 100%;
+      padding: 16px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: rgba(255,255,255,0.03);
+      color: #dce7f3;
     }
 
     code {
       overflow-wrap: anywhere;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 0.95em;
     }
 
     header, main, footer {
@@ -147,7 +158,7 @@
       padding: 10px 14px;
       border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.02);
+      background: rgba(255,255,255,0.02);
       text-decoration: none;
       color: var(--muted);
       font-size: 0.95rem;
@@ -163,13 +174,13 @@
     main {
       padding: 18px 0 56px;
       display: grid;
-      gap: 18px;
+      gap: 22px;
     }
 
     .hero,
-    .card {
+    .section-card {
       border: 1px solid var(--line);
-      border-radius: var(--radius);
+      border-radius: calc(var(--radius) + 2px);
       background: var(--panel);
       box-shadow: var(--shadow);
       min-width: 0;
@@ -178,60 +189,131 @@
     .hero {
       padding: 28px;
       display: grid;
-      gap: 14px;
+      gap: 18px;
+    }
+
+    .hero-grid,
+    .section-grid,
+    .token-grid,
+    .component-grid,
+    .rule-grid {
+      display: grid;
+      gap: 18px;
+      min-width: 0;
+    }
+
+    .hero-grid,
+    .section-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      align-items: start;
+    }
+
+    .token-grid,
+    .component-grid,
+    .rule-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+    .hero-grid > *,
+    .section-grid > *,
+    .token-grid > *,
+    .component-grid > *,
+    .rule-grid > *,
+    .hero > *,
+    .section-card > * {
+      min-width: 0;
     }
 
     .eyebrow {
       display: inline-flex;
-      width: fit-content;
       align-items: center;
       gap: 8px;
+      width: fit-content;
       padding: 6px 10px;
       border-radius: 999px;
-      background: rgba(125, 211, 252, 0.1);
+      background: rgba(125, 211, 252, 0.10);
       color: #d7f3ff;
       font-size: 0.84rem;
     }
 
-    h1, h2, h3, p { margin: 0; }
-
-    h1 {
-      font-size: clamp(2rem, 4vw, 3.2rem);
-      line-height: 1.05;
-      letter-spacing: -0.04em;
-      max-width: 12ch;
+    h1, h2, h3, p {
+      margin: 0;
       overflow-wrap: anywhere;
     }
 
+    h1 {
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      line-height: 1.05;
+      letter-spacing: -0.04em;
+      max-width: 11ch;
+    }
+
     h2 {
-      font-size: 1.3rem;
+      font-size: 1.35rem;
       letter-spacing: -0.02em;
       margin-bottom: 12px;
     }
 
-    p {
+    h3 {
+      font-size: 1rem;
+      letter-spacing: -0.01em;
+    }
+
+    .lead {
+      color: var(--muted);
+      font-size: 1.02rem;
+      max-width: 66ch;
+      margin-top: 10px;
+    }
+
+    .note,
+    .mini-card,
+    .rule-card,
+    .component-card,
+    .token-card {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: rgba(255,255,255,0.02);
+      min-width: 0;
+    }
+
+    .note {
+      padding: 18px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .note p,
+    .section-card p,
+    .mini-card p,
+    .rule-card p,
+    .component-card p,
+    .token-card p {
       color: var(--muted);
     }
 
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
+    .section-card {
+      padding: 22px;
     }
 
-    .card {
-      padding: 20px;
+    .mini-card,
+    .rule-card,
+    .component-card,
+    .token-card {
+      padding: 16px;
       display: grid;
-      gap: 14px;
+      gap: 10px;
     }
 
-    .list {
+    .mini-list,
+    .check-list {
       margin: 0;
       padding-left: 18px;
-      color: var(--muted-2);
+      color: var(--muted);
     }
 
-    .list li + li {
+    .mini-list li + li,
+    .check-list li + li {
       margin-top: 8px;
     }
 
@@ -242,19 +324,21 @@
       overflow-y: hidden;
       max-width: 100%;
       background: rgba(255,255,255,0.015);
+      position: relative;
       -webkit-overflow-scrolling: touch;
+      margin-top: 16px;
     }
 
     table {
       width: 100%;
-      border-collapse: collapse;
       min-width: 620px;
+      border-collapse: collapse;
       font-size: 0.95rem;
     }
 
     th, td {
-      padding: 12px 10px;
       border-bottom: 1px solid var(--line);
+      padding: 12px 10px;
       text-align: left;
       vertical-align: top;
       overflow-wrap: anywhere;
@@ -263,16 +347,28 @@
     th {
       color: #dce7f3;
       background: rgba(255,255,255,0.03);
+      font-weight: 700;
     }
 
-    tr:last-child td {
-      border-bottom: 0;
+    tr:last-child td { border-bottom: 0; }
+
+    .demo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+      margin-top: 16px;
+      min-width: 0;
+    }
+
+    .demo-grid > * {
+      min-width: 0;
     }
 
     .badge-row {
       display: flex;
       flex-wrap: wrap;
       gap: 8px;
+      min-width: 0;
     }
 
     .badge {
@@ -284,6 +380,33 @@
       color: #d8e4f2;
       font-size: 0.82rem;
       background: rgba(255,255,255,0.02);
+    }
+
+    .callout {
+      padding: 16px;
+      border-radius: 14px;
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,0.02);
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .callout-no {
+      border-color: rgba(252, 165, 165, 0.22);
+      background: rgba(252, 165, 165, 0.05);
+    }
+
+    .callout-cost {
+      border-color: rgba(125, 211, 252, 0.20);
+      background: rgba(125, 211, 252, 0.06);
+    }
+
+    .callout-uncertain {
+      border-color: rgba(253, 230, 138, 0.22);
+      background: rgba(253, 230, 138, 0.06);
     }
 
     footer {
@@ -305,6 +428,17 @@
       }
     }
 
+    @media (max-width: 960px) {
+      .hero-grid,
+      .section-grid,
+      .token-grid,
+      .component-grid,
+      .rule-grid,
+      .demo-grid {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+
     @media (max-width: 860px) {
       header {
         flex-direction: column;
@@ -312,12 +446,8 @@
       }
 
       .hero,
-      .card {
+      .section-card {
         padding: 20px;
-      }
-
-      .grid {
-        grid-template-columns: minmax(0, 1fr);
       }
 
       table {
@@ -328,10 +458,15 @@
     @media (max-width: 560px) {
       body { line-height: 1.58; }
 
-      .hero h1 { max-width: 10ch; }
+      h1 { max-width: 9ch; }
 
       table {
         min-width: 520px;
+      }
+
+      .header-link {
+        width: 100%;
+        justify-content: center;
       }
     }
   </style>
@@ -360,94 +495,168 @@
 
   <main>
     <section class="hero" aria-labelledby="sistema-heading">
-      <span class="eyebrow">Sistema de diseño</span>
-      <h1 id="sistema-heading">Reglas de lectura y componentes</h1>
-      <p>Esta página documenta el sistema de diseño mínimo del sitio para no reinventar tablas, tarjetas, badges ni comportamiento móvil en cada turno.</p>
+      <div class="hero-grid">
+        <div>
+          <span class="eyebrow">Sistema reusable</span>
+          <h1 id="sistema-heading">Sistema de diseño</h1>
+          <p class="lead">Este sitio no usa el diseño para impresionar. Lo usa para aclarar compatibilidad, coste total, descarte y cadena mínima viable en auriculares, IEMs y DAC/amp.</p>
+        </div>
+
+        <aside class="note" aria-labelledby="principio-heading">
+          <h2 id="principio-heading">Principio rector</h2>
+          <p>Si un cambio visual no reduce una decisión ambigua de compra o de uso, no entra. La unidad básica no es el adorno: es el patrón que deja más claro si algo sirve con tu móvil, tu portátil o tu consola.</p>
+        </aside>
+      </div>
     </section>
 
-    <div class="grid">
-      <section class="card" aria-labelledby="tokens-heading">
-        <h2 id="tokens-heading">Tokens base</h2>
-        <ul class="list">
-          <li><strong>Color:</strong> `--bg`, `--panel`, `--text`, `--muted`, `--line`, `--accent`, `--accent-2`.</li>
-          <li><strong>Radio:</strong> `--radius` y `--radius-sm` para contenedores y tarjetas.</li>
-          <li><strong>Sombra:</strong> `--shadow` única para paneles principales.</li>
-          <li><strong>Lectura:</strong> `--reading` como ancho de texto cómodo.</li>
-          <li><strong>Tipografía:</strong> pila de sistema deliberada para mantener peso y velocidad.</li>
-        </ul>
-      </section>
+    <section class="section-card" aria-labelledby="tokens-heading">
+      <h2 id="tokens-heading">Tokens base</h2>
+      <p>La identidad se apoya en pocas variables repetibles: fondo oscuro sobrio, dos acentos fríos para señalizar sin teatralizar, radios medios y tipografía de sistema para lectura limpia.</p>
 
-      <section class="card" aria-labelledby="marca-heading">
-        <h2 id="marca-heading">Marca y cabecera</h2>
-        <ul class="list">
-          <li>Símbolo único: clavija + onda de señal.</li>
-          <li>El SVG pinta con `currentColor` para sobrevivir en oscuro y alto contraste.</li>
-          <li>El nombre del sitio siempre aparece como texto real al lado del símbolo.</li>
-          <li>Altura mínima del símbolo en móvil: 24 px.</li>
-        </ul>
-      </section>
+      <div class="token-grid">
+        <article class="token-card">
+          <h3>Color</h3>
+          <p><code>--bg</code>, <code>--panel</code>, <code>--line</code>, <code>--accent</code>, <code>--accent-2</code>, <code>--danger</code>, <code>--warn</code>, <code>--ok</code>.</p>
+        </article>
+        <article class="token-card">
+          <h3>Espacio y forma</h3>
+          <p><code>--radius</code>, <code>--radius-sm</code>, <code>--shadow</code>, contenedores con aire suficiente para bloques técnicos y tablas.</p>
+        </article>
+        <article class="token-card">
+          <h3>Lectura</h3>
+          <p><code>--max</code> para ancho general, <code>--reading</code> para líneas largas y <code>system-ui</code> para una lectura directa sin prometer una fuente no cargada.</p>
+        </article>
+      </div>
+    </section>
 
-      <section class="card" aria-labelledby="movil-heading">
-        <h2 id="movil-heading">Reglas mecánicas para móvil</h2>
-        <ul class="list">
-          <li>Ninguna rejilla usa `1fr` suelto: siempre `minmax(0, 1fr)`.</li>
-          <li>Los hijos directos de grid o flex llevan `min-width: 0`.</li>
-          <li>Toda tabla vive dentro de `.tabla-scroll` con `overflow-x: auto`.</li>
-          <li>`img`, `svg` y `video` usan `max-width:100%` y `height:auto`.</li>
-          <li>Los enlaces largos y el código hacen `overflow-wrap:anywhere`.</li>
-        </ul>
-      </section>
+    <section class="section-card" aria-labelledby="componentes-heading">
+      <h2 id="componentes-heading">Componentes fijos del sitio</h2>
+      <p>Son las piezas que se repiten porque ayudan a decidir mejor, no porque “queden bien”.</p>
 
-      <section class="card" aria-labelledby="componentes-heading">
-        <h2 id="componentes-heading">Componentes reutilizables</h2>
-        <div class="badge-row" aria-label="Ejemplos de badges funcionales">
-          <span class="badge">No requiere amp</span>
-          <span class="badge">USB-C directo</span>
-          <span class="badge">Clamp alto</span>
-          <span class="badge">Móvil: sí, con matices</span>
-        </div>
-        <ul class="list">
-          <li>Tarjeta de artículo con miniatura fotográfica obligatoria.</li>
-          <li>Bloques de descarte, coste total e incertidumbre con texto explícito.</li>
-          <li>CTA de suscripción solo después de demostrar valor.</li>
-        </ul>
-      </section>
-    </div>
+      <div class="component-grid">
+        <article class="component-card">
+          <h3>Badges funcionales</h3>
+          <p>Etiquetas cortas para decir cosas como “No requiere amp”, “USB-C directo”, “Clamp alto” o “Qué descartar”. Nunca sustituyen al texto principal.</p>
+          <div class="badge-row" aria-label="Ejemplos de etiquetas funcionales">
+            <span class="badge">No requiere amp</span>
+            <span class="badge">USB-C directo</span>
+            <span class="badge">Clamp alto</span>
+          </div>
+        </article>
 
-    <section class="card" aria-labelledby="tabla-heading">
-      <h2 id="tabla-heading">Patrón de tabla del sitio</h2>
-      <p>Las tablas existen para comparar compatibilidad y descarte. El patrón es siempre el mismo para no volver a romper móvil.</p>
+        <article class="component-card">
+          <h3>Callouts de decisión</h3>
+          <p>Tres estados editoriales que se repiten: descarte, coste total e incertidumbre confirmada como tal.</p>
+          <div class="demo-grid">
+            <div class="callout callout-no">
+              <strong>Qué no comprar</strong>
+              <p>No añadas escritorio fijo si tu uso sigue siendo móvil y el problema real era solo la falta de jack.</p>
+            </div>
+            <div class="callout callout-cost">
+              <strong>Coste total real</strong>
+              <p>El producto principal puede pedir además adaptador, dongle o un tipo de volumen más fino.</p>
+            </div>
+          </div>
+        </article>
+
+        <article class="component-card">
+          <h3>Tabla comparativa</h3>
+          <p>La tabla es el componente central del nicho. Siempre va dentro de contenedor desplazable para que su ancho no dicte el ancho de la página.</p>
+        </article>
+      </div>
+
       <div class="tabla-scroll">
-        <table aria-label="Ejemplo de patrón de tabla para este sitio">
+        <table aria-label="Ejemplo de estructura comparativa del sitio">
           <thead>
             <tr>
-              <th>Patrón</th>
-              <th>Qué resuelve</th>
+              <th>Duda</th>
+              <th>Bloque principal</th>
               <th>Qué evita</th>
-              <th>Regla fija</th>
+              <th>Salida editorial</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Matriz de compatibilidad</td>
-              <td>Separar “funciona” de “funciona bien”</td>
-              <td>Compatibilidades inventadas</td>
-              <td>Texto y color, nunca solo color</td>
+              <td>¿Me vale mi portátil?</td>
+              <td>Matriz de compatibilidad por fuente</td>
+              <td>Comprar un DAC/amp por reflejo</td>
+              <td>Compra mínima viable o descarte claro</td>
             </tr>
             <tr>
-              <td>Coste total real</td>
-              <td>Mostrar accesorios y cadena mínima</td>
-              <td>Precio suelto engañoso</td>
-              <td>Siempre dentro de `.tabla-scroll`</td>
+              <td>¿Necesito más potencia?</td>
+              <td>Escalera de gasto útil</td>
+              <td>Confundir volumen con cadena bien resuelta</td>
+              <td>Subir gasto o parar ahí</td>
             </tr>
             <tr>
-              <td>Qué no comprar</td>
-              <td>Descarte visible antes del scroll largo</td>
-              <td>Catálogo sin criterio</td>
-              <td>Lenguaje concreto y negativo explícito</td>
+              <td>¿Qué pierdo si voy a lo barato?</td>
+              <td>Tabla de coste total</td>
+              <td>Mirar solo precio de catálogo</td>
+              <td>Conector, margen, confort o accesorio extra</td>
             </tr>
           </tbody>
         </table>
+      </div>
+    </section>
+
+    <section class="section-card" aria-labelledby="responsive-heading">
+      <h2 id="responsive-heading">Reglas responsive no negociables</h2>
+      <p>Este bloque existe por un problema real detectado el 05/10: el sitio desbordaba en móvil. Desde ahora la defensa no depende de “mirarlo luego”, sino de reglas mecánicas repetibles.</p>
+
+      <div class="rule-grid">
+        <article class="rule-card">
+          <h3>1. Las tablas no mandan sobre la página</h3>
+          <p>Toda <code>table</code> vive dentro de <code>.tabla-scroll</code> con <code>overflow-x: auto</code> y <code>max-width: 100%</code>. El <code>min-width</code> de la tabla sigue existiendo, pero contenido dentro de su propio scroll.</p>
+        </article>
+
+        <article class="rule-card">
+          <h3>2. Los grids encogen de verdad</h3>
+          <p>Las rejillas usan <code>minmax(0, 1fr)</code>, no <code>1fr</code> a secas. Además, sus hijos directos declaran <code>min-width: 0</code> para que el contenido largo no empuje el layout.</p>
+        </article>
+
+        <article class="rule-card">
+          <h3>3. Medios y cadenas largas</h3>
+          <p><code>img</code>, <code>svg</code> y <code>video</code> quedan fluidos; <code>pre</code> tiene scroll interno; enlaces y código usan <code>overflow-wrap: anywhere</code>. El scroll horizontal del documento queda como red de seguridad, no como arreglo principal.</p>
+        </article>
+      </div>
+
+      <pre><code>.tabla-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  max-width: 100%;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-2 > * {
+  min-width: 0;
+}
+
+img, svg, video {
+  max-width: 100%;
+  height: auto;
+}</code></pre>
+    </section>
+
+    <section class="section-card" aria-labelledby="uso-heading">
+      <div class="section-grid">
+        <div>
+          <h2 id="uso-heading">Qué debe alojar este sistema</h2>
+          <ul class="check-list">
+            <li>Compatibilidad por fuente: móvil, portátil, consola, dongle y escritorio.</li>
+            <li>Coste total real: adaptadores, micrófono, tipo de conector y cadena mínima.</li>
+            <li>Descarte visible: cuándo no comprar un accesorio extra.</li>
+            <li>Bloques de incertidumbre: “sin confirmar” si falta una compatibilidad concreta.</li>
+          </ul>
+        </div>
+
+        <aside class="note" aria-labelledby="fuera-heading">
+          <h2 id="fuera-heading">Qué queda fuera deliberadamente</h2>
+          <p>No entran rankings globales, puntuaciones inventadas, iconografía de postureo audiófilo, comparativas que dependan solo de color ni gráficos que parezcan mediciones reales cuando no lo son.</p>
+        </aside>
       </div>
     </section>
   </main>

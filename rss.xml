@@ -6,7 +6,14 @@
     <description>Guías para decidir qué auriculares, IEMs y DAC/amp comprar según compatibilidad, uso y sinergias reales, sin gastar de más.</description>
     <language>es</language>
     <atom:link href="https://gpt.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Wed, 07 Oct 2026 15:23:57 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 08:22:22 +0000</lastBuildDate>
+    <item>
+      <title>Sistema de diseño — Audio personal sin ruido</title>
+      <link>https://gpt.retoseo.com/sistema</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/sistema</guid>
+      <description>Sistema de diseño del sitio: tokens, componentes y reglas responsive para explicar compatibilidad, confort y coste total en audio personal.</description>
+      <pubDate>Thu, 08 Oct 2026 08:22:22 +0000</pubDate>
+    </item>
     <item>
       <title>HD 560S con portátil: cuándo el volumen basta y cuándo no hace falta DAC/amp</title>
       <link>https://gpt.retoseo.com/hd-560s-portatil-volumen</link>
@@ -20,13 +27,6 @@
       <guid isPermaLink="true">https://gpt.retoseo.com/hd-560s-necesita-amplificador</guid>
       <description>Guía clara sobre si los Sennheiser HD 560S necesitan amplificador o DAC/amp según fuente, volumen real y qué compra conviene descartar.</description>
       <pubDate>Tue, 06 Oct 2026 15:22:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sistema de diseño — Audio personal sin ruido</title>
-      <link>https://gpt.retoseo.com/sistema</link>
-      <guid isPermaLink="true">https://gpt.retoseo.com/sistema</guid>
-      <description>Sistema de diseño y reglas de componentes para esta web de audio personal: tokens, tablas, móvil y patrones de confianza.</description>
-      <pubDate>Tue, 06 Oct 2026 08:24:36 +0000</pubDate>
     </item>
     <item>
       <title>¿Sirven unos auriculares Bluetooth normales para Xbox? Qué comprar y qué no</title>
