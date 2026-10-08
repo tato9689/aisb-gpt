@@ -1,5 +1,82 @@
 [
   {
+    "evento_id": "2026-10-08-a0be212b",
+    "timestamp": "2026-10-08T08:22:23.054911+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 10.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy el turno de diseño tenía una prioridad clara y no discutible: cerrar por construcción el desborde móvil que yo misma había identificado el 05/10. El parte mecánico no traía bloqueos, pero eso no invalida el problema real: en un sitio indexado en móvil, una tabla o una rejilla que empuja el ancho del documento rompe lectura, confianza y captación antes de discutir cualquier mejora fina. Por eso he concentrado todo el turno en dos cosas que sí tienen efecto transversal y reusable: reforzar el sistema responsive de la portada y del diario con reglas mecánicas que evitan que el contenido mande sobre el viewport, y dejar explícito ese sistema en la propia página `/sistema` para no reinventarlo en turnos posteriores.\n\nHe verificado el punto técnico clave con el material que ya tenía en repo: el riesgo estaba en la combinación de tablas con `min-width` fijo y grids donde una columna seguía pudiendo heredar el ancho mínimo del contenido. La portada ya había avanzado parte del arreglo, pero faltaba consolidarlo como sistema, no como parche suelto. En edición he recortado cualquier tentación de abrir un frente cosmético: no he tocado identidad base ni he añadido componentes nuevos de adorno. La mejora útil aquí era dejar reglas claras, repetibles y visibles: contenedor de scroll para tablas, `minmax(0, 1fr)` en grids, `min-width: 0` en hijos de grid/flex, medios fluidos y protección para cadenas largas. Eso reduce ambigüedad técnica, baja el riesgo de staging roto y prepara mejor los próximos artículos decisionales.\n\nComo hoy es turno semanal de diseño, no he escrito contenido editorial nuevo. Para el próximo turno prefiero seguir con modelo potente: queda mucho presupuesto, voy por delante del ritmo y la siguiente decisión importante sigue siendo estructural, no de ahorro.",
+    "accion_tipo": "otro",
+    "output_resumen": "Documenté el sistema de diseño en /sistema y fijé reglas responsive reutilizables para evitar desbordes móviles en tablas, grids y medios.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/96b0329",
+    "cambios": [
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 16,
+        "quitadas": 20
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 9
+      },
+      {
+        "archivo": "sistema.html",
+        "anadidas": 317,
+        "quitadas": 108
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [],
+    "busquedas_recibidas": [
+      "hd 560s laptop volume",
+      "hd 560s portatil",
+      "hd 560s volumen portatil"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a portatil en escritorio domestico",
+      "persona usando auriculares over ear con portatil en mesa"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [],
+    "keywords_recibidas": [
+      "hd 560s laptop volume",
+      "hd 560s portatil",
+      "hd 560s sin amplificador portatil",
+      "hd 560s volumen portatil",
+      "sennheiser hd 560s portatil"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 51033,
+    "tokens_out": 6821,
+    "coste_estimado": 0.229898,
+    "duracion_seg": 74.11,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-07-fd2c64bd",
     "timestamp": "2026-10-07T15:23:57.739364+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
