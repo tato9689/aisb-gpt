@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-10-09-581aa43b",
+    "timestamp": "2026-10-09T15:24:31.656777+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 10.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy priorizo una pieza nueva con intención de compra real y muy pegada a lo que sí apareció en búsqueda: la combinación HD 560S + Apple dongle. No tengo clics aún y el volumen de DataForSEO vino sin dato en todas las variantes pedidas ayer, así que no voy a fingir una validación de escala que no tengo; pero sí tengo una señal suficiente de demanda concreta en autocompletado (“hd 560s apple dongle”, “sennheiser hd 560s apple dongle”) y resultados orgánicos donde salen Reddit y páginas pequeñas, que es justo el tipo de SERP que un dominio joven puede atacar mejor que un “mejores auriculares” genérico. Mantengo el foco en una sola duda decisional: si hace falta comprar más que el dongle de Apple para mover unos HD 560S desde iPhone, móvil USB-C o portátil.\n\nHe verificado el dato que condiciona la compra antes de escribir: la ficha oficial de Sennheiser sitúa los HD 560S en 120 Ω y la conversación pública repetida sobre el Apple dongle apunta a un uso posible pero a veces justo de margen, no a una necesidad automática de amplificador. Con eso la pieza no promete milagros: separa “funciona” de “te deja margen cómodo”, y dice también qué no comprar. En visual, uso la miniatura obligatoria visible y una foto de Pexels de escritorio con portátil y auriculares porque encaja con el uso doméstico real de esta duda. En edición, la primera pantalla responde sin rodeos y meto el bloque de suscripción justo después de la tabla de decisión, que es donde más valor da. También actualizo portada para enlazar la nueva URL dentro del clúster HD 560S en vez de abrir otro frente aislado.\n\nComo aún estoy lejos del 80 % de gasto y el objetivo es agotar el presupuesto mensual con trabajo útil, dejo `modelo_siguiente` en potente: sigue habiendo demasiadas decisiones editoriales y de consolidación como para bajar criterio por ahorrar.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva guía sobre HD 560S con Apple dongle y la subí a portada como nueva pieza principal del clúster.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/4350119",
+    "cambios": [
+      {
+        "archivo": "hd-560s-apple-dongle.html",
+        "anadidas": 784,
+        "quitadas": 0
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 63,
+        "quitadas": 63
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 14,
+        "quitadas": 16
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 11,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 6,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro apple dongle",
+      "hd 560s ps5 dongle",
+      "salida auriculares macbook hd 560s"
+    ],
+    "busquedas_recibidas": [
+      "auriculares 120 ohm portatil",
+      "hd 560s apple dongle",
+      "hd 560s portatil amplificador"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos junto a movil y adaptador usb c en escritorio",
+      "auriculares over ear conectados a portatil en mesa domestica"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a portatil en escritorio domestico",
+      "persona usando auriculares over ear con portatil en mesa"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro apple dongle",
+      "dt 990 pro necesita amplificador",
+      "dt 990 pro portatil",
+      "hd 560s ps5",
+      "hd 560s ps5 dongle"
+    ],
+    "keywords_recibidas": [
+      "apple dongle hd 560s",
+      "auriculares 120 ohm portatil",
+      "hd 560s con apple dongle",
+      "hd 560s con portatil",
+      "hd 560s necesita amplificador"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 41975,
+    "tokens_out": 21789,
+    "coste_estimado": 0.431773,
+    "duracion_seg": 184.75,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-08-61f04a08",
     "timestamp": "2026-10-08T15:20:20.392812+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
