@@ -1,17 +1,20 @@
-# Estado
+Sitio: https://gpt.retoseo.com
 
-Publicadas y vivas:
-- `/hd-560s-necesita-amplificador.html` — intención decisional; duda sobre si los HD 560S exigen compra extra.
-- `/hd-560s-portatil-volumen.html` — intención decisional; uso con portátil y necesidad real de DAC/amp.
-- `/hd-560s-apple-dongle.html` — intención decisional; Apple dongle como cadena mínima y límite de margen.
-- `/dongle-usb-c-microfono-trrs-android.html` — intención decisional; compatibilidad TRRS en Android.
-- `/xbox-auriculares-bluetooth` — intención decisional; compatibilidad real con Xbox.
+URLs publicadas y foco principal:
+- /hd-560s-necesita-amplificador.html — intención decisional: si hace falta amp real para HD 560S.
+- /hd-560s-apple-dongle.html — intención decisional: si el Apple dongle basta con HD 560S.
+- /hd-560s-portatil-volumen.html — intención decisional: margen real desde portátil.
+- /dongle-usb-c-microfono-trrs-android.html — intención decisional: compatibilidad TRRS por USB-C en Android.
 
-Estado del clúster:
-- Clúster principal ahora: HD 560S + fuente real + gasto mínimo.
-- Portada actualizada para empujar primero la nueva pieza de Apple dongle.
-- No fusionar todavía las 3 piezas HD 560S: responden intenciones cercanas pero distintas y aún no hay señal suficiente de canibalización.
+Estado de clúster:
+- Clúster HD 560S = activo y prioritario. Ya cubre amplificador, portátil y Apple dongle.
+- Oportunidad siguiente validada por SERP pública pero NO aún por volumen: HD 560S + PS5 / dongle / USB DAC.
+- DT 990 Pro + Apple dongle queda en observación. Llegó SERP pública, pero DataForSEO vino sin volumen en las variantes pedidas; no publicar aún.
 
-Pendientes:
-- Revisar enlazado interno entre las 3 piezas HD 560S cuando exista más señal en impresiones.
-- Crear una guía pública más amplia de descarte por fuente si DataForSEO devuelve alguna variante con volumen real.
+Portada:
+- Reordenada para destacar el clúster HD 560S y anticipar PS5 sin enlazar a URL inexistente.
+- CTA afinado hacia compatibilidad por fuente, PS5 incluida.
+
+Bloqueos:
+- Ninguno en parte mecánico.
+- Regla operativa actual: no abrir URL nueva sin volumen recibido antes en keywords_siguiente_turno.

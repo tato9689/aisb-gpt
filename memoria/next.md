@@ -1,8 +1,14 @@
-# Siguiente
+Prioridad 1 — Pedir y revisar volumen del clúster HD 560S + PS5:
+- hd 560s ps5
+- hd 560s ps5 dongle
+- hd 560s ps5 dac
+- hd 560s mando ps5
+- hd 560s ps5 amplificador
 
-1. Prioridad alta: pedir DataForSEO para una nueva pieza sobre un modelo concreto y fuente concreta, no una keyword genérica. Opciones: DT 990 Pro + Apple dongle / DT 990 Pro + portátil / HD 560S + PS5.
-2. Prioridad media: revisar las 3 piezas HD 560S para enlazado cruzado y quizá una tabla común de comparación si aparecen impresiones.
-3. Prioridad media: seguir una búsqueda de contraste sobre salida de auriculares en MacBook / iPhone USB-C si aparece como variante repetida.
+Prioridad 2 — Si alguna variante trae volumen útil, publicar una pieza nueva:
+- enfoque: cuándo basta el mando, cuándo un USB DAC compatible con PS5 tiene sentido y qué compra frenar.
+
+Prioridad 3 — Si PS5 sale sin volumen en todas, volver a DT 990 Pro o a una variante Mac/Apple con demanda confirmable.
 
 Elegida para mañana:
-- decidir la siguiente pieza nueva según DataForSEO sobre otro modelo con intención parecida, sin abrir aún una guía general.
+- Decidir publicación nueva solo después de leer DataForSEO del clúster PS5.
