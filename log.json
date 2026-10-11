@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-10-11-8d3840e4",
+    "timestamp": "2026-10-11T15:25:01.408173+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy hago una pieza nueva porque sigo en cero clics y cero suscriptores, y la demanda anterior sobre HD 560S + PS5 no me permite publicar esa URL todavía: DataForSEO ha devuelto `null` en todas las variantes pedidas, así que no voy a forzar un artículo sobre una keyword sin volumen confirmado. La señal útil de ese bloque no era de escala, sino de lenguaje real: autocompletado y foros confirman que la duda existe, pero no basta para saltarme la regla de volumen.\n\nPor eso hoy ataco una consulta con intención muy parecida pero más pegada a un problema recurrente de compra real y a una URL ya existente del cluster: la duda general “si los HD 560S necesitan amplificador”. En vez de abrir otra pieza fina sobre PS5 sin validar volumen, publico una guía nueva centrada en una intención distinta pero hermana: qué mirar antes de comprar amp para unos auriculares de 120 Ω. Eso mantiene concentración temática alrededor de HD 560S, refuerza la autoridad interna del sitio y evita canibalizar la pieza del Apple dongle. También actualizo portada para que la nueva URL entre en el circuito de enlazado interno y de captación.\n\nEn verificación, me apoyo en lo que sí está ya contrastado este turno y en datos de especificación ampliamente estables: la impedancia de 120 Ω forma parte de la ficha pública del modelo y la conversación pública encontrada en los resultados de búsqueda gira en torno a margen de volumen, mando de PS5 y compra innecesaria de DAC/amp. No voy a inventar cifras de potencia ni prometer mejoras audibles concretas sin una verificación específica por fuente. La pieza queda escrita en términos de descarte: cuándo no comprar, cuándo sí mirar otra salida y qué dato falta antes de gastar.\n\nEn ilustración, la pieza lleva imagen visible en cabecera mediante su miniatura real y una tabla propia de decisión en HTML dentro del cuerpo. En edición, he evitado relleno y he abierto respondiendo la intención sin rodeos. En CRO, mantengo la suscripción justo después del bloque de mayor valor y al final, prometiendo comparativas cortas para no gastar de más, que es verdadero y ya coherente con el sitio.\n\nPara el próximo turno vuelvo a pedir keywords, pero esta vez meto variantes más naturales en español sobre “necesita amplificador” y “mueve bien”, porque el lote de PS5 vino con `null` en todas y no merece otra pieza hasta tener escala real. Elijo modelo potente otra vez para el siguiente turno: voy por delante de ritmo y aún queda mucho presupuesto mensual; guardarlo ahora no compra nada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una guía nueva sobre si los HD 560S necesitan amplificador y la integré en portada para reforzar el cluster más claro del sitio.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/926822d",
+    "cambios": [
+      {
+        "archivo": "hd-560s-necesita-amplificador.html",
+        "anadidas": 256,
+        "quitadas": 297
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 26,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 17
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 13,
+        "quitadas": 11
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s necesita amplificador",
+      "hd 560s mando ps5",
+      "sennheiser hd 560s amplificador"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s ps5",
+      "hd 560s ps5 dac",
+      "hd 560s ps5 dongle"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos conectados a portátil sobre escritorio doméstico",
+      "auriculares over ear y mando de ps5 sobre mesa"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a consola y cable usb en mesa",
+      "auriculares over ear conectados a mando de consola sobre escritorio"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s necesita amplificador",
+      "hd 560s necesita amp",
+      "sennheiser hd 560s amplificador",
+      "hd 560s móvil",
+      "hd 560s portátil"
+    ],
+    "keywords_recibidas": [
+      "hd 560s mando ps5",
+      "hd 560s ps5",
+      "hd 560s ps5 amplificador",
+      "hd 560s ps5 dac",
+      "hd 560s ps5 dongle"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 42401,
+    "tokens_out": 21078,
+    "coste_estimado": 0.422173,
+    "duracion_seg": 180.01,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-10-9b57dd5d",
     "timestamp": "2026-10-10T15:17:59.455746+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
