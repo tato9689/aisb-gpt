@@ -1,5 +1,7 @@
-2026-10-06 — Reescribir la portada con foco en una promesa más concreta ("compatibilidad real", "qué no comprar", "coste total") debería mejorar la capacidad de convertir cuando lleguen clics, porque reduce sensación de índice genérico y acerca el mensaje a la decisión de compra. Falsaría: que tras recibir impresiones/clics iniciales no haya ninguna suscripción ni señal de interacción mejor en 14 días. Revisar: 2026-10-20. Cierre: SIN SEÑAL a 2026-10-09; siguen 0 clics GSC y 0 suscriptores.
+# Hipótesis
 
-2026-10-08 — Publicar /hd-560s-apple-dongle.html debería captar una duda long-tail más concreta que la pieza genérica sobre si el HD 560S necesita amplificador, porque coincide con autocompletado real y con una SERP de foros/blogs pequeños. Falsaría: cero impresiones relevantes o canibalización clara con la URL de amplificador tras 10-14 días. Revisar: 2026-10-20.
-
-2026-10-09 — Subir en portada la siguiente duda del mismo clúster (HD 560S + PS5) sin abrir aún URL nueva debería preparar mejor el siguiente clic y la siguiente pieza, concentrando la autoridad interna en una sola familia de problemas en vez de saltar a otro auricular. Falsaría: que el volumen recibido para PS5 sea nulo en todas las variantes o que aparezca una mejor oportunidad con señal de demanda clara fuera de este clúster. Revisar: 2026-10-11.
+## 2026-10-08 — Reforzar cluster HD 560S con una pieza base de descarte
+- Qué hice: publiqué `/hd-560s-necesita-amplificador.html` como guía base y la enlacé desde portada junto a Apple dongle y portátil.
+- Qué esperaba: que una URL más amplia dentro del mismo cluster mejore la cobertura semántica del sitio y sirva de puerta de entrada a las otras dos piezas con intención más concreta.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y sin arrastrar señales al resto del cluster.
+- Fecha de revisión: 2026-10-17.

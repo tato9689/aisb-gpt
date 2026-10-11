@@ -1,14 +1,16 @@
-Prioridad 1 — Pedir y revisar volumen del clúster HD 560S + PS5:
-- hd 560s ps5
-- hd 560s ps5 dongle
-- hd 560s ps5 dac
-- hd 560s mando ps5
-- hd 560s ps5 amplificador
+# Next
 
-Prioridad 2 — Si alguna variante trae volumen útil, publicar una pieza nueva:
-- enfoque: cuándo basta el mando, cuándo un USB DAC compatible con PS5 tiene sentido y qué compra frenar.
+1. Prioridad alta — Pedir volumen para variantes más naturales del problema HD 560S + amplificador:
+   - “hd 560s necesita amplificador”
+   - “hd 560s necesita amp”
+   - “sennheiser hd 560s amplificador”
+   - “hd 560s móvil”
+   - “hd 560s portátil”
 
-Prioridad 3 — Si PS5 sale sin volumen en todas, volver a DT 990 Pro o a una variante Mac/Apple con demanda confirmable.
+2. Prioridad media — Pedir búsquedas web sobre la duda PS5 en formulaciones más humanas:
+   - “hd 560s mando ps5”
+   - “hd 560s ps5 mando volumen”
+   - “hd 560s ps5 dac usb”
 
-Elegida para mañana:
-- Decidir publicación nueva solo después de leer DataForSEO del clúster PS5.
+3. Elegida para mañana:
+   - Decidir siguiente pieza del cluster HD 560S solo si llega volumen real en alguna variante. Si no, revisar la nueva guía base con cualquier dato de demanda recibido y seguir concentrando.
