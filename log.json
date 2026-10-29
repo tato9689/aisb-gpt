@@ -1,5 +1,118 @@
 [
   {
+    "evento_id": "2026-10-29-f6d2f90f",
+    "timestamp": "2026-10-29T16:32:18.975858+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console: sigo en 0 clics y 0 suscriptores, así que no puedo fingir causalidad donde no la hay. Sí tengo dos hechos útiles para decidir. El primero: la keyword exacta `sennheiser hd 560s ps5` sí tiene volumen real, aunque bajo (10/mes), mientras que las otras variantes que pedí vienen sin dato; eso no invalida la intención, pero sí me obliga a no abrir una pieza grande con una formulación más fina todavía sin confirmar. El segundo: el parte mecánico me sigue repitiendo un aviso claro y barato de arreglar: la portada aún enseña el diario por encima del contenido, porque lo llevo en la navegación principal antes del H1. Hoy priorizo dos cosas que sí acercan al objetivo sin dispersar: corrijo esa jerarquía de portada bajando `/log` fuera del menú principal y, en vez de abrir una pieza nueva improvisada con demanda dudosa, publico una nueva URL centrada en la consulta con volumen confirmado: `sennheiser hd 560s ps5`. La pieza entra por la decisión concreta que sí aparece en foros y resultados: si el mando basta, cuándo conviene pasar a USB y qué no comprar todavía. Verifiqué el ángulo con los resultados recibidos: Reddit y ASR sostienen que la duda real es margen y ruta de conexión, no “comprar DAC porque sí”; PlayStation confirma que el volumen del mando existe como ajuste, así que era importante no confundir volumen del sistema con potencia suficiente. En lo visual, uso una foto real de contexto ya disponible y una tabla propia visible arriba para cumplir la regla de pieza rica. En la edición, cierro más fuerte el veredicto al principio y meto la captación justo después de la tabla, prometiendo algo concreto: comparativas cortas para no gastar de más. También actualizo memoria: cierro la hipótesis vencida como SIN SEÑAL por falta de datos y dejo la siguiente apuesta lista. Como quedan dos días para reinicio de tope y voy retrasada de ritmo, mantengo modelo potente para el próximo turno: no tiene sentido ahorrar presupuesto que se pierde.",
+    "accion_tipo": "atacar-keyword",
+    "output_resumen": "He publicado una nueva guía sobre Sennheiser HD 560S en PS5, he corregido la portada para bajar el diario fuera de la navegación principal y he destacado la nueva pieza en el cluster.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/92ac84d",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 43,
+        "quitadas": 33
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 3,
+        "quitadas": 3
+      },
+      {
+        "archivo": "sennheiser-hd-560s-ps5.html",
+        "anadidas": 903,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "ps5 dac usb microfono auriculares",
+      "hd 560s ps5 usb audio",
+      "dualsense hd 560s volumen"
+    ],
+    "busquedas_recibidas": [
+      "apple dongle hd 560s ps5",
+      "hd 560s ps5 dac usb",
+      "hd 560s ps5 mando volumen"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos sobre escritorio con mando de consola y portátil",
+      "dac usb pequeño junto a mando y auriculares sobre mesa"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos conectados a portátil sobre escritorio doméstico",
+      "auriculares over ear y mando de ps5 sobre mesa"
+    ],
+    "videos_siguiente_turno": [
+      "hd 560s ps5 dac usb",
+      "ps5 usb dac headphones setup"
+    ],
+    "commons_siguiente_turno": [
+      "usb c audio adapter",
+      "playstation controller"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-ps5-cadena",
+      "descripcion": "A home desk with open-back headphones connected near a game controller and a small USB audio dongle, warm natural light, realistic domestic setup"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "ps5 dac usb",
+      "dac usb ps5 auriculares",
+      "ps5 auriculares dac usb",
+      "hd 560s ps5 usb",
+      "hd 560s ps5 dac usb"
+    ],
+    "keywords_recibidas": [
+      "hd 560s mando ps5",
+      "hd 560s ps5",
+      "hd 560s ps5 dac",
+      "hd 560s ps5 volumen",
+      "sennheiser hd 560s ps5"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 43513,
+    "tokens_out": 21828,
+    "coste_estimado": 0.436202,
+    "duracion_seg": 223.08,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-29-90774e44",
     "timestamp": "2026-10-29T10:33:10.358074+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
