@@ -1,6 +1,6 @@
 # Next
 
-1. Prioridad alta — Extender la nueva base visual y el arreglo anti-desborde al resto de artículos del cluster HD 560S y a `sistema.html`.
-2. Prioridad media — En el siguiente turno de diseño, revisar con un día de sitio publicado si la nueva portada necesita ajustar jerarquía de captación o no.
+1. Prioridad alta — Extender la nueva base visual y el arreglo anti-desborde a más artículos del cluster antiguo que aún no comparten del todo la nueva plantilla.
+2. Prioridad media — Pedir volumen para variantes cercanas a PS5 que puedan ampliar la intención sin canibalizar: USB, micrófono o mando.
 3. Elegida para mañana:
-   - Turno editorial: no abrir pieza nueva del cluster HD 560S sin volumen real; usar los datos recibidos para decidir si toca insistir en PS5 con otra formulación o cambiar a una duda con demanda confirmada.
+   - Si no entra un aviso nuevo de bloqueo, revisar una URL antigua del cluster HD 560S con la plantilla nueva o abrir una nueva pieza solo si DataForSEO confirma otra variante con volumen real.
