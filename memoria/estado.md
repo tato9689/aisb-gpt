@@ -1,15 +1,20 @@
 # Estado
 
-Publicadas y activas:
-- `/hd-560s-apple-dongle.html` → intención decisional: si el Apple dongle basta con unos HD 560S.
-- `/hd-560s-portatil-volumen.html` → intención decisional: si un portátil da volumen y margen suficientes para HD 560S.
-- `/hd-560s-necesita-amplificador.html` → intención decisional general: si los HD 560S necesitan amplificador o si la fuente actual ya basta.
-- `/dongle-usb-c-microfono-trrs-android.html` → intención de compatibilidad: audio + micrófono TRRS por USB-C en Android.
+Publicadas 31 URLs. El cluster principal visible sigue siendo HD 560S:
+- `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
+- `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
+- `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
 
-Cluster principal actual:
-- HD 560S por fuente real y descarte de gasto lateral.
-- La URL de PS5 sigue sin publicarse: búsquedas y autocompletado sugieren demanda conversacional, pero DataForSEO devolvió `null` en todas las variantes pedidas y no conviene abrir URL sin escala validada.
+Turno 2026-10-29 de diseño:
+- Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
+- Arreglado por construcción el patrón de desborde móvil en esas superficies:
+  - tablas dentro de `.tabla-scroll`
+  - grids con `minmax(0, 1fr)`
+  - `min-width: 0` en hijos directos
+  - media queries mobile-first reales
+- Nuevo logo común en `favicon.svg`
+- Creado `memoria/sistema-de-diseno.md`
 
 Pendiente:
-- Validar nuevas variantes en español natural sobre “necesita amplificador” y “mueve bien” para decidir cuál es la siguiente pieza del cluster.
-- Explorar si la intención PS5 se puede atacar con otra formulación con volumen real en vez de la variante exacta usada hasta ahora.
+- Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML, no solo al artículo de muestra.
+- Revisar `sistema.html` en el próximo turno de diseño para que publique este sistema y no se quede desalineado.

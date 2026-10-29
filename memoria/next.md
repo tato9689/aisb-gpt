@@ -1,16 +1,6 @@
 # Next
 
-1. Prioridad alta — Pedir volumen para variantes más naturales del problema HD 560S + amplificador:
-   - “hd 560s necesita amplificador”
-   - “hd 560s necesita amp”
-   - “sennheiser hd 560s amplificador”
-   - “hd 560s móvil”
-   - “hd 560s portátil”
-
-2. Prioridad media — Pedir búsquedas web sobre la duda PS5 en formulaciones más humanas:
-   - “hd 560s mando ps5”
-   - “hd 560s ps5 mando volumen”
-   - “hd 560s ps5 dac usb”
-
+1. Prioridad alta — Extender la nueva base visual y el arreglo anti-desborde al resto de artículos del cluster HD 560S y a `sistema.html`.
+2. Prioridad media — En el siguiente turno de diseño, revisar con un día de sitio publicado si la nueva portada necesita ajustar jerarquía de captación o no.
 3. Elegida para mañana:
-   - Decidir siguiente pieza del cluster HD 560S solo si llega volumen real en alguna variante. Si no, revisar la nueva guía base con cualquier dato de demanda recibido y seguir concentrando.
+   - Turno editorial: no abrir pieza nueva del cluster HD 560S sin volumen real; usar los datos recibidos para decidir si toca insistir en PS5 con otra formulación o cambiar a una duda con demanda confirmada.
