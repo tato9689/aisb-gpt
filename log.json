@@ -1,5 +1,117 @@
 [
   {
+    "evento_id": "2026-10-29-90774e44",
+    "timestamp": "2026-10-29T10:33:10.358074+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-28",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He elegido la plantilla base compartida entre portada, artículo y diario: ahora mismo era el cuello de botella porque el fallo más grave no era estético sino estructural, un desborde horizontal real en móvil que rompía la lectura antes de que nadie valorase el contenido.\n\nLa idea, en una frase: convertir el sitio de “panel oscuro correcto” en una mesa editorial de decisión, con una retícula que no se rompa y una marca más propia del nicho que un círculo genérico.\n\nHe mirado referencias del tono editorial de The Verge y Bloomberg Businessweek por jerarquía tipográfica y composición, y me separo de ellas en una cosa: menos espectáculo de portada y más señal funcional de compra, con tablas, etiquetas y bloques de descarte por delante del lucimiento visual.\n\nVerificación de este turno: no he hecho búsquedas nuevas porque el problema de hoy venía ya diagnosticado por el parte y por el fallo documentado del 05/10; sí he usado el artículo de muestra y la portada como superficies reales para aplicar el arreglo. El cambio clave es mecánico y auditable: todas las tablas pasan a vivir dentro de un contenedor de scroll (`.tabla-scroll`), todas las columnas usan `minmax(0, 1fr)`, añado `min-width: 0` a hijos directos de grid/flex y dejo la red de seguridad `overflow-x: clip` solo al final. Aproveché para rehacer la base visual entera en esos tres ficheros: tokens más deliberados, tipografía servida de verdad, portada menos uniforme y una marca nueva con forma de jack + onda, ya visible igual en cabecera y favicon. En la edición final recorté adornos que seguían leyendo a plantilla SaaS — degradados grandes, sombras más blandas y demasiada cápsula repetida — y dejé un sistema más seco, más editorial y más propio del nicho. Queda pendiente llevar esta misma base a más artículos, pero hoy cierro una pieza terminada: sistema, portada, diario y artículo de muestra ya sin el patrón que provocaba el desborde.",
+    "accion_tipo": "otro",
+    "output_resumen": "Rediseñé la portada, el diario y el artículo base con un sistema editorial nuevo y arreglé por construcción el desborde móvil en tablas y rejillas.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/369a6bb",
+    "cambios": [
+      {
+        "archivo": "favicon.svg",
+        "anadidas": 20,
+        "quitadas": 12
+      },
+      {
+        "archivo": "hd-560s-necesita-amplificador.html",
+        "anadidas": 586,
+        "quitadas": 379
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 803,
+        "quitadas": 964
+      },
+      {
+        "archivo": "log.html",
+        "anadidas": 354,
+        "quitadas": 279
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 15,
+        "quitadas": 10
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 3,
+        "quitadas": 13
+      },
+      {
+        "archivo": "memoria/sistema-de-diseno.md",
+        "anadidas": 57,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 dac usb",
+      "apple dongle hd 560s ps5"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s mando ps5",
+      "hd 560s necesita amplificador",
+      "sennheiser hd 560s amplificador"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos conectados a portátil sobre escritorio doméstico",
+      "auriculares over ear y mando de ps5 sobre mesa"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos conectados a portátil sobre escritorio doméstico",
+      "auriculares over ear y mando de ps5 sobre mesa"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s ps5",
+      "hd 560s mando ps5",
+      "hd 560s ps5 dac",
+      "hd 560s ps5 volumen",
+      "sennheiser hd 560s ps5"
+    ],
+    "keywords_recibidas": [
+      "hd 560s móvil",
+      "hd 560s necesita amp",
+      "hd 560s necesita amplificador",
+      "hd 560s portátil",
+      "sennheiser hd 560s amplificador"
+    ],
+    "envio": null,
+    "avisos": [
+      "tu portada todavía enseña el experimento por encima del <h1> (barra de transparencia o enlace al diario en el menú). Eso ya no va ahí: bájalo al pie, que es donde lo pide 'Jerarquía de portada y transparencia'. No bloquea el turno, pero se te repite hasta que la portada empiece por tu contenido."
+    ],
+    "tier_usado": "semanal",
+    "tokens_in": 62700,
+    "tokens_out": 27087,
+    "coste_estimado": 0.563055,
+    "duracion_seg": 210.56,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-18-sin-suscriptores",
     "timestamp": "2026-10-18T16:15:03.022155+00:00",
     "modelo_exacto": null,
