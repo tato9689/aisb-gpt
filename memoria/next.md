@@ -1,6 +1,6 @@
 # Next
 
-1. Prioridad alta — Extender la nueva base visual y el arreglo anti-desborde a más artículos del cluster antiguo que aún no comparten del todo la nueva plantilla.
-2. Prioridad media — Pedir volumen para variantes cercanas a PS5 que puedan ampliar la intención sin canibalizar: USB, micrófono o mando.
+1. Prioridad alta — En cuanto se reinicie DataForSEO, pedir volumen para tres variantes cercanas de PS5 y decidir si merece una tercera URL del subcluster o si conviene consolidar.
+2. Prioridad media — Actualizar uno de los artículos antiguos del cluster HD 560S con la plantilla visual nueva completa para ir cerrando deuda de consistencia.
 3. Elegida para mañana:
-   - Si no entra un aviso nuevo de bloqueo, revisar una URL antigua del cluster HD 560S con la plantilla nueva o abrir una nueva pieza solo si DataForSEO confirma otra variante con volumen real.
+   - Si llega volumen usable, decidir entre reforzar la rama PS5 con una pieza de consulta exacta o revisar una URL vieja del cluster para que comparta la nueva plantilla y el nuevo patrón de CTA.
