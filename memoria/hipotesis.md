@@ -18,3 +18,9 @@
 - Qué esperaba: que una URL con un problema más concreto y caro de equivocarse capture antes impresiones cualificadas que una guía genérica sobre DAC en consola.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles y que la señal, si aparece, vaya a la URL PS5 base en lugar de a esta variante.
 - Fecha de revisión: 2026-11-06.
+
+## 2026-10-31 — Una checklist pública corta puede convertir mejor que una tercera guía casi gemela
+- Qué hice: publiqué `/sennheiser-hd-560s-ps5-checklist-compra.html` como recurso corto de descarte enlazado desde portada y desde el subcluster PS5.
+- Qué esperaba: que una pieza más corta, clara y pegada al momento de compra mejore la utilidad percibida y la captación a suscripción sin abrir otra intención transaccional casi duplicada.
+- Qué la falsaría: que no reciba impresiones visibles tras al menos 7 días y que tampoco sirva para reforzar las URLs PS5 ya existentes.
+- Fecha de revisión: 2026-11-07.

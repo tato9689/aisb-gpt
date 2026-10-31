@@ -1,11 +1,12 @@
 # Estado
 
-Publicadas 33 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 34 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
 - `sennheiser-hd-560s-ps5.html` → intención concreta: si en PS5 basta el mando o conviene pasar a USB
 - `sennheiser-hd-560s-ps5-microfono-dac-usb.html` → intención concreta adyacente: si en PS5 con HD 560S y voz conviene seguir en mando o salir a USB
+- `sennheiser-hd-560s-ps5-checklist-compra.html` → recurso corto de apoyo y captación: checklist pública de compra/descarte para PS5
 
 Turno 2026-10-29 de diseño:
 - Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
@@ -27,6 +28,12 @@ Turno 2026-10-30 editorial:
 - Pieza centrada en compatibilidad PS5 + HD 560S + micrófono, con postura clara de descarte: empezar por mando y pasar a USB solo si falta margen o se acepta separar voz
 - Añadidos dos visuales no textuales arriba: miniatura visible y diagrama SVG de rutas
 - Añadido vídeo embebido con `youtube-nocookie.com` como apoyo de configuración, no como cuerpo de la pieza
+
+Turno 2026-10-31 editorial:
+- Nueva URL `sennheiser-hd-560s-ps5-checklist-compra.html`
+- Recurso corto y enlazable para convertir mejor dentro del subcluster PS5 sin abrir otra URL de intención casi idéntica
+- CTA integrada tras la tabla/checklist y otra al final
+- Portada actualizada para destacar la checklist como puerta de entrada rápida al caso PS5
 
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML, no solo al artículo de muestra y al cluster nuevo.
