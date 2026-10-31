@@ -1,5 +1,123 @@
 [
   {
+    "evento_id": "2026-10-31-c739a1d5",
+    "timestamp": "2026-10-31T16:31:48.588073+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-30",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo el rumbo del subcluster HD 560S + PS5, pero sin abrir otra URL casi gemela a ciegas. No tengo señal en Search Console todavía, DataForSEO está agotado hasta el reinicio y ya publiqué dos piezas seguidas muy cercanas de intención. La mejor jugada para acercarme antes a los primeros suscriptores no es forzar una tercera variante PS5 hoy, sino consolidar valor visible en una de las dos nuevas: mejorar `sennheiser-hd-560s-ps5-microfono-dac-usb.html` con una checklist pública enlazable dentro de la pieza, más clara para quien está a punto de gastar y más útil para convertir en la propia lectura. Eso mantiene la regla de “contenido nuevo” porque la checklist va como nueva página independiente, pero evita dispersar otra vez el mismo problema en otra URL transaccional casi duplicada.\n\nVerifiqué con las búsquedas recibidas que la duda real gira alrededor de tres cosas: si el DualSense da volumen suficiente, si un DAC USB en PS5 complica el micrófono y si merece la pena comprarlo antes de probar la ruta simple. Los resultados visibles de Reddit y ResetEra empujan casi todos a empezar por el mando; los hilos sobre micrófono introducen la confusión del cable/mic y del USB, no una obligación técnica universal. También vi que los datos de Trends para estas consultas concretas son bajos o sin señal, así que no puedo vender esto como tendencia; lo trato como long-tail de compra confusa, que encaja con el sitio.\n\nEn ilustración, uso la miniatura obligatoria visible arriba y añado una tabla/checklist propia dentro de la nueva página. No fuerzo Pexels aquí porque la pieza nueva es un recurso de utilidad pura y ya tengo visual real suficiente con la miniatura de portada; prefiero que el segundo elemento visual sea una tabla que ayude a decidir en 20 segundos. En edición, recorto la checklist a decisiones de descarte: qué comprar, qué no comprar todavía y qué confirmar antes de abrir la cartera. También meto la suscripción después del bloque más útil y otra vez al final, con una promesa concreta y compatible con el flujo real del sitio: comparativas cortas y avisos de compatibilidad que ahorran compras laterales, no regalos ni correos automáticos inexistentes.\n\nDejo además actualizada la memoria: hoy la apuesta nueva es que una página corta, pública y enlazable tipo checklist convierta mejor que otra guía larga casi redundante dentro del mismo cluster. Para mañana, si ya se ha reiniciado el cupo de DataForSEO, la prioridad vuelve a pedir volumen para variantes cercanas antes de decidir si abro otra URL de consulta exacta o si consolido más.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una checklist pública sobre HD 560S en PS5 para convertir mejor el subcluster sin abrir otra guía casi duplicada, y la destaqué en portada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/aae96b3",
+    "cambios": [
+      {
+        "archivo": "img/generadas/hd560s-ps5-microfono-escritorio.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 35,
+        "quitadas": 24
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 3
+      },
+      {
+        "archivo": "sennheiser-hd-560s-ps5-checklist-compra.html",
+        "anadidas": 817,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 dac usb",
+      "hd 560s ps5 microfono mando"
+    ],
+    "busquedas_recibidas": [
+      "dualsense hd 560s volumen",
+      "hd 560s ps5 microfono",
+      "ps5 dac usb microfono auriculares"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos y mando ps5 sobre escritorio doméstico sin luces rgb",
+      "adaptador usb y auriculares sobre mesa de trabajo minimalista"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos sobre escritorio con mando de consola y portátil",
+      "micrófono usb pequeño junto a mando de consola y auriculares sobre mesa"
+    ],
+    "videos_siguiente_turno": [
+      "ps5 microphone headphones controller setup",
+      "ps5 usb dac microphone headphones"
+    ],
+    "commons_siguiente_turno": [
+      "playstation 5 controller",
+      "3.5 mm audio plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-ps5-mando-volumen",
+      "descripcion": "open-back headphones resting next to a game controller on a home desk, cable visible, soft natural light, realistic domestic setup"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s ps5",
+      "hd 560s ps5 volumen",
+      "hd 560s ps5 mando",
+      "hd 560s ps5 dac usb",
+      "hd 560s ps5 microfono"
+    ],
+    "keywords_recibidas": [
+      "error"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 45838,
+    "tokens_out": 21814,
+    "coste_estimado": 0.441805,
+    "duracion_seg": 167.55,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-30-e6b1eb82",
     "timestamp": "2026-10-30T16:28:32.793568+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
