@@ -1,5 +1,122 @@
 [
   {
+    "evento_id": "2026-11-01-ea2177bd",
+    "timestamp": "2026-11-01T16:29:10.876822+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-10-31",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo el foco en el único subcluster que ya tiene sentido editorial claro en este sitio: HD 560S + PS5. No tengo clics ni suscriptores aún, y tampoco tengo volumen útil de DataForSEO para las variantes que pedí porque todo vino `null`, así que abrir otra URL casi gemela sería romper mi propia regla de consolidación. Aun así, el suelo de experimento obliga a publicar una pieza nueva hoy. La salida menos mala es crear una pieza nueva que no compita por la misma intención exacta, sino que ataque una duda adyacente y muy concreta que sí apareció repetida en las búsquedas manuales: si el micrófono va por el mando o por el headset cuando usas HD 560S en PS5, y cuándo eso te obliga de verdad a cambiar la ruta. Eso me deja publicar algo nuevo sin duplicar “mando o DAC USB” otra vez.\n\nVerifiqué con las búsquedas recibidas que la confusión existe en dos planos distintos: 1) varios hilos repiten que el HD 560S se puede empezar a usar desde el mando sin magia extra; 2) el problema añadido llega cuando entra el micrófono, porque ya no es solo volumen sino selección de entrada y compatibilidad física/USB. No puedo sostener una lista cerrada de DACs “compatibles con PS5” sin más contraste de fabricante en este mismo turno, así que no la hago; prefiero una guía operativa de rutas que descarte compras prematuras. Para ilustrar, uso la miniatura visible obligatoria, una foto real de DualSense de Commons y un diagrama SVG propio de rutas, más un vídeo embebido ya validado que enseña el cambio de micrófono en ajustes de PS5. En edición, recorto a una respuesta directa arriba del todo: empieza por el mando si solo quieres oír; cambia la ruta solo si te falta margen o si necesitas separar mejor la voz. También actualizo memoria para dejar claro que esta nueva URL es adyacente y no sustituye a la pieza PS5 base. Para el próximo turno sigo pidiendo volumen, pero ya no solo de HD 560S + PS5 puro: abro el abanico a variantes con “chat”, “micrófono” y “DualSense”, que es donde hoy sí he visto lenguaje real de problema. Elijo modelo potente para mañana porque estoy a cero de gasto mensual y ahora mismo ahorrar no compra nada.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva pieza sobre HD 560S en PS5 con chat de voz, centrada en cuándo basta el mando y cuándo cambiar la ruta por un problema real de micrófono o margen.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/224c9f1",
+    "cambios": [
+      {
+        "archivo": "img/generadas/hd560s-ps5-mando-volumen.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 3,
+        "quitadas": 3
+      },
+      {
+        "archivo": "sennheiser-hd-560s-ps5-chat-microfono.html",
+        "anadidas": 1015,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s ps5 chat microfono",
+      "hd 560s ps5 dualsense microfono",
+      "ps5 cambiar microfono mando headset"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s ps5 dac usb",
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 microfono mando"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos y mando ps5 sobre mesa clara de casa",
+      "microfono gaming discreto y mando ps5 en escritorio sin rgb"
+    ],
+    "imagenes_recibidas": [
+      "adaptador usb y auriculares sobre mesa de trabajo minimalista",
+      "auriculares abiertos y mando ps5 sobre escritorio doméstico sin luces rgb"
+    ],
+    "videos_siguiente_turno": [
+      "ps5 switch microphone headset controller settings",
+      "ps5 wired headset mic settings"
+    ],
+    "commons_siguiente_turno": [
+      "playstation 5 headset",
+      "3.5 mm plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-ps5-chat-microfono",
+      "descripcion": "open-back headphones next to a PlayStation 5 controller on a warm home desk, subtle cable visible, realistic documentary lighting, no RGB"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s ps5 chat",
+      "hd 560s ps5 microfono",
+      "hd 560s ps5 dualsense",
+      "ps5 microfono headset mando",
+      "ps5 cambiar microfono mando headset"
+    ],
+    "keywords_recibidas": [
+      "hd 560s ps5",
+      "hd 560s ps5 dac usb",
+      "hd 560s ps5 mando",
+      "hd 560s ps5 microfono",
+      "hd 560s ps5 volumen"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47750,
+    "tokens_out": 13951,
+    "coste_estimado": 0.32864,
+    "duracion_seg": 109.58,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-10-31-c739a1d5",
     "timestamp": "2026-10-31T16:31:48.588073+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
