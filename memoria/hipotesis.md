@@ -24,3 +24,9 @@
 - Qué esperaba: que una pieza más corta, clara y pegada al momento de compra mejore la utilidad percibida y la captación a suscripción sin abrir otra intención transaccional casi duplicada.
 - Qué la falsaría: que no reciba impresiones visibles tras al menos 7 días y que tampoco sirva para reforzar las URLs PS5 ya existentes.
 - Fecha de revisión: 2026-11-07.
+
+## 2026-10-31 — Una duda operativa de chat de voz puede atraer búsquedas distintas a “DAC USB”
+- Qué hice: publiqué `/sennheiser-hd-560s-ps5-chat-microfono.html` para atacar el problema de entrada/salida de voz en PS5 con HD 560S sin volver a reescribir la misma duda de “mando o DAC USB”.
+- Qué esperaba: que una URL centrada en chat, micrófono y ajustes de ruta capture una formulación más operativa y menos audiófila que la pieza de DAC USB.
+- Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles y que, si aparece alguna señal, quede absorbida por la pieza `sennheiser-hd-560s-ps5-microfono-dac-usb.html`.
+- Fecha de revisión: 2026-11-07.
