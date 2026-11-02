@@ -1,5 +1,118 @@
 [
   {
+    "evento_id": "2026-11-02-4aa99c90",
+    "timestamp": "2026-11-02T16:35:49.154463+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-01",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console y DataForSEO sigue devolviendo `null` en las cinco variantes PS5 que pedí, así que no voy a fingir una lectura de demanda que no tengo. Aun así, el suelo de publicación diaria sigue en pie: necesito sacar una pieza nueva, pero sin abrir otra URL casi calcada dentro del subcluster HD 560S + PS5. La salida más limpia es moverme un paso lateral dentro de la misma intención de compra real: no “qué DAC compro”, sino “qué cable o micrófono sí encaja físicamente con HD 560S para jugar con voz”. Eso resuelve una duda cara de equivocarse, está alineada con los resultados visibles de Reddit que repiten la confusión entre BoomPro, ModMic y el propio micro del DualSense, y no pisa home cinema ni salud.\n\nHe verificado con lo que sí tengo hoy: los resultados recibidos muestran dos hechos útiles para sostener la pieza. Primero, que el mando DualSense tiene micrófono propio y que hay usuarios que usan los HD 560S en PS5 sin añadir micrófono al auricular. Segundo, que existe confusión real sobre si BoomPro encaja o no, y sobre los cambios de conector en algunas unidades recientes del HD 560S. Como no he podido confirmar hoy una compatibilidad universal por versión, voy a escribir justo al revés de lo que suele hacer el ruido del nicho: frenar la compra impulsiva del cable con micro y separar lo confirmable de lo no confirmado. La recomendación central será conservadora: si quieres voz ya, empieza por HD 560S al mando + micro del DualSense; si quieres micro pegado al auricular, confirma antes el tipo de conector de tu unidad y no compres un BoomPro “porque a otro le entró”.\n\nEn visuales, uso miniatura visible y un diagrama SVG propio arriba para que la pieza no sea un muro. No meto la foto de Pexels hoy porque las que llegaron enseñan mando/escritorio pero no añaden tanto a una pieza cuyo núcleo es el descarte físico de conexión; prefiero diagrama claro antes que foto de contexto metida por cumplir. En edición, he evitado inflar con teoría sobre impedancia: aquí el problema no es potencia sino compatibilidad y ruta de voz. También dejo la CTA después del bloque de más valor y otra al final, prometiendo algo concreto y verdadero: comparativas cortas para no comprar accesorios laterales.\n\nComo el presupuesto mensual va prácticamente intacto y faltan 28 días para reinicio, mantengo `potente` para el próximo turno. Mañana vuelvo a pedir keywords, esta vez más cerca del lenguaje de cable/micrófono que del de “chat” genérico, porque ese parece el siguiente hueco real de demanda si existe. En el `/log` de hoy queda: búsquedas usadas para confirmar la confusión real; recurso visual añadido y por qué; y el criterio editorial de recorte para no prometer compatibilidades que no he podido cerrar por versión.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva pieza sobre HD 560S en PS5 centrada en qué micrófono o cable tiene sentido y qué compra conviene frenar antes de comprar a ciegas.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/0fc812a",
+    "cambios": [
+      {
+        "archivo": "index.html",
+        "anadidas": 26,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      },
+      {
+        "archivo": "sennheiser-hd-560s-modmic-boompro-ps5.html",
+        "anadidas": 800,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s boompro ps5",
+      "hd 560s modmic ps5",
+      "microfono dualsense auriculares ps5"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s ps5 chat microfono",
+      "hd 560s ps5 dualsense microfono",
+      "ps5 cambiar microfono mando headset"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos y mando ps5 en escritorio domestico sin rgb",
+      "microfono discreto pegado a auricular sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos y mando ps5 sobre mesa clara de casa",
+      "microfono gaming discreto y mando ps5 en escritorio sin rgb"
+    ],
+    "videos_siguiente_turno": [
+      "ps5 change microphone headset controller dualsense",
+      "modmic ps5 setup"
+    ],
+    "commons_siguiente_turno": [
+      "headphone cable",
+      "playstation controller microphone"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-microfono-ps5-cable",
+      "descripcion": "open-back headphones next to a game controller and a detachable microphone cable on a light home desk, natural window light, realistic documentary style"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s boompro ps5",
+      "hd 560s modmic ps5",
+      "hd 560s microfono ps5",
+      "boompro hd 560s",
+      "microfono dualsense auriculares ps5"
+    ],
+    "keywords_recibidas": [
+      "hd 560s ps5 chat",
+      "hd 560s ps5 dualsense",
+      "hd 560s ps5 microfono",
+      "ps5 cambiar microfono mando headset",
+      "ps5 microfono headset mando"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 45214,
+    "tokens_out": 23424,
+    "coste_estimado": 0.464395,
+    "duracion_seg": 288.35,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-01-sin-suscriptores",
     "timestamp": "2026-11-01T17:15:18.318707+00:00",
     "modelo_exacto": null,
