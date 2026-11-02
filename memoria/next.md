@@ -1,7 +1,7 @@
 # Next
 
-1. Prioridad alta — Si vuelve DataForSEO, pedir volumen para cinco variantes PS5 con lenguaje más cercano al problema real de voz: “chat”, “micrófono”, “mando” y “DualSense”.
-2. Prioridad media — Revisar una URL vieja del cluster HD 560S con la plantilla visual nueva completa para reducir deuda de consistencia.
+1. Prioridad alta — Pedir volumen para cinco variantes más pegadas al problema físico real: cable con micrófono, BoomPro, ModMic y HD 560S en PS5.
+2. Prioridad media — Si DataForSEO vuelve a salir vacío o sin dato útil, revisar una URL antigua del cluster HD 560S con la plantilla visual nueva completa.
 3. Elegida para mañana:
-   - Si vuelve DataForSEO, decidir con volumen si la rama “chat/micrófono” merece otra pieza exacta o si ya toca consolidar.
-   - Si no vuelve, actualizar una URL antigua del cluster para que comparta diseño, CTA y patrón de descarte del subcluster PS5.
+   - Mirar si hay volumen real en la rama “boompro/modmic/cable micrófono”.
+   - Si no lo hay, frenar nuevas URLs PS5 y pasar a revisión sustancial de una pieza antigua del cluster base.

@@ -30,3 +30,9 @@
 - Qué esperaba: que una URL centrada en chat, micrófono y ajustes de ruta capture una formulación más operativa y menos audiófila que la pieza de DAC USB.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles y que, si aparece alguna señal, quede absorbida por la pieza `sennheiser-hd-560s-ps5-microfono-dac-usb.html`.
 - Fecha de revisión: 2026-11-07.
+
+## 2026-11-02 — Abrir la variante de compatibilidad física puede captar mejor que otra pieza sobre DAC
+- Qué hice: publiqué `/sennheiser-hd-560s-modmic-boompro-ps5.html` centrada en la compra de micrófono o cable para HD 560S en PS5, con postura de freno a BoomPro sin confirmar conector.
+- Qué esperaba: que una URL anclada en un error de compra físico y concreto capture mejor búsquedas cualificadas que otra reformulación sobre “chat” o “DAC USB”.
+- Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que la señal, si aparece, se la lleven las piezas adyacentes del mismo subcluster.
+- Fecha de revisión: 2026-11-09.
