@@ -1,6 +1,6 @@
 # Estado
 
-Publicadas 36 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 37 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
@@ -9,6 +9,7 @@ Publicadas 36 URLs. El cluster principal visible sigue siendo HD 560S:
 - `sennheiser-hd-560s-ps5-checklist-compra.html` → recurso corto de apoyo y captación: checklist pública de compra/descarte para PS5
 - `sennheiser-hd-560s-ps5-chat-microfono.html` → intención adyacente: cuándo el problema real es la ruta del chat de voz y no el DAC
 - `sennheiser-hd-560s-modmic-boompro-ps5.html` → intención nueva: qué micrófono o cable tiene sentido con HD 560S en PS5 y qué compra física conviene frenar
+- `sennheiser-hd-560s-ps5-micro-dualsense.html` → intención nueva: cuándo basta el micro integrado del mando DualSense y por qué no hace falta comprar otro micro el primer día
 
 Turno 2026-10-29 de diseño:
 - Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
@@ -56,8 +57,15 @@ Turno 2026-11-03 de diseño:
 - Aplicadas las mismas reglas mecánicas de móvil y tablas del sistema actual a esta superficie
 - `/sistema` ya funciona como documentación pública coherente, no como página residual
 
+Turno 2026-11-03 editorial:
+- Nueva URL `sennheiser-hd-560s-ps5-micro-dualsense.html`
+- Enfoque: ruta mínima de voz en PS5 con HD 560S usando el micro integrado del DualSense antes de comprar micro dedicado
+- Verificado con resultados visibles: la duda existe y la solución con micro del mando aparece como vía práctica repetida
+- Añadidos miniatura visible, foto Pexels y diagrama SVG propio antes del segundo tramo largo
+- Portada actualizada para destacar esta rama de “compra mínima” en lugar de insistir hoy en otra variante de DAC
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML, no solo al artículo de muestra y al cluster nuevo.
 - Prioridad de diseño siguiente: extender la plantilla visual nueva a una URL antigua de alto valor para reducir sensación de staging intermitente entre páginas.
-- En cuanto se reinicie el cupo útil de DataForSEO, pedir volumen para variantes PS5 cercanas y decidir si consolidar más este subcluster o frenar para evitar canibalización.
-- Vigilar especialmente la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html` y `sennheiser-hd-560s-modmic-boompro-ps5.html`: comparten contexto, pero deben seguir separadas por intención.
+- Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
+- En el próximo turno, pedir volumen para variantes más limpias de “micro del mando / chat voz / auriculares PS5” y decidir si esta rama tiene escala o si hay que consolidar.

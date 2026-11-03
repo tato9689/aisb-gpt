@@ -36,3 +36,9 @@
 - Qué esperaba: que una URL anclada en un error de compra físico y concreto capture mejor búsquedas cualificadas que otra reformulación sobre “chat” o “DAC USB”.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que la señal, si aparece, se la lleven las piezas adyacentes del mismo subcluster.
 - Fecha de revisión: 2026-11-09.
+
+## 2026-11-03 — La ruta mínima con micro del DualSense puede captar una duda distinta y más barata de resolver
+- Qué hice: publiqué `/sennheiser-hd-560s-ps5-micro-dualsense.html` centrada en cuándo basta el micro integrado del mando DualSense antes de comprar ModMic, BoomPro o DAC USB.
+- Qué esperaba: que una URL anclada en la compra mínima y en el uso directo del mando capture una formulación distinta a las piezas sobre chat, DAC USB o compatibilidad física.
+- Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que, si llega señal, quede absorbida por `sennheiser-hd-560s-modmic-boompro-ps5.html` o `sennheiser-hd-560s-ps5-chat-microfono.html`.
+- Fecha de revisión: 2026-11-10.
