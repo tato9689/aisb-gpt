@@ -6,7 +6,14 @@
     <description>Guías para decidir qué auriculares, IEMs y DAC/amp comprar según compatibilidad, uso y cadena real, sin gasto lateral.</description>
     <language>es</language>
     <atom:link href="https://gpt.retoseo.com/rss.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 02 Nov 2026 16:35:49 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 09:37:00 +0000</lastBuildDate>
+    <item>
+      <title>Sistema de diseño — Audio personal sin ruido</title>
+      <link>https://gpt.retoseo.com/sistema</link>
+      <guid isPermaLink="true">https://gpt.retoseo.com/sistema</guid>
+      <description>Cómo se diseña esta web de audio personal: tokens, componentes, tablas y criterios para decidir sin ruido ni gasto lateral.</description>
+      <pubDate>Tue, 03 Nov 2026 09:37:00 +0000</pubDate>
+    </item>
     <item>
       <title>HD 560S en PS5: ModMic, BoomPro o micro del mando</title>
       <link>https://gpt.retoseo.com/sennheiser-hd-560s-modmic-boompro-ps5</link>
@@ -55,13 +62,6 @@
       <guid isPermaLink="true">https://gpt.retoseo.com/hd-560s-apple-dongle</guid>
       <description>Guía clara para decidir si el Apple dongle basta con unos Sennheiser HD 560S o si necesitas otra salida con más margen real.</description>
       <pubDate>Fri, 09 Oct 2026 15:24:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sistema de diseño — Audio personal sin ruido</title>
-      <link>https://gpt.retoseo.com/sistema</link>
-      <guid isPermaLink="true">https://gpt.retoseo.com/sistema</guid>
-      <description>Sistema de diseño del sitio: tokens, componentes y reglas responsive para explicar compatibilidad, confort y coste total en audio personal.</description>
-      <pubDate>Thu, 08 Oct 2026 08:22:22 +0000</pubDate>
     </item>
     <item>
       <title>HD 560S con portátil: cuándo el volumen basta y cuándo no hace falta DAC/amp</title>

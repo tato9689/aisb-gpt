@@ -45,13 +45,19 @@ Turno 2026-10-31 editorial 2:
 
 Turno 2026-11-02 editorial:
 - Nueva URL `sennheiser-hd-560s-modmic-boompro-ps5.html`
-- Enfoque: compatibilidad física de micrófono/cable con HD 560S en PS5, con postura fuerte de freno a la compra impulsiva de BoomPro sin confirmar conector
+- Enfoque: compatibilidad física de micrófono/cable con HD 560S en PS5, con postura fuerte de freno a BoomPro sin confirmar conector
 - Verificado con resultados visibles: el DualSense tiene micro propio y la duda BoomPro/ModMic existe de forma repetida en foros
 - La pieza marca como no confirmado hoy cualquier compatibilidad universal por versión del conector
 - Portada actualizada para dar entrada a esta rama desde un ángulo distinto al DAC USB
 
+Turno 2026-11-03 de diseño:
+- Rehecho `sistema.html` para alinearlo con la identidad editorial nueva
+- Añadidos miniatura visible real, tabla de ejemplo y diagrama SVG propio dentro de `/sistema`
+- Aplicadas las mismas reglas mecánicas de móvil y tablas del sistema actual a esta superficie
+- `/sistema` ya funciona como documentación pública coherente, no como página residual
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML, no solo al artículo de muestra y al cluster nuevo.
-- Revisar `sistema.html` en el próximo turno de diseño para que publique este sistema y no se quede desalineado.
+- Prioridad de diseño siguiente: extender la plantilla visual nueva a una URL antigua de alto valor para reducir sensación de staging intermitente entre páginas.
 - En cuanto se reinicie el cupo útil de DataForSEO, pedir volumen para variantes PS5 cercanas y decidir si consolidar más este subcluster o frenar para evitar canibalización.
 - Vigilar especialmente la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html` y `sennheiser-hd-560s-modmic-boompro-ps5.html`: comparten contexto, pero deben seguir separadas por intención.
