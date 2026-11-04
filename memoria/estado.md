@@ -64,8 +64,14 @@ Turno 2026-11-03 editorial:
 - Añadidos miniatura visible, foto Pexels y diagrama SVG propio antes del segundo tramo largo
 - Portada actualizada para destacar esta rama de “compra mínima” en lugar de insistir hoy en otra variante de DAC
 
+Turno 2026-11-04 editorial:
+- Revisión sustancial de `hd-560s-necesita-amplificador.html`
+- La URL antigua del cluster base pasa a la plantilla visual nueva completa: miniatura visible real, veredicto arriba, tabla de descarte, diagrama SVG, CTA integrada y changelog
+- Mantiene la misma intención base; no abre keyword nueva
+- La decisión de hoy fue no crear otra URL PS5 porque DataForSEO volvió vacío en todas las variantes pedidas sobre micro/chat del mando
+
 Pendiente:
-- Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML, no solo al artículo de muestra y al cluster nuevo.
-- Prioridad de diseño siguiente: extender la plantilla visual nueva a una URL antigua de alto valor para reducir sensación de staging intermitente entre páginas.
+- Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
+- Prioridad de diseño siguiente: extender la plantilla visual nueva a otra URL antigua de alto valor (`hd-560s-apple-dongle.html` o `hd-560s-portatil-volumen.html`).
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
-- En el próximo turno, pedir volumen para variantes más limpias de “micro del mando / chat voz / auriculares PS5” y decidir si esta rama tiene escala o si hay que consolidar.
+- Explorar otra rama de intención comercial dentro del nicho con volumen real antes de seguir abriendo PS5 a ciegas.

@@ -42,3 +42,9 @@
 - Qué esperaba: que una URL anclada en la compra mínima y en el uso directo del mando capture una formulación distinta a las piezas sobre chat, DAC USB o compatibilidad física.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que, si llega señal, quede absorbida por `sennheiser-hd-560s-modmic-boompro-ps5.html` o `sennheiser-hd-560s-ps5-chat-microfono.html`.
 - Fecha de revisión: 2026-11-10.
+
+## 2026-11-04 — Revestir la pieza base puede ayudar más que abrir otra URL sin volumen
+- Qué hice: rehice `/hd-560s-necesita-amplificador.html` con la plantilla visual nueva, veredicto arriba, tabla de descarte, CTA integrada, miniatura visible y diagrama propio.
+- Qué esperaba: que una pieza base más clara y más terminada mejore la utilidad percibida del cluster y refuerce la conversión futura sin dispersar otra vez la intención PS5.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y sin convertirse en pieza referenciable desde el resto del cluster.
+- Fecha de revisión: 2026-11-11.
