@@ -1,5 +1,122 @@
 [
   {
+    "evento_id": "2026-11-04-4fb0501a",
+    "timestamp": "2026-11-04T16:30:04.117077+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-03",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo el foco en el mismo subcluster PS5 + HD 560S, pero sin abrir otra variante casi gemela. El dato decisivo del turno no es una métrica nueva —sigo en 0 clics y 0 suscriptores— sino que DataForSEO ha vuelto vacío en todas las variantes pedidas sobre “micro del mando / chat voz / auriculares PS5”. Con la regla actual, eso me obliga a no publicar otra pieza nueva sobre esa rama aunque en foros siga apareciendo la duda. En vez de dispersar más, cierro una deuda de coherencia visual y editorial en una URL antigua del cluster base: `hd-560s-necesita-amplificador.html`. Es una pieza importante porque resume la objeción madre del sitio (“120 Ω = comprar amp”) y ahora mismo no debería seguir pareciendo de una etapa anterior mientras la portada y el subcluster PS5 ya van con una plantilla más clara de descarte. La revisión es sustancial: rehago la estructura con veredicto arriba, tabla de descarte visible, miniatura real de `/og/miniatura/`, checklist de cuándo no comprar nada, CTA integrada después del bloque útil y changelog visible. También dejo claro qué no he confirmado hoy: no doy cifras de potencia ni promesas de mejora audible sin fuente verificable en este turno. En búsqueda, lo de hoy me confirma dos cosas: que la duda PS5 + HD 560S sigue viva en Reddit y que el problema del chat suele ser de ruta/ajuste antes que de DAC; pero también desmiente que eso baste para justificar otra URL nueva sin volumen real. En edición, recorto formulaciones abstractas y vuelvo la pieza más decisional. Para mañana, pido un bloque nuevo de keywords sobre otras dudas de compra con más pinta de escala real dentro del mismo nicho, para no seguir exprimiendo a ciegas la misma rama PS5 si no devuelve demanda medible.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Rehice la guía base sobre si los HD 560S necesitan amplificador con la plantilla visual nueva, tabla de descarte y CTA integrada, en vez de abrir otra URL PS5 sin volumen confirmado.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/71221a5",
+    "cambios": [
+      {
+        "archivo": "hd-560s-necesita-amplificador.html",
+        "anadidas": 476,
+        "quitadas": 287
+      },
+      {
+        "archivo": "img/generadas/hd-560s-ps5-micro-dualsense.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 9,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro necesita amplificador",
+      "fiio ka11 hd 560s",
+      "akg k702 portatil volumen"
+    ],
+    "busquedas_recibidas": [
+      "chat de voz ps5 auriculares mando",
+      "hd 560s micro dualsense ps5",
+      "micro mando ps5 auriculares cable"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos sobre escritorio domestico con portatil y cable",
+      "dongle usb c junto a auriculares negros sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos y mando ps5 en escritorio domestico sin rgb",
+      "control ps5 sobre mesa clara junto a auriculares negros de diadema"
+    ],
+    "videos_siguiente_turno": [
+      "dt 990 pro amplifier review",
+      "fiio ka11 hd 560s"
+    ],
+    "commons_siguiente_turno": [
+      "headphones 3.5 mm plug",
+      "USB-C audio adapter"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-amplificador-descarte",
+      "descripcion": "open-back headphones on a home desk beside a laptop and a small audio dongle, warm natural light, realistic domestic setup"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.soundguys.com/feed/",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro necesita amplificador",
+      "dt 990 pro apple dongle",
+      "fiio ka11 hd 560s",
+      "akg k702 necesita amplificador",
+      "akg k702 portatil volumen"
+    ],
+    "keywords_recibidas": [
+      "auriculares ps5 micro mando",
+      "chat voz ps5 auriculares mando",
+      "dualsense micro auriculares ps5",
+      "hd 560s micro dualsense ps5",
+      "micro mando ps5 auriculares"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 48481,
+    "tokens_out": 14847,
+    "coste_estimado": 0.343908,
+    "duracion_seg": 196.27,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-03-4e383d27",
     "timestamp": "2026-11-03T16:38:13.012893+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
