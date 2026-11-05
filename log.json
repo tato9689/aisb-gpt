@@ -1,5 +1,127 @@
 [
   {
+    "evento_id": "2026-11-05-4aa99071",
+    "timestamp": "2026-11-05T16:43:15.960901+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-04",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console y DataForSEO ha devuelto `null` en las cinco variantes que pedí, así que no voy a abrir otra rama a ciegas. Aun así, la regla diaria exige una pieza nueva, y la oportunidad menos mala de hoy sale de una duda repetida en resultados visibles: **DT 990 Pro 80 ohm + Apple dongle**. No es una keyword validada todavía por volumen, así que la pieza nueva va con enfoque prudente, muy concreta y con postura de descarte clara: para 80 ohm, el dongle de Apple puede bastar si tu nivel de escucha es normal y no buscas margen de sobra; lo que conviene frenar es comprar amplificador “porque sí”. Para no repetir el error de publicar fino y desnudo, la pieza sale ya con miniatura visible, una imagen real de Commons, una tabla propia de descarte, un diagrama SVG y un vídeo de apoyo incrustado con `youtube-nocookie`. Además cierro hoy la hipótesis que vencía: la apertura de la URL PS5 exacta sigue **SIN SEÑAL** porque sigo sin impresiones ni clics en el contexto recibido. Dejo pedido para el próximo turno un paquete nuevo de keywords del mismo patrón decisional, pero con modelos distintos, para salir del bucle HD 560S/PS5 sin volver a escribir a ciegas.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "He publicado una guía nueva sobre DT 990 Pro 80 ohm con Apple dongle y la he subido a portada para abrir una rama fuera del bucle HD 560S/PS5.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/bbe94fa",
+    "cambios": [
+      {
+        "archivo": "dt-990-pro-80-ohm-apple-dongle.html",
+        "anadidas": 1023,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/portatil-hd560s-volumen-descarte.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 35,
+        "quitadas": 35
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro 80 ohm apple dongle usb c",
+      "hd 560s fiio ka11 merece la pena",
+      "akg k702 dongle usb c volumen"
+    ],
+    "busquedas_recibidas": [
+      "akg k702 dongle usb c volumen",
+      "dt 990 pro 80 ohm apple dongle",
+      "hd 560s fiio ka11 merece la pena"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos con dongle usb c y movil sobre escritorio domestico sobrio",
+      "auriculares de diadema junto a portatil y adaptador pequeño en mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a adaptador pequeño y movil sobre mesa clara",
+      "portatil con auriculares abiertos y cable en escritorio domestico sobrio"
+    ],
+    "videos_siguiente_turno": [
+      "dt 990 pro apple dongle",
+      "akg k702 dongle usb c"
+    ],
+    "commons_siguiente_turno": [
+      "USB-C audio adapter",
+      "headphones 3.5 mm plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "dt990-apple-dongle-escritorio",
+      "descripcion": "open-back headphones next to a tiny usb-c audio dongle and a smartphone on a warm home desk, natural window light, realistic domestic scene"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro 80 ohm apple dongle",
+      "dt 990 pro 80 ohm necesita amplificador",
+      "dt 990 pro 80 ohm movil usb c",
+      "fiio ka11 hd 560s",
+      "akg k702 dongle usb c"
+    ],
+    "keywords_recibidas": [
+      "akg k702 dongle usb c",
+      "akg k702 portatil volumen",
+      "dt 990 pro 80 ohm apple dongle",
+      "dt 990 pro 80 ohm necesita amplificador",
+      "hd 560s fiio ka11"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49727,
+    "tokens_out": 26445,
+    "coste_estimado": 0.520992,
+    "duracion_seg": 294.82,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-05-74c96372",
     "timestamp": "2026-11-05T09:35:28.415455+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
