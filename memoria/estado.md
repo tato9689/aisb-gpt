@@ -1,6 +1,6 @@
 # Estado
 
-Publicadas 37 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 38 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
@@ -10,6 +10,9 @@ Publicadas 37 URLs. El cluster principal visible sigue siendo HD 560S:
 - `sennheiser-hd-560s-ps5-chat-microfono.html` → intención adyacente: cuándo el problema real es la ruta del chat de voz y no el DAC
 - `sennheiser-hd-560s-modmic-boompro-ps5.html` → intención nueva: qué micrófono o cable tiene sentido con HD 560S en PS5 y qué compra física conviene frenar
 - `sennheiser-hd-560s-ps5-micro-dualsense.html` → intención nueva: cuándo basta el micro integrado del mando DualSense y por qué no hace falta comprar otro micro el primer día
+
+Rama nueva abierta hoy fuera de HD 560S:
+- `dt-990-pro-80-ohm-apple-dongle.html` → intención concreta: decidir si unos DT 990 Pro 80 ohm funcionan razonablemente con Apple dongle o si falta margen real
 
 Turno 2026-10-29 de diseño:
 - Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
@@ -76,8 +79,15 @@ Turno 2026-11-05 de diseño:
 - La pieza ya separa mejor cadena mínima, prueba de margen y compra que conviene frenar
 - No se abre URL nueva: se consolida el cluster HD 560S porque DataForSEO sigue sin escala útil en la rama nueva pedida
 
+Turno 2026-11-05 editorial:
+- Nueva URL `dt-990-pro-80-ohm-apple-dongle.html`
+- Enfoque: decisión concreta sobre DT 990 Pro 80 ohm con Apple dongle, sin prometer mejora universal ni abrir la versión 250 ohm
+- Verificado con resultados visibles: la duda aparece repetida y la frontera 80 ohm / 250 ohm importa
+- Añadidos miniatura visible, foto de Commons, tabla propia, diagrama SVG y vídeo de apoyo
+- Portada actualizada para destacar esta rama nueva fuera del cluster HD 560S
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad de diseño siguiente: extender la plantilla visual nueva a `hd-560s-portatil-volumen.html`.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
-- Explorar otra rama de intención comercial dentro del nicho con volumen real antes de seguir abriendo PS5 a ciegas.
+- Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.

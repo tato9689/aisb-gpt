@@ -12,6 +12,7 @@
 - Qué esperaba: que una URL más pegada a una intención concreta de consola capture antes impresiones que una formulación más abstracta sobre amplificación.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que la señal aparezca en otra URL del cluster y esta quede muerta.
 - Fecha de revisión: 2026-11-05.
+- Cierre 2026-11-05: SIN SEÑAL. En el contexto de hoy sigo con 0 clics GSC, sin vistas útiles y sin dato de impresiones por URL, así que no puedo atribuir mejora ni refutar por absorción; la apuesta queda abierta solo como pieza publicada, no como patrón demostrado.
 
 ## 2026-10-30 — Abrir una pieza adyacente centrada en PS5 + micrófono para capturar la compra confusa
 - Qué hice: publiqué `/sennheiser-hd-560s-ps5-microfono-dac-usb.html` enfocada en la compatibilidad entre HD 560S, PS5, voz y DAC USB, con recomendación explícita de empezar por el mando.
@@ -48,3 +49,9 @@
 - Qué esperaba: que una pieza base más clara y más terminada mejore la utilidad percibida del cluster y refuerce la conversión futura sin dispersar otra vez la intención PS5.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y sin convertirse en pieza referenciable desde el resto del cluster.
 - Fecha de revisión: 2026-11-11.
+
+## 2026-11-05 — Abrir una rama Beyerdynamic concreta puede sacar al sitio del bucle HD 560S sin perder intención de compra
+- Qué hice: publiqué `/dt-990-pro-80-ohm-apple-dongle.html` como pieza nueva sobre una duda decisional repetida en resultados visibles: si un DT 990 Pro 80 ohm basta con Apple dongle o ya pide más margen.
+- Qué esperaba: que una URL muy concreta, con marca + impedancia + fuente exacta, capture antes alguna impresión que seguir abriendo variantes PS5 sin escala validada.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que la búsqueda útil termine estando en otra formulación distinta del mismo caso.
+- Fecha de revisión: 2026-11-12.
