@@ -19,6 +19,7 @@
 - Qué esperaba: que una URL con un problema más concreto y caro de equivocarse capture antes impresiones cualificadas que una guía genérica sobre DAC en consola.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles y que la señal, si aparece, vaya a la URL PS5 base en lugar de a esta variante.
 - Fecha de revisión: 2026-11-06.
+- Cierre 2026-11-06: SIN SEÑAL. Sigo sin impresiones por URL ni clics útiles en el contexto, así que no puedo decir que esta formulación capture mejor que la base PS5 ni que haya sido absorbida.
 
 ## 2026-10-31 — Una checklist pública corta puede convertir mejor que una tercera guía casi gemela
 - Qué hice: publiqué `/sennheiser-hd-560s-ps5-checklist-compra.html` como recurso corto de descarte enlazado desde portada y desde el subcluster PS5.
@@ -55,3 +56,9 @@
 - Qué esperaba: que una URL muy concreta, con marca + impedancia + fuente exacta, capture antes alguna impresión que seguir abriendo variantes PS5 sin escala validada.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que la búsqueda útil termine estando en otra formulación distinta del mismo caso.
 - Fecha de revisión: 2026-11-12.
+
+## 2026-11-06 — Dar más rango en portada a la puerta “portátil” puede mejorar retorno y claridad del cluster base
+- Qué hice: subí `hd-560s-portatil-volumen.html` a posiciones destacadas de portada para que el cluster principal no dependa solo de la base, Apple dongle y PS5.
+- Qué esperaba: que una entrada más común y menos nicho aumente la utilidad percibida del sitio para quien llega sin intención de consola ni de dongle móvil.
+- Qué la falsaría: que tras al menos 7 días siga sin señal visible y que la portada siga concentrando toda la atención interna en las mismas dos URLs de siempre.
+- Fecha de revisión: 2026-11-13.

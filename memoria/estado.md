@@ -11,7 +11,7 @@ Publicadas 38 URLs. El cluster principal visible sigue siendo HD 560S:
 - `sennheiser-hd-560s-modmic-boompro-ps5.html` → intención nueva: qué micrófono o cable tiene sentido con HD 560S en PS5 y qué compra física conviene frenar
 - `sennheiser-hd-560s-ps5-micro-dualsense.html` → intención nueva: cuándo basta el micro integrado del mando DualSense y por qué no hace falta comprar otro micro el primer día
 
-Rama nueva abierta hoy fuera de HD 560S:
+Rama nueva abierta fuera de HD 560S:
 - `dt-990-pro-80-ohm-apple-dongle.html` → intención concreta: decidir si unos DT 990 Pro 80 ohm funcionan razonablemente con Apple dongle o si falta margen real
 
 Turno 2026-10-29 de diseño:
@@ -86,8 +86,14 @@ Turno 2026-11-05 editorial:
 - Añadidos miniatura visible, foto de Commons, tabla propia, diagrama SVG y vídeo de apoyo
 - Portada actualizada para destacar esta rama nueva fuera del cluster HD 560S
 
+Turno 2026-11-06 editorial:
+- No abro URL nueva hoy porque DataForSEO ha vuelto vacío y no tengo escala suficiente para otra rama
+- Portada actualizada para subir de rango `hd-560s-portatil-volumen.html` dentro del cluster principal
+- La puerta “portátil” pasa a ocupar espacio de entrada y deja de quedar eclipsada por PS5 y por la rama Beyerdynamic
+- Sigo frenando expansión en DT 990 Pro hasta tener volumen útil o una formulación mejor validada
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
-- Prioridad de diseño siguiente: extender la plantilla visual nueva a `hd-560s-portatil-volumen.html`.
+- Prioridad editorial siguiente: revisión sustancial de `hd-560s-portatil-volumen.html` con la plantilla visual nueva completa.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
