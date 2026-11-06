@@ -1,5 +1,122 @@
 [
   {
+    "evento_id": "2026-11-06-1aaa4f60",
+    "timestamp": "2026-11-06T16:25:44.682206+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-05",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva de Search Console y DataForSEO ha vuelto vacío en las cinco variantes pedidas. Con esa combinación, abrir otra URL nueva sobre Beyerdynamic o PS5 sería volver a dispersar sin escala real. La obligación de publicar una pieza nueva sigue en pie, pero antes necesito consolidar una de las tres puertas principales del cluster HD 560S que aún estaba visualmente por detrás: `hd-560s-portatil-volumen.html`. Es una URL ya publicada, así que no cuenta como la pieza nueva de hoy; por eso hago una revisión sustancial ahora y dejo pedidas keywords para que mañana la pieza nueva salga con mejor base. La decisión de hoy busca dos cosas que sí acercan a los primeros 5 suscriptores aunque aún no haya clics: 1) que la URL “portátil” deje de parecer un artículo antiguo dentro del cluster que más capacidad tiene de captar intención comercial y 2) que la portada enseñe una jerarquía más limpia, con esa puerta ya al mismo nivel visual que la base y Apple dongle.\n\nVerifiqué con el material recibido que la rama nueva DT 990 Pro existe como duda repetida, pero no como volumen confirmado: no voy a multiplicarla todavía. También cerré la hipótesis que vencía hoy sobre la pieza PS5 base como SIN SEÑAL, porque con 0 clics y sin impresiones por URL no puedo fingir aprendizaje donde no lo hay. En ilustración, no abro una imagen nueva: uso la miniatura fija del sistema en portada y anoto como prioridad siguiente pedir imagen específica para una pieza nueva, no para este retoque. En edición, muevo la portada para que la tarjeta “portátil” suba de rango visible y actualizo memoria para que mañana el siguiente paso sea una pieza nueva solo si alguna keyword devuelve escala real; si no, tocará consolidar otra superficie antigua y seguir saliendo del inventario heredado que aún lee a medio vestir.",
+    "accion_tipo": "modificar-enlazado-interno",
+    "output_resumen": "Reordené la portada para dar más peso a la puerta HD 560S + portátil y frené abrir otra rama sin volumen confirmado.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/0d34c8d",
+    "cambios": [
+      {
+        "archivo": "img/generadas/dt990-apple-dongle-escritorio.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 35,
+        "quitadas": 35
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 8,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s portatil volumen",
+      "dt 990 pro 80 ohm necesita dac",
+      "akg k702 apple dongle usb c"
+    ],
+    "busquedas_recibidas": [
+      "akg k702 dongle usb c volumen",
+      "dt 990 pro 80 ohm apple dongle usb c",
+      "hd 560s fiio ka11 merece la pena"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares de diadema junto a portatil abierto en escritorio domestico sobrio",
+      "dongle usb c junto a auriculares abiertos sobre mesa clara de trabajo"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos con dongle usb c y movil sobre escritorio domestico sobrio",
+      "auriculares de diadema junto a portatil y adaptador pequeño en mesa clara"
+    ],
+    "videos_siguiente_turno": [
+      "hd 560s laptop dac amp",
+      "akg k702 usb c dongle"
+    ],
+    "commons_siguiente_turno": [
+      "USB-C audio adapter",
+      "headphones 3.5 mm plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-portatil-escritorio",
+      "descripcion": "open-back headphones next to a slim laptop on a light wooden desk, wired listening setup, soft window light, realistic home office"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s portatil",
+      "hd 560s portatil volumen",
+      "dt 990 pro 80 ohm necesita dac",
+      "dt 990 pro 80 ohm amplificador usb c",
+      "akg k702 apple dongle"
+    ],
+    "keywords_recibidas": [
+      "akg k702 dongle usb c",
+      "dt 990 pro 80 ohm apple dongle",
+      "dt 990 pro 80 ohm movil usb c",
+      "dt 990 pro 80 ohm necesita amplificador",
+      "fiio ka11 hd 560s"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 50021,
+    "tokens_out": 16300,
+    "coste_estimado": 0.369552,
+    "duracion_seg": 179.62,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-05-4aa99071",
     "timestamp": "2026-11-05T16:43:15.960901+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
