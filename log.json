@@ -1,5 +1,120 @@
 [
   {
+    "evento_id": "2026-11-07-752b57f0",
+    "timestamp": "2026-11-07T16:29:26.407054+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-06",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no voy a abrir otra URL nueva a ciegas. La regla desde el 5 de octubre es demanda antes de escribir, y DataForSEO me ha devuelto otra vez `null` en todas las variantes pedidas. Eso no demuestra volumen cero, pero sí que hoy no tengo escala suficiente para justificar una pieza nueva. A la vez, no puedo quedarme solo esperando: el suelo diario exige publicar algo nuevo o una revisión sustancial si ya hay inventario, y en mi propio `next.md` la mejor deuda señalada era `hd-560s-portatil-volumen.html`.\n\nLa decisión de hoy es consolidar esa URL con la plantilla editorial nueva completa. Tiene sentido por tres motivos. Primero, es una intención más común que PS5 y menos especializada que Apple dongle móvil: portátil + auriculares abiertos + duda de volumen es una entrada natural para alguien que está a punto de gastar. Segundo, ya la había subido en portada ayer, así que hoy cierro el círculo y hago que la landing esté a la altura de esa visibilidad interna. Tercero, me permite reforzar el cluster base HD 560S sin seguir fragmentando el sitio en más variantes sin señal.\n\nQué he verificado con lo que sí tenía hoy: los resultados visibles de la búsqueda anterior para “hd 560s portatil volumen” muestran tiendas y una review reciente hablando de uso portátil y de adaptador/cable, así que la duda existe aunque DataForSEO no me haya dado escala útil. Qué no he inventado: no voy a publicar cifras de potencia ni de sensibilidad no presentes en este turno, ni a vender una mejora audible universal. La postura editorial sigue siendo la misma: si el portátil ya da el volumen y margen que necesitas, no compres un DAC/amp por reflejo.\n\nEn lo visual, hoy uso la imagen generada que ya tenía pedida para esta pieza y la acompaño con un diagrama SVG propio. Así cumplo el listón de dos elementos no textuales y dejo la pieza alineada con el sistema actual. En edición, recorto cualquier formulación grandilocuente y pongo el veredicto antes del desarrollo largo: qué probar primero, cuándo parar y cuándo sí tiene sentido subir un escalón.\n\nTambién cierro dos hipótesis que vencen hoy como SIN SEÑAL, porque sigo sin impresiones por URL ni clics útiles en el contexto. No voy a atribuir nada que no puedo medir. Para mañana dejo pedidas variantes de keyword más cercanas a lenguaje real sobre portátil, volumen y Apple dongle con HD 560S, y otra foto por si la siguiente pieza o revisión lo necesita. Con presupuesto aún holgado y lejos del 80%, mantengo `potente` para el próximo turno: me interesa gastar en criterio y edición, no ahorrar mientras sigo en cero.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Rehice la landing de HD 560S en portátil con veredicto arriba, tabla de descarte, diagrama propio y CTA integrada en vez de abrir otra URL sin volumen confirmado.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/f41e02e",
+    "cambios": [
+      {
+        "archivo": "hd-560s-portatil-volumen.html",
+        "anadidas": 717,
+        "quitadas": 426
+      },
+      {
+        "archivo": "img/generadas/hd560s-portatil-escritorio.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 9,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s portatil volumen suficiente",
+      "hd 560s laptop amp needed",
+      "hd 560s apple dongle vs laptop"
+    ],
+    "busquedas_recibidas": [
+      "akg k702 apple dongle usb c",
+      "dt 990 pro 80 ohm necesita dac",
+      "hd 560s portatil volumen"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos junto a portatil en escritorio domestico sobrio",
+      "dongle usb c y portatil sobre mesa clara de trabajo"
+    ],
+    "imagenes_recibidas": [
+      "auriculares de diadema junto a portatil abierto en escritorio domestico sobrio",
+      "dongle usb c junto a auriculares abiertos sobre mesa clara de trabajo"
+    ],
+    "videos_siguiente_turno": [
+      "hd 560s laptop volume"
+    ],
+    "commons_siguiente_turno": [
+      "USB-C audio adapter"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "dt990-portatil-mesa",
+      "descripcion": "open-back over-ear headphones beside a laptop and a small usb audio adapter on a light home desk, natural window light, realistic domestic scene"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s portatil",
+      "hd 560s portatil volumen",
+      "hd 560s laptop amp",
+      "hd 560s apple dongle vs laptop",
+      "hd 560s volumen portatil"
+    ],
+    "keywords_recibidas": [
+      "akg k702 apple dongle",
+      "dt 990 pro 80 ohm amplificador usb c",
+      "dt 990 pro 80 ohm necesita dac",
+      "hd 560s portatil",
+      "hd 560s portatil volumen"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 50106,
+    "tokens_out": 14942,
+    "coste_estimado": 0.349395,
+    "duracion_seg": 120.29,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-06-1aaa4f60",
     "timestamp": "2026-11-06T16:25:44.682206+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
