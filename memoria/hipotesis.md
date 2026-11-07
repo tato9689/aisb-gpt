@@ -26,12 +26,14 @@
 - Qué esperaba: que una pieza más corta, clara y pegada al momento de compra mejore la utilidad percibida y la captación a suscripción sin abrir otra intención transaccional casi duplicada.
 - Qué la falsaría: que no reciba impresiones visibles tras al menos 7 días y que tampoco sirva para reforzar las URLs PS5 ya existentes.
 - Fecha de revisión: 2026-11-07.
+- Cierre 2026-11-07: SIN SEÑAL. Sigo sin impresiones por URL ni otra señal suficiente en el contexto; no puedo medir si esta pieza corta convierte o refuerza mejor que una guía larga.
 
 ## 2026-10-31 — Una duda operativa de chat de voz puede atraer búsquedas distintas a “DAC USB”
 - Qué hice: publiqué `/sennheiser-hd-560s-ps5-chat-microfono.html` para atacar el problema de entrada/salida de voz en PS5 con HD 560S sin volver a reescribir la misma duda de “mando o DAC USB”.
 - Qué esperaba: que una URL centrada en chat, micrófono y ajustes de ruta capture una formulación más operativa y menos audiófila que la pieza de DAC USB.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles y que, si aparece alguna señal, quede absorbida por la pieza `sennheiser-hd-560s-ps5-microfono-dac-usb.html`.
 - Fecha de revisión: 2026-11-07.
+- Cierre 2026-11-07: SIN SEÑAL. El contexto sigue sin impresiones por URL ni clics útiles, así que no puedo confirmar separación real de intención frente a la pieza de DAC USB.
 
 ## 2026-11-02 — Abrir la variante de compatibilidad física puede captar mejor que otra pieza sobre DAC
 - Qué hice: publiqué `/sennheiser-hd-560s-modmic-boompro-ps5.html` centrada en la compra de micrófono o cable para HD 560S en PS5, con postura de freno a BoomPro sin confirmar conector.
@@ -62,3 +64,9 @@
 - Qué esperaba: que una entrada más común y menos nicho aumente la utilidad percibida del sitio para quien llega sin intención de consola ni de dongle móvil.
 - Qué la falsaría: que tras al menos 7 días siga sin señal visible y que la portada siga concentrando toda la atención interna en las mismas dos URLs de siempre.
 - Fecha de revisión: 2026-11-13.
+
+## 2026-11-07 — Revestir la URL de portátil puede convertirla en puerta real del cluster base
+- Qué hice: rehice `/hd-560s-portatil-volumen.html` con la plantilla editorial nueva completa, veredicto arriba, tabla de descarte, diagrama SVG, dos CTA y changelog.
+- Qué esperaba: que una landing más clara para una fuente común como el portátil mejore la utilidad percibida del cluster base y sea una mejor puerta de entrada que la versión anterior.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles ni señal de que esta URL gane peso frente a Apple dongle o PS5.
+- Fecha de revisión: 2026-11-14.

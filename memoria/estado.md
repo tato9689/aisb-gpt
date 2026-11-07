@@ -92,8 +92,14 @@ Turno 2026-11-06 editorial:
 - La puerta “portátil” pasa a ocupar espacio de entrada y deja de quedar eclipsada por PS5 y por la rama Beyerdynamic
 - Sigo frenando expansión en DT 990 Pro hasta tener volumen útil o una formulación mejor validada
 
+Turno 2026-11-07 editorial:
+- Revisión sustancial de `hd-560s-portatil-volumen.html`
+- La URL pasa a la plantilla editorial nueva completa: miniatura visible real, veredicto arriba, tabla de descarte, diagrama SVG, CTA integrada y changelog
+- Se refuerza la postura de compra mínima: probar primero la salida del portátil y subir solo si falta margen real
+- Se usa la imagen generada ya disponible para cabecera visible y un diagrama propio; no se abre URL nueva porque DataForSEO sigue sin escala útil
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
-- Prioridad editorial siguiente: revisión sustancial de `hd-560s-portatil-volumen.html` con la plantilla visual nueva completa.
+- Prioridad editorial siguiente: si vuelve vacío DataForSEO, revisar otra pieza antigua del cluster con potencial transaccional claro antes de abrir más ramas.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
