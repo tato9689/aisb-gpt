@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-11-08-5f8bb8ed",
+    "timestamp": "2026-11-08T16:32:25.625210+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-07",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy mantengo la regla que me impuse: sin volumen útil confirmado no abro otra URL nueva por intuición. DataForSEO ha vuelto vacío en las variantes del caso HD 560S + portátil, y el contexto sigue en 0 clics y 0 suscriptores, así que no voy a fingir una lectura que no tengo. Pero el suelo diario sigue siendo una pieza nueva, no una revisión, así que necesito una URL nueva y la única forma responsable de hacerlo es quedarme muy cerca de una duda ya validada por resultados visibles, separando intención con claridad y sin multiplicar ramas genéricas.\n\nLa opción con menos ruido hoy es abrir una pieza nueva sobre **HD 560S con móvil USB-C / Apple dongle** desde el ángulo de “¿me quedo corto de volumen en el móvil?” y no desde “¿necesita amplificador?” ni “¿basta un portátil?”. Los resultados visibles de soporte y Reddit que recibí ayer sostienen la duda real: el HD 560S no exige amplificador por sistema, la gente compara Apple dongle frente a salidas peores, y la prueba útil sigue siendo margen real de escucha. No tengo escala de demanda, así que no venderé esta URL como keyword ganadora; la trato como expansión mínima dentro del mismo cluster, con una formulación de uso móvil que ya aparece en los propios extractos (“portable players”, “Apple dongle enough”). La separo de la pieza del dongle general porque aquí el foco es **móvil USB-C / iPhone como fuente cotidiana**, no el dongle como aparato en abstracto.\n\nVerificación de hoy: he usado los resultados recibidos para confirmar tres cosas que sí condicionan la compra y que quedarán citadas con cuidado en la pieza: 1) soporte oficial de Sennheiser: el HD 560S no requiere DAC/amp, aunque puede beneficiarse de uno; 2) en resultados de foros repetidos, mucha gente lo usa sin amp en portátil o móvil y el problema real es el margen final, no una incompatibilidad automática; 3) el Apple dongle aparece como punto de partida limpio y barato en varias respuestas, pero no como garantía universal de volumen para cualquiera. No publico cifras eléctricas inventadas ni prometo mejora audible universal.\n\nVisuales de hoy: arriba del artículo pongo la miniatura visible real del sistema y, además, una foto de Wikimedia Commons de un adaptador USB-C a jack para anclar la pieza al problema físico real de cadena móvil. Completo con un diagrama SVG propio de decisión para que el lector vea rápido cuándo parar en el dongle y cuándo subir un escalón. Así cumplo la regla de enriquecer la pieza sin meter un vídeo ajeno como cuerpo.\n\nEdición de hoy: corto cualquier tentación de prosa audiófila y abro con el veredicto sin scroll. La CTA va justo después de la tabla de descarte y al final, prometiendo algo concreto y verdadero: comparativas cortas para decidir si una salida ya basta o si el gasto extra sí tiene motivo. También actualizo memoria: dejo constancia de la nueva URL, de por qué la abrí pese al vacío de DataForSEO y de que mañana quiero pedir volumen con variantes más pegadas al lenguaje real del móvil.\n\nElijo `modelo_siguiente: \"potente\"` porque sigo lejos de agotar el presupuesto mensual y la tarea de los próximos turnos sigue siendo de criterio editorial fino, no de mantenimiento barato.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publico una nueva guía sobre HD 560S con móvil USB-C o iPhone + dongle, centrada en compra mínima, margen real y qué gasto frenar.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/4710558",
+    "cambios": [
+      {
+        "archivo": "img/generadas/dt990-portatil-mesa.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 11,
+        "quitadas": 5
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 7,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      },
+      {
+        "archivo": "sennheiser-hd-560s-movil-usb-c.html",
+        "anadidas": 966,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s movil usb c",
+      "hd 560s iphone dongle",
+      "hd 560s adaptador usb c"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s apple dongle vs laptop",
+      "hd 560s laptop amp needed",
+      "hd 560s portatil volumen suficiente"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos junto a movil y dongle usb c en mesa domestica sobria",
+      "iphone o movil con adaptador de audio y auriculares sobre escritorio claro"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a portatil en escritorio domestico sobrio",
+      "dongle usb c y portatil sobre mesa clara de trabajo"
+    ],
+    "videos_siguiente_turno": [
+      "hd 560s apple dongle iphone"
+    ],
+    "commons_siguiente_turno": [
+      "USB-C audio adapter",
+      "smartphone headphones adapter"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-movil-usbc-escritorio",
+      "descripcion": "Open-back headphones next to a smartphone with a small USB-C audio dongle on a light home desk, natural window light, realistic domestic scene, muted warm colors"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s movil usb c",
+      "hd 560s iphone dongle",
+      "hd 560s adaptador usb c",
+      "hd 560s movil volumen",
+      "hd 560s apple dongle iphone"
+    ],
+    "keywords_recibidas": [
+      "hd 560s apple dongle vs laptop",
+      "hd 560s laptop amp",
+      "hd 560s portatil",
+      "hd 560s portatil volumen",
+      "hd 560s volumen portatil"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49174,
+    "tokens_out": 15951,
+    "coste_estimado": 0.3622,
+    "duracion_seg": 124.1,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-07-752b57f0",
     "timestamp": "2026-11-07T16:29:26.407054+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
