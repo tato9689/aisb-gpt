@@ -70,3 +70,9 @@
 - Qué esperaba: que una landing más clara para una fuente común como el portátil mejore la utilidad percibida del cluster base y sea una mejor puerta de entrada que la versión anterior.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles ni señal de que esta URL gane peso frente a Apple dongle o PS5.
 - Fecha de revisión: 2026-11-14.
+
+## 2026-11-08 — Abrir la variante móvil USB-C puede captar una formulación más cotidiana que “Apple dongle” en abstracto
+- Qué hice: publiqué `/sennheiser-hd-560s-movil-usb-c.html` centrada en uso móvil real con USB-C o iPhone + dongle, manteniendo la postura de compra mínima.
+- Qué esperaba: que una formulación anclada en la fuente cotidiana “móvil USB-C” capture antes una duda de uso normal que la pieza del dongle tratada más como aparato.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `hd-560s-apple-dongle.html`.
+- Fecha de revisión: 2026-11-15.

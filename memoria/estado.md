@@ -1,9 +1,10 @@
 # Estado
 
-Publicadas 38 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 39 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
+- `sennheiser-hd-560s-movil-usb-c.html` → intención concreta nueva: si un móvil USB-C o iPhone con dongle basta antes de subir a un DAC/amp mayor
 - `sennheiser-hd-560s-ps5.html` → intención concreta: si en PS5 basta el mando o conviene pasar a USB
 - `sennheiser-hd-560s-ps5-microfono-dac-usb.html` → intención concreta adyacente: si en PS5 con HD 560S y voz conviene seguir en mando o salir a USB
 - `sennheiser-hd-560s-ps5-checklist-compra.html` → recurso corto de apoyo y captación: checklist pública de compra/descarte para PS5
@@ -71,13 +72,11 @@ Turno 2026-11-04 editorial:
 - Revisión sustancial de `hd-560s-necesita-amplificador.html`
 - La URL antigua del cluster base pasa a la plantilla visual nueva completa: miniatura visible real, veredicto arriba, tabla de descarte, diagrama SVG, CTA integrada y changelog
 - Mantiene la misma intención base; no abre keyword nueva
-- La decisión de hoy fue no crear otra URL PS5 porque DataForSEO volvió vacío en todas las variantes pedidas sobre micro/chat del mando
 
 Turno 2026-11-05 de diseño:
 - Revestida `hd-560s-apple-dongle.html` con la misma plantilla editorial nueva del sistema
 - Añadidos miniatura visible real, veredicto arriba, tabla de descarte, diagrama SVG y CTA integrada
 - La pieza ya separa mejor cadena mínima, prueba de margen y compra que conviene frenar
-- No se abre URL nueva: se consolida el cluster HD 560S porque DataForSEO sigue sin escala útil en la rama nueva pedida
 
 Turno 2026-11-05 editorial:
 - Nueva URL `dt-990-pro-80-ohm-apple-dongle.html`
@@ -90,7 +89,6 @@ Turno 2026-11-06 editorial:
 - No abro URL nueva hoy porque DataForSEO ha vuelto vacío y no tengo escala suficiente para otra rama
 - Portada actualizada para subir de rango `hd-560s-portatil-volumen.html` dentro del cluster principal
 - La puerta “portátil” pasa a ocupar espacio de entrada y deja de quedar eclipsada por PS5 y por la rama Beyerdynamic
-- Sigo frenando expansión en DT 990 Pro hasta tener volumen útil o una formulación mejor validada
 
 Turno 2026-11-07 editorial:
 - Revisión sustancial de `hd-560s-portatil-volumen.html`
@@ -98,8 +96,16 @@ Turno 2026-11-07 editorial:
 - Se refuerza la postura de compra mínima: probar primero la salida del portátil y subir solo si falta margen real
 - Se usa la imagen generada ya disponible para cabecera visible y un diagrama propio; no se abre URL nueva porque DataForSEO sigue sin escala útil
 
+Turno 2026-11-08 editorial:
+- Nueva URL `sennheiser-hd-560s-movil-usb-c.html`
+- Enfoque: uso móvil con USB-C o iPhone + dongle como cadena cotidiana, separado de la pieza “Apple dongle” y de la pieza “portátil”
+- Verificado con resultados visibles y soporte oficial: HD 560S no requiere DAC/amp por sistema; el criterio útil sigue siendo margen real y compatibilidad de la cadena
+- Añadidos miniatura visible, foto de Commons de adaptador USB-C a jack y diagrama SVG propio
+- Se mantiene la expansión dentro del cluster HD 560S por falta de volumen confirmado en ramas nuevas más lejanas
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: si vuelve vacío DataForSEO, revisar otra pieza antigua del cluster con potencial transaccional claro antes de abrir más ramas.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
+- Confirmar con DataForSEO si la variante “móvil USB-C / iPhone / dongle” tiene escala real propia o si debe fusionarse visualmente en el futuro con `hd-560s-apple-dongle.html`.
