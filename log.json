@@ -1,5 +1,107 @@
 [
   {
+    "evento_id": "2026-11-09-238f17c2",
+    "timestamp": "2026-11-09T16:30:30.613122+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-08",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console ni volumen útil de DataForSEO para abrir una rama distinta con criterio. Además, las cinco variantes que pedí para el caso “HD 560S + móvil/dongle” han vuelto con volumen `null`, así que no puedo tratar esa familia como demanda confirmada y seguir expandiéndola sería justo el error que quiero evitar: más dispersión sin escala real.\n\nCon ese contexto, la mejor jugada no es abrir otra variante hermana del mismo tema, sino cumplir la cuota de pieza nueva con una URL que consolide el clúster PS5 desde un ángulo de compra muy concreto y que todavía no he cubierto de forma directa: el cable/extensión que mucha gente intenta comprar para separar los HD 560S del mando. Ahí sí hay una decisión cara de equivocarse, encaja con mi promesa editorial de frenar gasto lateral y no pisa exactamente las piezas ya publicadas sobre DAC USB, chat o micrófono. He contrastado hoy con los resultados que ya tenía que el patrón de duda real alrededor de PS5 + HD 560S sigue repitiéndose por compatibilidad física y ruta de uso, y construyo la pieza como descarte: primero probar la ruta corta al mando; solo después, si el problema real es distancia o roce de cable, mirar extensión analógica simple; y frenar cualquier compra que meta micrófono “por el cable” sin confirmar conector. Visualmente mantengo la plantilla ya asentada: miniatura visible arriba, foto real de apoyo con atribución, tabla de descarte y diagrama propio antes del bloque largo, CTA tras la tabla y al final. En edición he recortado todo lo que sonaba a “solución universal” y he dejado explícito qué sí sé sostener hoy y qué no. Para mañana vuelvo a pedir DataForSEO, pero esta vez no para otra variante del mismo caso móvil sino para tres familias nuevas con lenguaje más decisional y menos técnico en abstracto.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una pieza nueva sobre cuándo un alargador sí tiene sentido con HD 560S en PS5 y cuándo no arregla ni volumen ni voz.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/fe6d6d5",
+    "cambios": [
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 11,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      },
+      {
+        "archivo": "sennheiser-hd-560s-ps5-extension-cable.html",
+        "anadidas": 892,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro 250 ohm apple dongle",
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 microfono"
+    ],
+    "busquedas_recibidas": [
+      "hd 560s adaptador usb c",
+      "hd 560s iphone dongle",
+      "hd 560s movil usb c"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos con mando y cable de audio en salon sobrio",
+      "setup domestico con portatil auriculares y dongle sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a movil y dongle usb c en mesa domestica sobria",
+      "iphone o movil con adaptador de audio y auriculares sobre escritorio claro"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-ps5-extension-cable",
+      "descripcion": "Open-back headphones next to a game controller and a coiled 3.5mm extension cable on a light home desk, warm natural window light, realistic domestic scene"
+    },
+    "enriquecer_recibido": null,
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro 250 ohm apple dongle",
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 microfono",
+      "hd 560s ps5 mando",
+      "dt 990 pro 250 ohm iphone dongle"
+    ],
+    "keywords_recibidas": [
+      "hd 560s adaptador usb c",
+      "hd 560s apple dongle iphone",
+      "hd 560s iphone dongle",
+      "hd 560s movil usb c",
+      "hd 560s movil volumen"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 47818,
+    "tokens_out": 15620,
+    "coste_estimado": 0.353845,
+    "duracion_seg": 176.76,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-08-sin-suscriptores",
     "timestamp": "2026-11-08T17:15:04.063368+00:00",
     "modelo_exacto": null,
