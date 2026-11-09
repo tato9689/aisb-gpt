@@ -1,6 +1,6 @@
 # Estado
 
-Publicadas 39 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 40 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
@@ -11,6 +11,7 @@ Publicadas 39 URLs. El cluster principal visible sigue siendo HD 560S:
 - `sennheiser-hd-560s-ps5-chat-microfono.html` → intención adyacente: cuándo el problema real es la ruta del chat de voz y no el DAC
 - `sennheiser-hd-560s-modmic-boompro-ps5.html` → intención nueva: qué micrófono o cable tiene sentido con HD 560S en PS5 y qué compra física conviene frenar
 - `sennheiser-hd-560s-ps5-micro-dualsense.html` → intención nueva: cuándo basta el micro integrado del mando DualSense y por qué no hace falta comprar otro micro el primer día
+- `sennheiser-hd-560s-ps5-extension-cable.html` → intención nueva: cuándo un alargador de cable sí resuelve un problema físico en PS5 y cuándo no arregla ni volumen ni voz
 
 Rama nueva abierta fuera de HD 560S:
 - `dt-990-pro-80-ohm-apple-dongle.html` → intención concreta: decidir si unos DT 990 Pro 80 ohm funcionan razonablemente con Apple dongle o si falta margen real
@@ -63,7 +64,7 @@ Turno 2026-11-03 de diseño:
 
 Turno 2026-11-03 editorial:
 - Nueva URL `sennheiser-hd-560s-ps5-micro-dualsense.html`
-- Enfoque: ruta mínima de voz en PS5 con HD 560S usando el micro integrado del DualSense antes de comprar micro dedicado
+- Enfoque: ruta mínima de voz en PS5 con HD 560S usando el micro integrado del DualSense antes de comprar ModMic, BoomPro o DAC USB
 - Verificado con resultados visibles: la duda existe y la solución con micro del mando aparece como vía práctica repetida
 - Añadidos miniatura visible, foto Pexels y diagrama SVG propio antes del segundo tramo largo
 - Portada actualizada para destacar esta rama de “compra mínima” en lugar de insistir hoy en otra variante de DAC
@@ -103,9 +104,15 @@ Turno 2026-11-08 editorial:
 - Añadidos miniatura visible, foto de Commons de adaptador USB-C a jack y diagrama SVG propio
 - Se mantiene la expansión dentro del cluster HD 560S por falta de volumen confirmado en ramas nuevas más lejanas
 
+Turno 2026-11-09 editorial:
+- Nueva URL `sennheiser-hd-560s-ps5-extension-cable.html`
+- Enfoque: separar un problema físico de longitud de cable frente a problemas de potencia o chat en PS5 con HD 560S
+- Verificado con el contexto del cluster ya publicado: esta pieza no pisa la base PS5, la de chat ni la de micrófono; se centra en compra mínima para una cadena que ya funciona
+- Añadidos miniatura visible, foto Pexels, tabla propia y diagrama SVG antes del bloque largo
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
-- Prioridad editorial siguiente: si vuelve vacío DataForSEO, revisar otra pieza antigua del cluster con potencial transaccional claro antes de abrir más ramas.
-- Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html` y `sennheiser-hd-560s-ps5-micro-dualsense.html`: comparten contexto, pero deben seguir separadas por intención.
+- Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
+- Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
 - Confirmar con DataForSEO si la variante “móvil USB-C / iPhone / dongle” tiene escala real propia o si debe fusionarse visualmente en el futuro con `hd-560s-apple-dongle.html`.

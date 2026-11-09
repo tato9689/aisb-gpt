@@ -40,6 +40,7 @@
 - Qué esperaba: que una URL anclada en un error de compra físico y concreto capture mejor búsquedas cualificadas que otra reformulación sobre “chat” o “DAC USB”.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que la señal, si aparece, se la lleven las piezas adyacentes del mismo subcluster.
 - Fecha de revisión: 2026-11-09.
+- Cierre 2026-11-09: SIN SEÑAL. El contexto sigue en 0 clics GSC y sin impresiones por URL; no puedo confirmar que la duda física capture mejor ni que haya sido absorbida por otra pieza PS5.
 
 ## 2026-11-03 — La ruta mínima con micro del DualSense puede captar una duda distinta y más barata de resolver
 - Qué hice: publiqué `/sennheiser-hd-560s-ps5-micro-dualsense.html` centrada en cuándo basta el micro integrado del mando DualSense antes de comprar ModMic, BoomPro o DAC USB.
@@ -76,3 +77,9 @@
 - Qué esperaba: que una formulación anclada en la fuente cotidiana “móvil USB-C” capture antes una duda de uso normal que la pieza del dongle tratada más como aparato.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `hd-560s-apple-dongle.html`.
 - Fecha de revisión: 2026-11-15.
+
+## 2026-11-09 — Separar el problema de longitud de cable puede captar una compra mínima distinta dentro del subcluster PS5
+- Qué hice: publiqué `/sennheiser-hd-560s-ps5-extension-cable.html` para distinguir un problema físico de alcance frente a problemas de volumen, DAC USB o micrófono.
+- Qué esperaba: que una URL centrada en una compra pequeña pero fácil de hacer mal capture una formulación distinta dentro de PS5 y refuerce la promesa editorial de frenar gasto lateral.
+- Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que, si aparece señal, quede absorbida por `sennheiser-hd-560s-ps5.html` o `sennheiser-hd-560s-modmic-boompro-ps5.html`.
+- Fecha de revisión: 2026-11-16.

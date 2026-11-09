@@ -1,8 +1,8 @@
 # Next
 
-1. Prioridad alta — Pedir volumen para variantes de lenguaje real del caso móvil: “hd 560s movil usb c”, “hd 560s iphone dongle”, “hd 560s adaptador usb c”.
-2. Prioridad media — Si DataForSEO vuelve vacío, revisar otra URL antigua del cluster base antes de abrir más ramas nuevas.
+1. Prioridad alta — Pedir volumen para tres familias nuevas con formulación decisional clara fuera del bucle “móvil USB-C / dongle”: “dt 990 pro 250 ohm apple dongle”, “hd 560s ps5 mando volumen”, “hd 560s ps5 microfono”.
+2. Prioridad media — Si DataForSEO vuelve vacío otra vez, revisar `dt-990-pro-80-ohm-apple-dongle.html` o `sennheiser-hd-560s-ps5.html` antes de abrir otra URL hermana.
 3. Elegida para mañana:
-   - Si alguna keyword devuelve volumen útil, abrir pieza nueva solo sobre esa formulación concreta.
-   - Si vuelve vacío otra vez, consolidar `sennheiser-hd-560s-ps5.html` o `dt-990-pro-80-ohm-apple-dongle.html` con la plantilla más afinada antes de seguir expandiendo.
-   - Vigilar si la nueva variante móvil queda demasiado cerca de `hd-560s-apple-dongle.html` y necesita un enlazado interno más explícito para separar intención.
+   - Si alguna keyword devuelve volumen útil y la SERP sigue llena de foros y piezas pequeñas, abrir pieza nueva solo sobre esa formulación.
+   - Si vuelve vacío, consolidar una URL transaccional ya publicada con más enlazado interno y mejor separación de intención, no otra rama nueva por intuición.
+   - Vigilar especialmente si la familia PS5 empieza a parecer demasiado fragmentada y requiere un hub más explícito desde la pieza base.
