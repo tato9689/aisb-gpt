@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DT 990 Pro 80 ohm con Apple dongle: cuándo basta y cuándo no</title>
-  <meta name="description" content="Guía clara para decidir si un DT 990 Pro 80 ohm funciona bien con el Apple dongle o si ya tiene sentido subir a algo más potente.">
+  <meta name="description" content="Qué esperar de unos DT 990 Pro 80 ohm con Apple dongle: margen real, qué compra frenar y cuándo sí tiene sentido subir un escalón.">
   <link rel="canonical" href="https://gpt.retoseo.com/dt-990-pro-80-ohm-apple-dongle.html">
   <link rel="alternate" type="application/rss+xml" title="Audio personal sin ruido — RSS" href="/rss.xml">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
@@ -15,7 +15,7 @@
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://gpt.retoseo.com/dt-990-pro-80-ohm-apple-dongle.html">
   <meta property="og:title" content="DT 990 Pro 80 ohm con Apple dongle: cuándo basta y cuándo no">
-  <meta property="og:description" content="Si usas unos Beyerdynamic DT 990 Pro de 80 ohm, esta guía separa prueba razonable, margen real y compra que conviene frenar.">
+  <meta property="og:description" content="Qué esperar de unos DT 990 Pro 80 ohm con Apple dongle: margen real, qué compra frenar y cuándo sí tiene sentido subir un escalón.">
   <meta property="og:image" content="https://gpt.retoseo.com/og/miniatura/dt-990-pro-80-ohm-apple-dongle.jpg">
   <meta name="twitter:card" content="summary_large_image">
 
@@ -24,7 +24,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "DT 990 Pro 80 ohm con Apple dongle: cuándo basta y cuándo no",
-    "description": "Guía clara para decidir si un DT 990 Pro 80 ohm funciona bien con el Apple dongle o si ya tiene sentido subir a algo más potente.",
+    "description": "Qué esperar de unos DT 990 Pro 80 ohm con Apple dongle: margen real, qué compra frenar y cuándo sí tiene sentido subir un escalón.",
     "author": {
       "@type": "Organization",
       "name": "Audio personal sin ruido"
@@ -39,7 +39,7 @@
       "@id": "https://gpt.retoseo.com/dt-990-pro-80-ohm-apple-dongle.html"
     },
     "datePublished": "2026-11-05",
-    "dateModified": "2026-11-05",
+    "dateModified": "2026-11-10",
     "image": "https://gpt.retoseo.com/og/miniatura/dt-990-pro-80-ohm-apple-dongle.jpg",
     "inLanguage": "es-ES"
   }
@@ -73,7 +73,7 @@
       --space-5: 1.5rem;
       --space-6: 2rem;
       --space-7: 3rem;
-      --space-8: 4.5rem;
+      --space-8: 4rem;
       --max: 1180px;
       --reading: 72ch;
       --font-sans: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -83,8 +83,8 @@
       --step-1: clamp(1.2rem, 1.05rem + 0.55vw, 1.42rem);
       --step-2: clamp(1.5rem, 1.28rem + 0.95vw, 1.95rem);
       --step-3: clamp(2rem, 1.7rem + 1.5vw, 2.95rem);
-      --step-4: clamp(3.1rem, 2.35rem + 3.1vw, 5rem);
-      --leading-tight: 1.05;
+      --step-4: clamp(2.5rem, 2rem + 2.2vw, 4rem);
+      --leading-tight: 1.08;
       --leading-copy: 1.62;
       --transition-fast: 140ms ease;
     }
@@ -126,7 +126,7 @@
       line-height: var(--leading-copy);
       color: var(--ink);
       background:
-        linear-gradient(to bottom, rgba(154, 78, 33, 0.06), transparent 12rem),
+        linear-gradient(to bottom, rgba(154, 78, 33, 0.06), transparent 11rem),
         var(--bg);
       overflow-x: clip;
       text-rendering: optimizeLegibility;
@@ -151,10 +151,6 @@
       text-decoration-color: currentColor;
     }
 
-    a:visited {
-      text-decoration-color: rgba(154, 78, 33, 0.28);
-    }
-
     a:focus-visible,
     button:focus-visible,
     input:focus-visible,
@@ -168,17 +164,17 @@
       height: auto;
     }
 
-    h1, h2, h3, h4, p, ul, ol, figure {
+    h1, h2, h3, h4, p, ul {
       margin: 0;
     }
 
-    h1, h2, h3, h4, .meta, .eyebrow, .brand-text, .nav-link, .veredicto-kicker, .cta-title, label, button, th {
+    h1, h2, h3, h4, .brand-text, .nav-link, .eyebrow, .meta, .mini-kicker, .chip, .quick-label, .cta-title, label, button, .toc a {
       font-family: var(--font-sans);
     }
 
     h1, h2, h3, h4 {
       letter-spacing: -0.04em;
-      line-height: 1.08;
+      line-height: var(--leading-tight);
       overflow-wrap: anywhere;
     }
 
@@ -263,25 +259,34 @@
       display: grid;
       grid-template-columns: minmax(0, 1fr);
       gap: var(--space-6);
+      align-items: start;
+    }
+
+    .article-main,
+    .article-sidebar,
+    .hero,
+    .hero-copy,
+    .hero-quick,
+    .verdict,
+    .card,
+    .cta-box,
+    .toc,
+    .callout,
+    .tabla-scroll,
+    .diagram-wrap,
+    figure,
+    .changelog,
+    footer,
+    .footer-inner {
+      min-width: 0;
     }
 
     .hero {
       display: grid;
-      grid-template-columns: minmax(0, 1.08fr) minmax(0, 0.92fr);
+      grid-template-columns: minmax(0, 1.2fr);
       gap: var(--space-5);
-      align-items: start;
       padding-bottom: var(--space-6);
       border-bottom: 1px solid var(--line);
-    }
-
-    .hero > *,
-    .hero-copy > *,
-    .hero-aside > *,
-    .card > *,
-    .cta-box > *,
-    .related-grid > *,
-    .check-grid > * {
-      min-width: 0;
     }
 
     .eyebrow {
@@ -296,53 +301,77 @@
 
     .hero h1 {
       margin-top: var(--space-3);
-      font-size: var(--step-3);
+      font-size: var(--step-4);
       max-width: 12ch;
     }
 
-    .hero-lead {
+    .standfirst {
       margin-top: var(--space-4);
-      max-width: 34rem;
+      max-width: 38rem;
       font-size: var(--step-1);
       color: var(--ink-soft);
     }
 
-    .meta {
+    .meta-row,
+    .chip-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.55rem;
+      min-width: 0;
+    }
+
+    .meta-row {
       margin-top: var(--space-4);
-      font-size: 0.78rem;
-      letter-spacing: 0.12em;
+    }
+
+    .meta,
+    .chip,
+    .quick-label {
+      display: inline-flex;
+      align-items: center;
+      min-width: 0;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+
+    .meta,
+    .chip {
+      padding: 0.38rem 0.62rem;
+      border: 1px solid var(--line);
+      background: var(--surface-2);
+      font-size: 0.76rem;
+      letter-spacing: 0.08em;
       text-transform: uppercase;
       color: var(--ink-faint);
-      font-variant-numeric: tabular-nums;
     }
 
-    .hero-media,
-    .card,
-    .cta-box {
-      background: var(--surface);
+    .hero-layout {
+      display: grid;
+      gap: var(--space-5);
+    }
+
+    .hero-visual {
       border: 1px solid var(--line);
-      box-shadow: var(--shadow-sm);
-      border-radius: var(--radius-md);
-    }
-
-    .hero-media {
+      border-radius: var(--radius-lg);
       overflow: hidden;
+      background: var(--surface);
+      box-shadow: var(--shadow-lg);
     }
 
-    .hero-media img {
+    .hero-visual img {
       display: block;
       width: 100%;
       aspect-ratio: 640 / 336;
       object-fit: cover;
-      filter: saturate(0.86) contrast(1.04);
+      filter: saturate(0.86) contrast(1.03);
     }
 
-    .hero-media figcaption {
+    .hero-visual figcaption {
       padding: var(--space-4);
       border-top: 1px solid var(--line);
+      background: var(--surface);
       color: var(--ink-soft);
       font-size: var(--step--1);
-      background: var(--surface);
     }
 
     .attribution {
@@ -351,17 +380,63 @@
       color: var(--ink-faint);
     }
 
-    .veredicto {
+    .hero-quick {
       display: grid;
       gap: var(--space-3);
-      padding: var(--space-5);
-      border-radius: var(--radius-lg);
-      background: var(--surface);
+      padding: var(--space-4);
       border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      background: var(--surface);
       box-shadow: var(--shadow-sm);
     }
 
-    .veredicto-kicker {
+    .hero-quick h2 {
+      font-size: 1.05rem;
+    }
+
+    .quick-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: var(--space-3);
+    }
+
+    .quick-item {
+      display: grid;
+      gap: 0.35rem;
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--line);
+    }
+
+    .quick-label {
+      font-size: 0.74rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+    }
+
+    .quick-item p {
+      color: var(--ink-soft);
+    }
+
+    .card,
+    .verdict,
+    .cta-box,
+    .toc,
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .verdict {
+      padding: var(--space-5);
+      display: grid;
+      gap: var(--space-3);
+      margin: var(--space-6) 0;
+    }
+
+    .mini-kicker {
       font-size: 0.76rem;
       font-weight: 800;
       letter-spacing: 0.14em;
@@ -369,18 +444,11 @@
       color: var(--ok);
     }
 
-    .veredicto p {
+    .verdict p {
       max-width: var(--reading);
     }
 
-    .layout {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) minmax(0, 320px);
-      gap: var(--space-5);
-      align-items: start;
-    }
-
-    article {
+    .article-main {
       display: grid;
       gap: var(--space-5);
     }
@@ -393,6 +461,7 @@
 
     .card h2 {
       font-size: var(--step-2);
+      max-width: 18ch;
     }
 
     .card h3 {
@@ -404,21 +473,8 @@
       max-width: var(--reading);
     }
 
-    .card p,
-    .card li,
-    .aside-card p,
-    .aside-card li {
+    .soft {
       color: var(--ink-soft);
-    }
-
-    .bullet-list,
-    .number-list {
-      padding-left: 1.2rem;
-    }
-
-    .bullet-list li + li,
-    .number-list li + li {
-      margin-top: 0.5rem;
     }
 
     .tabla-scroll {
@@ -448,6 +504,7 @@
     }
 
     th {
+      font-family: var(--font-sans);
       font-size: 0.79rem;
       letter-spacing: 0.12em;
       text-transform: uppercase;
@@ -459,11 +516,48 @@
       border-bottom: 0;
     }
 
-    .note {
-      padding: var(--space-4);
-      border-left: 4px solid var(--accent);
+    ul {
+      padding-left: 1.15rem;
+    }
+
+    li + li {
+      margin-top: 0.55rem;
+    }
+
+    .diagram-wrap {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      overflow: hidden;
       background: var(--surface-2);
-      border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+    }
+
+    .diagram-wrap svg {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .diagram-caption {
+      padding: var(--space-3) var(--space-4);
+      border-top: 1px solid var(--line);
+      color: var(--ink-soft);
+      font-size: var(--step--1);
+    }
+
+    .callout {
+      padding: var(--space-4);
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .callout strong {
+      font-family: var(--font-sans);
+      font-size: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .callout.warn strong {
+      color: var(--warn);
     }
 
     .cta-box {
@@ -474,7 +568,6 @@
 
     .cta-title {
       font-size: var(--step-1);
-      font-weight: 800;
       letter-spacing: -0.03em;
     }
 
@@ -526,6 +619,11 @@
       background: #b35c29;
     }
 
+    .small-note {
+      color: var(--ink-faint);
+      font-size: var(--step--1);
+    }
+
     .consent-row {
       display: grid;
       grid-template-columns: auto minmax(0, 1fr);
@@ -537,100 +635,76 @@
       margin-top: 0.3rem;
     }
 
-    .small-note {
-      color: var(--ink-faint);
+    .article-sidebar {
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    .toc {
+      padding: var(--space-4);
+      display: grid;
+      gap: var(--space-3);
+    }
+
+    .toc h2 {
+      font-size: 1rem;
+    }
+
+    .toc ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      gap: 0.7rem;
+    }
+
+    .toc li {
+      margin: 0;
+    }
+
+    .toc a {
+      text-decoration: none;
+      color: var(--ink-soft);
+      font-size: 0.95rem;
+    }
+
+    .toc a:hover,
+    .toc a:focus-visible {
+      color: var(--accent);
+    }
+
+    .sticky-box {
+      display: grid;
+      gap: var(--space-4);
+    }
+
+    .changelog {
+      display: grid;
+      gap: 0.35rem;
+      padding-top: var(--space-3);
+      border-top: 1px solid var(--line);
+      color: var(--ink-soft);
       font-size: var(--step--1);
     }
 
-    aside {
-      display: grid;
-      gap: var(--space-4);
-    }
-
-    .aside-card {
+    .related-links {
       display: grid;
       gap: var(--space-3);
-      padding: var(--space-4);
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      box-shadow: var(--shadow-sm);
     }
 
-    .aside-card h2 {
-      font-size: 1.05rem;
-    }
-
-    .check-grid {
+    .related-links a {
       display: grid;
-      gap: var(--space-4);
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .mini-check {
-      padding: var(--space-4);
+      gap: 0.2rem;
+      padding: var(--space-3);
       border: 1px solid var(--line);
-      border-radius: var(--radius-md);
-      background: var(--surface-2);
-    }
-
-    .mini-check strong {
-      display: block;
-      margin-bottom: 0.35rem;
-      font-family: var(--font-sans);
-      letter-spacing: -0.02em;
-    }
-
-    .video figcaption {
-      margin-top: var(--space-2);
-      color: var(--ink-faint);
-      font-size: var(--step--1);
-    }
-
-    .related-grid {
-      display: grid;
-      gap: var(--space-4);
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-
-    .related-card {
-      display: grid;
-      gap: var(--space-3);
-      padding: var(--space-4);
-      border: 1px solid var(--line);
-      border-radius: var(--radius-md);
+      border-radius: var(--radius-sm);
       background: var(--surface-2);
       text-decoration: none;
     }
 
-    .related-card:hover {
+    .related-links a:hover {
       border-color: var(--line-strong);
-      transform: translateY(-1px);
       color: inherit;
-    }
-
-    .related-card img {
-      width: 100%;
-      aspect-ratio: 640 / 336;
-      object-fit: cover;
-      border-radius: var(--radius-sm);
-      border: 1px solid var(--line);
-      filter: saturate(0.86) contrast(1.04);
-    }
-
-    .related-card span {
-      font-family: var(--font-sans);
-      font-size: 0.75rem;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--ink-faint);
-    }
-
-    .changelog {
-      font-size: var(--step--1);
-      color: var(--ink-faint);
-      border-top: 1px solid var(--line);
-      padding-top: var(--space-3);
+      transform: translateY(-1px);
     }
 
     footer {
@@ -659,17 +733,19 @@
         color: CanvasText;
       }
 
-      .hero-media,
-      .veredicto,
       .card,
+      .verdict,
       .cta-box,
-      .aside-card,
-      .mini-check,
-      .related-card,
+      .toc,
+      .callout,
+      .hero-visual,
+      .hero-quick,
       .tabla-scroll,
       form,
       button,
-      input {
+      input,
+      .meta,
+      .chip {
         forced-color-adjust: auto;
       }
 
@@ -693,16 +769,30 @@
       }
     }
 
-    @media (max-width: 980px) {
-      .hero,
-      .layout,
-      .check-grid,
-      .related-grid {
-        grid-template-columns: minmax(0, 1fr);
+    @media (min-width: 980px) {
+      .article-grid {
+        grid-template-columns: minmax(0, 1fr) minmax(260px, 320px);
       }
 
-      .hero h1 {
-        max-width: none;
+      .article-sidebar .sticky-box {
+        position: sticky;
+        top: 1.25rem;
+      }
+
+      .hero-layout {
+        grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      }
+    }
+
+    @media (max-width: 979px) {
+      .article-sidebar {
+        order: -1;
+      }
+    }
+
+    @media (max-width: 720px) {
+      .quick-grid {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
 
@@ -717,6 +807,11 @@
 
       table {
         min-width: 520px;
+      }
+
+      .hero h1,
+      .card h2 {
+        max-width: none;
       }
     }
   </style>
@@ -753,237 +848,268 @@
     </div>
   </header>
 
-  <main class="site-width article-grid">
-    <section class="hero" aria-labelledby="titulo-articulo">
-      <div class="hero-copy">
-        <span class="eyebrow">Beyerdynamic · cadena mínima</span>
-        <h1 id="titulo-articulo">DT 990 Pro 80 ohm con Apple dongle: cuándo basta y cuándo no</h1>
-        <p class="hero-lead">Sí, es una prueba razonable. Con unos DT 990 Pro de 80 ohm, el Apple dongle puede servir si escuchas a volumen normal y no vas ya al límite. Lo que no conviene es comprar un amplificador antes de comprobar si de verdad te falta margen.</p>
-        <p class="meta">Publicado: 05/11/2026 · Última revisión: 05/11/2026</p>
-      </div>
+  <main class="site-width">
+    <div class="article-grid">
+      <article class="article-main">
+        <header class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">Beyerdynamic · dongle · compra mínima</span>
+            <h1>DT 990 Pro 80 ohm con Apple dongle: cuándo basta y cuándo no</h1>
+            <p class="standfirst">Sí, unos DT 990 Pro de 80 ohm pueden funcionar con un Apple dongle. Lo que no conviene dar por hecho es que eso baste para cualquiera. La decisión útil sale de una prueba simple: si ya escuchas cómodo sin ir al límite, no hace falta correr a por un DAC/amp mayor.</p>
+            <div class="meta-row">
+              <span class="meta">Publicado: 05/11</span>
+              <span class="meta">Última revisión: 10/11</span>
+              <span class="meta">Intención: compatibilidad real</span>
+            </div>
+            <div class="chip-row">
+              <span class="chip">DT 990 Pro 80 ohm</span>
+              <span class="chip">Apple dongle</span>
+              <span class="chip">Qué no comprar</span>
+            </div>
+          </div>
 
-      <figure class="hero-media">
-        <img src="https://gpt.retoseo.com/og/miniatura/dt-990-pro-80-ohm-apple-dongle.jpg" alt="Auriculares de diadema junto a un pequeño adaptador y un móvil sobre una mesa clara" width="640" height="336">
-        <figcaption>
-          Esta duda casi nunca va de “si suena”, sino de si te deja margen cómodo sin empezar a añadir cajas.
-        </figcaption>
-      </figure>
-    </section>
+          <div class="hero-layout">
+            <figure class="hero-visual">
+              <img src="https://gpt.retoseo.com/og/miniatura/dt-990-pro-80-ohm-apple-dongle.jpg" alt="Auriculares de diadema junto a un pequeño adaptador y un móvil sobre una mesa clara" width="640" height="336">
+              <figcaption>
+                Esta duda se resuelve mejor mirando la cadena completa que repitiendo la impedancia a secas.
+              </figcaption>
+            </figure>
 
-    <section class="veredicto" aria-labelledby="veredicto-heading">
-      <span class="veredicto-kicker">Veredicto corto</span>
-      <p id="veredicto-heading">Para unos DT 990 Pro de 80 ohm, el Apple dongle merece la prueba y a mucha gente le bastará. Si ya escuchas alto, quieres mucho margen o notas que vas demasiado cerca del máximo, ahí sí tiene sentido salir del dongle. Lo que conviene frenar es comprar un DAC/amp solo por leer “80 ohm” y dar por hecho que no va a funcionar.</p>
-    </section>
+            <section class="hero-quick" aria-labelledby="ficha-rapida">
+              <h2 id="ficha-rapida">Ficha rápida</h2>
+              <div class="quick-grid">
+                <div class="quick-item">
+                  <span class="quick-label">Veredicto corto</span>
+                  <p>Prueba primero el dongle si ya lo tienes.</p>
+                </div>
+                <div class="quick-item">
+                  <span class="quick-label">Compra a frenar</span>
+                  <p>Stack de escritorio desde el día 1.</p>
+                </div>
+                <div class="quick-item">
+                  <span class="quick-label">Señal de que no basta</span>
+                  <p>Vas ya muy arriba de volumen y aún falta margen.</p>
+                </div>
+                <div class="quick-item">
+                  <span class="quick-label">Error típico</span>
+                  <p>Confundir la experiencia de 250 ohm con la de 80 ohm.</p>
+                </div>
+              </div>
+            </section>
+          </div>
+        </header>
 
-    <div class="layout">
-      <article>
-        <section class="card" aria-labelledby="tabla-heading">
+        <section class="verdict" aria-labelledby="veredicto">
+          <span class="mini-kicker">Respuesta corta</span>
+          <h2 id="veredicto">Para mucha gente, sí puede bastar. No para todas.</h2>
+          <p>Los resultados visibles que he contrastado repiten una idea: la versión de 80 ohm suele ser bastante más razonable con un Apple dongle que la de 250 ohm. Eso no convierte al dongle en respuesta universal. Si con tu volumen normal ya notas que vas al tope, que el margen final es justo o que cambias entre música muy tranquila y juegos muy dinámicos, ahí sí tiene sentido mirar una salida con más recorrido.</p>
+        </section>
+
+        <section class="card" id="tabla-descarte" aria-labelledby="tabla-heading">
           <h2 id="tabla-heading">Tabla de descarte rápido</h2>
+          <p class="soft">La pieza no va de perseguir “mejor sonido” en abstracto. Va de evitar dos compras malas: el stack prematuro y el dongle defendido aunque ya se queda corto para tu uso.</p>
+
           <div class="tabla-scroll">
-            <table aria-label="Decisión rápida para usar DT 990 Pro 80 ohm con Apple dongle">
+            <table aria-label="Cuándo bastan unos DT 990 Pro 80 ohm con Apple dongle y cuándo no">
               <thead>
                 <tr>
                   <th>Situación</th>
                   <th>Qué haría primero</th>
-                  <th>Qué frenaría</th>
-                  <th>Señal útil</th>
+                  <th>Qué conviene frenar</th>
+                  <th>Por qué</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Escucha doméstica normal, sin buscar volumen alto</td>
-                  <td>Probar el Apple dongle</td>
-                  <td>Amp de escritorio comprado por anticipado</td>
-                  <td>Si llegas a volumen cómodo sin apurar, ya tienes respuesta.</td>
+                  <td>Ya tienes Apple dongle y escuchas a volumen cómodo</td>
+                  <td>Quedarte ahí de momento</td>
+                  <td>Comprar DAC/amp “por los ohmios”</td>
+                  <td>Si la cadena ya te da margen suficiente, el gasto extra deja de ser necesidad.</td>
                 </tr>
                 <tr>
-                  <td>Ya escuchas fuerte o grabaciones flojas se quedan cortas</td>
-                  <td>Pasar a una salida con más margen</td>
+                  <td>Necesitas ir casi al máximo para estar cómodo</td>
+                  <td>Buscar más margen real en otra salida</td>
                   <td>Cambiar solo cable o adaptador pasivo</td>
-                  <td>Si acabas casi al máximo, el margen real es el problema.</td>
+                  <td>Si falta empuje, el cuello de botella está en la salida, no en el cable.</td>
                 </tr>
                 <tr>
-                  <td>Uso en móvil o portátil sin querer más cajas</td>
-                  <td>Mantener cadena corta</td>
-                  <td>DAC/amp de sobremesa fijo</td>
-                  <td>Si tu prioridad es simplicidad, el dongle encaja mejor que un stack.</td>
+                  <td>Has leído experiencias de DT 990 Pro 250 ohm</td>
+                  <td>Separarlas de esta versión de 80 ohm</td>
+                  <td>Extrapolar sin mirar la impedancia exacta</td>
+                  <td>La duda de 250 ohm se parece, pero no es la misma compra.</td>
                 </tr>
                 <tr>
-                  <td>Quieres “sacarle todo” aunque ya va bien</td>
-                  <td>Parar y definir qué te falta</td>
-                  <td>Comprar por ansiedad de ficha técnica</td>
-                  <td>Sin problema concreto, es fácil gastar antes de entender la mejora.</td>
+                  <td>Usas iPhone o móvil USB-C y quieres una cadena corta</td>
+                  <td>Probar el dongle antes de subir un escalón</td>
+                  <td>Montar escritorio fijo para una escucha que sigue siendo móvil</td>
+                  <td>La cadena mínima da la respuesta más limpia sobre suficiencia real.</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </section>
 
-        <section class="card" aria-labelledby="porque-heading">
-          <h2 id="porque-heading">Por qué la respuesta corta no es “sí” ni “no”</h2>
-          <p>Los resultados visibles de hoy no apuntan a una incompatibilidad automática. Al revés: repiten una idea práctica. Con DT 990 Pro de 80 ohm, el Apple dongle puede sonar bien y ser suficiente; donde empieza la discusión de verdad es en el margen de volumen final y en cuánto aire quieres tener por encima de tu escucha habitual.</p>
-          <p>Eso encaja mejor con una decisión anti-ruido: primero confirmar si llegas cómodo con tu cadena mínima; después decidir si te falta algo. No al revés.</p>
-
-          <div class="note">
-            <p><strong>Qué he podido verificar hoy:</strong> en hilos de Reddit y Linus Tech Tips aparecen experiencias consistentes con dos ideas: los DT 990 Pro de 80 ohm se pueden mover con un dongle sencillo, y la diferencia práctica entre “sirve” y “no sirve” suele ser el margen final, no el mero hecho de emitir sonido.</p>
-          </div>
-        </section>
-
-        <section class="cta-box" aria-labelledby="cta-mid-heading">
-          <p class="cta-title" id="cta-mid-heading">Si estás a punto de comprar algo para “moverlos mejor”, aquí es donde suele sobrar gasto.</p>
-          <p>Los domingos envío comparativas cortas sobre cuándo una salida ya basta, cuándo un dongle tiene sentido y cuándo el siguiente escalón sí se nota en uso real.</p>
+        <div class="cta-box">
+          <h2 class="cta-title">Si estás afinando una compra parecida, suscríbete a las comparativas cortas del domingo</h2>
+          <p>En la newsletter separo justo esto: qué fuente ya basta, qué accesorio solo añade cajas y qué error de compatibilidad sale caro porque se descubre tarde.</p>
 
           <form action="https://panel.retoseo.com/subscription/form" method="post">
-            <label for="email-mid">Correo electrónico</label>
-            <input type="email" id="email-mid" name="email" required autocomplete="email" placeholder="tu@email.com">
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required autocomplete="email" placeholder="tu@email.com">
             <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-            <input type="hidden" name="attribs_origen" id="origen-mid" value="directo">
+            <input type="hidden" name="attribs_origen" id="origen" value="directo">
             <div class="consent-row">
-              <input type="checkbox" id="consentimiento-mid" name="consentimiento" required>
-              <label for="consentimiento-mid">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+              <input type="checkbox" id="consentimiento" name="consentimiento" required>
+              <label for="consentimiento">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
             </div>
             <button type="submit">Suscribirme</button>
           </form>
 
-          <p class="small-note">Nada de regalos por apuntarte. Solo decisiones más cortas y con menos compras laterales.</p>
-        </section>
+          <p class="small-note">No hay regalo por apuntarte. Sí hay criterio de descarte para no comprar un aparato de más cuando la cadena actual aún no ha demostrado quedarse corta.</p>
+        </div>
 
-        <section class="card" aria-labelledby="comprobar-heading">
-          <h2 id="comprobar-heading">Qué comprobar antes de gastar un euro más</h2>
+        <section class="card" id="prueba-real" aria-labelledby="prueba-heading">
+          <h2 id="prueba-heading">La prueba útil no es audiófila: es de margen</h2>
+          <p>Si ya tienes el Apple dongle, la mejor decisión empieza probándolo. No hace falta adornarlo más. Ponte una referencia que conozcas bien, sube hasta tu volumen habitual y mira dos cosas:</p>
+          <ul>
+            <li>si llegas a tu volumen normal sin ir pegado al final, y</li>
+            <li>si en grabaciones más tranquilas o en escenas de juego dinámicas sigues teniendo margen de sobra.</li>
+          </ul>
+          <p>Si ambas respuestas son sí, yo no compraría todavía otra caja. Si la segunda falla aunque la primera parezca aceptable, ahí ya no estás comprando por miedo a la ficha: estás corrigiendo una limitación práctica.</p>
 
-          <div class="check-grid">
-            <div class="mini-check">
-              <strong>1. Tu volumen cómodo</strong>
-              <p>Si ya escuchas bien sin acercarte al máximo, no has demostrado todavía que necesites algo más potente.</p>
-            </div>
-            <div class="mini-check">
-              <strong>2. Tu margen real</strong>
-              <p>Si algunas grabaciones se quedan justas o acabas casi a tope, entonces ya hay una razón concreta para subir escalón.</p>
-            </div>
-            <div class="mini-check">
-              <strong>3. Tu uso</strong>
-              <p>Una cadena móvil y corta no pide la misma solución que un escritorio fijo donde sí aceptas más cajas.</p>
-            </div>
-            <div class="mini-check">
-              <strong>4. Tu motivo</strong>
-              <p>“Quiero exprimirlos” no es todavía un problema. “Me falta nivel” o “quiero mando físico y más holgura” sí lo es.</p>
-            </div>
+          <div class="diagram-wrap">
+            <svg viewBox="0 0 920 320" role="img" aria-labelledby="diag-title diag-desc">
+              <title id="diag-title">Diagrama de decisión para DT 990 Pro 80 ohm con Apple dongle</title>
+              <desc id="diag-desc">Un flujo simple: primero probar Apple dongle, después decidir según si el volumen cómodo llega con margen o si la salida se queda justa.</desc>
+              <rect x="0" y="0" width="920" height="320" fill="var(--surface-2)"></rect>
+              <rect x="40" y="42" width="240" height="92" rx="16" fill="var(--surface)" stroke="var(--line-strong)" stroke-width="2"></rect>
+              <text x="160" y="78" text-anchor="middle" font-family="Manrope, sans-serif" font-size="24" font-weight="800" fill="var(--ink)">Apple dongle</text>
+              <text x="160" y="108" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="var(--ink-soft)">punto de partida</text>
+
+              <rect x="340" y="42" width="240" height="92" rx="16" fill="var(--surface)" stroke="var(--line-strong)" stroke-width="2"></rect>
+              <text x="460" y="78" text-anchor="middle" font-family="Manrope, sans-serif" font-size="24" font-weight="800" fill="var(--ink)">¿Volumen cómodo</text>
+              <text x="460" y="108" text-anchor="middle" font-family="Manrope, sans-serif" font-size="24" font-weight="800" fill="var(--ink)">con margen?</text>
+
+              <rect x="640" y="24" width="230" height="110" rx="16" fill="var(--surface)" stroke="var(--ok)" stroke-width="2.5"></rect>
+              <text x="755" y="66" text-anchor="middle" font-family="Manrope, sans-serif" font-size="23" font-weight="800" fill="var(--ok)">Sí</text>
+              <text x="755" y="98" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="var(--ink-soft)">no compres más</text>
+
+              <rect x="640" y="186" width="230" height="110" rx="16" fill="var(--surface)" stroke="var(--warn)" stroke-width="2.5"></rect>
+              <text x="755" y="228" text-anchor="middle" font-family="Manrope, sans-serif" font-size="23" font-weight="800" fill="var(--warn)">No</text>
+              <text x="755" y="260" text-anchor="middle" font-family="Manrope, sans-serif" font-size="18" fill="var(--ink-soft)">sube la salida, no el cable</text>
+
+              <path d="M280 88H340" stroke="var(--line-strong)" stroke-width="4" fill="none" stroke-linecap="round"></path>
+              <path d="M580 70H640" stroke="var(--ok)" stroke-width="4" fill="none" stroke-linecap="round"></path>
+              <path d="M580 112C620 112 608 240 640 240" stroke="var(--warn)" stroke-width="4" fill="none" stroke-linecap="round"></path>
+            </svg>
+            <div class="diagram-caption">La compra sensata cambia cuando falta margen real, no cuando aparece la palabra “80 ohm” en la caja.</div>
           </div>
         </section>
 
-        <section class="card" aria-labelledby="diagrama-heading">
-          <h2 id="diagrama-heading">Diagrama rápido de decisión</h2>
-          <svg viewBox="0 0 860 420" role="img" aria-labelledby="svg-title svg-desc">
-            <title id="svg-title">Ruta para decidir si un DT 990 Pro 80 ohm necesita más que el Apple dongle</title>
-            <desc id="svg-desc">Diagrama con una ruta simple: probar primero el Apple dongle, evaluar si el volumen llega cómodo y decidir si hace falta más margen o si conviene frenar la compra.</desc>
-            <rect x="20" y="28" width="220" height="88" rx="18" fill="var(--surface-2)" stroke="var(--line-strong)"/>
-            <text x="40" y="62" fill="var(--ink)" font-family="Manrope, sans-serif" font-size="23" font-weight="800">DT 990 Pro 80 ohm</text>
-            <text x="40" y="92" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Empieza por la cadena más corta</text>
+        <section class="card" id="que-he-verificado" aria-labelledby="verificado-heading">
+          <h2 id="verificado-heading">Qué he verificado para no rellenar esto de memoria</h2>
+          <p>Hoy he contrastado esta pieza con los resultados visibles del turno, no con recuerdos vagos:</p>
+          <ul>
+            <li>En Reddit aparece repetida la idea de que la versión de <strong>80 ohm</strong> suele resultar mucho más viable con Apple dongle que la de 250 ohm.</li>
+            <li>También aparece repetida la advertencia inversa: <strong>250 ohm</strong> y 80 ohm no deben mezclarse en la misma respuesta, porque cambian el margen y la experiencia de uso.</li>
+            <li>No he recibido volumen mensual válido de DataForSEO para abrir hoy variantes hermanas como “iPhone dongle” o “250 ohm”, así que no las abro.</li>
+          </ul>
 
-            <rect x="320" y="28" width="220" height="88" rx="18" fill="var(--surface-2)" stroke="var(--line-strong)"/>
-            <text x="350" y="62" fill="var(--ink)" font-family="Manrope, sans-serif" font-size="23" font-weight="800">Apple dongle</text>
-            <text x="350" y="92" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Prueba razonable primero</text>
-
-            <rect x="620" y="28" width="220" height="88" rx="18" fill="var(--surface-2)" stroke="var(--line-strong)"/>
-            <text x="646" y="62" fill="var(--ink)" font-family="Manrope, sans-serif" font-size="23" font-weight="800">¿Volumen cómodo?</text>
-            <text x="646" y="92" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">La señal útil está aquí</text>
-
-            <rect x="520" y="226" width="260" height="104" rx="18" fill="rgba(47,106,81,0.12)" stroke="var(--ok)"/>
-            <text x="545" y="262" fill="var(--ink)" font-family="Manrope, sans-serif" font-size="23" font-weight="800">Sí</text>
-            <text x="545" y="292" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Frena la compra extra</text>
-            <text x="545" y="316" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Ya tienes una cadena válida</text>
-
-            <rect x="180" y="226" width="260" height="104" rx="18" fill="rgba(138,101,23,0.12)" stroke="var(--warn)"/>
-            <text x="205" y="262" fill="var(--ink)" font-family="Manrope, sans-serif" font-size="23" font-weight="800">No</text>
-            <text x="205" y="292" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Busca más margen útil</text>
-            <text x="205" y="316" fill="var(--ink-soft)" font-family="Manrope, sans-serif" font-size="18">Ahí sí tiene sentido subir</text>
-
-            <path d="M240 72h70" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <path d="M540 72h60" stroke="var(--accent)" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <path d="M730 116v74" stroke="var(--ok)" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <path d="M620 116l-275 88" stroke="var(--warn)" stroke-width="4" fill="none" stroke-linecap="round"/>
-          </svg>
+          <div class="callout warn">
+            <strong>Límite de esta pieza</strong>
+            <p>No publico aquí una cifra cerrada de volumen suficiente para todo el mundo porque no la he verificado en una fuente única y porque, además, el uso cambia mucho según grabación, nivel habitual y tolerancia personal. La salida útil sigue siendo el criterio de margen, no una promesa universal.</p>
+          </div>
         </section>
 
-        <section class="card" aria-labelledby="foto-heading">
-          <h2 id="foto-heading">El accesorio real del que hablamos</h2>
+        <section class="card" id="foto-cadena" aria-labelledby="foto-heading">
+          <h2 id="foto-heading">La cadena que importa aquí es esta</h2>
           <figure>
-            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/USB_C_auf_Klinke_Adapter.jpg/960px-USB_C_auf_Klinke_Adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" alt="Adaptador de audio USB-C a conector jack sobre una superficie clara" width="960" height="720">
-            <figcaption class="small-note">
-              Un dongle así es el punto de partida lógico cuando quieres mantener una cadena corta.
+            <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/USB_C_auf_Klinke_Adapter.jpg/960px-USB_C_auf_Klinke_Adapter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail" alt="Adaptador USB-C a jack de 3,5 mm usado como salida de audio para móvil" width="960" height="720" loading="lazy">
+            <figcaption class="soft">
+              Un dongle USB-C a jack no es un simple trozo de cable: aquí es la salida completa que decide si la cadena mínima ya te basta.
               <span class="attribution">Foto: Jannnis, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, vía <a href="https://commons.wikimedia.org/wiki/File:USB_C_auf_Klinke_Adapter.jpg">Wikimedia Commons</a></span>
             </figcaption>
           </figure>
         </section>
 
-        <section class="card" aria-labelledby="video-heading">
-          <h2 id="video-heading">Vídeo de apoyo</h2>
-          <p>Este vídeo no sustituye a la guía, pero sirve para ver el tamaño real de la solución y el tipo de uso al que apunta un dongle como el KA11 frente a una cadena más grande.</p>
-          <figure class="video"><iframe src="https://www.youtube-nocookie.com/embed/uVBDgYSXWko" title="How Much DAC/Amp Do You Need? (2026 / Fiio KA11 Review)" loading="lazy" width="560" height="315" style="aspect-ratio:16/9;width:100%;height:auto" allow="encrypted-media; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><figcaption>Vídeo: <a href="https://www.youtube.com/watch?v=uVBDgYSXWko">How Much DAC/Amp Do You Need? (2026 / Fiio KA11 Review)</a>, de <a href="https://www.youtube.com/@MrAyrit">MrAyrit</a> en YouTube</figcaption></figure>
-        </section>
-
-        <section class="card" aria-labelledby="no-comprar-heading">
-          <h2 id="no-comprar-heading">Qué no comprar todavía</h2>
-          <ul class="bullet-list">
-            <li>No compraría un amplificador de escritorio solo porque has leído que 80 ohm “piden” algo más.</li>
-            <li>No cambiaría cables esperando solucionar falta de volumen. Si falta nivel, el cuello de botella no es pasivo.</li>
-            <li>No saltaría a una cadena fija si en realidad quieres usarlo con móvil o portátil y valoras simplicidad.</li>
+        <section class="card" id="que-no-comprar" aria-labelledby="nocomprar-heading">
+          <h2 id="nocomprar-heading">Qué no comprar todavía</h2>
+          <ul>
+            <li><strong>Un DAC/amp de escritorio solo porque viste “80 ohm”.</strong> Esa cifra sola no demuestra que tu cadena actual sea insuficiente.</li>
+            <li><strong>Un cable nuevo esperando más volumen.</strong> Si lo que falta es salida, un cable pasivo no cambia ese cuello de botella.</li>
+            <li><strong>La versión 250 ohm por arrastre de conversación.</strong> Si tu objetivo es una cadena mínima con dongle, mezclar ambas versiones es la forma más rápida de comprar mal.</li>
           </ul>
+          <p>La compra que más se agradece en este punto suele ser ninguna. Primero prueba la cadena corta; después, si el margen falla, ya eliges con más criterio qué escalón subir.</p>
         </section>
 
-        <section class="cta-box" aria-labelledby="cta-final-heading">
-          <p class="cta-title" id="cta-final-heading">Si tu compra está entre “probar el dongle” y “subir a algo más serio”, esa es exactamente la zona de esta newsletter.</p>
-          <p>Cada domingo envío casos parecidos: un auricular concreto, una fuente concreta y la compra que más fácil es hacer demasiado pronto.</p>
+        <section class="card" id="siguiente-paso" aria-labelledby="siguiente-heading">
+          <h2 id="siguiente-heading">Si el dongle no te basta, cuál es el siguiente paso sensato</h2>
+          <p>No saltaría de cero a un escritorio entero. El siguiente paso útil es una salida con más margen real para el mismo caso de uso. La clave es que el motivo de compra ya esté claro: no llegas cómodo, o llegas demasiado justo.</p>
+          <p>Si en cambio el dongle sí te basta, mi consejo aquí es más aburrido y más barato: seguir escuchando y dejar ese presupuesto quieto.</p>
+        </section>
+
+        <div class="cta-box">
+          <h2 class="cta-title">¿Quieres más piezas de este tipo, centradas en compatibilidad y descarte?</h2>
+          <p>La newsletter del domingo resume casos donde la compra buena no era “subir de gama”, sino entender mejor la cadena.</p>
 
           <form action="https://panel.retoseo.com/subscription/form" method="post">
-            <label for="email-final">Correo electrónico</label>
-            <input type="email" id="email-final" name="email" required autocomplete="email" placeholder="tu@email.com">
+            <label for="email-bottom">Correo electrónico</label>
+            <input type="email" id="email-bottom" name="email" required autocomplete="email" placeholder="tu@email.com">
             <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-            <input type="hidden" name="attribs_origen" id="origen-final" value="directo">
+            <input type="hidden" name="attribs_origen" class="origen" value="directo">
             <div class="consent-row">
-              <input type="checkbox" id="consentimiento-final" name="consentimiento" required>
-              <label for="consentimiento-final">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+              <input type="checkbox" id="consentimiento-bottom" name="consentimiento" required>
+              <label for="consentimiento-bottom">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
             </div>
             <button type="submit">Suscribirme</button>
           </form>
 
-          <p class="small-note">Promesa concreta: comparativas cortas para no comprar un escalón entero cuando todavía no has agotado el primero.</p>
-        </section>
+          <p class="small-note">Promesa concreta: comparativas cortas para decidir si una fuente ya vale, cuándo un adaptador solo maquilla el problema y qué compras conviene frenar antes de pagar.</p>
+        </div>
 
-        <section class="card" aria-labelledby="relacionadas-heading">
-          <h2 id="relacionadas-heading">Sigue por aquí si tu duda es parecida</h2>
-          <div class="related-grid">
-            <a class="related-card" href="https://gpt.retoseo.com/hd-560s-apple-dongle.html">
-              <img src="https://gpt.retoseo.com/og/miniatura/hd-560s-apple-dongle.jpg" alt="Auriculares junto a un adaptador pequeño sobre una mesa" width="640" height="336" loading="lazy">
-              <span>Cadena mínima</span>
-              <strong>¿Basta el Apple dongle para unos HD 560S?</strong>
+        <section class="card" id="relacionadas" aria-labelledby="rel-heading">
+          <h2 id="rel-heading">Piezas relacionadas</h2>
+          <div class="related-links">
+            <a href="https://gpt.retoseo.com/hd-560s-apple-dongle.html">
+              <strong>¿Basta el Apple dongle para mover unos HD 560S?</strong>
+              <span class="soft">Misma lógica de cadena mínima, pero con otro auricular y otra tolerancia al margen.</span>
             </a>
-            <a class="related-card" href="https://gpt.retoseo.com/hd-560s-necesita-amplificador.html">
-              <img src="https://gpt.retoseo.com/og/miniatura/hd-560s-necesita-amplificador.jpg" alt="Auriculares abiertos apoyados junto a un portátil en un escritorio" width="640" height="336" loading="lazy">
-              <span>Descarte base</span>
-              <strong>¿Los HD 560S necesitan amplificador?</strong>
+            <a href="https://gpt.retoseo.com/sennheiser-hd-560s-movil-usb-c.html">
+              <strong>HD 560S con móvil USB-C o iPhone: cuándo la cadena corta ya basta</strong>
+              <span class="soft">La versión más cotidiana de esta misma decisión: móvil antes que escritorio.</span>
             </a>
           </div>
-        </section>
 
-        <section class="card">
-          <p class="changelog"><strong>Última revisión: 05/11.</strong> Pieza nueva. He añadido veredicto arriba, tabla de descarte, diagrama propio, imagen real de apoyo y vídeo incrustado para que la respuesta llegue antes del scroll largo.</p>
+          <div class="changelog">
+            <strong>Última revisión: 10/11</strong>
+            <span>Rehecha la pieza con veredicto más visible, tabla de descarte, ficha rápida, aside funcional y separación más clara entre 80 ohm y 250 ohm.</span>
+          </div>
         </section>
       </article>
 
-      <aside>
-        <div class="aside-card">
-          <h2>Qué he verificado hoy</h2>
-          <ul class="bullet-list">
-            <li>En resultados visibles aparecen experiencias repetidas de uso de DT 990 Pro 80 ohm con dongles sencillos.</li>
-            <li>También aparece una frontera clara: 250 ohm y 80 ohm no se comportan igual; esta pieza se limita a 80 ohm.</li>
-            <li>El patrón útil es margen de volumen, no marketing de “sinergia” sin problema previo.</li>
-          </ul>
-        </div>
+      <aside class="article-sidebar">
+        <div class="sticky-box">
+          <nav class="toc" aria-labelledby="indice-heading">
+            <h2 id="indice-heading">Índice</h2>
+            <ul>
+              <li><a href="#tabla-descarte">Tabla de descarte rápido</a></li>
+              <li><a href="#prueba-real">La prueba útil</a></li>
+              <li><a href="#que-he-verificado">Qué he verificado</a></li>
+              <li><a href="#que-no-comprar">Qué no comprar todavía</a></li>
+              <li><a href="#siguiente-paso">Siguiente paso sensato</a></li>
+            </ul>
+          </nav>
 
-        <div class="aside-card">
-          <h2>Lo que dejo sin afirmar</h2>
-          <p>No cierro aquí una cifra universal de volumen ni una mejora audible garantizada porque hoy no he pedido especificaciones oficiales del dongle ni mediciones comparables. La guía se queda en el nivel de decisión que sí puedo sostener con lo buscado en este turno.</p>
+          <section class="callout" aria-labelledby="minima-heading">
+            <strong id="minima-heading">Compra mínima</strong>
+            <p>Si ya tienes Apple dongle, úsalo antes de gastar más. La prueba buena aquí es margen cómodo, no prestigio del aparato.</p>
+          </section>
+
+          <section class="callout warn" aria-labelledby="descarte-heading">
+            <strong id="descarte-heading">Descarte clave</strong>
+            <p>No mezcles experiencias de DT 990 Pro 250 ohm con esta versión de 80 ohm. Esa confusión empuja a comprar de más.</p>
+          </section>
         </div>
       </aside>
     </div>
@@ -1000,21 +1126,27 @@
 
   <script>
     (function () {
-      ["origen-mid", "origen-final"].forEach(function (id) {
-        var campo = document.getElementById(id);
-        if (!campo) return;
-        var BUSCADORES = /google\.|bing\.|duckduckgo\.|ecosia\.|yahoo\.|yandex\.|brave\.|startpage\./i;
-        var origen = "directo";
-        try {
-          if (/[?&]utm_/.test(location.search)) {
-            origen = "meta";
-          } else if (document.referrer) {
-            var host = new URL(document.referrer).hostname;
-            if (host && host !== location.hostname) {
-              origen = BUSCADORES.test(host) ? "organico" : "meta";
-            }
+      var campos = [];
+      var principal = document.getElementById("origen");
+      if (principal) campos.push(principal);
+      document.querySelectorAll(".origen").forEach(function (el) { campos.push(el); });
+      if (!campos.length) return;
+
+      var BUSCADORES = /google\.|bing\.|duckduckgo\.|ecosia\.|yahoo\.|yandex\.|brave\.|startpage\./i;
+      var origen = "directo";
+
+      try {
+        if (/[?&]utm_/.test(location.search)) {
+          origen = "meta";
+        } else if (document.referrer) {
+          var host = new URL(document.referrer).hostname;
+          if (host && host !== location.hostname) {
+            origen = BUSCADORES.test(host) ? "organico" : "meta";
           }
-        } catch (e) {}
+        }
+      } catch (e) {}
+
+      campos.forEach(function (campo) {
         campo.value = origen;
       });
     })();

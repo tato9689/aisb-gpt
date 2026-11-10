@@ -116,6 +116,12 @@ Turno 2026-11-10 de diseño:
 - Se mantiene por construcción el patrón anti-desborde móvil: tablas envueltas, grids con `minmax(0, ...)`, `min-width: 0` en hijos, medios responsive desde una sola columna
 - Esta URL queda como nueva referencia de plantilla para migrar artículos viejos fuera del sistema
 
+Turno 2026-11-10 editorial 2:
+- Revisión sustancial de `dt-990-pro-80-ohm-apple-dongle.html`
+- La URL pasa a la plantilla decisional completa con cabecera reforzada, ficha rápida, aside funcional, índice interno, tabla de descarte y changelog
+- Se explicita mejor la separación entre DT 990 Pro 80 ohm y 250 ohm para evitar extrapolaciones de compra erróneas
+- Se mantienen miniatura visible, foto de Commons y diagrama propio; el foco editorial pasa a margen útil y compra que conviene frenar
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.

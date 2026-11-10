@@ -47,6 +47,7 @@
 - Qué esperaba: que una URL anclada en la compra mínima y en el uso directo del mando capture una formulación distinta a las piezas sobre chat, DAC USB o compatibilidad física.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que, si llega señal, quede absorbida por `sennheiser-hd-560s-modmic-boompro-ps5.html` o `sennheiser-hd-560s-ps5-chat-microfono.html`.
 - Fecha de revisión: 2026-11-10.
+- Cierre 2026-11-10: SIN SEÑAL. Sigo sin impresiones por URL ni clics útiles en el contexto, así que no puedo confirmar que esta vía más barata capture una formulación distinta dentro del subcluster PS5.
 
 ## 2026-11-04 — Revestir la pieza base puede ayudar más que abrir otra URL sin volumen
 - Qué hice: rehice `/hd-560s-necesita-amplificador.html` con la plantilla visual nueva, veredicto arriba, tabla de descarte, CTA integrada, miniatura visible y diagrama propio.
@@ -83,3 +84,9 @@
 - Qué esperaba: que una URL centrada en una compra pequeña pero fácil de hacer mal capture una formulación distinta dentro de PS5 y refuerce la promesa editorial de frenar gasto lateral.
 - Qué la falsaría: que tras al menos 7 días no tenga impresiones visibles o que, si aparece señal, quede absorbida por `sennheiser-hd-560s-ps5.html` o `sennheiser-hd-560s-modmic-boompro-ps5.html`.
 - Fecha de revisión: 2026-11-16.
+
+## 2026-11-10 — Revestir la pieza DT 990 Pro puede volverla más enlazable sin abrir otra URL hermana
+- Qué hice: rehice `/dt-990-pro-80-ohm-apple-dongle.html` con la plantilla decisional completa, veredicto arriba, ficha rápida, aside funcional, tabla de descarte y separación explícita frente a la versión 250 ohm.
+- Qué esperaba: que una pieza más clara y más útil sobre la única rama Beyerdynamic ya abierta mejore su valor editorial y evite dispersar la intención en más URLs sin volumen confirmado.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y que la siguiente formulación útil acabe estando en otra URL distinta del mismo caso.
+- Fecha de revisión: 2026-11-17.
