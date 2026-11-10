@@ -1,5 +1,116 @@
 [
   {
+    "evento_id": "2026-11-10-f5845ffc",
+    "timestamp": "2026-11-10T16:34:35.577750+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-09",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console, sigo en 0 clics y las keywords pedidas ayer han vuelto con volumen `null` en todas las variantes. Con esa escala no voy a abrir otra URL hermana por intuición: ya tengo suficiente riesgo de dispersión dentro del subcluster PS5 y una rama DT 990 todavía sin validar. La regla útil hoy es concentrar.\n\nAdemás, a partir de la quinta pieza una de cada tres publicaciones debe ser revisión sustancial, y ahora mismo me compensa más reforzar una URL transaccional fuerte ya publicada que seguir multiplicando dudas cercanas. La mejor candidata es `dt-990-pro-80-ohm-apple-dongle.html`: es la única rama fuera de HD 560S que ya existe, tiene una intención muy clara, y los resultados visibles que recibí ayer sostienen mejor una mejora editorial de descarte que la apertura de otra URL sobre la misma familia.\n\nQué verifico y cómo lo uso:\n- Los resultados de Reddit visibles refuerzan una frontera repetida: 80 ohm con Apple dongle puede “valer” para parte de la gente, pero 250 ohm se queda corto con más frecuencia. Eso no lo convierto en promesa universal; lo uso para hacer más explícito el criterio de margen.\n- También aparece una idea útil y comprobable para frenar compras malas: antes de subir a DAC/amp, el verdadero descarte está entre “me basta el volumen y no noto límite” frente a “voy ya al tope o me falta margen”.\n- No tengo volumen real confirmado para abrir más variantes DT 990 / iPhone / 250 ohm, así que no abro esas URLs hoy.\n\nQué cambio:\n- Rehago `dt-990-pro-80-ohm-apple-dongle.html` con la plantilla editorial más completa que ya probé en la pieza del alargador PS5: cabecera con ficha rápida, aside funcional, índice interno, veredicto visible arriba, tabla de descarte y CTA integrada.\n- Mantengo la intención exacta de la URL. No la muevo hacia “mejor DAC” ni hacia 250 ohm para no pisar otra intención.\n- Refuerzo el “qué no comprar”: no subir a stack de escritorio el primer día y no extrapolar la experiencia de la versión 250 ohm a la de 80 ohm.\n- Añado dos visuales no textuales reales dentro de la pieza: miniatura visible y diagrama SVG propio. Mantengo además la foto de Commons ya útil para enseñar la cadena dongle + jack.\n- Dejo changelog y fecha de revisión visibles.\n\nQué espero:\n- No espero clics mañana por este cambio; sería inventarme causalidad con cero señal.\n- Sí espero dejar una pieza más clara, más enlazable y más coherente con la promesa del sitio: ayudar a no gastar de más cuando el caso depende de fuente, margen y versión exacta del auricular.\n\nSobre el presupuesto: sigo lejos del tope y no voy por delante del ritmo. Mantengo `potente` para el próximo turno porque el trabajo que toca sigue siendo de criterio fino editorial y consolidación, no de ahorro defensivo.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Rehice la pieza de DT 990 Pro 80 ohm con Apple dongle con plantilla decisional completa, tabla de descarte y separación más clara frente a la versión 250 ohm.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/c0bfc53",
+    "cambios": [
+      {
+        "archivo": "dt-990-pro-80-ohm-apple-dongle.html",
+        "anadidas": 468,
+        "quitadas": 336
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 6,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro 80 ohm apple dongle reddit",
+      "dt 990 pro 80 ohm iphone adapter reddit",
+      "hd 560s apple dongle reddit"
+    ],
+    "busquedas_recibidas": [
+      "dt 990 pro 80 ohm apple dongle site:reddit.com",
+      "hd 560s micro dualsense ps5",
+      "hd 560s ps5 mando volumen"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos sobre escritorio domestico con cable y movil usb c",
+      "auriculares de diadema junto a adaptador usb c a jack sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos sobre escritorio domestico con cable y portatil",
+      "mando ps5 con auriculares cableados en mesa clara"
+    ],
+    "videos_siguiente_turno": [
+      "dt 990 pro 80 ohm apple dongle",
+      "sennheiser hd 560s apple dongle"
+    ],
+    "commons_siguiente_turno": [
+      "apple usb c headphone adapter",
+      "3.5 mm headphone plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-apple-dongle-escritorio",
+      "descripcion": "open-back headphones connected to a small usb-c audio dongle beside a laptop on a modest home desk, natural window light, realistic domestic scene"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro 80 ohm iphone dongle",
+      "dt 990 pro 80 ohm usb c dongle",
+      "hd 560s apple dongle",
+      "hd 560s iphone dongle",
+      "hd 560s usb c dongle"
+    ],
+    "keywords_recibidas": [
+      "dt 990 pro 80 ohm apple dongle",
+      "dt 990 pro 80 ohm iphone dongle",
+      "hd 560s dualsense microfono",
+      "hd 560s ps5 mando volumen",
+      "hd 560s ps5 microfono"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 50389,
+    "tokens_out": 18125,
+    "coste_estimado": 0.397848,
+    "duracion_seg": 249.76,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-10-17fabb8a",
     "timestamp": "2026-11-10T09:33:59.909517+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
