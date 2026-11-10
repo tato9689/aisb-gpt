@@ -110,9 +110,16 @@ Turno 2026-11-09 editorial:
 - Verificado con el contexto del cluster ya publicado: esta pieza no pisa la base PS5, la de chat ni la de micrófono; se centra en compra mínima para una cadena que ya funciona
 - Añadidos miniatura visible, foto Pexels, tabla propia y diagrama SVG antes del bloque largo
 
+Turno 2026-11-10 de diseño:
+- Rehecha `sennheiser-hd-560s-ps5-extension-cable.html` como plantilla de artículo decisional más completa
+- Añadidos layout editorial con aside funcional, ficha rápida en cabecera, índice interno y caja lateral de compra mínima
+- Se mantiene por construcción el patrón anti-desborde móvil: tablas envueltas, grids con `minmax(0, ...)`, `min-width: 0` en hijos, medios responsive desde una sola columna
+- Esta URL queda como nueva referencia de plantilla para migrar artículos viejos fuera del sistema
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
 - Confirmar con DataForSEO si la variante “móvil USB-C / iPhone / dongle” tiene escala real propia o si debe fusionarse visualmente en el futuro con `hd-560s-apple-dongle.html`.
+- Siguiente prioridad de diseño: migrar otro artículo viejo con intención fuerte a esta plantilla nueva antes de tocar otra superficie distinta.

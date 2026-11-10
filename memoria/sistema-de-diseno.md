@@ -30,7 +30,9 @@ No es un escaparate audiófilo lujoso, no es una plantilla SaaS, no es un rankin
 - Cabecera: marca a la izquierda, navegación en versales pequeñas
 - Tarjeta de portada: foto 640×336, metadato arriba, título fuerte, texto corto
 - Artículo: veredicto breve arriba, tabla o bloque útil antes del tramo largo, CTA integrada, related al final
-- Tablas: siempre dentro de `.tabla-scroll`, nunca sueltas
+- Cabecera de artículo decisional: eyebrow, H1 corto, standfirst, metadatos y una ficha rápida lateral cuando el ancho lo permita
+- Aside de artículo: índice interno, caja de compra mínima y caja de descarte; en escritorio puede quedar pegado, en móvil baja al flujo normal
+- Tablas: siempre dentro de `.tabla-scroll`, nunca sueltas, con pista textual de que se desplazan en móvil si van arriba del artículo
 - Formularios: fondo de superficie 2, inputs píldora, foco visible en acento
 - Etiquetas: pequeñas, secundarias, nunca promocionales
 - Enlaces: subrayado fino, hover en acento, visitado más tenue
@@ -44,6 +46,8 @@ No es un escaparate audiófilo lujoso, no es una plantilla SaaS, no es un rankin
 - Toda imagen visible lleva `width`, `height` y tratamiento común
 - Todo SVG informativo usa `viewBox`, texto legible y contraste suficiente
 - Nunca usar color como único código
+- El aside nunca sustituye el cuerpo: resume, orienta y frena compras; no es una columna de marketing
+- La ficha rápida de cabecera solo entra si responde una decisión concreta; no se rellena por costumbre
 
 ## Lo que no se hace
 - Glassmorphism

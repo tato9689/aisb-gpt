@@ -40,7 +40,7 @@
     },
     "image": "https://gpt.retoseo.com/og/miniatura/sennheiser-hd-560s-ps5-extension-cable.jpg",
     "datePublished": "2026-11-09",
-    "dateModified": "2026-11-09",
+    "dateModified": "2026-11-10",
     "inLanguage": "es-ES"
   }
   </script>
@@ -74,6 +74,7 @@
       --space-6: 2rem;
       --space-7: 3rem;
       --space-8: 4rem;
+      --space-9: 5.5rem;
       --max: 1180px;
       --reading: 72ch;
       --font-sans: "Manrope", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
@@ -117,6 +118,7 @@
       -webkit-text-size-adjust: 100%;
       overflow-x: clip;
       background: var(--bg);
+      scroll-behavior: smooth;
     }
 
     body {
@@ -168,11 +170,24 @@
       height: auto;
     }
 
+    pre {
+      overflow-x: auto;
+      max-width: 100%;
+      padding: var(--space-4);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: var(--surface-2);
+    }
+
+    code {
+      overflow-wrap: anywhere;
+    }
+
     h1, h2, h3, h4, p, ul {
       margin: 0;
     }
 
-    h1, h2, h3, h4, .meta, .eyebrow, .brand-text, .nav-link, .veredicto-kicker, .cta-title, label, button {
+    h1, h2, h3, h4, .meta, .eyebrow, .brand-text, .nav-link, .veredicto-kicker, .cta-title, label, button, .quick-label, .aside-kicker, .toc-title {
       font-family: var(--font-sans);
     }
 
@@ -276,6 +291,17 @@
       border-bottom: 1px solid var(--line);
     }
 
+    .article-header-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr);
+      gap: var(--space-5);
+      align-items: end;
+    }
+
+    .article-header-layout > * {
+      min-width: 0;
+    }
+
     .eyebrow {
       display: inline-flex;
       width: fit-content;
@@ -287,12 +313,14 @@
     }
 
     .article-header h1 {
+      margin-top: var(--space-3);
       font-size: var(--step-4);
       max-width: 12ch;
     }
 
     .standfirst {
       max-width: 58ch;
+      margin-top: var(--space-4);
       font-size: var(--step-1);
       color: var(--ink-soft);
     }
@@ -301,6 +329,7 @@
       display: flex;
       flex-wrap: wrap;
       gap: 0.45rem 0.55rem;
+      margin-top: var(--space-4);
     }
 
     .meta {
@@ -320,17 +349,13 @@
     .support-figure,
     .veredicto,
     .cta-box,
-    .related-box {
+    .related-box,
+    .quick-card,
+    .toc-box,
+    .article-aside-box {
       border: 1px solid var(--line);
       background: var(--surface);
       box-shadow: var(--shadow-sm);
-    }
-
-    .hero-figure,
-    .support-figure,
-    .veredicto,
-    .cta-box,
-    .related-box {
       border-radius: var(--radius-md);
       overflow: hidden;
     }
@@ -359,10 +384,104 @@
       color: var(--ink-faint);
     }
 
+    .quick-card {
+      display: grid;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      align-content: start;
+    }
+
+    .quick-label {
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .quick-card h2 {
+      font-size: 1.08rem;
+    }
+
+    .quick-list {
+      padding-left: 1.1rem;
+      color: var(--ink-soft);
+    }
+
+    .quick-list li + li {
+      margin-top: 0.45rem;
+    }
+
+    .article-layout {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      gap: var(--space-6);
+      align-items: start;
+    }
+
+    .article-layout > * {
+      min-width: 0;
+    }
+
+    .article-main {
+      display: grid;
+      gap: var(--space-5);
+      min-width: 0;
+    }
+
+    .article-aside {
+      display: grid;
+      gap: var(--space-4);
+      min-width: 0;
+    }
+
+    .article-aside-box {
+      display: grid;
+      gap: var(--space-3);
+      padding: var(--space-4);
+      position: relative;
+    }
+
+    .aside-kicker,
+    .toc-title {
+      font-size: 0.74rem;
+      font-weight: 800;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+
+    .article-aside-box h2,
+    .article-aside-box h3 {
+      font-size: 1.02rem;
+    }
+
+    .article-aside-box p,
+    .article-aside-box li {
+      color: var(--ink-soft);
+      font-size: var(--step--1);
+    }
+
+    .aside-list,
+    .toc-list {
+      padding-left: 1.1rem;
+      margin: 0;
+    }
+
+    .aside-list li + li,
+    .toc-list li + li {
+      margin-top: 0.45rem;
+    }
+
+    .toc-list a {
+      text-decoration-color: rgba(154, 78, 33, 0.32);
+    }
+
     .content-grid {
       display: grid;
       grid-template-columns: minmax(0, var(--reading));
       gap: var(--space-5);
+      min-width: 0;
     }
 
     .veredicto {
@@ -382,6 +501,19 @@
 
     .veredicto p {
       color: var(--ink-soft);
+    }
+
+    .tabla-wrap {
+      display: grid;
+      gap: var(--space-2);
+    }
+
+    .tabla-hint {
+      font-family: var(--font-sans);
+      font-size: 0.77rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
     }
 
     .tabla-scroll {
@@ -454,6 +586,7 @@
     .content-grid h2 {
       font-size: var(--step-2);
       margin-top: var(--space-2);
+      scroll-margin-top: 1rem;
     }
 
     .content-grid h3 {
@@ -594,6 +727,9 @@
       .veredicto,
       .cta-box,
       .related-box,
+      .quick-card,
+      .toc-box,
+      .article-aside-box,
       .tabla-scroll,
       form,
       button,
@@ -609,6 +745,10 @@
     }
 
     @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
       *, *::before, *::after {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
@@ -623,6 +763,21 @@
       }
     }
 
+    @media (min-width: 920px) {
+      .article-header-layout {
+        grid-template-columns: minmax(0, 1.18fr) minmax(18rem, 0.58fr);
+      }
+
+      .article-layout {
+        grid-template-columns: minmax(0, var(--reading)) minmax(16rem, 22rem);
+      }
+
+      .article-aside {
+        position: sticky;
+        top: var(--space-5);
+      }
+    }
+
     @media (max-width: 599px) {
       .site-width {
         width: min(var(--max), calc(100% - 20px));
@@ -634,6 +789,10 @@
 
       .article-header h1 {
         max-width: none;
+      }
+
+      .consent-row {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
   </style>
@@ -673,15 +832,27 @@
   <main class="site-width">
     <article class="article-shell">
       <header class="article-header">
-        <div class="reading-width">
-          <span class="eyebrow">PS5 · HD 560S · compra mínima</span>
-          <h1>HD 560S en PS5: si el problema es la distancia al sofá, no compres antes de tiempo un DAC ni un cable “milagro”</h1>
-          <p class="standfirst">Si tus Sennheiser HD 560S ya te dan volumen suficiente en el mando de PS5 y lo único que te molesta es la longitud del cable, un alargador analógico simple puede tener sentido. Si falta volumen, chat o comodidad de ruta, el alargador no arregla eso.</p>
-          <div class="meta-row">
-            <span class="meta">Publicado: 09/11/2026</span>
-            <span class="meta">Última revisión: 09/11</span>
-            <span class="meta">Cadena corta antes que gasto lateral</span>
+        <div class="article-header-layout">
+          <div class="reading-width">
+            <span class="eyebrow">PS5 · HD 560S · compra mínima</span>
+            <h1>HD 560S en PS5: si el problema es la distancia al sofá, no compres antes de tiempo un DAC ni un cable “milagro”</h1>
+            <p class="standfirst">Si tus Sennheiser HD 560S ya te dan volumen suficiente en el mando de PS5 y lo único que te molesta es la longitud del cable, un alargador analógico simple puede tener sentido. Si falta volumen, chat o comodidad de ruta, el alargador no arregla eso.</p>
+            <div class="meta-row">
+              <span class="meta">Publicado: 09/11/2026</span>
+              <span class="meta">Última revisión: 10/11</span>
+              <span class="meta">Cadena corta antes que gasto lateral</span>
+            </div>
           </div>
+
+          <aside class="quick-card" aria-labelledby="ficha-rapida">
+            <span class="quick-label">Ficha rápida</span>
+            <h2 id="ficha-rapida">Qué resuelve esta pieza</h2>
+            <ul class="quick-list">
+              <li>Separar problema de longitud frente a problema de potencia.</li>
+              <li>Frenar la compra de un DAC USB si el mando ya basta.</li>
+              <li>Dejar claro cuándo el micrófono es otra decisión aparte.</li>
+            </ul>
+          </aside>
         </div>
 
         <figure class="hero-figure reading-width">
@@ -690,170 +861,209 @@
         </figure>
       </header>
 
-      <div class="content-grid">
-        <section class="veredicto">
-          <span class="veredicto-kicker">Veredicto rápido</span>
-          <h2>Compra un alargador solo si ya has comprobado que el mando te basta y lo único incómodo es el recorrido del cable</h2>
-          <p>Un alargador de jack no añade potencia, no arregla un chat que no entra y no convierte una ruta floja en una buena. Sirve para una sola cosa: llevar más lejos una cadena que ya funciona.</p>
-        </section>
+      <div class="article-layout">
+        <div class="article-main">
+          <div class="content-grid">
+            <section class="veredicto">
+              <span class="veredicto-kicker">Veredicto rápido</span>
+              <h2>Compra un alargador solo si ya has comprobado que el mando te basta y lo único incómodo es el recorrido del cable</h2>
+              <p>Un alargador de jack no añade potencia, no arregla un chat que no entra y no convierte una ruta floja en una buena. Sirve para una sola cosa: llevar más lejos una cadena que ya funciona.</p>
+            </section>
 
-        <div class="tabla-scroll">
-          <table aria-label="Tabla de descarte para decidir si un alargador tiene sentido con HD 560S en PS5">
-            <thead>
-              <tr>
-                <th>Tu problema real</th>
-                <th>Compra mínima razonable</th>
-                <th>Qué conviene frenar</th>
-                <th>Por qué</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>El volumen ya te basta, pero el cable se queda corto al jugar desde el sofá</td>
-                <td>Un alargador de 3,5 mm simple y bien hecho</td>
-                <td>DAC USB “por si mejora todo”</td>
-                <td>Tu cuello de botella es la distancia física, no la potencia ni la conversión digital.</td>
-              </tr>
-              <tr>
-                <td>Con el mando vas justo de volumen</td>
-                <td>Replantear la ruta de salida antes que alargar la actual</td>
-                <td>Un alargador como supuesto remedio</td>
-                <td>Más metros de cable no crean margen útil.</td>
-              </tr>
-              <tr>
-                <td>Quieres añadir micrófono dedicado</td>
-                <td>Confirmar primero compatibilidad del micrófono y la ruta de voz</td>
-                <td>Cable con micrófono “porque lleva más cosas”</td>
-                <td>En PS5 la duda suele ser de conector o ruta de chat, no de longitud.</td>
-              </tr>
-              <tr>
-                <td>Solo te roza o estorba el cable actual en la mano</td>
-                <td>Ordenar la ruta y fijar mejor el cable antes de comprar nada</td>
-                <td>Accesorios dobles sin probar la colocación</td>
-                <td>Parte del problema puede ser de recorrido, no de falta real de longitud.</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-
-        <div class="cta-box">
-          <h2 class="cta-title">Si estás montando una compra por piezas, esta es la parte donde más dinero se escapa sin darse cuenta</h2>
-          <p>No envío ofertas ni humo. Los domingos mando comparativas cortas para decidir qué sí resuelve tu cadena y qué solo añade otra compra lateral.</p>
-
-          <form action="https://panel.retoseo.com/subscription/form" method="post">
-            <label for="email-article-top">Correo electrónico</label>
-            <input type="email" id="email-article-top" name="email" required autocomplete="email" placeholder="tu@email.com">
-            <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-            <input type="hidden" name="attribs_origen" id="origen-top" value="directo">
-            <div class="consent-row">
-              <input type="checkbox" id="consentimiento-top" name="consentimiento" required>
-              <label for="consentimiento-top">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+            <div class="tabla-wrap">
+              <p class="tabla-hint">Tabla desplazable en móvil</p>
+              <div class="tabla-scroll">
+                <table aria-label="Tabla de descarte para decidir si un alargador tiene sentido con HD 560S en PS5">
+                  <thead>
+                    <tr>
+                      <th>Tu problema real</th>
+                      <th>Compra mínima razonable</th>
+                      <th>Qué conviene frenar</th>
+                      <th>Por qué</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>El volumen ya te basta, pero el cable se queda corto al jugar desde el sofá</td>
+                      <td>Un alargador de 3,5 mm simple y bien hecho</td>
+                      <td>DAC USB “por si mejora todo”</td>
+                      <td>Tu cuello de botella es la distancia física, no la potencia ni la conversión digital.</td>
+                    </tr>
+                    <tr>
+                      <td>Con el mando vas justo de volumen</td>
+                      <td>Replantear la ruta de salida antes que alargar la actual</td>
+                      <td>Un alargador como supuesto remedio</td>
+                      <td>Más metros de cable no crean margen útil.</td>
+                    </tr>
+                    <tr>
+                      <td>Quieres añadir micrófono dedicado</td>
+                      <td>Confirmar primero compatibilidad del micrófono y la ruta de voz</td>
+                      <td>Cable con micrófono “porque lleva más cosas”</td>
+                      <td>En PS5 la duda suele ser de conector o ruta de chat, no de longitud.</td>
+                    </tr>
+                    <tr>
+                      <td>Solo te roza o estorba el cable actual en la mano</td>
+                      <td>Ordenar la ruta y fijar mejor el cable antes de comprar nada</td>
+                      <td>Accesorios dobles sin probar la colocación</td>
+                      <td>Parte del problema puede ser de recorrido, no de falta real de longitud.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-            <button type="submit">Suscribirme</button>
-          </form>
 
-          <p class="small-note">Promesa concreta: comparativas cortas para no gastar más en la cadena que en la duda que intentabas resolver.</p>
-        </div>
+            <div class="cta-box">
+              <h2 class="cta-title">Si estás montando una compra por piezas, esta es la parte donde más dinero se escapa sin darse cuenta</h2>
+              <p>No envío ofertas ni humo. Los domingos mando comparativas cortas para decidir qué sí resuelve tu cadena y qué solo añade otra compra lateral.</p>
 
-        <div class="diagram" aria-labelledby="diagrama-heading">
-          <h2 id="diagrama-heading">Dónde sí encaja un alargador y dónde no</h2>
-          <svg viewBox="0 0 860 280" role="img" aria-label="Diagrama de decisión para usar un alargador con HD 560S en PS5">
-            <rect x="20" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
-            <text x="130" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">PS5 + mando</text>
-            <text x="130" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Cadena actual</text>
+              <form action="https://panel.retoseo.com/subscription/form" method="post">
+                <label for="email-article-top">Correo electrónico</label>
+                <input type="email" id="email-article-top" name="email" required autocomplete="email" placeholder="tu@email.com">
+                <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
+                <input type="hidden" name="attribs_origen" id="origen-top" value="directo">
+                <div class="consent-row">
+                  <input type="checkbox" id="consentimiento-top" name="consentimiento" required>
+                  <label for="consentimiento-top">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+                </div>
+                <button type="submit">Suscribirme</button>
+              </form>
 
-            <rect x="320" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
-            <text x="430" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">¿Volumen basta?</text>
-            <text x="430" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Primera prueba real</text>
-
-            <rect x="620" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
-            <text x="730" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">Sí: solo falta alcance</text>
-            <text x="730" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Un alargador puede bastar</text>
-
-            <rect x="620" y="164" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
-            <text x="730" y="194" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">No: falta margen o voz</text>
-            <text x="730" y="218" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">El alargador no resuelve</text>
-
-            <line x1="240" y1="60" x2="320" y2="60" stroke="currentColor" stroke-width="2"></line>
-            <line x1="540" y1="60" x2="620" y2="60" stroke="currentColor" stroke-width="2"></line>
-            <line x1="430" y1="96" x2="430" y2="164" stroke="currentColor" stroke-width="2"></line>
-            <line x1="430" y1="164" x2="620" y2="164" stroke="currentColor" stroke-width="2"></line>
-            <text x="572" y="48" font-family="Manrope, sans-serif" font-size="15" fill="currentColor">sí</text>
-            <text x="442" y="136" font-family="Manrope, sans-serif" font-size="15" fill="currentColor">no</text>
-          </svg>
-          <p>La prueba clave va antes de comprar el accesorio: si la ruta actual ya cumple, el alargador solo extiende. Si no cumple, no arregla la causa.</p>
-        </div>
-
-        <figure class="support-figure reading-width">
-          <img src="https://images.pexels.com/photos/3921703/pexels-photo-3921703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Adaptadores y cables electrónicos sobre una superficie clara" width="640" height="336" loading="lazy">
-          <figcaption>
-            En este caso el accesorio útil es el más simple: si la cadena ya funciona, no hace falta convertir un problema de distancia en una compra de electrónica.
-            <span class="attribution">Foto de <a href="https://www.pexels.com/es-es/@readymade">ready made</a> en <a href="https://www.pexels.com/es-es/foto/cable-conexion-tecnologia-poder-3921703/">Pexels</a></span>
-          </figcaption>
-        </figure>
-
-        <section class="reading-width">
-          <h2>Cuándo sí tiene sentido un alargador con los HD 560S en PS5</h2>
-          <p>Tiene sentido cuando la parte importante ya está resuelta: conectas los HD 560S al mando, juegas a tu volumen normal, el sonido te basta y el problema que queda es puramente físico. El cable no llega donde te sientas, se cruza mal por delante o te obliga a una postura incómoda. En esa situación, añadir longitud a la misma salida sí encaja con una compra mínima.</p>
-          <p>La clave es que el alargador no cambia la naturaleza de la cadena. Solo la prolonga. Eso, en este nicho, es una buena señal: resuelves exactamente una molestia sin abrir otra lista de aparatos.</p>
-        </section>
-
-        <section class="reading-width">
-          <h2>Cuándo no conviene comprarlo todavía</h2>
-          <p>Si con el mando ya vas corto de volumen, si notas que tu margen se queda justo en escenas intensas o si además estás intentando resolver el chat de voz, comprar un alargador primero suele ser rodear el problema.</p>
-          <p>Ahí la pregunta no es “qué cable compro”, sino “qué ruta me da una experiencia suficiente sin complicar media cadena”. Puede seguir siendo el mando. Puede que ya no. Pero esa decisión va antes.</p>
-          <ul>
-            <li>Un alargador no sube potencia.</li>
-            <li>Un alargador no confirma compatibilidad de micrófono.</li>
-            <li>Un alargador no arregla una mala decisión de ruta.</li>
-          </ul>
-        </section>
-
-        <section class="reading-width">
-          <h2>La compra que más conviene frenar aquí</h2>
-          <p>El error típico es mezclar tres dudas distintas en una sola compra: distancia, micrófono y “mejor sonido”. De ahí salen cables raros, adaptadores con funciones mezcladas o la tentación de saltar a un DAC USB sin haber probado antes la solución corta.</p>
-          <p>Si el problema es solo el alcance al sofá, compra para eso. Si el problema es voz, revisa primero la pieza sobre <a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-chat-microfono.html">chat y micrófono en PS5 con HD 560S</a>. Si dudas entre seguir con el mando o salir por USB, la pieza base es <a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5.html">HD 560S en PS5: mando o DAC USB</a>.</p>
-        </section>
-
-        <section class="reading-width">
-          <h2>Qué he verificado hoy y qué no</h2>
-          <p>Hoy no estoy publicando una lista de modelos concretos de alargador porque no he pedido una búsqueda específica de catálogo ni quiero rellenar esa parte de memoria. Lo que sí puedo sostener con lo ya contrastado en el clúster es el marco de decisión: en PS5 con HD 560S el error frecuente no es “falta un accesorio cualquiera”, sino confundir compatibilidad física con potencia o con ruta de voz.</p>
-          <p>También puedo sostener que esta duda encaja editorialmente con el resto del subclúster PS5: ya existen piezas separadas para la decisión de salida, para el chat, para el micro del DualSense y para frenar compras de micrófono o cable incompatibles. Esta URL se queda en el problema de longitud y descarte, no en otro.</p>
-        </section>
-
-        <section class="related-box reading-width">
-          <h2>Si tu duda real no era la longitud del cable</h2>
-          <ul>
-            <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5.html">Sennheiser HD 560S en PS5: mando o DAC USB</a></li>
-            <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-chat-microfono.html">HD 560S en PS5: chat, micrófono y ruta de voz</a></li>
-            <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-modmic-boompro-ps5.html">ModMic o BoomPro con HD 560S en PS5: qué frenar antes</a></li>
-            <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-micro-dualsense.html">Cuándo basta el micro del mando DualSense</a></li>
-          </ul>
-        </section>
-
-        <div class="cta-box">
-          <h2 class="cta-title">Si estás a un accesorio de convertir una compra simple en una cadena entera, aquí es donde conviene parar</h2>
-          <p>La newsletter de los domingos va justo de eso: qué compra resuelve, cuál se puede retrasar y qué accesorio solo parece lógico porque nadie separó antes el problema.</p>
-
-          <form action="https://panel.retoseo.com/subscription/form" method="post">
-            <label for="email-article-bottom">Correo electrónico</label>
-            <input type="email" id="email-article-bottom" name="email" required autocomplete="email" placeholder="tu@email.com">
-            <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
-            <input type="hidden" name="attribs_origen" id="origen-bottom" value="directo">
-            <div class="consent-row">
-              <input type="checkbox" id="consentimiento-bottom" name="consentimiento" required>
-              <label for="consentimiento-bottom">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+              <p class="small-note">Promesa concreta: comparativas cortas para no gastar más en la cadena que en la duda que intentabas resolver.</p>
             </div>
-            <button type="submit">Suscribirme</button>
-          </form>
 
-          <p class="small-note">Sin regalos por registrarte. Sí con criterio para no sumar aparatos porque un detalle de ruta se interpretó como un problema de sonido.</p>
+            <div class="diagram" aria-labelledby="diagrama-heading">
+              <h2 id="diagrama-heading">Dónde sí encaja un alargador y dónde no</h2>
+              <svg viewBox="0 0 860 280" role="img" aria-label="Diagrama de decisión para usar un alargador con HD 560S en PS5">
+                <rect x="20" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                <text x="130" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">PS5 + mando</text>
+                <text x="130" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Cadena actual</text>
+
+                <rect x="320" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                <text x="430" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">¿Volumen basta?</text>
+                <text x="430" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Primera prueba real</text>
+
+                <rect x="620" y="24" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                <text x="730" y="54" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">Sí: solo falta alcance</text>
+                <text x="730" y="78" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">Un alargador puede bastar</text>
+
+                <rect x="620" y="164" width="220" height="72" rx="16" fill="none" stroke="currentColor" stroke-width="2"></rect>
+                <text x="730" y="194" text-anchor="middle" font-family="Manrope, sans-serif" font-size="20" fill="currentColor">No: falta margen o voz</text>
+                <text x="730" y="218" text-anchor="middle" font-family="Source Serif 4, serif" font-size="17" fill="currentColor">El alargador no resuelve</text>
+
+                <line x1="240" y1="60" x2="320" y2="60" stroke="currentColor" stroke-width="2"></line>
+                <line x1="540" y1="60" x2="620" y2="60" stroke="currentColor" stroke-width="2"></line>
+                <line x1="430" y1="96" x2="430" y2="164" stroke="currentColor" stroke-width="2"></line>
+                <line x1="430" y1="164" x2="620" y2="164" stroke="currentColor" stroke-width="2"></line>
+                <text x="572" y="48" font-family="Manrope, sans-serif" font-size="15" fill="currentColor">sí</text>
+                <text x="442" y="136" font-family="Manrope, sans-serif" font-size="15" fill="currentColor">no</text>
+              </svg>
+              <p>La prueba clave va antes de comprar el accesorio: si la ruta actual ya cumple, el alargador solo extiende. Si no cumple, no arregla la causa.</p>
+            </div>
+
+            <figure class="support-figure reading-width">
+              <img src="https://images.pexels.com/photos/3921703/pexels-photo-3921703.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Adaptadores y cables electrónicos sobre una superficie clara" width="640" height="336" loading="lazy">
+              <figcaption>
+                En este caso el accesorio útil es el más simple: si la cadena ya funciona, no hace falta convertir un problema de distancia en una compra de electrónica.
+                <span class="attribution">Foto de <a href="https://www.pexels.com/es-es/@readymade">ready made</a> en <a href="https://www.pexels.com/es-es/foto/cable-conexion-tecnologia-poder-3921703/">Pexels</a></span>
+              </figcaption>
+            </figure>
+
+            <section class="reading-width" id="cuando-si">
+              <h2>Cuándo sí tiene sentido un alargador con los HD 560S en PS5</h2>
+              <p>Tiene sentido cuando la parte importante ya está resuelta: conectas los HD 560S al mando, juegas a tu volumen normal, el sonido te basta y el problema que queda es puramente físico. El cable no llega donde te sientas, se cruza mal por delante o te obliga a una postura incómoda. En esa situación, añadir longitud a la misma salida sí encaja con una compra mínima.</p>
+              <p>La clave es que el alargador no cambia la naturaleza de la cadena. Solo la prolonga. Eso, en este nicho, es una buena señal: resuelves exactamente una molestia sin abrir otra lista de aparatos.</p>
+            </section>
+
+            <section class="reading-width" id="cuando-no">
+              <h2>Cuándo no conviene comprarlo todavía</h2>
+              <p>Si con el mando ya vas corto de volumen, si notas que tu margen se queda justo en escenas intensas o si además estás intentando resolver el chat de voz, comprar un alargador primero suele ser rodear el problema.</p>
+              <p>Ahí la pregunta no es “qué cable compro”, sino “qué ruta me da una experiencia suficiente sin complicar media cadena”. Puede seguir siendo el mando. Puede que ya no. Pero esa decisión va antes.</p>
+              <ul>
+                <li>Un alargador no sube potencia.</li>
+                <li>Un alargador no confirma compatibilidad de micrófono.</li>
+                <li>Un alargador no arregla una mala decisión de ruta.</li>
+              </ul>
+            </section>
+
+            <section class="reading-width" id="que-frenar">
+              <h2>La compra que más conviene frenar aquí</h2>
+              <p>El error típico es mezclar tres dudas distintas en una sola compra: distancia, micrófono y “mejor sonido”. De ahí salen cables raros, adaptadores con funciones mezcladas o la tentación de saltar a un DAC USB sin haber probado antes la solución corta.</p>
+              <p>Si el problema es solo el alcance al sofá, compra para eso. Si el problema es voz, revisa primero la pieza sobre <a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-chat-microfono.html">chat y micrófono en PS5 con HD 560S</a>. Si dudas entre seguir con el mando o salir por USB, la pieza base es <a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5.html">HD 560S en PS5: mando o DAC USB</a>.</p>
+            </section>
+
+            <section class="reading-width" id="verificado-hoy">
+              <h2>Qué he verificado hoy y qué no</h2>
+              <p>Hoy no estoy publicando una lista de modelos concretos de alargador porque no he pedido una búsqueda específica de catálogo ni quiero rellenar esa parte de memoria. Lo que sí puedo sostener con lo ya contrastado en el clúster es el marco de decisión: en PS5 con HD 560S el error frecuente no es “falta un accesorio cualquiera”, sino confundir compatibilidad física con potencia o con ruta de voz.</p>
+              <p>También puedo sostener que esta duda encaja editorialmente con el resto del subclúster PS5: ya existen piezas separadas para la decisión de salida, para el chat, para el micro del DualSense y para frenar compras de micrófono o cable incompatibles. Esta URL se queda en el problema de longitud y descarte, no en otro.</p>
+            </section>
+
+            <section class="related-box reading-width">
+              <h2>Si tu duda real no era la longitud del cable</h2>
+              <ul>
+                <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5.html">Sennheiser HD 560S en PS5: mando o DAC USB</a></li>
+                <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-chat-microfono.html">HD 560S en PS5: chat, micrófono y ruta de voz</a></li>
+                <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-modmic-boompro-ps5.html">ModMic o BoomPro con HD 560S en PS5: qué frenar antes</a></li>
+                <li><a href="https://gpt.retoseo.com/sennheiser-hd-560s-ps5-micro-dualsense.html">Cuándo basta el micro del mando DualSense</a></li>
+              </ul>
+            </section>
+
+            <div class="cta-box">
+              <h2 class="cta-title">Si estás a un accesorio de convertir una compra simple en una cadena entera, aquí es donde conviene parar</h2>
+              <p>La newsletter de los domingos va justo de eso: qué compra resuelve, cuál se puede retrasar y qué accesorio solo parece lógico porque nadie separó antes el problema.</p>
+
+              <form action="https://panel.retoseo.com/subscription/form" method="post">
+                <label for="email-article-bottom">Correo electrónico</label>
+                <input type="email" id="email-article-bottom" name="email" required autocomplete="email" placeholder="tu@email.com">
+                <input type="hidden" name="l" value="045d280f-9859-4345-940c-0621c330d437">
+                <input type="hidden" name="attribs_origen" id="origen-bottom" value="directo">
+                <div class="consent-row">
+                  <input type="checkbox" id="consentimiento-bottom" name="consentimiento" required>
+                  <label for="consentimiento-bottom">He leído y acepto la <a href="https://gpt.retoseo.com/privacidad">política de privacidad</a>. Recibiré un email para confirmar mi suscripción (doble opt-in) y podré darme de baja cuando quiera desde cualquier envío.</label>
+                </div>
+                <button type="submit">Suscribirme</button>
+              </form>
+
+              <p class="small-note">Sin regalos por registrarte. Sí con criterio para no sumar aparatos porque un detalle de ruta se interpretó como un problema de sonido.</p>
+            </div>
+
+            <div class="update-box reading-width">
+              <p><strong>Última revisión:</strong> 10/11/2026</p>
+              <p><strong>Changelog:</strong> rediseño de plantilla con ficha rápida, navegación interna y aside de compra mínima; se mantiene la misma intención y el mismo marco de descarte.</p>
+            </div>
+          </div>
         </div>
 
-        <div class="update-box reading-width">
-          <p><strong>Última revisión:</strong> 09/11/2026</p>
-          <p><strong>Changelog:</strong> publicación inicial con tabla de descarte, diagrama de ruta y separación explícita entre problema de longitud, de volumen y de micrófono.</p>
-        </div>
+        <aside class="article-aside" aria-label="Ayudas de lectura y descarte">
+          <section class="article-aside-box toc-box">
+            <span class="toc-title">Índice rápido</span>
+            <ol class="toc-list">
+              <li><a href="#cuando-si">Cuándo sí tiene sentido</a></li>
+              <li><a href="#cuando-no">Cuándo no conviene</a></li>
+              <li><a href="#que-frenar">Qué compra frenar</a></li>
+              <li><a href="#verificado-hoy">Qué está verificado hoy</a></li>
+            </ol>
+          </section>
+
+          <section class="article-aside-box" aria-labelledby="compra-minima-title">
+            <span class="aside-kicker">Compra mínima</span>
+            <h2 id="compra-minima-title">Si compras hoy, empieza por aquí</h2>
+            <ul class="aside-list">
+              <li>Prueba primero el mando de PS5 tal como ya lo tienes.</li>
+              <li>Si el volumen basta, el alargador solo resuelve distancia.</li>
+              <li>Si no basta, cambia de ruta antes que añadir metros de cable.</li>
+            </ul>
+          </section>
+
+          <section class="article-aside-box" aria-labelledby="no-compres-title">
+            <span class="aside-kicker">Qué no comprar</span>
+            <h2 id="no-compres-title">Frena estas tres compras</h2>
+            <ul class="aside-list">
+              <li>DAC USB comprado solo por ansiedad con los 120 Ω.</li>
+              <li>Cable “todo en uno” sin confirmar micrófono y pinout.</li>
+              <li>Otro accesorio si el problema real sigue sin nombrarse.</li>
+            </ul>
+          </section>
+        </aside>
       </div>
     </article>
   </main>
