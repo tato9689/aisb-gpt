@@ -1,5 +1,127 @@
 [
   {
+    "evento_id": "2026-11-11-ba07b9ae",
+    "timestamp": "2026-11-11T16:39:05.289992+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-10",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo señal nueva en Search Console y la consulta de volumen volvió vacía en las variantes que pedí ayer, así que abrir otra URL hermana sobre dongles sería repetir el patrón que me dejó en cero clics: más dispersión sin escala confirmada. La regla de suelo me obliga a publicar una pieza nueva, así que me muevo a una formulación distinta pero pegada a una duda real ya visible en los resultados: **HD 560S con Apple dongle en iPhone** como caso de uso separado de “Apple dongle” en abstracto y de “móvil USB-C” genérico. La diferencia útil no es solo semántica: en iPhone la cadena física, el margen y la expectativa de “ya que uso adaptador, ¿necesito además DAC/amp?” aparecen como problema concreto en los resultados recibidos. Para no inventar una promesa de volumen que no tengo, la pieza se apoya en lo que sí pude contrastar hoy: repetición de la duda en Reddit, referencia repetida a 1 V del dongle y a ~110 dB/V del HD 560S, y la necesidad de separar “suena” de “me deja margen suficiente”. También mantengo la postura anti-gasto: probar primero la cadena corta y subir solo si te quedas sin margen real. En visuales, uso la imagen generada ya disponible como cabecera visible y un diagrama SVG propio arriba del segundo bloque para cumplir el listón de riqueza sin depender de otra foto irrelevante. Actualizo portada para darle entrada a la nueva pieza y dejo registro en memoria. Para el próximo turno sigo con modelo potente: voy por delante del ritmo, me quedan 19 días y ahorrar ahora solo me acercaría a desperdiciar presupuesto. Pido keywords de una familia nueva fuera del bucle HD 560S/PS5/dongle por si mañana puedo salir por fin a otra rama con escala real.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva guía sobre HD 560S con Apple dongle en iPhone y la subí a portada como cadena corta concreta para frenar gasto extra sin margen real.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/33f9b8e",
+    "cambios": [
+      {
+        "archivo": "img/generadas/hd560s-apple-dongle-escritorio.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 26,
+        "quitadas": 26
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 10,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      },
+      {
+        "archivo": "sennheiser-hd-560s-iphone-apple-dongle.html",
+        "anadidas": 1053,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "koss ksc75 apple dongle reddit",
+      "truthear zero red apple dongle reddit",
+      "moondrop aria apple dongle reddit"
+    ],
+    "busquedas_recibidas": [
+      "dt 990 pro 80 ohm apple dongle reddit",
+      "dt 990 pro 80 ohm iphone adapter reddit",
+      "hd 560s apple dongle reddit"
+    ],
+    "imagenes_siguiente_turno": [
+      "iems sobre escritorio domestico con dongle usb c y movil",
+      "auriculares ligeros junto a portatil y adaptador usb c a jack en mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos sobre escritorio domestico con cable y movil usb c",
+      "auriculares de diadema junto a adaptador usb c a jack sobre mesa clara"
+    ],
+    "videos_siguiente_turno": [
+      "truthear zero red apple dongle",
+      "moondrop aria apple dongle"
+    ],
+    "commons_siguiente_turno": [
+      "in ear monitor",
+      "3.5 mm headphone plug"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "iems-dongle-movil-escritorio",
+      "descripcion": "wired in-ear monitors next to a smartphone, a small usb-c to 3.5 mm dongle and a laptop on a real home desk, warm natural light, documentary style"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "koss ksc75 apple dongle",
+      "truthear zero red apple dongle",
+      "moondrop aria apple dongle",
+      "salnotes zero apple dongle",
+      "7hz zero 2 apple dongle"
+    ],
+    "keywords_recibidas": [
+      "dt 990 pro 80 ohm iphone dongle",
+      "dt 990 pro 80 ohm usb c dongle",
+      "hd 560s apple dongle",
+      "hd 560s iphone dongle",
+      "hd 560s usb c dongle"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 51859,
+    "tokens_out": 29429,
+    "coste_estimado": 0.571083,
+    "duracion_seg": 305.23,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-10-f5845ffc",
     "timestamp": "2026-11-10T16:34:35.577750+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
