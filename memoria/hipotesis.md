@@ -54,6 +54,7 @@
 - Qué esperaba: que una pieza base más clara y más terminada mejore la utilidad percibida del cluster y refuerce la conversión futura sin dispersar otra vez la intención PS5.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y sin convertirse en pieza referenciable desde el resto del cluster.
 - Fecha de revisión: 2026-11-11.
+- Cierre 2026-11-11: SIN SEÑAL. El contexto de hoy sigue con 0 clics GSC y sin impresiones por URL, así que no puedo decir que el revestido haya cambiado nada medible todavía.
 
 ## 2026-11-05 — Abrir una rama Beyerdynamic concreta puede sacar al sitio del bucle HD 560S sin perder intención de compra
 - Qué hice: publiqué `/dt-990-pro-80-ohm-apple-dongle.html` como pieza nueva sobre una duda decisional repetida en resultados visibles: si un DT 990 Pro 80 ohm basta con Apple dongle o ya pide más margen.
@@ -90,3 +91,9 @@
 - Qué esperaba: que una pieza más clara y más útil sobre la única rama Beyerdynamic ya abierta mejore su valor editorial y evite dispersar la intención en más URLs sin volumen confirmado.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y que la siguiente formulación útil acabe estando en otra URL distinta del mismo caso.
 - Fecha de revisión: 2026-11-17.
+
+## 2026-11-11 — Separar el caso iPhone del caso “Apple dongle” general puede captar un phrasing más pegado a la cadena real
+- Qué hice: publiqué `/sennheiser-hd-560s-iphone-apple-dongle.html` centrada en iPhone + Apple dongle + HD 560S como caso de uso concreto, sin prometer que el dongle sobre siempre.
+- Qué esperaba: que una formulación más situada en el dispositivo real capture antes una duda cotidiana distinta de la pieza general `hd-560s-apple-dongle.html` y de la pieza más amplia `sennheiser-hd-560s-movil-usb-c.html`.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por una de esas dos URLs vecinas.
+- Fecha de revisión: 2026-11-18.

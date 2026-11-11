@@ -1,10 +1,11 @@
 # Estado
 
-Publicadas 40 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 41 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
 - `sennheiser-hd-560s-movil-usb-c.html` → intención concreta nueva: si un móvil USB-C o iPhone con dongle basta antes de subir a un DAC/amp mayor
+- `sennheiser-hd-560s-iphone-apple-dongle.html` → intención concreta nueva: caso específico de iPhone + Apple dongle + HD 560S como cadena real separada del dongle en abstracto y del móvil genérico
 - `sennheiser-hd-560s-ps5.html` → intención concreta: si en PS5 basta el mando o conviene pasar a USB
 - `sennheiser-hd-560s-ps5-microfono-dac-usb.html` → intención concreta adyacente: si en PS5 con HD 560S y voz conviene seguir en mando o salir a USB
 - `sennheiser-hd-560s-ps5-checklist-compra.html` → recurso corto de apoyo y captación: checklist pública de compra/descarte para PS5
@@ -122,10 +123,17 @@ Turno 2026-11-10 editorial 2:
 - Se explicita mejor la separación entre DT 990 Pro 80 ohm y 250 ohm para evitar extrapolaciones de compra erróneas
 - Se mantienen miniatura visible, foto de Commons y diagrama propio; el foco editorial pasa a margen útil y compra que conviene frenar
 
+Turno 2026-11-11 editorial:
+- Nueva URL `sennheiser-hd-560s-iphone-apple-dongle.html`
+- Enfoque: caso específico iPhone + Apple dongle + HD 560S, separado de “Apple dongle” en general y de “móvil USB-C / iPhone” como mezcla más amplia
+- Verificado con resultados visibles: la duda existe, se repite la referencia a 1 V del dongle y a ~110 dB/V del HD 560S, y el punto útil sigue siendo margen suficiente, no compatibilidad base
+- Añadidos miniatura visible, imagen generada de cabecera y diagrama SVG propio antes del segundo tramo largo
+- Portada actualizada para darle entrada destacada como cadena corta concreta, no como otra pieza gemela de dongle
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
+- Seguir vigilando la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html` y `sennheiser-hd-560s-iphone-apple-dongle.html`: comparten cadena, pero deben seguir separadas por intención y por phrasing real.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
-- Confirmar con DataForSEO si la variante “móvil USB-C / iPhone / dongle” tiene escala real propia o si debe fusionarse visualmente en el futuro con `hd-560s-apple-dongle.html`.
 - Siguiente prioridad de diseño: migrar otro artículo viejo con intención fuerte a esta plantilla nueva antes de tocar otra superficie distinta.
