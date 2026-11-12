@@ -39,7 +39,7 @@
       "@id": "https://gpt.retoseo.com/sennheiser-hd-560s-iphone-apple-dongle.html"
     },
     "datePublished": "2026-11-11",
-    "dateModified": "2026-11-11",
+    "dateModified": "2026-11-12",
     "image": "https://gpt.retoseo.com/og/miniatura/sennheiser-hd-560s-iphone-apple-dongle.jpg"
   }
   </script>
@@ -161,11 +161,24 @@
       height: auto;
     }
 
+    pre {
+      overflow-x: auto;
+      max-width: 100%;
+      padding: var(--space-4);
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      background: var(--surface-2);
+    }
+
+    code {
+      overflow-wrap: anywhere;
+    }
+
     h1, h2, h3, h4, p, ul, ol {
       margin: 0;
     }
 
-    h1, h2, h3, h4, .brand-text, .nav-link, .eyebrow, .meta, .pill, .kicker, .cta-title, button, label, .toc a {
+    h1, h2, h3, h4, .brand-text, .nav-link, .eyebrow, .meta, .pill, .kicker, .cta-title, .deck, .fact-label, .fact-value, button, label, .toc a {
       font-family: var(--font-sans);
     }
 
@@ -258,14 +271,23 @@
       gap: var(--space-6);
     }
 
-    .hero {
+    .article-head {
       display: grid;
-      grid-template-columns: minmax(0, 1.15fr) minmax(0, 0.85fr);
       gap: var(--space-5);
-      align-items: start;
+      padding-bottom: var(--space-5);
+      border-bottom: 1px solid var(--line);
     }
 
-    .hero > *,
+    .head-top {
+      display: grid;
+      grid-template-columns: minmax(0, 1.2fr) minmax(280px, 0.8fr);
+      gap: var(--space-5);
+      align-items: end;
+    }
+
+    .head-top > *,
+    .head-media > *,
+    .head-copy > *,
     .summary-grid > *,
     .quick-card > *,
     .aside-card > *,
@@ -274,7 +296,8 @@
     .related-card > *,
     .article-layout > *,
     .article-main > *,
-    .article-aside > * {
+    .article-aside > *,
+    .fact-grid > * {
       min-width: 0;
     }
 
@@ -289,15 +312,15 @@
       color: var(--accent);
     }
 
-    .hero h1 {
+    .head-copy h1 {
       margin-top: var(--space-3);
       font-size: var(--step-4);
-      max-width: 11ch;
+      max-width: 10ch;
     }
 
     .standfirst {
       margin-top: var(--space-4);
-      max-width: 38rem;
+      max-width: 37rem;
       font-size: var(--step-1);
       color: var(--ink-soft);
     }
@@ -320,6 +343,21 @@
       font-size: 0.75rem;
       font-weight: 700;
       letter-spacing: 0.05em;
+    }
+
+    .deck {
+      margin-top: var(--space-5);
+      padding-top: var(--space-4);
+      border-top: 1px solid var(--line);
+      max-width: 38rem;
+      font-size: var(--step-0);
+      color: var(--ink-soft);
+    }
+
+    .head-media {
+      display: grid;
+      gap: var(--space-3);
+      align-content: start;
     }
 
     .hero-visual {
@@ -348,6 +386,41 @@
       font-size: var(--step--1);
     }
 
+    .fact-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 1px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      background: var(--line);
+      box-shadow: var(--shadow-sm);
+    }
+
+    .fact-card {
+      background: var(--surface);
+      padding: var(--space-4);
+      display: grid;
+      gap: 0.3rem;
+      min-width: 0;
+    }
+
+    .fact-label {
+      font-size: 0.72rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--ink-faint);
+      font-weight: 800;
+    }
+
+    .fact-value {
+      font-size: 1rem;
+      line-height: 1.25;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+      font-weight: 700;
+    }
+
     .summary-grid {
       display: grid;
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -365,16 +438,6 @@
       border: 1px solid var(--line);
       background: var(--surface);
       box-shadow: var(--shadow-sm);
-    }
-
-    .quick-card,
-    .aside-card,
-    .cta-box,
-    .related-card,
-    .verdict-box,
-    .table-box,
-    .note-box,
-    .diagram-box {
       border-radius: var(--radius-md);
     }
 
@@ -596,6 +659,10 @@
       gap: var(--space-3);
     }
 
+    .aside-card--accent {
+      background: linear-gradient(to bottom, rgba(154, 78, 33, 0.08), transparent), var(--surface);
+    }
+
     .toc {
       display: grid;
       gap: 0.6rem;
@@ -673,6 +740,8 @@
       .note-box,
       .diagram-box,
       .hero-visual,
+      .fact-grid,
+      .fact-card,
       form,
       button,
       input,
@@ -697,8 +766,14 @@
       }
     }
 
+    @media (max-width: 1080px) {
+      .fact-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
     @media (max-width: 980px) {
-      .hero,
+      .head-top,
       .article-layout,
       .summary-grid,
       .related-grid {
@@ -709,7 +784,7 @@
         position: static;
       }
 
-      .hero h1 {
+      .head-copy h1 {
         max-width: none;
       }
     }
@@ -725,6 +800,10 @@
 
       table {
         min-width: 520px;
+      }
+
+      .fact-grid {
+        grid-template-columns: minmax(0, 1fr);
       }
     }
   </style>
@@ -763,40 +842,65 @@
 
   <main class="site-width">
     <article class="article-shell">
-      <header class="hero">
-        <div>
-          <span class="eyebrow">HD 560S · iPhone · cadena corta</span>
-          <h1>HD 560S con Apple dongle en iPhone: cuándo basta y cuándo no</h1>
-          <p class="standfirst">Sí, es una cadena razonable para empezar. La decisión útil no es si “suena”, sino si con tu volumen normal y tus grabaciones te deja margen suficiente sin obligarte a subir otro escalón de gasto.</p>
+      <header class="article-head">
+        <div class="head-top">
+          <div class="head-copy">
+            <span class="eyebrow">HD 560S · iPhone · cadena corta</span>
+            <h1>HD 560S con Apple dongle en iPhone: cuándo basta y cuándo no</h1>
+            <p class="standfirst">Sí, es una cadena razonable para empezar. La decisión útil no es si “suena”, sino si con tu volumen normal y tus grabaciones te deja margen suficiente sin obligarte a subir otro escalón de gasto.</p>
 
-          <div class="meta-row">
-            <span class="pill">Última revisión: 11/11</span>
-            <span class="pill">Compra mínima</span>
-            <span class="pill">iPhone</span>
-            <span class="pill">Apple dongle</span>
+            <div class="meta-row">
+              <span class="pill">Última revisión: 12/11</span>
+              <span class="pill">Compra mínima</span>
+              <span class="pill">iPhone</span>
+              <span class="pill">Apple dongle</span>
+            </div>
+
+            <p class="deck">La pieza ya no arranca como una guía genérica. Arranca como una escena concreta: iPhone, Apple dongle y HD 560S. Eso permite decidir antes si el problema es de compatibilidad, de margen o de gasto inventado.</p>
+          </div>
+
+          <div class="head-media">
+            <figure class="hero-visual">
+              <img src="https://gpt.retoseo.com/og/miniatura/sennheiser-hd-560s-iphone-apple-dongle.jpg" alt="Auriculares abiertos junto a un teléfono y un adaptador Apple sobre un escritorio doméstico" width="640" height="336">
+              <figcaption>Cadena corta de verdad: iPhone, Apple dongle y auricular ya conocido. Si aquí te basta, no hace falta inventarte un problema más caro.</figcaption>
+            </figure>
           </div>
         </div>
 
-        <figure class="hero-visual">
-          <img src="https://gpt.retoseo.com/img/generadas/hd560s-apple-dongle-escritorio.webp" alt="Auriculares abiertos junto a un iPhone y un adaptador Apple USB-C a jack sobre un escritorio doméstico" width="1200" height="630">
-          <figcaption>Cadena corta de verdad: iPhone, Apple dongle y auricular ya conocido. Si aquí te basta, no hace falta inventarte un problema más caro.</figcaption>
-        </figure>
-      </header>
+        <div class="fact-grid" aria-label="Ficha rápida de decisión">
+          <div class="fact-card">
+            <span class="fact-label">Fuente</span>
+            <span class="fact-value">iPhone + Apple dongle</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label">Punto de partida</span>
+            <span class="fact-value">Sí, prueba primero esta cadena</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label">Compra que freno</span>
+            <span class="fact-value">Amp portátil por reflejo</span>
+          </div>
+          <div class="fact-card">
+            <span class="fact-label">Señal para subir</span>
+            <span class="fact-value">Volumen justo o poco margen</span>
+          </div>
+        </div>
 
-      <section class="summary-grid" aria-label="Resumen rápido">
-        <div class="quick-card">
-          <h2>Veredicto corto</h2>
-          <p>Para muchos usos domésticos o tranquilos, el Apple dongle con iPhone puede bastar con unos HD 560S. No lo tomo como garantía universal de margen alto.</p>
-        </div>
-        <div class="quick-card">
-          <h2>Qué no comprar aún</h2>
-          <p>No subas a un DAC/amp portátil solo porque ves “120 ohmios” en la ficha. Primero prueba si tu volumen real se queda corto de verdad.</p>
-        </div>
-        <div class="quick-card">
-          <h2>Cuándo sí subir</h2>
-          <p>Si acabas muy cerca del máximo, tus grabaciones suenan bajas o quieres más colchón para EQ, ya hay motivo para buscar más salida.</p>
-        </div>
-      </section>
+        <section class="summary-grid" aria-label="Resumen rápido">
+          <div class="quick-card">
+            <h2>Veredicto corto</h2>
+            <p>Para muchos usos domésticos o tranquilos, el Apple dongle con iPhone puede bastar con unos HD 560S. No lo tomo como garantía universal de margen alto.</p>
+          </div>
+          <div class="quick-card">
+            <h2>Qué no comprar aún</h2>
+            <p>No subas a un DAC/amp portátil solo porque ves “120 ohmios” en la ficha. Primero prueba si tu volumen real se queda corto de verdad.</p>
+          </div>
+          <div class="quick-card">
+            <h2>Cuándo sí subir</h2>
+            <p>Si acabas muy cerca del máximo, tus grabaciones suenan bajas o quieres más colchón para EQ, ya hay motivo para buscar más salida.</p>
+          </div>
+        </section>
+      </header>
 
       <div class="article-layout">
         <div class="article-main">
@@ -985,13 +1089,13 @@
           </section>
 
           <section class="changelog" aria-label="Historial de cambios">
-            <p><strong>Última revisión:</strong> 11/11</p>
-            <p><strong>Cambios materiales:</strong> publicación inicial con veredicto arriba, tabla de descarte, diagrama propio y CTA integrada para el caso concreto de iPhone + Apple dongle.</p>
+            <p><strong>Última revisión:</strong> 12/11</p>
+            <p><strong>Cambios materiales:</strong> cabecera rehecha con ficha rápida editorial, miniatura visible del sistema como imagen principal, mejor jerarquía entre resumen, aside e índice, y consolidación de esta URL como plantilla de artículo decisional.</p>
           </section>
         </div>
 
         <aside class="article-aside">
-          <section class="aside-card">
+          <section class="aside-card aside-card--accent">
             <h2>Índice</h2>
             <nav class="toc" aria-label="Índice del artículo">
               <a href="#veredicto">Veredicto</a>
@@ -1013,6 +1117,11 @@
           <section class="aside-card">
             <h2>Compra que suelo frenar aquí</h2>
             <p>Un amp portátil comprado solo para “desbloquear” unos HD 560S sin haber comprobado antes si el dongle ya te deja en un volumen cómodo.</p>
+          </section>
+
+          <section class="aside-card">
+            <h2>Qué decide esta pieza</h2>
+            <p>No decide si existe sonido. Decide si la cadena corta ya te permite vivir con ella o si estás empujando demasiado el límite y ya toca más margen.</p>
           </section>
         </aside>
       </div>

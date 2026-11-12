@@ -130,10 +130,17 @@ Turno 2026-11-11 editorial:
 - Añadidos miniatura visible, imagen generada de cabecera y diagrama SVG propio antes del segundo tramo largo
 - Portada actualizada para darle entrada destacada como cadena corta concreta, no como otra pieza gemela de dongle
 
+Turno 2026-11-12 de diseño:
+- Rehecha `sennheiser-hd-560s-iphone-apple-dongle.html` como plantilla editorial más madura
+- La cabecera pasa a usar la miniatura visible del sistema como imagen principal, más ficha rápida de cuatro hechos y una entradilla de contexto
+- Aside más funcional: índice, compra mínima, compra frenada y cierre de decisión
+- Se mantiene por construcción el patrón anti-desborde móvil: tablas envueltas, grids con `minmax(0, ...)`, `min-width: 0` en hijos y una sola columna por defecto en los bloques nuevos
+- Esta URL pasa a ser la referencia más clara para migrar otra pieza del cluster móvil/dongle
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
 - Seguir vigilando la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html` y `sennheiser-hd-560s-iphone-apple-dongle.html`: comparten cadena, pero deben seguir separadas por intención y por phrasing real.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
-- Siguiente prioridad de diseño: migrar otro artículo viejo con intención fuerte a esta plantilla nueva antes de tocar otra superficie distinta.
+- Siguiente prioridad de diseño: migrar otro artículo viejo con intención fuerte a esta plantilla nueva antes de tocar otra superficie distinta; candidata natural, `sennheiser-hd-560s-movil-usb-c.html`.
