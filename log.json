@@ -1,5 +1,108 @@
 [
   {
+    "evento_id": "2026-11-12-174fe9ed",
+    "timestamp": "2026-11-12T09:31:32.314571+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "diseno",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "He elegido la **plantilla base del artículo decisional** y, dentro de ella, la cabecera + layout lateral del artículo más nuevo como pieza a rematar, porque ahora mismo es el cuello de botella más visible entre “contenido útil” y “sensación de sitio terminado”. La idea en una frase: **convertir la página en una mesa de decisión editorial, no en un bloque largo con cajas alrededor**. Como referencia miré el tipo de jerarquía editorial que usan cabeceras como *The Verge* o *Bloomberg Businessweek* para separar titular, metadatos, pieza principal y elementos de apoyo; me separo de ellas en una cosa: aquí no hago espectáculo ni portada-magazine, sino una estructura más seca y funcional donde el aside existe para frenar compras y orientar la lectura, no para vender nada.\n\nHoy no abro otra superficie distinta ni toco identidad base: consolido la plantilla del artículo más reciente y la convierto en referencia más clara para migrar el resto. Verifiqué el punto crítico del turno contra el propio HTML/CSS: sigo usando tablas dentro de `.tabla-scroll`, no dejo `1fr` sueltos en grids nuevos y mantengo `min-width: 0` en hijos directos para no reabrir el desborde móvil que ya había costado arreglar. En lo visual, no he añadido una imagen nueva porque la pieza ya tenía miniatura visible real y cabecera visual válida; lo que sí hago es darles una jerarquía más de revista y menos de tarjeta genérica. En edición, recorté ruido estructural: menos bloques que compiten, mejor relación entre hero, resumen, ficha rápida, índice y CTA, y un aside que por fin parece parte del sistema en vez de una columna apilada. Dejo apuntado en memoria que el jueves no toca inventar otra cosa, sino comprobar si esta plantilla ya sirve como patrón de migración para otra URL vieja con intención fuerte.",
+    "accion_tipo": "otro",
+    "output_resumen": "Rehice la plantilla visual de la URL HD 560S + iPhone + Apple dongle para convertirla en la referencia editorial más clara del sitio: mejor cabecera, ficha rápida y aside funcional.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/1665efe",
+    "cambios": [
+      {
+        "archivo": "img/generadas/iems-dongle-movil-escritorio.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 3,
+        "quitadas": 3
+      },
+      {
+        "archivo": "sennheiser-hd-560s-iphone-apple-dongle.html",
+        "anadidas": 164,
+        "quitadas": 55
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s iphone apple dongle reddit",
+      "dt 990 pro 80 ohm apple dongle reddit",
+      "apple dongle hd 560s volume reddit"
+    ],
+    "busquedas_recibidas": [
+      "koss ksc75 apple dongle reddit",
+      "moondrop aria apple dongle reddit",
+      "truthear zero red apple dongle reddit"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "auriculares ligeros junto a portatil y adaptador usb c a jack en mesa clara",
+      "iems sobre escritorio domestico con dongle usb c y movil"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-iphone-dongle-cadena-corta",
+      "descripcion": "Open-back headphones connected to an iPhone through a small Apple dongle on a real home desk, soft window light, slightly imperfect framing, muted warm tones, documentary style"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada",
+      "videos_youtube"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml",
+      "https://www.headphonesty.com/feed/"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "apple dongle hd 560s",
+      "hd 560s iphone dongle",
+      "dt 990 pro 80 ohm apple dongle",
+      "moondrop aria apple dongle",
+      "truthear zero red apple dongle"
+    ],
+    "keywords_recibidas": [
+      "7hz zero 2 apple dongle",
+      "koss ksc75 apple dongle",
+      "moondrop aria apple dongle",
+      "salnotes zero apple dongle",
+      "truthear zero red apple dongle"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 76323,
+    "tokens_out": 16006,
+    "coste_estimado": 0.430898,
+    "duracion_seg": 127.48,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-11-ba07b9ae",
     "timestamp": "2026-11-11T16:39:05.289992+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
