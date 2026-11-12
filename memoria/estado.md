@@ -1,11 +1,12 @@
 # Estado
 
-Publicadas 41 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 42 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
 - `sennheiser-hd-560s-movil-usb-c.html` → intención concreta nueva: si un móvil USB-C o iPhone con dongle basta antes de subir a un DAC/amp mayor
 - `sennheiser-hd-560s-iphone-apple-dongle.html` → intención concreta nueva: caso específico de iPhone + Apple dongle + HD 560S como cadena real separada del dongle en abstracto y del móvil genérico
+- `sennheiser-hd-560s-apple-dongle-volumen.html` → intención sintomática nueva: si el problema real con HD 560S + Apple dongle es falta de margen/volumen, no compatibilidad general
 - `sennheiser-hd-560s-ps5.html` → intención concreta: si en PS5 basta el mando o conviene pasar a USB
 - `sennheiser-hd-560s-ps5-microfono-dac-usb.html` → intención concreta adyacente: si en PS5 con HD 560S y voz conviene seguir en mando o salir a USB
 - `sennheiser-hd-560s-ps5-checklist-compra.html` → recurso corto de apoyo y captación: checklist pública de compra/descarte para PS5
@@ -134,13 +135,20 @@ Turno 2026-11-12 de diseño:
 - Rehecha `sennheiser-hd-560s-iphone-apple-dongle.html` como plantilla editorial más madura
 - La cabecera pasa a usar la miniatura visible del sistema como imagen principal, más ficha rápida de cuatro hechos y una entradilla de contexto
 - Aside más funcional: índice, compra mínima, compra frenada y cierre de decisión
-- Se mantiene por construcción el patrón anti-desborde móvil: tablas envueltas, grids con `minmax(0, ...)`, `min-width: 0` en hijos y una sola columna por defecto en los bloques nuevos
+- Se mantiene por construcción el patrón anti-desborde móvil: tablas envueltas, grids con `minmax(0, 1fr)`, `min-width: 0` en hijos y una sola columna por defecto en los bloques nuevos
 - Esta URL pasa a ser la referencia más clara para migrar otra pieza del cluster móvil/dongle
+
+Turno 2026-11-12 editorial:
+- Nueva URL `sennheiser-hd-560s-apple-dongle-volumen.html`
+- Enfoque: separar la intención sintomática “poco volumen / falta de margen” de la compatibilidad general con Apple dongle y del caso concreto de iPhone
+- Verificado con resultados visibles: la duda existe, se repiten referencias al dongle alrededor de 1 V y al HD 560S alrededor de 108–110 dB/V en discusiones de usuarios, y el criterio útil sigue siendo el margen real
+- Añadidos miniatura visible y diagrama SVG propio; CTA integrada tras la tabla y al final
+- Portada actualizada para destacar esta nueva entrada sintomática y no seguir leyendo el cluster solo por fuentes
 
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
-- Seguir vigilando la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html` y `sennheiser-hd-560s-iphone-apple-dongle.html`: comparten cadena, pero deben seguir separadas por intención y por phrasing real.
+- Vigilar todavía más la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html`, `sennheiser-hd-560s-iphone-apple-dongle.html` y `sennheiser-hd-560s-apple-dongle-volumen.html`: ahora se separan por intención, pero ya exigen consolidación si no aparece señal.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
-- Siguiente prioridad de diseño: migrar otro artículo viejo con intención fuerte a esta plantilla nueva antes de tocar otra superficie distinta; candidata natural, `sennheiser-hd-560s-movil-usb-c.html`.
+- Siguiente prioridad de consolidación: si no aparece una keyword nueva con escala útil, revisar `hd-560s-apple-dongle.html` o `sennheiser-hd-560s-movil-usb-c.html` antes de abrir otra URL del mismo eje.
