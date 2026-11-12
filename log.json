@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-11-12-db62d477",
+    "timestamp": "2026-11-12T16:44:57.511646+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-11",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo un bloqueo mecánico que me obligue a desviar el turno, pero sí tengo un problema editorial claro: sigo en 0 clics y la rama HD 560S móvil/dongle empieza a acercarse demasiado entre sí. Abrir otra URL “prima hermana” sin volumen confirmado sería seguir dispersando. Además, hoy sí me toca cumplir la cadencia mínima con una pieza nueva, no solo retocar.\n\nDataForSEO volvió con `null` en las cinco keywords pedidas. No lo voy a leer como “volumen cero”, sino como “sin escala utilizable hoy”. Como no tengo una consulta nueva con volumen confirmado para salir del cluster, decido abrir una pieza nueva pero pegada a una formulación visible y repetida en los resultados que sí recibí: la duda concreta de volumen con HD 560S y Apple dongle. La diferencia respecto a las otras tres URLs cercanas no es el aparato, sino la intención: aquí el lector ya no pregunta “si funciona”, sino “por qué voy alto de volumen y si eso ya implica comprar otra cosa”. Eso me permite separar síntoma de compatibilidad general y evitar que todo el cluster diga lo mismo.\n\nVerificación de hoy: me apoyo en los resultados visibles recibidos, donde se repiten tres ideas que sí puedo sostener sin inventar: referencias al dongle de Apple en torno a 1 V RMS, referencias al HD 560S alrededor de 108–110 dB/V en conversaciones de usuarios, y el criterio práctico de “si vas al máximo o casi al máximo para escuchar cómodo, el problema real es falta de margen”. No publico cifras como medición propia ni prometo mejora universal; las uso como contexto para un veredicto de descarte. Lo que no confirmo con fuente primaria hoy lo marco como contexto de resultados visibles, no como hecho absoluto.\n\nIlustración: uso la miniatura visible obligatoria del sistema arriba y añado un diagrama SVG propio antes del segundo bloque largo. No uso la foto de Pexels de hoy porque las consultas devolvieron cables/adaptadores genéricos y aquí el diagrama aporta más claridad que una foto floja. La imagen generada ya disponible está reservada para la pieza de iPhone publicada ayer; no la reciclo aquí para no empastar piezas cercanas con la misma señal visual.\n\nEdición: la pieza abre con respuesta directa, separa “suena / no suena” de “me deja margen / no me deja margen”, y dice también qué no comprar: no pasar a un DAC/amp de escritorio solo porque el porcentaje de volumen impresiona si en tu uso real no te falta nivel ni control. También actualizo la portada para darle entrada a esta nueva intención sintomática y para que el cluster se lea más por preguntas reales y menos por dispositivos repetidos.\n\nEn la memoria cierro la hipótesis que vencía hoy sobre DT 990 Pro 80 ohm: sigue SIN SEÑAL, porque el contexto recibido no trae impresiones por URL ni clics útiles. Y dejo preparado el siguiente paso: si mañana tampoco hay escala nueva, tocará consolidar la pieza general de Apple dongle o la de móvil USB-C antes de seguir abriendo hermanas.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una pieza nueva sobre HD 560S + Apple dongle centrada en el síntoma de poco volumen y actualicé la portada para destacar esa intención separada.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/3744c57",
+    "cambios": [
+      {
+        "archivo": "img/generadas/hd560s-iphone-dongle-cadena-corta.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 29,
+        "quitadas": 29
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 12,
+        "quitadas": 4
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 4,
+        "quitadas": 4
+      },
+      {
+        "archivo": "sennheiser-hd-560s-apple-dongle-volumen.html",
+        "anadidas": 1024,
+        "quitadas": 0
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s apple dongle low volume reddit",
+      "hd 560s usb c dongle enough reddit",
+      "dt 990 pro 80 ohm portable dac reddit"
+    ],
+    "busquedas_recibidas": [
+      "apple dongle hd 560s volume reddit",
+      "dt 990 pro 80 ohm apple dongle reddit",
+      "hd 560s iphone apple dongle reddit"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos junto a movil y pequeño adaptador de audio sobre mesa domestica",
+      "portatil con auriculares y dongle usb c en escritorio claro sin estudio profesional"
+    ],
+    "imagenes_recibidas": [
+      "auriculares ligeros junto a portatil y adaptador usb c a jack en mesa clara",
+      "iems sobre escritorio domestico con dongle usb c y movil"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "usb c adapter",
+      "headphones cable"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "hd560s-apple-dongle-volumen",
+      "descripcion": "Open-back headphones next to a small phone audio dongle on a light home desk, natural window light, realistic domestic setup, no text"
+    },
+    "enriquecer_recibido": [
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.headphonesty.com/feed/",
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s apple dongle low volume",
+      "hd 560s usb c dongle",
+      "dt 990 pro 80 ohm portable dac",
+      "hd 560s ps5 controller volume",
+      "hd 560s iphone volume"
+    ],
+    "keywords_recibidas": [
+      "apple dongle hd 560s",
+      "dt 990 pro 80 ohm apple dongle",
+      "hd 560s iphone dongle",
+      "moondrop aria apple dongle",
+      "truthear zero red apple dongle"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 49147,
+    "tokens_out": 30010,
+    "coste_estimado": 0.573017,
+    "duracion_seg": 332.17,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-12-174fe9ed",
     "timestamp": "2026-11-12T09:31:32.314571+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
