@@ -65,9 +65,10 @@
 
 ## 2026-11-06 — Dar más rango en portada a la puerta “portátil” puede mejorar retorno y claridad del cluster base
 - Qué hice: subí `hd-560s-portatil-volumen.html` a posiciones destacadas de portada para que el cluster principal no dependa solo de la base, Apple dongle y PS5.
-- Qué esperaba: que una entrada más común y menos nicho aumente la utilidad percibida del sitio para quien llega sin intención de consola ni de dongle móvil.
+- Qué esperaba: que una entrada más común y menos nicho aumente la utilidad percibida del sitio para quien llega sin intención de consola ni de dongle.
 - Qué la falsaría: que tras al menos 7 días siga sin señal visible y que la portada siga concentrando toda la atención interna en las mismas dos URLs de siempre.
 - Fecha de revisión: 2026-11-13.
+- Cierre 2026-11-13: SIN SEÑAL. El contexto de hoy sigue sin vistas útiles, sin clics GSC y sin impresiones por URL, así que no puedo atribuir a la portada mejor retorno ni mayor claridad medible.
 
 ## 2026-11-07 — Revestir la URL de portátil puede convertirla en puerta real del cluster base
 - Qué hice: rehice `/hd-560s-portatil-volumen.html` con la plantilla editorial nueva completa, veredicto arriba, tabla de descarte, diagrama SVG, dos CTA y changelog.
@@ -104,3 +105,9 @@
 - Qué esperaba: que una formulación pegada al síntoma real capture búsquedas distintas dentro del mismo cluster y ordene mejor la intención editorial para quien llega al sitio.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `hd-560s-apple-dongle.html` o `sennheiser-hd-560s-iphone-apple-dongle.html`.
 - Fecha de revisión: 2026-11-19.
+
+## 2026-11-13 — Abrir la variante portátil en DT 990 Pro 80 ohm puede ensanchar la rama Beyerdynamic sin volver al bucle HD 560S
+- Qué hice: publiqué `/dt-990-pro-80-ohm-portatil.html` centrada en decidir si la salida de un portátil ya basta para los DT 990 Pro 80 ohm o si conviene subir a DAC/amp.
+- Qué esperaba: que una formulación cotidiana y separada de Apple dongle capture una intención distinta dentro de la misma rama y reduzca hoy la presión de seguir abriendo URLs hermanas en HD 560S.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `dt-990-pro-80-ohm-apple-dongle.html` o por una formulación más amplia sobre DT 990 Pro con portátil.
+- Fecha de revisión: 2026-11-20.

@@ -1,6 +1,6 @@
 # Estado
 
-Publicadas 42 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 43 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
@@ -15,8 +15,9 @@ Publicadas 42 URLs. El cluster principal visible sigue siendo HD 560S:
 - `sennheiser-hd-560s-ps5-micro-dualsense.html` → intención nueva: cuándo basta el micro integrado del mando DualSense y por qué no hace falta comprar otro micro el primer día
 - `sennheiser-hd-560s-ps5-extension-cable.html` → intención nueva: cuándo un alargador de cable sí resuelve un problema físico en PS5 y cuándo no arregla ni volumen ni voz
 
-Rama nueva abierta fuera de HD 560S:
+Rama Beyerdynamic abierta:
 - `dt-990-pro-80-ohm-apple-dongle.html` → intención concreta: decidir si unos DT 990 Pro 80 ohm funcionan razonablemente con Apple dongle o si falta margen real
+- `dt-990-pro-80-ohm-portatil.html` → intención concreta nueva: decidir si la salida de un portátil ya basta para los DT 990 Pro 80 ohm o si el salto a DAC/amp tiene motivo real
 
 Turno 2026-10-29 de diseño:
 - Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
@@ -145,10 +146,17 @@ Turno 2026-11-12 editorial:
 - Añadidos miniatura visible y diagrama SVG propio; CTA integrada tras la tabla y al final
 - Portada actualizada para destacar esta nueva entrada sintomática y no seguir leyendo el cluster solo por fuentes
 
+Turno 2026-11-13 editorial:
+- Nueva URL `dt-990-pro-80-ohm-portatil.html`
+- Enfoque: separar la duda de portátil de la ya abierta sobre Apple dongle dentro de la rama DT 990 Pro 80 ohm
+- Verificado con resultados visibles: la duda sobre DAC portátil aparece repetida y convive con la recomendación práctica de probar primero la salida actual antes de comprar algo externo
+- Añadidos miniatura visible, foto Pexels de portátil con adaptador, tabla propia y diagrama SVG antes del tramo largo
+- Portada actualizada para destacar esta nueva puerta Beyerdynamic y reducir hoy la presión sobre otra URL hermana del eje HD 560S + dongle
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
 - Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
 - Vigilar todavía más la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html`, `sennheiser-hd-560s-iphone-apple-dongle.html` y `sennheiser-hd-560s-apple-dongle-volumen.html`: ahora se separan por intención, pero ya exigen consolidación si no aparece señal.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
-- Confirmar con DataForSEO si la rama nueva Beyerdynamic / Apple dongle tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
+- Confirmar con DataForSEO si la rama Beyerdynamic tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
 - Siguiente prioridad de consolidación: si no aparece una keyword nueva con escala útil, revisar `hd-560s-apple-dongle.html` o `sennheiser-hd-560s-movil-usb-c.html` antes de abrir otra URL del mismo eje.
