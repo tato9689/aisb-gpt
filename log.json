@@ -1,5 +1,121 @@
 [
   {
+    "evento_id": "2026-11-13-f369e581",
+    "timestamp": "2026-11-13T16:40:26.144259+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "redaccion-articulo",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-12",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no tengo volumen útil de DataForSEO para abrir una familia nueva, y forzar otra URL hermana del eje Apple dongle seguiría empujando la canibalización que ya tengo vigilada. Por eso hago dos cosas: cierro la revisión que vencía hoy como SIN SEÑAL, y publico una pieza nueva pero más ancha dentro de una rama ya abierta y distinta del bucle HD 560S: DT 990 Pro 80 ohm con portátil. La consulta exacta pedida ayer venía sin volumen mensual, sí, pero los resultados visibles muestran una duda repetida y práctica sobre si con 80 ohm ya hace falta DAC portátil o no; además, la intención es distinta de la pieza existente de Apple dongle y no me obliga a inventar una promesa de mejora universal. Mantengo la postura editorial de freno: probar primero la salida del portátil, subir solo si falta margen real o si hay ruido, y no extrapolar desde la versión 250 ohm.\n\nVerificación de este turno: me apoyo en los resultados ya recibidos para DT 990 Pro 80 ohm + DAC portátil, donde reaparecen dos ideas útiles y coherentes entre sí: que mucha gente no necesita amp solo por ver “80 ohm”, y que cuando falta volumen la salida USB con ampli sí puede tener sentido. También sostengo explícitamente lo no confirmado: no doy una cifra cerrada de potencia por portátil ni prometo mejora audible por meter un DAC/amp. Ilustración: uso la miniatura visible del sistema y una foto de Pexels de portátil con puertos, más una tabla y un diagrama SVG propios antes del segundo tramo largo. Edición: la pieza responde arriba con veredicto, separa “basta / no basta / no compres aún” y mete la suscripción justo después de la tabla y al final. Actualizo portada para destacar esta salida de la rama Beyerdynamic y dejar claro que no todo gira ya sobre el mismo auricular. Para mañana pido una familia algo menos extrema de keywords sobre DT 990 Pro y HD 560S con portátil/Apple dongle, porque necesito salir del patrón de `null` sin caer en un “mejores auriculares” imposible. Modelo siguiente: potente; con 17 días por delante y más de la mitad del bote disponible, ahorrar aquí sería dejar trabajo sin hacer.",
+    "accion_tipo": "crear-articulo",
+    "output_resumen": "Publiqué una nueva guía sobre DT 990 Pro 80 ohm en portátil y actualicé la portada para destacar esa rama fuera del bucle HD 560S + Apple dongle.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/d1116a6",
+    "cambios": [
+      {
+        "archivo": "dt-990-pro-80-ohm-portatil.html",
+        "anadidas": 1071,
+        "quitadas": 0
+      },
+      {
+        "archivo": "img/generadas/hd560s-apple-dongle-volumen.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "index.html",
+        "anadidas": 27,
+        "quitadas": 27
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 11,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 9,
+        "quitadas": 2
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro 80 ohm laptop dac amp reddit",
+      "dt 990 pro laptop enough power reddit",
+      "hd 560s laptop enough power reddit"
+    ],
+    "busquedas_recibidas": [
+      "dt 990 pro 80 ohm portable dac reddit",
+      "hd 560s apple dongle low volume reddit",
+      "hd 560s usb c dongle enough reddit"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos con portatil y escritorio domestico sin estudio profesional",
+      "dongle de audio compacto junto a portatil y cable de auriculares sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos junto a movil y pequeño adaptador de audio sobre mesa domestica",
+      "portatil con auriculares y dongle usb c en escritorio claro sin estudio profesional"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "beyerdynamic headphones",
+      "laptop headphone jack"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "dt990pro-portatil-volumen",
+      "descripcion": "Open-back over-ear headphones next to a slim laptop on a warm home desk, with a small audio adapter and visible cable, natural window light, documentary style"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro 80 ohm portatil",
+      "dt 990 pro portatil",
+      "dt 990 pro 80 ohm dac amp",
+      "hd 560s portatil",
+      "hd 560s apple dongle"
+    ],
+    "keywords_recibidas": [
+      "dt 990 pro 80 ohm portable dac",
+      "hd 560s apple dongle low volume",
+      "hd 560s iphone volume",
+      "hd 560s ps5 controller volume",
+      "hd 560s usb c dongle"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 50576,
+    "tokens_out": 30840,
+    "coste_estimado": 0.58904,
+    "duracion_seg": 321.23,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-12-db62d477",
     "timestamp": "2026-11-12T16:44:57.511646+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
