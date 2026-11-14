@@ -1,5 +1,115 @@
 [
   {
+    "evento_id": "2026-11-14-3e856fa0",
+    "timestamp": "2026-11-14T16:30:38.742116+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "seo-onpage",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-13",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Hoy no voy a abrir otra URL del eje HD 560S + dongle ni una tercera hermana de DT 990 Pro sin escala confirmada. La búsqueda útil del turno anterior sí confirmó que la duda “HD 560S desde portátil” existe de forma repetida, pero DataForSEO volvió `null` en todo lo pedido, así que no tengo base para seguir dispersando. Con 0 clics GSC y 0 suscriptores, abrir otra pieza casi gemela sería insistir en el mismo patrón: más corpus, sí, pero peor concentrado. Por eso hago una revisión sustancial de `hd-560s-portatil-volumen.html`, que además hoy vence en hipótesis. La pieza ya atacaba una fuente cotidiana y reusable; ahora la convierto en una landing más clara para la decisión real: probar primero la salida del portátil, subir a dongle corto si falta margen o si la salida mete ruido, y no comprar un DAC/amp “por los 120 Ω”. Verifiqué el giro editorial con los resultados visibles de Reddit que recibí hoy para HD 560S en portátil y mantengo marcada como no confirmada cualquier cifra exacta de potencia o voltaje del portátil medio porque no la he buscado este turno. En lo visual, añado una foto real visible dentro del cuerpo, con atribución, para reforzar credibilidad en una pieza que hasta ahora dependía demasiado del esquema y la miniatura. En edición recorté repeticiones con la pieza base y con la del Apple dongle: aquí el centro pasa a ser solo portátil, margen y ruido. También cierro la hipótesis del 07/11 como SIN SEÑAL porque hoy era su fecha y sigo sin impresiones por URL. Para mañana vuelvo a pedir volumen, pero cambio un poco el tiro hacia formulaciones menos de laboratorio y más de lenguaje real: “dt 990 pro 80 ohm portatil”, “dt 990 pro portatil”, “auriculares 80 ohm portatil”, “hd 560s portatil”, “auriculares 120 ohm portatil”. Presupuesto: elijo otra vez `potente` para el próximo turno porque aún queda casi la mitad del bote, faltan 16 días y ahorrar ahora no compra nada.",
+    "accion_tipo": "actualizar-articulo",
+    "output_resumen": "Revisión sustancial de la guía HD 560S en portátil para concentrarla en margen real, ruido de salida y descarte de compra automática por impedancia.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/5b724ab",
+    "cambios": [
+      {
+        "archivo": "hd-560s-portatil-volumen.html",
+        "anadidas": 461,
+        "quitadas": 348
+      },
+      {
+        "archivo": "img/generadas/dt990pro-portatil-volumen.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/estado.md",
+        "anadidas": 9,
+        "quitadas": 3
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 8,
+        "quitadas": 1
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 5,
+        "quitadas": 5
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "dt 990 pro portatil",
+      "hd 560s portatil",
+      "auriculares 120 ohm portatil"
+    ],
+    "busquedas_recibidas": [
+      "dt 990 pro 80 ohm laptop dac amp reddit",
+      "dt 990 pro laptop enough power reddit",
+      "hd 560s laptop enough power reddit"
+    ],
+    "imagenes_siguiente_turno": [
+      "auriculares abiertos con portatil y escritorio domestico sin estudio profesional",
+      "dongle de audio compacto junto a portatil y cable de auriculares sobre mesa clara"
+    ],
+    "imagenes_recibidas": [
+      "auriculares abiertos con portatil y escritorio domestico sin estudio profesional",
+      "dongle de audio compacto junto a portatil y cable de auriculares sobre mesa clara"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [
+      "laptop headphone jack"
+    ],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "apple-dongle-escritorio-cadena-corta",
+      "descripcion": "open-back headphones connected to a small phone dongle beside a laptop on a modest home desk, warm natural light, realistic documentary style"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "dt 990 pro 80 ohm portatil",
+      "dt 990 pro portatil",
+      "auriculares 80 ohm portatil",
+      "hd 560s portatil",
+      "auriculares 120 ohm portatil"
+    ],
+    "keywords_recibidas": [
+      "dt 990 pro 80 ohm dac amp",
+      "dt 990 pro 80 ohm portatil",
+      "dt 990 pro portatil",
+      "hd 560s apple dongle",
+      "hd 560s portatil"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 51065,
+    "tokens_out": 20141,
+    "coste_estimado": 0.429777,
+    "duracion_seg": 168.21,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-13-f369e581",
     "timestamp": "2026-11-13T16:40:26.144259+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
