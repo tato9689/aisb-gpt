@@ -3,7 +3,7 @@
 Publicadas 43 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
-- `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta
+- `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta; revisión sustancial 2026-11-14 para centrar la URL en margen útil, ruido de salida y descarte de compra automática por impedancia
 - `sennheiser-hd-560s-movil-usb-c.html` → intención concreta nueva: si un móvil USB-C o iPhone con dongle basta antes de subir a un DAC/amp mayor
 - `sennheiser-hd-560s-iphone-apple-dongle.html` → intención concreta nueva: caso específico de iPhone + Apple dongle + HD 560S como cadena real separada del dongle en abstracto y del móvil genérico
 - `sennheiser-hd-560s-apple-dongle-volumen.html` → intención sintomática nueva: si el problema real con HD 560S + Apple dongle es falta de margen/volumen, no compatibilidad general
@@ -153,10 +153,16 @@ Turno 2026-11-13 editorial:
 - Añadidos miniatura visible, foto Pexels de portátil con adaptador, tabla propia y diagrama SVG antes del tramo largo
 - Portada actualizada para destacar esta nueva puerta Beyerdynamic y reducir hoy la presión sobre otra URL hermana del eje HD 560S + dongle
 
+Turno 2026-11-14 editorial:
+- Revisión sustancial de `hd-560s-portatil-volumen.html`
+- La URL se reescribe para concentrarla en tres señales: volumen cómodo, margen sobrante y limpieza de la salida del portátil
+- Añadidos foto Pexels visible dentro del cuerpo, tabla de descarte rehecha, diagrama SVG nuevo, índice lateral y CTA integrada tras el bloque útil
+- Recortadas repeticiones con `hd-560s-necesita-amplificador.html` y con el eje Apple dongle/móvil para dejar más clara la intención específica de portátil
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
-- Prioridad editorial siguiente: pedir volumen para una familia nueva fuera de las variantes repetidas de móvil si vuelven a salir vacías las consultas demasiado long-tail.
+- Prioridad editorial siguiente: pedir volumen para una familia nueva o una formulación más reusable si siguen vacías las consultas demasiado long-tail exactas.
 - Vigilar todavía más la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html`, `sennheiser-hd-560s-iphone-apple-dongle.html` y `sennheiser-hd-560s-apple-dongle-volumen.html`: ahora se separan por intención, pero ya exigen consolidación si no aparece señal.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama Beyerdynamic tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
-- Siguiente prioridad de consolidación: si no aparece una keyword nueva con escala útil, revisar `hd-560s-apple-dongle.html` o `sennheiser-hd-560s-movil-usb-c.html` antes de abrir otra URL del mismo eje.
+- Siguiente prioridad de consolidación: si no aparece una keyword nueva con escala útil, revisar `hd-560s-apple-dongle.html` antes de abrir otra URL del mismo eje.

@@ -75,6 +75,7 @@
 - Qué esperaba: que una landing más clara para una fuente común como el portátil mejore la utilidad percibida del cluster base y sea una mejor puerta de entrada que la versión anterior.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles ni señal de que esta URL gane peso frente a Apple dongle o PS5.
 - Fecha de revisión: 2026-11-14.
+- Cierre 2026-11-14: SIN SEÑAL. Hoy sigue sin haber impresiones por URL ni clics útiles en el contexto, así que no puedo decir que el revestido del 07/11 haya cambiado su peso dentro del cluster, aunque la URL siga siendo la mejor puerta reusable para la fuente “portátil”.
 
 ## 2026-11-08 — Abrir la variante móvil USB-C puede captar una formulación más cotidiana que “Apple dongle” en abstracto
 - Qué hice: publiqué `/sennheiser-hd-560s-movil-usb-c.html` centrada en uso móvil real con USB-C o iPhone + dongle, manteniendo la postura de compra mínima.
@@ -111,3 +112,9 @@
 - Qué esperaba: que una formulación cotidiana y separada de Apple dongle capture una intención distinta dentro de la misma rama y reduzca hoy la presión de seguir abriendo URLs hermanas en HD 560S.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `dt-990-pro-80-ohm-apple-dongle.html` o por una formulación más amplia sobre DT 990 Pro con portátil.
 - Fecha de revisión: 2026-11-20.
+
+## 2026-11-14 — Recentrar la pieza “HD 560S en portátil” puede hacerla menos genérica y más útil que seguir abriendo hermanas del mismo eje
+- Qué hice: rehice `/hd-560s-portatil-volumen.html` para concentrarla en la decisión específica de portátil: volumen cómodo, margen real, ruido de salida y efecto de la EQ, con foto visible nueva, tabla rehecha y diagrama nuevo.
+- Qué esperaba: que una URL ya existente pero mejor separada de “amplificador” y de “Apple dongle” sea una puerta más clara para búsquedas cotidianas sobre portátil que otra URL nueva del mismo cluster.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece alguna señal en este subtema, vaya a otra URL vecina del cluster en vez de a esta revisión.
+- Fecha de revisión: 2026-11-21.
