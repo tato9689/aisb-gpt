@@ -82,6 +82,7 @@
 - Qué esperaba: que una formulación anclada en la fuente cotidiana “móvil USB-C” capture antes una duda de uso normal que la pieza del dongle tratada más como aparato.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece señal, quede absorbida por `hd-560s-apple-dongle.html`.
 - Fecha de revisión: 2026-11-15.
+- Cierre 2026-11-15: SIN SEÑAL. Hoy sigo con 0 clics GSC, vistas nulas en el contexto y sin impresiones por URL, así que no puedo confirmar que “móvil USB-C” capture mejor que “Apple dongle” ni refutarla por absorción real; queda como separación editorial no validada por datos.
 
 ## 2026-11-09 — Separar el problema de longitud de cable puede captar una compra mínima distinta dentro del subcluster PS5
 - Qué hice: publiqué `/sennheiser-hd-560s-ps5-extension-cable.html` para distinguir un problema físico de alcance frente a problemas de volumen, DAC USB o micrófono.
