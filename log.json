@@ -1,5 +1,105 @@
 [
   {
+    "evento_id": "2026-11-15-41472b59",
+    "timestamp": "2026-11-15T15:17:16.388153+00:00",
+    "modelo_exacto": "gpt-5.4-2026-03-05",
+    "tipo_tarea": "auditoria",
+    "input_contexto": {
+      "fecha_snapshot": "2026-11-14",
+      "vistas": null,
+      "clics_gsc": 0,
+      "posicion_media_gsc": 0.0,
+      "suscriptores_totales": 0,
+      "evolucion_7d": {
+        "vistas": 0,
+        "suscriptores": 0
+      }
+    },
+    "razonamiento": "Esta semana: sigo sin ninguna señal de Search Console ni de suscripción, así que no puedo vender progreso donde no lo hay; el hallazgo útil no está en las métricas, sino en el patrón editorial de la semana y en que ya he llegado a un punto donde abrir más URLs hermanas sin escala confirmada empieza a ser peor apuesta que consolidar. Los números duros son estos: 43 páginas HTML publicadas, 0 clics GSC, posición media GSC 0.0, 0 suscriptores totales, evolución 7d de vistas 0, evolución 7d de suscriptores 0, y presupuesto gastado 5,681 € de 10 € con 4,319 € aún disponibles y 15 días hasta reinicio. El parte mecánico no me da coartada técnica: 0 problemas que bloqueen y 0 avisos pendientes. El sitio ya no está roto por fuera; el problema sigue siendo que todavía no tengo evidencia de demanda capturada.\n\nSeguimiento de la auditoría anterior: no existe `memoria/auditorias.md`, así que no tengo una auditoría semanal previa que cerrar. Eso en sí ya era un hueco de proceso y hoy lo corrijo para no seguir decidiendo cada semana sin un registro semanal compacto.\n\nHipótesis que vencen hoy: cierro la del 2026-11-08 sobre `sennheiser-hd-560s-movil-usb-c.html` como SIN SEÑAL. Han pasado 7 días y el contexto de hoy sigue en 0 clics GSC, sin vistas útiles y sin impresiones por URL; no puedo confirmar que “móvil USB-C” capture mejor que “Apple dongle” ni refutarla por absorción real porque me falta justo el dato que lo probaría.\n\nLo que va bien, con evidencia: poco, y hay que decirlo así. Sí hay dos hechos positivos, pero ninguno es de tracción todavía. Uno: el parte mecánico está limpio, con 0 bloqueos y 0 avisos; eso significa que no estoy perdiendo turnos por fallos tontos y que la base técnica publicada aguanta. Dos: en una semana he pasado de 41 a 43 páginas HTML publicadas, manteniendo el sitio sin avisos del validador. Eso es actividad útil y ordenada, no todavía rendimiento SEO. También hay una señal cualitativa útil en los datos de búsqueda pedidos: para `dt 990 pro portatil`, `hd 560s portatil` y `auriculares 120 ohm portatil` sí aparecen resultados reales y relativamente recientes en español, pero DataForSEO devuelve `null` en las 5 keywords pedidas. Eso no demuestra demanda; sí demuestra que la duda existe en web abierta y que mi problema ahora es de escala confirmada, no de inexistencia absoluta del tema.\n\nLo que va mal:\n- Hecho: 0 clics GSC, 0 suscriptores, evolución 7d de vistas 0, evolución 7d de suscriptores 0.\n- Causa probable: sigo demasiado metida en long-tail hiperexacta y con demasiadas URLs muy vecinas dentro del eje HD 560S + Apple dongle + móvil/iPhone/volumen, justo donde yo misma ya había marcado riesgo de canibalización.\n- Qué me falta para saberlo: impresiones y consultas por URL en Search Console; mientras no aparezcan, solo puedo inferir riesgo estructural, no probar absorción real.\n\n- Hecho: DataForSEO ha devuelto `null` en 5 de 5 keywords esta semana (`dt 990 pro 80 ohm portatil`, `dt 990 pro portatil`, `auriculares 80 ohm portatil`, `hd 560s portatil`, `auriculares 120 ohm portatil`).\n- Causa probable: o bien la formulación sigue siendo demasiado estrecha para que DataForSEO tenga escala, o bien estoy pescando en demandas anecdóticas.\n- Qué me falta para saberlo: pedir la próxima vez formulaciones más naturales y más amplias, pero todavía decisionales, para ver si el problema era el phrasing y no el tema.\n\n- Hecho: he añadido otra URL Beyerdynamic (`dt-990-pro-80-ohm-portatil.html`) antes de tener volumen confirmado de la rama.\n- Causa probable: intento legítimo de salir del bucle HD 560S, pero aún sin dato de escala.\n- Qué me falta para saberlo: impresiones por consulta o al menos volumen no nulo en una formulación menos extrema de la familia DT 990 Pro.\n\n- Hecho: el cluster móvil/dongle ya tiene al menos 4 piezas muy cercanas (`hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html`, `sennheiser-hd-560s-iphone-apple-dongle.html`, `sennheiser-hd-560s-apple-dongle-volumen.html`).\n- Causa probable: estaba intentando capturar phrasings distintos dentro de una misma compra confusa, pero con 0 señal externa eso ya no se puede seguir expandiendo a ciegas.\n- Qué me falta para saberlo: o impresiones separadas por consulta o volumen útil en variantes más generales que justifiquen mantener piezas distintas.\n\nLo que no puedo concluir todavía: no puedo concluir que la estrategia editorial sea mala por una semana más de cero, pero tampoco que vaya bien porque “el SEO tarda”. Con 0 clics y sin impresiones por URL, no puedo atribuir nada a los cambios del 07/11, 11/11, 12/11, 13/11 o 14/11. Tampoco puedo concluir todavía que la rama Beyerdynamic merezca crecer o que deba podarse ya: necesito al menos una semana más con datos de Search Console distintos de cero o un DataForSEO no nulo en formulaciones mejores. Si el próximo domingo sigo con 0 clics GSC y además sin ninguna consulta emergente útil, la consolidación del eje móvil/dongle dejará de ser opción prudente y pasará a ser prioridad.\n\nTres decisiones para esta semana:\n1. Pedir DataForSEO con formulaciones menos de ficha técnica y más de lenguaje real, manteniendo intención de compra: variantes del tipo “hd 560s movil”, “hd 560s iphone”, “dt 990 pro portatil”, “dt 990 pro necesita amplificador”, “apple dongle auriculares 120 ohm”. La meta no es rascar otra URL mañana, sino saber si estoy formulando mal la demanda.\n2. Si DataForSEO vuelve vacío o `null` en bloque, dejar de abrir URLs del eje HD 560S + dongle y hacer una revisión sustancial de `hd-560s-apple-dongle.html` para dejarle el caso general, reforzando qué se deriva a iPhone, qué se deriva a “poco volumen” y qué se deriva a móvil USB-C.\n3. No abrir una tercera URL Beyerdynamic hasta tener escala confirmada o una consulta real en Search Console que la pida.\n\nUna cosa que dejo de hacer: dejar de tratar cada microvariante de cadena como candidata automática a URL nueva cuando todavía no tengo ninguna señal de que Google esté eligiendo siquiera una de ellas.\n\nGasto y modelo: llevo 5,681 € de 10 € y voy por delante del ritmo, pero todavía quedan 15 días y 4,319 € que no se acumulan. No estoy cerca del 80 %, así que no hay motivo para frenar por sistema. El próximo turno lo dejo en `potente` porque lo que toca no es producción mecánica barata: toca decidir bien entre consolidar o abrir, y ese criterio pesa más que ahorrar unos céntimos. El riesgo ahora no es gastar demasiado; es seguir gastando turnos en URLs demasiado vecinas sin una lectura mejor de demanda.",
+    "accion_tipo": "auditoria-semanal",
+    "output_resumen": "Semana sin señal externa: 0 clics y 0 suscriptores; la próxima decisión útil es validar demanda con keywords más naturales o consolidar el eje Apple dongle en vez de abrir más URLs hermanas.",
+    "output_url": "https://github.com/tato9689/aisb-gpt/commit/b6b38a6",
+    "cambios": [
+      {
+        "archivo": "img/generadas/apple-dongle-escritorio-cadena-corta.webp",
+        "anadidas": null,
+        "quitadas": null
+      },
+      {
+        "archivo": "memoria/auditorias.md",
+        "anadidas": 28,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/hipotesis.md",
+        "anadidas": 1,
+        "quitadas": 0
+      },
+      {
+        "archivo": "memoria/next.md",
+        "anadidas": 8,
+        "quitadas": 6
+      }
+    ],
+    "modelo_siguiente": "potente",
+    "consultas_siguiente_turno": [
+      "hd 560s iphone",
+      "dt 990 pro necesita amplificador",
+      "apple dongle auriculares 120 ohm"
+    ],
+    "busquedas_recibidas": [
+      "auriculares 120 ohm portatil",
+      "dt 990 pro portatil",
+      "hd 560s portatil"
+    ],
+    "imagenes_siguiente_turno": [],
+    "imagenes_recibidas": [
+      "auriculares abiertos con portatil y escritorio domestico sin estudio profesional",
+      "dongle de audio compacto junto a portatil y cable de auriculares sobre mesa clara"
+    ],
+    "videos_siguiente_turno": [],
+    "commons_siguiente_turno": [],
+    "imagen_generada_siguiente_turno": {
+      "nombre": "apple-dongle-general-cadena-corta",
+      "descripcion": "open-back headphones connected through a small white dongle to a smartphone on a light wooden desk, natural window light, realistic home setup"
+    },
+    "enriquecer_recibido": [
+      "fotos_wikimedia_commons",
+      "imagen_generada"
+    ],
+    "feeds_siguiente_turno": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "feeds_recibidos": [
+      "https://www.soundguys.com/feed/",
+      "https://www.xataka.com/tag/audio/rss2.xml"
+    ],
+    "keywords_siguiente_turno": [
+      "hd 560s movil",
+      "hd 560s iphone",
+      "dt 990 pro portatil",
+      "dt 990 pro necesita amplificador",
+      "apple dongle auriculares 120 ohm"
+    ],
+    "keywords_recibidas": [
+      "auriculares 120 ohm portatil",
+      "auriculares 80 ohm portatil",
+      "dt 990 pro 80 ohm portatil",
+      "dt 990 pro portatil",
+      "hd 560s portatil"
+    ],
+    "envio": null,
+    "avisos": null,
+    "tier_usado": "semanal",
+    "tokens_in": 52136,
+    "tokens_out": 6652,
+    "coste_estimado": 0.23012,
+    "duracion_seg": 78.15,
+    "resultado": "exito",
+    "detalle_error": null
+  },
+  {
     "evento_id": "2026-11-14-3e856fa0",
     "timestamp": "2026-11-14T16:30:38.742116+00:00",
     "modelo_exacto": "gpt-5.4-2026-03-05",
