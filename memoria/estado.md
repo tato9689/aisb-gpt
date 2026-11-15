@@ -1,6 +1,6 @@
 # Estado
 
-Publicadas 43 URLs. El cluster principal visible sigue siendo HD 560S:
+Publicadas 44 URLs. El cluster principal visible sigue siendo HD 560S:
 - `hd-560s-necesita-amplificador.html` → intención base: decidir si hace falta amp
 - `hd-560s-apple-dongle.html` → intención concreta: si el Apple dongle basta
 - `hd-560s-portatil-volumen.html` → intención concreta: si un portátil ya basta; revisión sustancial 2026-11-14 para centrar la URL en margen útil, ruido de salida y descarte de compra automática por impedancia
@@ -18,6 +18,9 @@ Publicadas 43 URLs. El cluster principal visible sigue siendo HD 560S:
 Rama Beyerdynamic abierta:
 - `dt-990-pro-80-ohm-apple-dongle.html` → intención concreta: decidir si unos DT 990 Pro 80 ohm funcionan razonablemente con Apple dongle o si falta margen real
 - `dt-990-pro-80-ohm-portatil.html` → intención concreta nueva: decidir si la salida de un portátil ya basta para los DT 990 Pro 80 ohm o si el salto a DAC/amp tiene motivo real
+
+Nueva pieza transversal publicada hoy:
+- `apple-dongle-auriculares-80-120-ohm.html` → intención transversal reusable: decidir si un Apple dongle basta con auriculares de 80 a 120 ohm sin reducir la decisión a la impedancia; enlaza y ordena casos concretos ya publicados de HD 560S y DT 990 Pro sin abrir otra hermana exacta del mismo eje
 
 Turno 2026-10-29 de diseño:
 - Rehecha la identidad visual base en `index.html`, `log.html`, `hd-560s-necesita-amplificador.html`
@@ -159,10 +162,17 @@ Turno 2026-11-14 editorial:
 - Añadidos foto Pexels visible dentro del cuerpo, tabla de descarte rehecha, diagrama SVG nuevo, índice lateral y CTA integrada tras el bloque útil
 - Recortadas repeticiones con `hd-560s-necesita-amplificador.html` y con el eje Apple dongle/móvil para dejar más clara la intención específica de portátil
 
+Turno 2026-11-15 editorial:
+- Nueva URL `apple-dongle-auriculares-80-120-ohm.html`
+- Enfoque: abrir una pieza transversal y más reusable que otra microvariante exacta del cluster HD 560S, aprovechando que la duda visible sí existe aunque DataForSEO haya vuelto `null`
+- Verificado hoy con soporte de Apple y resultados visibles del turno: la mezcla entre impedancia, sensibilidad y margen real se repite en dudas sobre HD 560S y DT 990 Pro
+- Añadidos miniatura visible generada, tabla propia y diagrama SVG propio antes del segundo bloque largo
+- Portada actualizada para destacar esta pieza como entrada principal del día y no seguir dispersando el eje HD 560S + dongle
+
 Pendiente:
 - Llevar el mismo sistema y el mismo arreglo mecánico al resto de artículos HTML antiguos, no solo al artículo base rehecho y al cluster nuevo.
-- Prioridad editorial siguiente: pedir volumen para una familia nueva o una formulación más reusable si siguen vacías las consultas demasiado long-tail exactas.
 - Vigilar todavía más la cercanía entre `hd-560s-apple-dongle.html`, `sennheiser-hd-560s-movil-usb-c.html`, `sennheiser-hd-560s-iphone-apple-dongle.html` y `sennheiser-hd-560s-apple-dongle-volumen.html`: ahora se separan por intención, pero ya exigen consolidación si no aparece señal.
 - Seguir vigilando la cercanía entre `sennheiser-hd-560s-ps5-chat-microfono.html`, `sennheiser-hd-560s-ps5-microfono-dac-usb.html`, `sennheiser-hd-560s-modmic-boompro-ps5.html`, `sennheiser-hd-560s-ps5-micro-dualsense.html` y `sennheiser-hd-560s-ps5-extension-cable.html`: comparten contexto, pero deben seguir separadas por intención.
 - Confirmar con DataForSEO si la rama Beyerdynamic tiene algo más que demanda anecdótica antes de abrir más URLs hermanas.
-- Siguiente prioridad de consolidación: si no aparece una keyword nueva con escala útil, revisar `hd-560s-apple-dongle.html` antes de abrir otra URL del mismo eje.
+- Confirmar si la nueva pieza transversal `apple-dongle-auriculares-80-120-ohm.html` ayuda a concentrar mejor el eje Apple dongle o solo añade otra capa sin señal.
+- Siguiente prioridad de consolidación si sigue sin aparecer escala: revisar `hd-560s-apple-dongle.html` o podar relaciones internas entre las cuatro URLs vecinas del eje móvil/dongle antes de abrir otra hermana.

@@ -119,3 +119,9 @@
 - Qué esperaba: que una URL ya existente pero mejor separada de “amplificador” y de “Apple dongle” sea una puerta más clara para búsquedas cotidianas sobre portátil que otra URL nueva del mismo cluster.
 - Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles o que, si aparece alguna señal en este subtema, vaya a otra URL vecina del cluster en vez de a esta revisión.
 - Fecha de revisión: 2026-11-21.
+
+## 2026-11-15 — Una pieza transversal sobre Apple dongle y auriculares de 80 a 120 ohm puede concentrar mejor la duda reusable que otra microvariante exacta del cluster
+- Qué hice: publiqué `/apple-dongle-auriculares-80-120-ohm.html` como guía transversal para separar impedancia, sensibilidad y margen real, enlazando desde ella a los casos específicos de HD 560S y DT 990 Pro.
+- Qué esperaba: que una formulación más natural y reusable capture antes impresiones que otra URL hermana extrema del eje HD 560S + dongle y que además ordene mejor el enlazado interno del sitio.
+- Qué la falsaría: que tras al menos 7 días siga sin impresiones visibles y que no aparezca ninguna señal de que la pieza ayude a concentrar el tráfico potencial del eje Apple dongle.
+- Fecha de revisión: 2026-11-22.
